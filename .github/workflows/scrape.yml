@@ -43,21 +43,23 @@ jobs:
 
         commit_msg_suffix=`printf $'\n\t\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n' "$date_source_last_updated" "$date_fetched" "$date_saved"`
 
-        git commit -m "Update courts list.${commit_msg_suffix}" || exit 0
+        function add_metadata_file {
+          printf $'{\n  "date_fetched": "%s",\n  "date_updated": "%s",\n  "filename": "%s",\n  "md5": "%s",\n  "sha512": "%s",\n  "source_url": "%s"\n}\n' \
+            "$(date -u +'%Y%m%d%H%M%S')" \
+            "$(cat courts.json | grep 'last_updated' | cut -d '"' -f 4)" \
+            "courts.json" \
+            "$(md5sum courts.json | cut -d ' ' -f 1)" \
+            "$(sha512sum courts.json | cut -d ' ' -f 1)" \
+            "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json" \
+            > artifacts/data.json/content-hashes.json
 
-        git push
+          cat artifacts/data.json/content-hashes.json | jq . > courts.meta.json
 
-        printf $'{\n  "date_fetched": "%s",\n  "date_updated": "%s",\n  "filename": "%s",\n  "md5": "%s",\n  "sha512": "%s",\n  "source_url": "%s"\n}\n' \
-          "$(date -u +'%Y%m%d%H%M%S')" \
-          "$(cat courts.json | grep 'last_updated' | cut -d '"' -f 4)" \
-          "courts.json" \
-          "$(md5sum courts.json | cut -d ' ' -f 1)" \
-          "$(sha512sum courts.json | cut -d ' ' -f 1)" \
-          "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json" \
-          > artifacts/data.json/content-hashes.json
+          git add courts.meta.json
+          git commit -m "Update courts metadata file.${commit_msg_suffix}"
+        }
 
-        cat artifacts/data.json/content-hashes.json | jq . > courts.meta.json
-        git add -A
-        
-        git commit -m "Update courts metadata file.${commit_msg_suffix}" || exit 0
+        git commit -m "Update courts list.${commit_msg_suffix}" && \
+          ( add_metadata_file ) || exit 0
+
         git push
