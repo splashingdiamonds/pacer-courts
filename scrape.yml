@@ -1,0 +1,65 @@
+name: Scrape latest data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,27,47 * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Fetch latest JSON data
+      run: |-
+        mkdir -p artifacts/data.json/raw/
+        mkdir -p temp/data.json/
+
+        curl 'https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json' \
+          --header 'User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0' \
+          --header 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8' \
+          --header 'Accept-Language: en-US,en;q=0.5' \
+          --header 'Accept-Encoding: application/json' \
+          --silent \
+          --no-progress-bar \
+          --location \
+          --output artifacts/data.json/raw/data.json
+        date -u +'%Y%m%d%H%M%S' > temp/data.json/date_fetched.json
+        cat artifacts/data.json/raw/data.json | jq . > courts.json
+    - name: Commit and push if data changed; Sync metadata reference file
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+
+        date_source_last_updated="$(cat courts.json | grep 'last_updated' | cut -d '"' -f 4)"
+        date_fetched="$(cat 'temp/data.json/date_fetched.json')"
+        date_saved="$(date -u)"
+
+        rm -f 'temp/data.json/'
+
+        git add -A
+
+        commit_msg_suffix=$'$(printf $'\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n' "$date_source_last_updated" "$date_fetched" "$date_saved")'
+
+        git commit -m "Update courts list${commit_msg_suffix}" || exit 0
+
+        git push
+
+        printf $'{\n  "date_fetched": "%s",\n  "date_updated": "%s",\n  "filename": "%s",\n  "md5": "%s",\n  "sha512": "%s",\n  "source_url": "%s"\n}\n' \
+          "$(date -u +'%Y%m%d%H%M%S')" \
+          "$(cat courts.json | grep 'last_updated' | cut -d '"' -f 4)" \
+          "courts.json" \
+          "$(md5sum courts.json | cut -d ' ' -f 1)" \
+          "$(sha512sum courts.json | cut -d ' ' -f 1)" \
+          "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json" \
+          > meta/data.json/content-hashes.json
+
+        cat meta/data.json/content-hashes.json | jq . > courts.meta.json
+        git add -A
+        
+        git commit -m "Update courts metadata file${commit_msg_suffix}" || exit 0
+        git push
