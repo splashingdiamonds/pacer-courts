@@ -41,7 +41,7 @@ jobs:
 
         git add -A
 
-        commit_msg_suffix=$'$(printf $'\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n' "$date_source_last_updated" "$date_fetched" "$date_saved")'
+        commit_msg_suffix=`printf $'\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n' "$date_source_last_updated" "$date_fetched" "$date_saved")`
 
         git commit -m "Update courts list${commit_msg_suffix}" || exit 0
 
