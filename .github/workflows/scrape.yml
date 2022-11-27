@@ -41,9 +41,9 @@ jobs:
 
         git add -A
 
-        commit_msg_suffix=`printf $'\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n' "$date_source_last_updated" "$date_fetched" "$date_saved"`
+        commit_msg_suffix=`printf $'\n\t\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n' "$date_source_last_updated" "$date_fetched" "$date_saved"`
 
-        git commit -m "Update courts list${commit_msg_suffix}" || exit 0
+        git commit -m "Update courts list.${commit_msg_suffix}" || exit 0
 
         git push
 
@@ -54,10 +54,10 @@ jobs:
           "$(md5sum courts.json | cut -d ' ' -f 1)" \
           "$(sha512sum courts.json | cut -d ' ' -f 1)" \
           "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json" \
-          > meta/data.json/content-hashes.json
+          > artifacts/data.json/content-hashes.json
 
-        cat meta/data.json/content-hashes.json | jq . > courts.meta.json
+        cat artifacts/data.json/content-hashes.json | jq . > courts.meta.json
         git add -A
         
-        git commit -m "Update courts metadata file${commit_msg_suffix}" || exit 0
+        git commit -m "Update courts metadata file.${commit_msg_suffix}" || exit 0
         git push
