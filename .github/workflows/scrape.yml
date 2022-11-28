@@ -53,7 +53,7 @@ jobs:
           cat temp/README.md > README.md
           
           git add README.md
-          git commit -m "Update Index table.${commit_msg_suffix}" && git push
+          git commit -m "Update Index table.${commit_msg_suffix}"
         }
 
         function rebuild_meta_file {
@@ -69,7 +69,7 @@ jobs:
 
           git add artifacts/data.json/content-hashes.json
           git add courts.meta.json
-          git commit -m "Update courts metadata file.${commit_msg_suffix}" && git push
+          git commit -m "Update courts metadata file.${commit_msg_suffix}"
         }
 
         function sync_meta {
@@ -77,8 +77,6 @@ jobs:
           rebuild_index_table
         }
 
-        sync_meta
-
         git add -A
-        git commit -m "Update courts list.${commit_msg_suffix}" || exit 0
+        git commit -m "Update courts list.${commit_msg_suffix}" && ( sync_meta ) || exit 0
         git push
