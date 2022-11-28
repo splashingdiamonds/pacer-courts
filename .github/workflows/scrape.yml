@@ -43,6 +43,19 @@ jobs:
 
         commit_msg_suffix=`printf $'\n\t\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n' "$date_source_last_updated" "$date_fetched" "$date_saved"`
 
+        function update_readme_table {
+          mkdir -p temp/
+          touch temp/README.md
+          head -$(grep --line-num 'TABLE_PLACEHOLDER_START' README.md | cut -d ':' -f 1) README.md >> temp/README.md
+          cat courts.json | jq '.data' | jq -r '["Title", "Type", "RSS", "Homepage", "Login"], ["---","---","---","---","---"], (.[] | [.title, .type, .rss_url, .web_url, .login_url]) | @tsv' | sed -e $'s/\t/ | /g' | sed -e 's/^/| /g' | sed -e 's/$/ |/' | grep -v -i 'Pacer Case Locator' >> temp/README.md
+          tail +$(grep --line-num 'TABLE_PLACEHOLDER_END' README.md | cut -d ':' -f 1) README.md >> temp/README.md
+          rm README.md
+          mv temp/README.md README.md
+          
+          git add README.md
+          git commit -m "Update courts metadata file.${commit_msg_suffix}"
+        }
+
         function add_metadata_file {
           printf $'{\n  "date_fetched": "%s",\n  "date_updated": "%s",\n  "filename": "%s",\n  "md5": "%s",\n  "sha512": "%s",\n  "source_url": "%s"\n}\n' \
             "$(date -u +'%Y%m%d%H%M%S')" \
@@ -60,6 +73,6 @@ jobs:
         }
 
         git commit -m "Update courts list.${commit_msg_suffix}" && \
-          ( add_metadata_file ) || exit 0
+          ( add_metadata_file; update_readme_table ) || exit 0
 
         git push
