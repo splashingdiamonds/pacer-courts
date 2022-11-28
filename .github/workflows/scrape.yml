@@ -57,8 +57,7 @@ jobs:
         }
 
         function rebuild_meta_file {
-          printf $'{\n  "date_fetched": "%s",\n  "date_updated": "%s",\n  "filename": "%s",\n  "md5": "%s",\n  "sha512": "%s",\n  "source_url": "%s"\n}\n' \
-            "$(date -u +'%Y%m%d%H%M%S')" \
+          printf $'{\n  "date_updated": "%s",\n  "filename": "%s",\n  "md5": "%s",\n  "sha512": "%s",\n  "source_url": "%s"\n}\n' \
             "$(cat courts.json | grep 'last_updated' | cut -d '"' -f 4)" \
             "courts.json" \
             "$(md5sum courts.json | cut -d ' ' -f 1)" \
