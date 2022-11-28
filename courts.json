@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Sun, 27 Nov 2022 06:10:04 -0500"
+    "last_updated": "Mon, 28 Nov 2022 06:10:04 -0500"
   },
   "data": [
     {
@@ -18061,7 +18061,6 @@
       "pdf_size": "35.0",
       "merge_doc_size": "50",
       "web_url": "http://www.alnb.uscourts.gov",
-      "rss_url": "https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.alnb.uscourts.gov",
       "counties": [
         {
@@ -73481,7 +73480,7 @@
     {
       "title": "New Jersey District Court",
       "court_name": "District of New Jersey [live]",
-      "software_version": "NextGen CM/ECF Release 1.7.1 (Revision 1.7.1)",
+      "software_version": "NextGen CM/ECF Release 1.7.1 (Revision 1.7.1.1)",
       "go_live_date": "January 1, 2004",
       "pdf_size": "20.0 MB",
       "merge_doc_size": "800 MB",
