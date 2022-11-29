@@ -43,7 +43,7 @@ Includes:
 | Alaska District Court | District | https://ecf.akd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.akd.uscourts.gov/cmecf-info | https://ecf.akd.uscourts.gov |
 | Alabama Middle Bankruptcy Court | Bankruptcy | https://ecf.almb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almb.uscourts.gov | https://ecf.almb.uscourts.gov |
 | Alabama Middle District Court | District | https://ecf.almd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almd.uscourts.gov/electronic-filing | https://ecf.almd.uscourts.gov |
-| Alabama Northern Bankruptcy Court | Bankruptcy |  | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
+| Alabama Northern Bankruptcy Court | Bankruptcy | https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
 | Alabama Northern District Court | District |  | https://www.alnd.uscourts.gov/ | https://ecf.alnd.uscourts.gov |
 | Alabama Southern Bankruptcy Court | Bankruptcy | https://ecf.alsb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alsb.uscourts.gov | https://ecf.alsb.uscourts.gov |
 | Alabama Southern District Court | District | https://ecf.alsd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.alsd.uscourts.gov/case-info/cm-ecf-case-info | https://ecf.alsd.uscourts.gov |
@@ -61,9 +61,9 @@ Includes:
 | California Northern Bankruptcy Court | Bankruptcy | https://ecf.canb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.canb.uscourts.gov/ | https://ecf.canb.uscourts.gov |
 | California Northern District Court | District | https://ecf.cand.uscourts.gov/cgi-bin/rss_outside.pl | https://ecf.cand.uscourts.gov/ | https://ecf.cand.uscourts.gov |
 | California Southern Bankruptcy Court | Bankruptcy | https://ecf.casb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.casb.uscourts.gov/about-cm-ecf | https://ecf.casb.uscourts.gov |
-| California Southern District Court | District | https://ecf.casd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.casd.uscourts.gov/cmecf | https://ecf.casd.uscourts.gov |
+| California Southern District Court | District |  | http://www.casd.uscourts.gov/cmecf | https://ecf.casd.uscourts.gov |
 | U.S. Court of International Trade | National | https://ecf.cit.uscourts.gov/cgi-bin/rss_outside.pl | https://www.cit.uscourts.gov/cmecf-links | https://ecf.cit.uscourts.gov |
-| Colorado Bankruptcy Court | Bankruptcy | https://ecf.cob.uscourts.gov/cgi-bin/rss_outside.pl | http://www.cob.uscourts.gov/ | https://ecf.cob.uscourts.gov |
+| Colorado Bankruptcy Court | Bankruptcy |  | http://www.cob.uscourts.gov/ | https://ecf.cob.uscourts.gov |
 | Colorado District Court | District | https://ecf.cod.uscourts.gov/cgi-bin/rss_outside.pl | http://www.cod.uscourts.gov/ | https://ecf.cod.uscourts.gov |
 | Connecticut Bankruptcy Court | Bankruptcy | https://ecf.ctb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ctb.uscourts.gov/ | https://ecf.ctb.uscourts.gov |
 | Connecticut District Court | District | https://ecf.ctd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ctd.uscourts.gov | https://ecf.ctd.uscourts.gov |
