@@ -117,7 +117,7 @@ Includes:
 | Louisiana Western Bankruptcy Court | Bankruptcy | https://ecf.lawb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.lawb.uscourts.gov | https://ecf.lawb.uscourts.gov |
 | Louisiana Western District Court | District | https://ecf.lawd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.lawd.uscourts.gov/ | https://ecf.lawd.uscourts.gov |
 | Massachusetts Bankruptcy Court | Bankruptcy | https://ecf.mab.uscourts.gov/cgi-bin/rss_outside.pl | http://www.mab.uscourts.gov/mab/ecf-access-and-training | https://ecf.mab.uscourts.gov |
-| Massachusetts District Court | District |  | http://www.mad.uscourts.gov | https://ecf.mad.uscourts.gov |
+| Massachusetts District Court | District | https://ecf.mad.uscourts.gov/cgi-bin/rss_outside.pl | http://www.mad.uscourts.gov | https://ecf.mad.uscourts.gov |
 | Maryland Bankruptcy Court | Bankruptcy | https://ecf.mdb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.mdb.uscourts.gov | https://ecf.mdb.uscourts.gov |
 | Maryland District Court | District |  | http://www.mdd.uscourts.gov | https://ecf.mdd.uscourts.gov |
 | Maine Bankruptcy Court | Bankruptcy | https://ecf.meb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.meb.uscourts.gov/ | https://ecf.meb.uscourts.gov |
@@ -187,7 +187,7 @@ Includes:
 | Pennsylvania Western District Court | District | https://ecf.pawd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.pawd.uscourts.gov/cmecf-policies-procedures | https://ecf.pawd.uscourts.gov |
 | Puerto Rico Bankruptcy Court | Bankruptcy | https://ecf.prb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.prb.uscourts.gov | https://ecf.prb.uscourts.gov |
 | Puerto Rico District Court | District | https://ecf.prd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.prd.uscourts.gov | https://ecf.prd.uscourts.gov |
-| Rhode Island Bankruptcy Court | Bankruptcy |  | http://www.rib.uscourts.gov | https://ecf.rib.uscourts.gov |
+| Rhode Island Bankruptcy Court | Bankruptcy | https://ecf.rib.uscourts.gov/cgi-bin/rss_outside.pl | http://www.rib.uscourts.gov | https://ecf.rib.uscourts.gov |
 | Rhode Island District Court | District | https://ecf.rid.uscourts.gov/cgi-bin/rss_outside.pl | http://www.rid.uscourts.gov | https://ecf.rid.uscourts.gov |
 | South Carolina Bankruptcy Court | Bankruptcy | https://ecf.scb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.scb.uscourts.gov/ | https://ecf.scb.uscourts.gov |
 | South Carolina District Court | District | https://ecf.scd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.scd.uscourts.gov/index.asp | https://ecf.scd.uscourts.gov |
