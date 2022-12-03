@@ -38,7 +38,7 @@ Includes:
 | U.S. Court of Appeals, Tenth Circuit BAP | Appeals | https://ecf.ca10.uscourts.gov/n/beam/servlet/TransportRoom?servlet=RSSGenerator | http://www.bap10.uscourts.gov/cmecf/ | https://ecf.ca10.uscourts.gov |
 | U.S. Court of Appeals, Tenth Circuit | Appeals | https://ecf.ca10.uscourts.gov/n/beam/servlet/TransportRoom?servlet=RSSGenerator | http://www.ca10.uscourts.gov | https://ecf.ca10.uscourts.gov |
 | U.S. Court of Appeals, Eleventh Circuit | Appeals | https://ecf.ca11.uscourts.gov/n/beam/servlet/TransportRoom?servlet=RSSGenerator | http://www.ca11.uscourts.gov/e-filing-cmecf-information | https://ecf.ca11.uscourts.gov |
-| U.S. Court of Appeals, D.C. Circuit | Appeals | https://ecf.cadc.uscourts.gov/n/beam/servlet/TransportRoom?servlet=RSSGenerator | http://www.cadc.uscourts.gov | https://ecf.cadc.uscourts.gov |
+| U.S. Court of Appeals, D.C. Circuit | Appeals |  | http://www.cadc.uscourts.gov | https://ecf.cadc.uscourts.gov |
 | Alaska Bankruptcy Court | Bankruptcy | https://ecf.akb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.akb.uscourts.gov/ | https://ecf.akb.uscourts.gov |
 | Alaska District Court | District | https://ecf.akd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.akd.uscourts.gov/cmecf-info | https://ecf.akd.uscourts.gov |
 | Alabama Middle Bankruptcy Court | Bankruptcy | https://ecf.almb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almb.uscourts.gov | https://ecf.almb.uscourts.gov |
@@ -150,7 +150,7 @@ Includes:
 | Nebraska District Court | District | https://ecf.ned.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ned.uscourts.gov | https://ecf.ned.uscourts.gov |
 | New Hampshire Bankruptcy Court | Bankruptcy | https://ecf.nhb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nhb.uscourts.gov/ | https://ecf.nhb.uscourts.gov |
 | New Hampshire District Court | District | https://ecf.nhd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nhd.uscourts.gov/ | https://ecf.nhd.uscourts.gov |
-| New Jersey Bankruptcy Court | Bankruptcy | https://ecf.njb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.njb.uscourts.gov | https://ecf.njb.uscourts.gov |
+| New Jersey Bankruptcy Court | Bankruptcy |  | http://www.njb.uscourts.gov | https://ecf.njb.uscourts.gov |
 | New Jersey District Court | District | https://ecf.njd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.njd.uscourts.gov | https://ecf.njd.uscourts.gov |
 | New Mexico Bankruptcy Court | Bankruptcy | https://ecf.nmb.uscourts.gov/cgi-bin/rss_outside.pl | http://nmb.uscourts.gov/ | https://ecf.nmb.uscourts.gov |
 | New Mexico District Court | District | https://ecf.nmd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.nmd.uscourts.gov/filing-information | https://ecf.nmd.uscourts.gov |
@@ -162,13 +162,13 @@ Includes:
 | New York Eastern District Court | District |  | http://www.nyed.uscourts.gov | https://ecf.nyed.uscourts.gov |
 | New York Northern Bankruptcy Court | Bankruptcy | https://ecf.nynb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nynb.uscourts.gov | https://ecf.nynb.uscourts.gov |
 | New York Northern District Court | District | https://ecf.nynd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nynd.uscourts.gov/cmecf/ | https://ecf.nynd.uscourts.gov |
-| New York Southern Bankruptcy Court | Bankruptcy |  | http://www.nysb.uscourts.gov | https://ecf.nysb.uscourts.gov |
+| New York Southern Bankruptcy Court | Bankruptcy | https://ecf.nysb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nysb.uscourts.gov | https://ecf.nysb.uscourts.gov |
 | New York Southern District Court | District | https://ecf.nysd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.nysd.uscourts.gov/electronic-case-filing | https://ecf.nysd.uscourts.gov |
 | New York Western Bankruptcy Court | Bankruptcy | https://ecf.nywb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nywb.uscourts.gov | https://ecf.nywb.uscourts.gov |
 | New York Western District Court | District |  | http://www.nywd.uscourts.gov | https://ecf.nywd.uscourts.gov |
 | Ohio Northern Bankruptcy Court | Bankruptcy | https://ecf.ohnb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ohnb.uscourts.gov | https://ecf.ohnb.uscourts.gov |
 | Ohio Northern District Court  (asbestos) | District |  | http://www.ohnd.uscourts.gov | https://ecf.ohndad.ohnd.uscourts.gov |
-| Ohio Northern District Court | District | https://ecf.ohnd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ohnd.uscourts.gov | https://ecf.ohnd.uscourts.gov |
+| Ohio Northern District Court | District |  | http://www.ohnd.uscourts.gov | https://ecf.ohnd.uscourts.gov |
 | Ohio Southern Bankruptcy Court | Bankruptcy | https://ecf.ohsb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ohsb.uscourts.gov | https://ecf.ohsb.uscourts.gov |
 | Ohio Southern District Court | District | https://ecf.ohsd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ohsd.uscourts.gov/ | https://ecf.ohsd.uscourts.gov |
 | Oklahoma Eastern Bankruptcy Court | Bankruptcy | https://ecf.okeb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.okeb.uscourts.gov | https://ecf.okeb.uscourts.gov |
@@ -210,7 +210,7 @@ Includes:
 | Texas Western District Court | District | https://ecf.txwd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.txwd.uscourts.gov/cmecf/ | https://ecf.txwd.uscourts.gov |
 | U.S. Court of Federal Claims | National | https://ecf.cofc.uscourts.gov/cgi-bin/rss_outside.pl |  | https://ecf.cofc.uscourts.gov |
 | Utah Bankruptcy Court | Bankruptcy | https://ecf.utb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.utb.uscourts.gov/cmecf | https://ecf.utb.uscourts.gov |
-| Utah District Court | District | https://ecf.utd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.utd.uscourts.gov/cmecf-electronic-case-filing | https://ecf.utd.uscourts.gov |
+| Utah District Court | District |  | https://www.utd.uscourts.gov/cmecf-electronic-case-filing | https://ecf.utd.uscourts.gov |
 | Virginia Eastern Bankruptcy Court | Bankruptcy | https://ecf.vaeb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.vaeb.uscourts.gov | https://ecf.vaeb.uscourts.gov |
 | Virginia Eastern District Court | District |  | http://www.vaed.uscourts.gov/ecf/index.html | https://ecf.vaed.uscourts.gov |
 | Virginia Western Bankruptcy Court | Bankruptcy | https://ecf.vawb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.vawb.uscourts.gov | https://ecf.vawb.uscourts.gov |
