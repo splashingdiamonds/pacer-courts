@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Sun, 04 Dec 2022 17:21:31 GMT
+Date: Sun, 04 Dec 2022 17:33:08 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670173867-0"
 Last-Modified: Sun, 04 Dec 2022 17:11:07 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=NKJOEEACJFMKANCIFCKMECDHLJBDEEFAIHMEEICLCPECOAEFJDIOIKIOFKMLOBGHCHBDCIAMAGKNNAKBNEHABKKMNNIBEIAMADHELJPNIDPGDDCDJBIBLAPALMLKNCDJ; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=AADDLBAEMMAGGMNIAENBCEEEFPMCHHGEAAHMIDMLBBBEGABPMMEDDNNEGANMNHJLKCBDAELMJJPFHLCLCJPAEOIJINEDMOBOBFEJJBEKCFOIFPEKPOMCLKHBKENHLGOF; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS015f4acd=01300dc99687e9e3f903a2a92dfe4f2d6e81c00f132bac24a234ac44fbdfb10306acf1cf9db4ec83e83114f0984d28ecf0e6b09e7e; Path=/; Domain=.www.dcd.uscourts.gov
+Set-Cookie: TS015f4acd=01300dc996a964061bb6d5892cb4ff8c5c02642a40a200afecaace5e7de2bf5e14d5778e6fb5dc9e97842aa9628128672cbc67972e; Path=/; Domain=.www.dcd.uscourts.gov
 
