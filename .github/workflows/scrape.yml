@@ -80,3 +80,12 @@ jobs:
         git add -A
         git commit -m "Update courts list.${commit_msg_suffix}" && ( sync_meta ) || exit 0
         git push
+    - name: Feeds - Fetch and archive every RSS feed from the courts
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+
+        chmod +x ./scripts/rss.sh
+        ./scripts/rss.sh
+
+        git push || exit 0
