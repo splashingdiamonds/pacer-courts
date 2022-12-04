@@ -87,5 +87,3 @@ jobs:
 
         chmod +x ./scripts/rss.sh
         ./scripts/rss.sh
-
-        git push || exit 0
