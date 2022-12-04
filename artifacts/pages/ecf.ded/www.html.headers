@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Sun, 04 Dec 2022 15:52:30 GMT
+Date: Sun, 04 Dec 2022 16:31:12 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670168798-0"
 Last-Modified: Sun, 04 Dec 2022 15:46:38 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=IBFDMJAMHDJMCGGEGMICMMFEGHKHNILOKDINNLLNOCIDOEJDLBGNDENKHJBFPGILCMADCBDJDBKEIPHPPOEABLOHPMHJHGFKADJNPEKNHDAFHJFHMEKPIIKABMGBCONO; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=KPFNOMBBFPDIIEEFLCPKFCNECFKMAPNLJPNLEBIKCEEBJDLPDMDEBPKHMGGFOADFKEKDHFOMFLJPJFNNHOHAKOOMAMBCPKINJOKNPCIBGMCPPNPJDDAECLMPBCEPCHBN; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS019afc72=01300dc9966f3b1cf601c1eefc1ef3e62c7121b476808e33935b81bfacffb61383dda790e13c4e827966f68b3a984a647fee01b257; Path=/; Domain=.www.ded.uscourts.gov
+Set-Cookie: TS019afc72=01300dc996199c24e7669b8f9fc415f3cc3fdc59a0ac73f6c2eb363b4127d17cc198a8839dc3ee5834f040bfa39e7df96a7e6733d2; Path=/; Domain=.www.ded.uscourts.gov
 
