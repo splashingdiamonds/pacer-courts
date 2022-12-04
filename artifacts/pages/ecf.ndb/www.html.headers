@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=600
+Content-Type: text/html; charset=utf-8
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 03 Dec 2022 22:32:17 GMT
+ETag: "1670106737-0"
+Vary: Cookie,Accept-Encoding
+Server: Microsoft-IIS/8.5
+X-Drupal-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-Generator: Drupal 7 (http://drupal.org)
+Date: Sun, 04 Dec 2022 13:31:56 GMT
+Content-Length: 33711
+
