@@ -1,0 +1,116 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>LIVE Database Area</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=ddddfee TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>LIVE Database Area</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Southern District of Alabama
+<P>
+<A HREF="/cgi-bin/login.pl">Southern District of Alabama - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style2 {
+	font-size: 16px;
+	color: #000000;
+}
+.style4 {
+	font-size: large;
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style></head>
+
+<body>
+<div align="center"> 
+  <p><br>
+  </p>
+  <p> </p>
+  <p></p>
+<p><b>
+This is a restricted government website for official court business only.<br>
+All activities of CM/ECF subscribers or users of this system for any purpose, and<br>
+all access attempts, may be recorded and monitored by persons authorized by the<br>
+federal judiciary for improper use, protection of system security, performance of<br>
+maintenance and for appropriate management by the judiciary of its systems. By<br>
+subscribing to CM/ECF, users expressly consent to system monitoring and to<br>
+official access to data reviewed and created by them on the system. If evidence of<br>
+unlawful activity is discovered, including unauthorized access attempts, it may be<br>
+reported to law enforcement officials.<br>
+</b></p>
+<p><br></p>
+  <table width="85%"  border="1" cellpadding="2" bordercolor="#990000">
+    <tr>
+      <td bgcolor="#bfd8ff"><div align="center" class="style2">EMERGENCY RECORDED 
+          MESSAGE NUMBER: 1-866-737-5929 </div></td>
+    </tr>
+    <tr>
+      <td align="left" bgcolor="#bfd8ff">
+        <p align="left">
+         <p align="left">
+                <span>
+<!--			<font color="red"><u>ECF System Maintenance</u>:</font> The ECF system will receive scheduled maintenance begining on August 28, 2020 at 5:00PM CST thorugh August 31, 2020 at 8:00AM CST. Due to the nature of this maintenance you will experience a disruption during this time.</font> -->
+                </span>
+        </p>
+        <p align="left"><span><font color="red"><u>GovDelivery</u></font>:The new digital communications platform that replaces the court Blast Email functionality. To sign up for court notifications about new changes, ECF System Maintenance and downtime, subscribe to e-mail updates on the court's internet website, <a href="http://www.alsb.uscourts.gov">www.alsb.uscourts.gov</a></span></font></p> 
+        <p align="left">&nbsp;</p>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
+
+<HR>
+3September2020
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
