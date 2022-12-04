@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.almb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:20:38 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670155022-0"
+Last-Modified: Sun, 04 Dec 2022 11:57:02 GMT
+X-Cache-Status: EXPIRED
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=MPFNEDIINGACOIHCIPLODHFOOCJGBANKGMAJCAPIEOHHPCELNIGMGDGJIEJGLBMKNAEDMFGJLOHJMMAGJEPANIMMFJKKIJOFPNOBNOJBMAJLCNBEIMPPPGIILCOHDKEL; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS0102444e=01300dc996076d19a7e998b0fd3879a08262acfc8613d751e5ae57680a20bdcd689938319a573123bc9f60552a48e68d8ca0def304; Path=/; Domain=.www.almb.uscourts.gov
+

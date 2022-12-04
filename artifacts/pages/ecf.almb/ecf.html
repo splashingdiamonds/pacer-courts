@@ -1,0 +1,155 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>ALMB Electronic Case Filing</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=#f2eee3 TEXT=#000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> <HTML>
+<HEAD><TITLE>ALMB Electronic Case Filing</TITLE></HEAD>
+<BODY BGCOLOR=#FFFFF0">
+<BR /> 
+  <STYLE TYPE="text/css">
+    body {
+      font-family: Times New Roman, Times, serif;
+    }
+    a:active {
+      COLOR: #FFF;
+      BACKGROUND: #48A;
+    }
+    a:link {
+      COLOR: white;
+      text-decoration: none;
+    }
+    a:visited {
+      COLOR: #eee;
+    }
+    a:hover {
+      COLOR: yellow;
+      BACKGROUND: #48A;
+    }
+    td, th {
+	VERTICAL-ALIGN: top;
+	PADDING: 6px;
+    }
+    table {
+	ALIGN: center;
+	BORDER-RADIUS: 30px;
+	BORDER-SPACING: 6px;
+	BORDER: 0;
+	WIDTH: 850px;
+	BACKGROUND-COLOR: #012967;
+	COLOR: white;
+	PADDING: 8;
+    }
+  </STYLE>
+
+<CENTER>
+<table>
+    <tr>
+      <td width="20%" valign="bottom"> 
+	<IMG SRC="graphics/seal.gif" align="right" width=150 height=150>
+      <td>
+	<H3 align="center"><BR />
+		ACCESS TO THIS SYSTEM IS RESTRICTED TO<BR />
+		AUTHORIZED ELECTRONIC FILERS,<BR />
+		PACER USERS, AND COURT PERSONNEL ONLY.
+	</H3>
+	<HR COLOR="grey" width="80%">
+	<P ALIGN="center"><FONT COLOR="white">
+	U.S. Bankruptcy Court <BR />
+	Middle District of Alabama <BR />
+	Electronic Case Filing System
+	</P>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="#114967; border-radius: 10px; align:center; valign:top">
+<!-ShowPage(announcements.htm)->       	<H4 ALIGN="center"><FONT COLOR="#BBBBBB">Announcements<HR COLOR="#999999"></FONT></H4>
+	
+      </td>
+
+      <td align="center" style="color: #d9d9d9; background-color:#6c0801;border-radius:10px;">
+        <p>This is a restricted government website for official court business only. All activities of CM/ECF subscribers or users of this system for any purpose, and all access attempts, may be recorded and monitored by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance, and for appropriate management by the judiciary of its systems. By subscribing to CM/ECF, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. If evidence of unlawful activity is discovered, including unauthorized access attempts, it may be reported to law enforcement officials.</p>
+
+        <h3 align="center"> REDACTION OF PERSONAL DATA IDENTIFIERS </h3>
+
+        <p> Federal Rules of Bankruptcy Procedure (Fed. R. Bankr. P.), Rule 9037 requires that certain personal data identifiers not be included in court filings. Social security numbers, financial account numbers, names of minor children, and dates of birth are to be redacted by the attorney or party filing the document. The Clerk of Court is not required to review documents filed with the court for compliance with this rule. The responsibility to redact filings rests with counsel and the party or nonparty making the filing.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="BACKGROUND-COLOR: #114967; border-radius: 10px;">
+	<FONT COLOR="white">
+	<H2 ALIGN="center">
+	<A HREF="/cgi-bin/login.pl"> Login </A>
+	</H2>
+	</P>
+	<CENTER>
+                <A HREF="https://www.govinfo.gov/app/collection/uscourts/bankruptcy/almb" target="_blank">Opinions</A>
+                &nbsp; <B>|</B> &nbsp;
+                <A HREF="/pub/calendar" target="_blank">Calendar</A>
+                &nbsp; <B>|</B> &nbsp;
+                <A HREF="http://www.almb.uscourts.gov/ecf-registration" target="_blank">Register</A>
+	</CENTER>
+	</FONT>
+	<BR />
+<!-ShowPage(ePOC_menu.htm)-> 	
+	<br />
+      </td>
+    </tr>
+    <tr>
+	<td colspan="4">
+		<HR color="#6c0801">
+	</td>
+    </tr>
+    <tr>
+	<!-- Show when this page was last modified -->
+	<!--<td align="left">
+		This page last modified on: 26January2021-->
+	<td colspan="4" align="right">
+		
+		<a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+	</td>
+    </tr>
+</table>
+
+<P>
+</CENTER>
+
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+
+<div align="center">For more information, visit our public website at <A STYLE="color:blue" HREF="http://www.almb.uscourts.gov/">http://www.almb.uscourts.gov/</A> </div>
+
+</BODY>
+</HTML>
+</div></body></html>
