@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.gasb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:24:11 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670152946-0"
+Last-Modified: Sun, 04 Dec 2022 11:22:26 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=DAJIALLKJNNDLFMNLEHCKDINBNNPEIHLJEFICLJDGBLOLKCBEFNFONBPBELINJCMIGPDLAIEAPEKMEKHCCBAPKJBDJIKFCACIMMLHFOOGJMCDPJHNFJLDLKEPGNNAPNG; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS010e36bc=01300dc996680bf4db966219fe71c17309b53b5beb8fdc8629d5df0c0172cfa953307c02926e1a29d5edb785eb15f9a4334a750f0e; Path=/; Domain=.www.gasb.uscourts.gov
+
