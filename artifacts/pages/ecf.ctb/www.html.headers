@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.ctb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:23:35 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Etag: "1670153008-0"
+Last-Modified: Sun, 04 Dec 2022 11:23:28 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FMNHDGHGFHAIEIHEFPIMCPGHCNFNHKOJKJCDIGCODEKLPNOJJMDNMCAMPOKJKALJBCGDLOMBMPFKHABMEJEAKLANAJCGIDBPKPCCGFAJJKEIICHKFMHCPHPOFJIAKEOF; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS0122e709=01300dc99606c3a59d7eefc4480f7bea4c89d1ac010b5a9de90ba379cbdffd9b2cbea426f7bd396f29adbc5e57aaf91a109635457e; Path=/; Domain=.www.ctb.uscourts.gov
+
