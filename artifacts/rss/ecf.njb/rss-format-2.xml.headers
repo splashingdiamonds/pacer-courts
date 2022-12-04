@@ -1,7 +1,8 @@
-HTTP/1.1 404 Not Found
-Content-Type: text/html; charset=UTF-8
-Cache-Control: no-cache
-Pragma: no-cache
-Expires: 0
+HTTP/1.0 503 Service Unavailable
+Date: Sun, 04 Dec 2022 19:05:56 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Content-Length: 370
 Connection: close
+Content-Type: text/html; charset=iso-8859-1
 
