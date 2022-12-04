@@ -1,0 +1,28 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.ca3.uscourts.gov/cmecf-case-managementelectronic-case-files
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:22:25 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Link: </cmecf-case-managementelectronic-case-files>; rel="canonical",</node/28>; rel="shortlink"
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670159142-0"
+Last-Modified: Sun, 04 Dec 2022 13:05:42 GMT
+X-Cache-Status: EXPIRED
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=JPJGPDALAMHKEOBHJODEAPEBILBGGGOPFDJMHPGCOCOKNFLILMHILCJNPHNICHAPCNEDJIBJGOPKKEMPCBDADGELMJKOPKABHJIOJOBHAPBOFMPNMPAHCJFCBCLDKLIP; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS0157de3d=01300dc996867e7ac4c2a9b8153bf1f4b4a68109b3305f08fef046c6c7e6c7bd86fc0fc19b5ea552e15a87dc5d52fdad36f6e80d8a; Path=/; Domain=.www.ca3.uscourts.gov
+
