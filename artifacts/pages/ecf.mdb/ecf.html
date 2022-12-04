@@ -1,0 +1,136 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>CMECF-ShowIndex.pl</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=CCFFFF TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>CMECF</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+District of Maryland
+<P>
+<A HREF="/cgi-bin/login.pl">District of Maryland - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> <!-- $Header: /usr/local/cvsroot/bankruptcy/web/html/OperationNotice.htm,v 5.3 2010/02/24 15:44:47 jpd Exp $ -->
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+
+<br>
+<br>
+<CENTER><B><u>OPERATIONAL MESSAGE</b></u>
+<p>
+<div style="width:83%;text-align:justify;text-justify:inter-word">
+</p>
+<hr>
+
+
+<!-- CM/ECF Stay Out message -->
+<!--
+<p style="color:red"><strong>Attention!! You must log out immediately!</strong>
+<p style="color:red">Staying logged in can create permanent damage to CM/ECF while we upgrade the database.
+</p>
+<hr>
+-->
+
+
+<!-- CM/ECF maintenance message --> 
+<!--
+<p style="color:red"><strong>CM/ECF System Maintenance – Saturday, September 1, 2022 from 00:00 AM to 00:00 PM ET</strong>
+<p style="color:red">On Saturday, September 1, 2022 from 00:00 AM to 00:00 PM Eastern Time, CM/ECF will be down for maintenance.
+</p>
+<hr> 
+-->
+
+
+<!-- Pacer maintenance message --> 
+<!--
+<p style="color:red"><strong>PACER System Maintenance – Sunday, June 5, 2022 from 7:00 AM to 9:00 PM ET</strong>
+<p style="color:red">On Sunday, June 5, 2022 from 7:00 AM to 9:00 PM Eastern Time, the Public Access to Court Electronic Records (PACER) Development Branch will perform system maintenance to ensure proper system operations.  PACER users and Next Generation (NextGen) Case Management/Electronic Case Files (CM/ECF) e-filers may experience intermittent issues with authentication during log in and connectivity when making payments through Pay.gov.
+</p>
+<hr> 
+-->
+
+
+<!-- pay.gov outage message -->
+<!--
+<p style="color:red"><strong>Pay.gov Outage - Saturday, November 12, 2022 From 6:00pm - 10:00pm ET</strong></p>
+<p style="color:red">On Saturday, November 12, 2022, from 6:00pm - 10:00pm Eastern Time, CM/ECF users will not be able to make electronic fee payments. All Pay.gov services will be unavailable during this time. CM/ECF will remain available during this time and parties can continue to file documents electronically and open new cases as normal. However, any fees incurred as a result of new filings will need to be paid on the following day.</p>
+<hr>
+-->
+
+
+<!-- AO maintenance message -->
+<!--
+<p style="color:red"><strong>Court Network Maintenance – Saturday, August 27, 2022 10:00 PM to Sunday, August 28, 2022 4:00 AM ET</strong>
+<p style="color:red">From Saturday, August 27, 2022 10:00 PM to Sunday, August 28,2022 4:00 AM Eastern Time, users may experience intermitten connection to CM/ECF during the maintenance window.
+</p>
+<hr>
+-->
+
+
+<p style="color:red" id="notice">This is a restricted government website for official court business only. All activities of CM/ECF subscribers or users of this system for any purpose, and all access attempts, may be recorded and monitored by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance and for appropriate management by the judiciary of its systems. By subscribing to CM/ECF, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. If evidence of unlawful activity is discovered, including unauthorized access attempts, it may be reported to law enforcement officials.
+</p>
+</div>
+<p> EDGE is not a supported browser and using it may lead to unintended results.</p>
+<br/>
+</p> Please report any ECF slowness to <a href="mailto:MDBml_IT_ServiceDesk@mdb.uscourts.gov?subject=ECF Slow">Service Desk</a>. The time and a one line description of your activity would be very helpful. 
+</p>
+<br>
+<a href="https://www.pacer.gov/announcements/general/scrapingrestriction.html">New automation restrictions</a>
+
+</font>
+<br>
+</p>
+
+<BR>
+</BR>
+</center>
+
+
+<HR>
+3September2020
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
