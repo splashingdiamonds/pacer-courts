@@ -1,0 +1,103 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>Live Database Area</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFFF TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>Live Database Area</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the United States Bankruptcy Court for the
+Eastern District of Tennessee
+<P>
+<A HREF="/cgi-bin/login.pl">Eastern District of Tennessee - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+
+<HR>
+<CENTER><B>You are connected to the NEXT GEN CM/ECF site for the United States Bankruptcy Court</B></CENT
+ER>
+<CENTER><B>for the</B></CENTER>
+<CENTER><B>Eastern District of Tennessee</B></CENTER>
+<BR>
+<CENTER><B>Version 1.6.3 - Loaded 03/05/2022</B></CENTER>
+<H2>
+<li>
+<CENTER><B>NextGen CM/ECF Release 1.6.3 is tested and certified to work with current versions of modern browsers: Internet Explorer 11, Edge 84.0.522.40 - 85.0.564.51, Firefox 78.0.2 - 80.0.1, Chrome 84.0.4147.89 - 85.0.4183.102 and Safari. While other versions or browsers may work with ECF, they may not be supported.
+</B></CENTER>
+<!--</li> -->
+</H2>
+<!--</li> -->
+<H1.5>
+<B><CENTER> </B>  U.S. GOVERNMENT SYSTEM - NOTICE TO USERS
+
+<BR> </CENTER>
+
+   This is a restricted government system for official judiciary
+   business only. All activities on this system for any purpose,
+   and all access attempts, may be recorded and monitored or reviewed
+   by persons authorized by the federal judiciary for improper use,
+   protection of system security, performance of maintenance, and
+   appropriate management by the judiciary of its systems. By using
+   this system or any connected system, users expressly consent to
+   system monitoring and to official access to data reviewed and
+   created by them on the system. Any evidence of unlawful activity,
+   including unauthorized access attempts, may be reported
+   to law enforcement officials.
+<CENTER><B>
+</B></CENTER>
+</H1.5>
+<!--</li> -->
+<H0.5>
+<BR> </CENTER>
+</li>
+</H0.5>
+
+<HR>
+3September2020
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
