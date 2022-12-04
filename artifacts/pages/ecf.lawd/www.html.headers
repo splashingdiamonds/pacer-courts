@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.lawd.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:30:39 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670154854-0"
+Last-Modified: Sun, 04 Dec 2022 11:54:14 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=ACDDDMDEMDOENNHBGCOEENLDJOIPCLDAEPPKFHDJCFAKDGAEDMHHFNELDDDIBLJJCODDBHAOEAOEALEMEAEAEBPNLKFEBKKAIHJNONGACGLFMLFLNKOCHCOLGBDHMMFG; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01469f13=01300dc996005bec2a289a9b6fbf5a4909acb9e26490ce52f6d28b6b5eb062df37f4430a2a39a4c6f34f4d1b86e0ca5dbc7cdd045a; Path=/; Domain=.www.lawd.uscourts.gov
+
