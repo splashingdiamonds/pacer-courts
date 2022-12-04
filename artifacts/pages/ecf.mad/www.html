@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="title" content="Home | United States District Court for the District of Massachusetts">
+  <meta name="description"
+    content="Welcome to the official website for the United States District Court for the District of Massachusetts.">
+  <meta name="keywords"
+    content="boston,springfield,worcester,federal jury duty,naturalizations,filing in federal court">
+  <meta property="og:title" content="Home | United States District Court for the District of Massachusetts" />
+  <meta property="og:description"
+    content="Welcome to the official website for the United States District Court for the District of Massachusetts." />
+
+  <title>Home | United States District Court for the District of Massachusetts</title>
+  <link rel="canonical" href="https://www.mad.uscourts.gov" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5C1LT44W9"></script>
+  <script src="assets/js/ga.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/css/hover-min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="/assets/css/menu.css" rel="stylesheet">
+  <link href="/assets/css/styles.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+    integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+    integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/assets/js/menuData.js"></script>
+  <script src="/assets/js/menu.js"></script>
+  <script src="/assets/js/scripts.js"></script>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+  <script>
+    var announcementData;
+    var numberOfNews = 2;
+    var numberOfNotices = 3;
+    $(function () {
+      $("#top-header").load("/assets/html/top-header.html");
+      $("#footer").load("/assets/html/footer.html");
+
+      loadAnnouncements();
+
+      $(".spanish-convert").on("click", function () {
+        $(this).parents(".alert").find(".english-alert").hide();
+        $(this).parents(".alert").find(".spanish-alert").show("slide", { direction: "right" }, 700);
+      });
+
+      $(".english-convert").on("click", function () {
+        $(this).parents(".alert").find(".spanish-alert").hide();
+        $(this).parents(".alert").find(".english-alert").show("slide", { direction: "right" }, 700);
+      });
+    });
+
+    $(window).scroll(function () {
+
+      /* Check the location of each desired element */
+      $('.fadein').each(function (i) {
+
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight() / 10;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        /* If the object is completely visible in the window, fade it it */
+        if (bottom_of_window > bottom_of_object) {
+
+          $(this).animate({
+            'opacity': '1'
+          }, 1000);
+
+        }
+      });
+    });
+
+    function loadAnnouncements(type) {
+      var years = [];
+      $(".spinner-border").show();
+      $.ajax({
+        url: "/general/data/announcements.json",
+        cache: false,
+        success: function (announcements) {
+          var newsContainer = $(".news-items #news");
+          var noticesContainer = $(".news-items #notices");
+          var maxLength = 175;
+
+          if (announcements && announcements.length) {
+            announcements = announcements.sort(function (a, b) {
+              var result = moment(b.date, "YYYY-MM-DD").valueOf() - moment(a.date, "YYYY-MM-DD").valueOf();
+
+              if (result == 0 && a.order != null && b.order != null)
+                return b.order - a.order;
+              else
+                return result;
+            });
+
+            var news = announcements.filter(function (a) {
+              return moment().diff(moment(a.date, "YYYY-MM-DD"), 'months') == 0 && a.announce && (a.type == "news" || a.type == "event")
+            });
+
+            var notices = announcements.filter(function (a) {
+              return moment().diff(moment(a.date, "YYYY-MM-DD"), 'months') == 0 && a.announce && (a.type == "notice" || a.type == "gorder" || a.type == "sorder")
+            });
+
+            if (news && news.length > 0) {
+              news = news.slice(0, numberOfNews);
+            }
+            else {
+              news = [];
+            }
+
+            if (notices && notices.length > 0) {
+              notices = notices.slice(0, numberOfNotices);
+            }
+            else {
+              notices = [];
+            }
+
+            announcementData = announcements;
+
+            newsContainer.empty();
+            noticesContainer.empty();
+
+            if (news.length > 0) {
+              $.each(news, function (i, a) {
+                var text = a.description;
+                var fullText = text;
+                if (text.length > maxLength) {
+                  var trimmedString = text.substr(0, maxLength);
+                  text = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))) + "...";
+                }
+
+                var row =
+                  '<a href="' + a.link + '" class="plain">' +
+                  '<div class="row column-item hvr-sweep-to-right">' +
+                  '<div class="col-xl-4">' +
+                  '<img class="img-fluid rounded"' +
+                  'src="' + a.image + '"' +
+                  'alt="' + a.imagealt + '"' +
+                  'style="width: 100%; height: 100%;" />' +
+                  '</div>' +
+                  '<div class="col-xl-8 pl-0 pl-xl-4 pr-0 pr-xl-4 pt-3 pt-xl-0">' +
+                  '<p>' + a.title + '</p>' +
+                  '<p class="lead">' + text + '</p>' +
+                  '<small class="text-dark">Posted ' + moment(a.date, "YYYY-MM-DD").format("MMMM D, YYYY") + '</small>' +
+                  '</div>' +
+                  '</div>' +
+                  '</a>';
+
+                newsContainer.append(row);
+              });
+            }
+            else {
+              var row =
+                '<p>No recent news or events. <a href="general/announcements.htm">Click here to view all news and events.</a></p>';
+
+              newsContainer.append(row);
+            }
+
+            if (notices.length > 0) {
+              $.each(notices, function (i, a) {
+                var text = a.description;
+                var fullText = text;
+                if (text.length > maxLength) {
+                  var trimmedString = text.substr(0, maxLength);
+                  text = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" "))) + "...";
+                }
+
+                var row =
+                  '<a href="' + a.link + '" class="plain">' +
+                  '<div class="row column-item hvr-sweep-to-right">' +
+                  '<div class="col-xl-4">' +
+                  '<img class="img-fluid rounded"' +
+                  'src="' + a.image + '"' +
+                  'alt="' + a.imagealt + '"' +
+                  'style="width: 100%; height: 100%;" />' +
+                  '</div>' +
+                  '<div class="col-xl-8 pl-0 pl-xl-4 pr-0 pr-xl-4 pt-3 pt-xl-0">' +
+                  '<p>' + a.title + '</p>' +
+                  '<p class="lead">' + text + '</p>' +
+                  '<small class="text-dark">Posted ' + moment(a.date, "YYYY-MM-DD").format("MMMM D, YYYY") + '</small>' +
+                  '</div>' +
+                  '</div>' +
+                  '</a>';
+
+                noticesContainer.append(row);
+              });
+            }
+            else {
+              var row =
+                '<p>No recent notices or orders. <a href="general/announcements.htm">Click here to view all notices and orders.</a></p>';
+
+              noticesContainer.append(row);
+            }
+          }
+          else {
+            newsContainer.empty();
+            noticesContainer.empty();
+            var row =
+              '<div class="col-12">' +
+              '<p>No announcements match the selected criteria.</p>' +
+              '</div>';
+
+            newsContainer.append(row);
+            noticesContainer.append(row);
+            $(".spinner-border").hide();
+          }
+        }
+      });
+    }
+  </script>
+
+</head>
+
+<body>
+  <div id="header">
+    <header>
+      <div class="container-fluid" id="top-header"></div>
+      <div class="container-fluid notranslate" id="bottom-header">
+        <h1 style="font-size: 2.5rem;">
+          <a href="/" rel="home" title="Home">
+            <div><img src="/assets/img/seal.png" id="court-seal"
+                alt="United States District Court for the District of Massachusetts Seal">
+            </div>
+            <span class="text-center" id="court-name">
+              United States District Court&nbsp;
+              <span id="for-the">for
+                the</span>&nbsp;
+              District of Massachusetts</span>
+          </a>
+        </h1>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <button class="navbar-toggler btn btn-sm" type="button" data-toggle="collapse" data-target="#main-navbar"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>&nbsp;<span style="vertical-align: middle;">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link hvr-underline-from-left" id="nav-attorneys"> Attorneys
+              </a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link hvr-underline-from-left dropdown-toggle" data-toggle="dropdown"
+                id="nav-case-information">
+                Case Info</a>
+              <div class="dropdown-menu" aria-labelledby="nav-case-information"></div>
+            </li>
+            <li class="nav-item"><a class="nav-link hvr-underline-from-left" id="nav-divisions"> Divisions
+              </a></li>
+            <li class="nav-item dropdown has-megamenu">
+              <a class="nav-link dropdown-toggle hvr-underline-from-left" href="#" data-toggle="dropdown"
+                id="nav-general-information">
+                General
+                Info </a>
+              <div class="dropdown-menu megamenu" role="menu"></div>
+            </li>
+            <li class="nav-item"><a class="nav-link hvr-underline-from-left" id="nav-jurors"> Jurors </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link hvr-underline-from-left dropdown-toggle" data-toggle="dropdown" id="nav-outreach">
+                Outreach</a>
+              <div class="dropdown-menu" aria-labelledby="nav-outreach">
+
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link hvr-underline-from-left" id="nav-pro-se">
+                Pro Se </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link hvr-underline-from-left dropdown-toggle" data-toggle="dropdown" id="nav-resources">
+                Resources</a>
+              <div class="dropdown-menu" aria-labelledby="nav-resources"></div>
+            </li>
+            <li class="nav-item"><a class="nav-link hvr-underline-from-left" id="nav-specialty-courts">
+                Specialty
+                Courts </a></li>
+            <li class="nav-item dropdown" id="nav-overflow">
+              <a class="nav-link dropdown-toggle hvr-underline-from-left" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                More
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" id="nav-divisions">Divisions</a>
+                <a class="dropdown-item" href="/general/announcements.htm">General Info</a>
+                <a class="dropdown-item" id="nav-jurors">Jurors</a>
+                <a class="dropdown-item" id="nav-outreach">Outreach</a>
+                <a class="dropdown-item" id="nav-pro-se">Pro Se</a>
+                <a class="dropdown-item" id="nav-resources">Resources</a>
+                <a class="dropdown-item" id="nav-specialty-courts">Specialty Courts</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle btn btn-block btn-outline-secondary hvr-icon-grow" href="#"
+                id="search-button" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search hvr-icon"></i> Search
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+      <div class="pl-0 pl-sm-4 pr-0 pr-sm-4 pt-3 pb-3" id="search" aria-labelledby="search-button">
+        <script type="text/javascript">
+          //<![CDATA[
+          var usasearch_config = { siteHandle: "mad" };
+          var script = document.createElement("script");
+          script.type = "text/javascript";
+          script.src = "https://search.usa.gov/javascripts/remote.loader.js";
+          document.getElementsByTagName("head")[0].appendChild(script);
+          //]]>
+        </script>
+        <form class="form-inline pl-2 pl-sm-4 pr-2 pr-sm-4 mt-2 mt-md-0 dropdown-item" accept-charset="UTF-8"
+          action="https://search.usa.gov/search" id="search-form" method="get">
+          <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+          <input id="affiliate" name="affiliate" type="hidden" value="mad" />
+          <div class="input-group">
+            <input type="text" class="form-control" autocomplete="off" id="query" name="query"
+              placeholder="Type what you are searching for..." aria-label="Type what you are searching for..."
+              aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="submit" id="search-submit">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </header>
+  </div>
+
+  <main role="main" id="main">
+    <div class="container-fluid">
+      <div id="news-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#news-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#news-carousel" data-slide-to="1"></li>
+          <li data-target="#news-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-image" style="background: rgb(245,246,252);
+                      background: -moz-linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/moakley2.jpg');
+                      background: -webkit-linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/moakley2.jpg');
+                      background: linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/moakley2.jpg');
+                      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f6fc',endColorstr='#1e2840',GradientType=1);
+                      background-position-y: center; background-size: cover;">
+            </div>
+
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Attend hearings remotely</h1>
+                <p>Because of COVID-19 health concerns and limited space available in courtrooms, members of the
+                  public/media can
+                  attend a proceeding remotely via videoconference, if offered by the session.</p>
+                <a class="btn btn-lg btn-light" href="https://forms.mad.uscourts.gov/courtlist.html"
+                  role="button">Register for
+                  hearings</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image" style="background: rgb(245,246,252);
+                      background: -moz-linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/SpringfieldCourthouse-3.jpg');
+                      background: -webkit-linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/SpringfieldCourthouse-3.jpg');
+                      background: linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/SpringfieldCourthouse-3.jpg');
+                      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f6fc',endColorstr='#1e2840',GradientType=1);
+                      background-position-y: center; background-size: cover;">
+            </div>
+
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Latest announcements</h1>
+                <p>Stay updated on latest announcements and General Orders in the District of Massachusetts.</p>
+                <a class="btn btn-lg btn-light" href="/general/announcements.htm" role="button">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-image" style="background: rgb(245,246,252);
+                      background: -moz-linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/worcester courthouse.jpg');
+                      background: -webkit-linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/worcester courthouse.jpg');
+                      background: linear-gradient(180deg, rgba(245,246,252,0.52) 0%, rgba(30,40,64,0.9) 100%),
+                      url('assets/img/cmp/worcester courthouse.jpg');
+                      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f6fc',endColorstr='#1e2840',GradientType=1);
+                      background-position-y: center; background-size: cover;">
+            </div>
+
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Court in community</h1>
+                <p>Learn about ways to engage with the Court below.</p>
+                <a class="btn btn-lg btn-light mb-1" href="/history/court-history.htm" role="button">Visit the
+                  Court/learn about our
+                  courthouses</a>
+                <a class="btn btn-lg btn-light mb-1" href="/outreach/nelson.htm" role="button">Learn about the
+                  Nelson &
+                  Lindsay Fellowship programs</a> <a class="btn btn-lg btn-light mb-1"
+                  href="/outreach/discovering-justice.htm" role="button">Volunteer or visit with Discovering Justice</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#news-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#news-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <!-- <div class="alert alert-danger text-center" role="alert" style="margin-bottom: 0;">
+        <div class="english-alert">
+          <a class="plain"
+            href="/general/pdf/announce/Public%20Notice%20-%20CMECF%20Offline%20for%20Upgrade%2010-07-2022.pdf">
+            <i class="fas fa-exclamation-circle"></i>&emsp; CM/ECF will be
+            <strong>unavailable</strong> between <strong>Friday, October 7, 2022 at 7:00 PM and Tuesday, October 11, at
+              6:00 AM EST</strong> for an
+            important update. Click here for more information.
+        </div>
+      </div>
+    </div> -->
+      <div class="alert alert-primary text-center" role="alert" style="margin-bottom: 0;">
+        <div class="english-alert">
+          <a class="plain" href="/caseinfo/nextgen.htm">
+            <i class="fas fa-exclamation-circle"></i>&emsp; The U.S. District Court of Massachusetts is live on
+            <strong>NextGen
+              CM/ECF!</strong> Click here for information on <strong>linking your account</strong>.</a>
+        </div>
+      </div>
+      <div class="alert alert-info text-center" role="alert" style="margin-bottom: 0;">
+        <div class="english-alert">
+          <a class="plain" href="/general/covid.htm">
+            <i class="fas fa-exclamation-circle"></i>&emsp; <strong>COVID-19 Specific Information</strong></a>
+        </div>
+      </div>
+      <div class="alert alert-warning text-center" role="alert" style="margin-bottom: 0;">
+        <div class="english-alert">
+          <i class="fas fa-exclamation-circle"></i>&emsp; For information regarding criminal and civil proceedings
+          before
+          the Court, please call <a class="text-dark" href="tel:+1-617-748-9152"><strong>(617) 748-9152</strong></a> or
+          email
+          <a class="text-dark" href="mailto:media@mad.uscourts.gov"><strong>media@mad.uscourts.gov</strong></a>
+          <span class="spanish-convert float-sm-right d-block"><span class="i-circle">es</span><span
+              class="convert-language">Para
+              Español</span></span>
+        </div>
+        <div class="spanish-alert">
+          <i class="fas fa-exclamation-circle"></i>&emsp;Para obtener información sobre procedimientos penales y civiles
+          ante el Tribunal, llame al <a class="text-dark" href="tel:+1-617-748-9152"><strong>(617) 748-9152</strong></a>
+          o envíe un
+          correo electrónico a <a class="text-dark"
+            href="mailto:media@mad.uscourts.gov"><strong>media@mad.uscourts.gov</strong></a>
+          <span class="english-convert float-sm-right d-block"><span class="i-circle">en</span><span
+              class="convert-language">For
+              English</span></span>
+        </div>
+      </div>
+
+
+      <div class="container-fluid marketing">
+        <div class="row featurette pt-0 pt-sm-4 pb-0 pb-sm-4 pr-0 pl-0" style="background: #fff;">
+          <!-- <h2 class="section-heading" style="margin-bottom: 15px;">Information for...</h2> -->
+          <div class="col-12 row">
+            <div class="col-md-6 col-lg-3 information-box">
+              <a href="/attorneys/attorneys.htm" class="plain hvr-float">
+                <div>
+                  <i class="fas fa-suitcase"></i>
+                </div>
+                <span>Attorneys</span>
+                <p style="font-size: .5em;">Resources and information for attorneys admitted to the
+                  bar
+                  and those looking
+                  to
+                  register for admission to the United States District Court for the District of Massachusetts</p>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 information-box">
+              <a href="jurors/jurors.htm" class="plain hvr-float">
+                <div>
+                  <i class="fas fa-balance-scale"></i>
+                </div>
+                <span>Jurors</span>
+                <p style="font-size: .5em;">Resources and information for petit and grand jurors for
+                  the
+                  United States District Court for the District of Massachusetts</p>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 information-box">
+              <a href="general/media.htm" class="plain hvr-float">
+                <div>
+                  <i class="fas fa-newspaper"></i>
+                </div>
+                <span>Press/Media</span>
+                <p style="font-size: .5em;">Resources and information for members of the media and
+                  the
+                  press</p>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-3 information-box" style="border-right: none;">
+              <a href="#general-public-modal" class="plain hvr-float" data-toggle="modal">
+                <div>
+                  <i class=" fas fa-users"></i>
+                </div>
+                <span>General Public</span>
+                <p style="font-size: .5em;">Resources and information for members of the general
+                  public
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row featurette fadein" style="opacity: 0;" id="welcome">
+        <div class="col-12 welcome-wrapper">
+          <div class="col-md-12 text-center">
+            <h2 class="featurette-heading">
+              <span class="welcome-heading notranslate">
+                <span style="font-size: 10rem; line-height: .2; margin-right: -5px;">W</span>elcome
+              </span><br>
+              <span class="welcome-subheading">from the Judges <span style="margin-right: -.1px;">of</span> the U.S.
+                District Court for the District <span style="margin-right: -.1px;">of</span>
+                Massachusetts</span>
+            </h2>
+          </div>
+          <div class="col-lg-12 col-xl-12" style="margin: 2rem auto; font-weight: 300; font-size: 1.15em;">
+            <div class="row">
+              <div class="col-md-6" style="display: flex;">
+                <ul>
+                  <li>
+                    <h5><span class="judge-head">District
+                        Judges
+                        <!--&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;-->
+                      </span></h5>
+                  </li>
+                  <li><strong><a href="/boston/saylor.htm" class="judge-link hvr-skew"><span>Chief Judge F. Dennis
+                          Saylor
+                          IV</span></a></strong>
+                  </li>
+                  <li><a href="/boston/gorton.htm" class="judge-link hvr-skew"><span>Gorton, Nathaniel M.</span></a>
+                  </li>
+                  <li><a href="/boston/stearns.htm" class="judge-link hvr-skew"><span>Stearns, Richard G.</span></a>
+                  </li>
+                  <li><a href="/boston/saris.htm" class="judge-link hvr-skew"><span>Saris, Patti B.</span></a></li>
+                  <li><a href="/boston/casper.htm" class="judge-link hvr-skew"><span>Casper, Denise J.</span></a></li>
+                  <li><a href="/boston/talwani.htm" class="judge-link hvr-skew"><span>Talwani, Indira</span></a></li>
+                  <li><a href="/springfield/mastroianni.htm" class="judge-link hvr-skew"><span>Mastroianni, Mark
+                        G.</span></a></li>
+                  <li><a href="/boston/sorokin.htm" class="judge-link hvr-skew"><span>Sorokin, Leo T.</span></a></li>
+                  <li><a href="/boston/burroughs.htm" class="judge-link hvr-skew"><span>Burroughs, Allison D.</span></a>
+                  </li>
+                  <li><a href="/boston/djakelley.htm" class="judge-link hvr-skew"><span>Kelley, Angel</span></a>
+                  </li>
+                  <li><a href="/boston/zobel.htm" class="judge-link hvr-skew"><span>Zobel, Rya W.</span></a></li>
+                  <li><a href="/boston/young.htm" class="judge-link hvr-skew"><span>Young, William G.</span></a></li>
+                  <li><a href="/boston/wolf.htm" class="judge-link hvr-skew"><span>Wolf, Mark L.</span></a></li>
+                  <li><a href="/boston/woodlock.htm" class="judge-link hvr-skew"><span>Woodlock, Douglas P.</span></a>
+                  </li>
+                  <li><a href="/boston/harrington.htm" class="judge-link hvr-skew"><span>Harrington, Edward
+                        F.</span></a></li>
+                  <li><a href="/springfield/ponsor.htm" class="judge-link hvr-skew"><span>Ponsor, Michael A.</span></a>
+                  </li>
+                  <li><a href="/boston/otoole.htm" class="judge-link hvr-skew"><span>O'Toole, George A. Jr.</span></a>
+                  </li>
+                  <li><a href="/worcester/hillman.htm" class="judge-link hvr-skew"><span>Hillman, Timothy S.</span></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6" style="display: flex;">
+                <ul>
+                  <li>
+                    <h5><span class="judge-head">Magistrate
+                        Judges</span></h5>
+                  </li>
+                  <li><strong><a href="/boston/mjpkelley.htm" class="judge-link hvr-skew"><span>Chief Magistrate Judge
+                          M.
+                          Page
+                          Kelley</span></a></strong>
+                  </li>
+                  <li><a href="/boston/dein.htm" class="judge-link hvr-skew"><span>Dein, Judith G.</span></a></li>
+                  <li><a href="/boston/boal.htm" class="judge-link hvr-skew"><span>Boal, Jennifer C.</span></a></li>
+                  <li><a href="/worcester/hennessy.htm" class="judge-link hvr-skew"><span>Hennessy, David H.</span></a>
+                  </li>
+                  <li><a href="/springfield/robertson.htm" class="judge-link hvr-skew"><span>Robertson, Katherine
+                        A.</span></a></li>
+                  <li><a href="/boston/cabell.htm" class="judge-link hvr-skew"><span>Cabell, Donald L.</span></a></li>
+                  <li><a href="/boston/levenson.htm" class="judge-link hvr-skew"><span>Levenson, Paul
+                        G.</span></a></li>
+                  <li><a href="/boston/bowler.htm" class="judge-link hvr-skew"><span>Bowler, Marianne B.</span></a></li>
+                  <li><a href="/boston/collings.htm" class="judge-link hvr-skew"><span>Collings, Robert B.</span></a>
+                  </li>
+                  <li><a href="/springfield/neiman.htm" class="judge-link hvr-skew"><span>Neiman, Kenneth P.</span></a>
+                  </li>
+                  <li><a href="/boston/niedermeier.htm" class="judge-link hvr-skew"><span>Niedermeier, Jerome
+                        J.</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center" style="margin-top: 20px;">
+              <span style="font-weight: bold; color: #535c76; border-bottom: 2px solid #dda037;">Clerk <span
+                  style="margin-right: -.1px;">of</span>
+                Court</span><br><span>Robert M. Farrell</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="featurette bg-white" id="news">
+        <div class="col-12 p-0 row news-items">
+          <!-- Notices & General Orders-->
+          <div class="col-lg-6 p-0 pr-lg-4">
+            <div class="row">
+              <h4>Notices & Orders</h4>
+            </div>
+            <div class="column-items" id="notices" style="height: 100%;">
+              <div class="spinner-border text-primary" style="width: 15rem; height: 15rem;" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- News & Events -->
+          <div class="col-lg-6 p-0 pt-5 pt-lg-0 pl-lg-4">
+            <div class="row">
+              <h4>News & Events</h4>
+            </div>
+            <div class="column-items" id="news" style="height: 100%;">
+              <div class="spinner-border text-primary" style="width: 15rem; height: 15rem;" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr style="border-color: #eee;">
+        <p class="lead text-center" style="width: 100%;"><a href="/general/announcements.htm"
+            class="text-decoration-none hvr-icon-forward">View more
+            News & Events or Notices &
+            Orders <i class="fas fa-arrow-alt-circle-right hvr-icon"></i></a></p>
+      </div>
+
+
+      <!-- <div id="inscription-carousel" class="carousel slide" data-ride="carousel" style="display: none;">
+        <ol class="carousel-indicators">
+          <li data-target="#inscription-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#inscription-carousel" data-slide-to="1"></li>
+          <li data-target="#inscription-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-image" style="background-image: url('assets/img/boston\ map.png');"></div>
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <div class="row">
+                  <div class="col-xl-7 inscription-about-wrapper">
+                    <h2 class="featurette-heading">About This Text</h2>
+                    <p class="inscription-about-text">Seven years after the adoption of the
+                      Declaration of
+                      Independence, which asserts that all men are created
+                      equal, slavery
+                      continued to be practiced throughout the United States; Massachusetts was no exception. As a
+                      consequence, a
+                      Worcester
+                      County slaveowner assumed he was on solid legal ground when he defended against a criminal case
+                      that
+                      charged
+                      him with
+                      the assault and battery of Quock Walker, one of his slaves. The slaveowner argued his right to
+                      treat
+                      his
+                      "property" in
+                      any way he chose...
+                    </p>
+                    <p><a class="btn btn-light" href="#" role="button">Learn more &gt;</a></p>
+                  </div>
+                  <div class="col-xl-5 inscription-wrapper">
+                    <div class="inscription">
+                      <div>
+                        <div>
+                          All men are born free and equal; and every subject is entitled to liberty, and to have it
+                          guarded by the
+                          laws.
+                          <br><br><span>William Cushing, 1783</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-image" style="background-image: url('assets/img/boston\ map.png');"></div>
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <div class="row">
+                  <div class="col-xl-7 inscription-about-wrapper">
+                    <h2 class="featurette-heading">About This Text</h2>
+                    <p class="inscription-about-text">When President George W. Bush made the
+                      legislation naming this building
+                      the John Joseph Moakley United States Courthouse
+                      the occasion for his first Rose Garden signing ceremony, Congressman Moakley responded with a
+                      graceful speech observing
+                      that it was a great honor to have the building named after him. The congressman, for once, had
+                      it
+                      only half right. To be
+                      sure, it is an honor to have the building named after him; but it is equally an honor for this
+                      building to bear his
+                      name...
+                    </p>
+                    <p><a class="btn btn-light" href="#" role="button">Learn more &gt;</a></p>
+                  </div>
+                  <div class="col-xl-5 inscription-wrapper">
+                    <div class="inscription">
+                      <div>
+                        <div>
+                          There is no such thing as half justice. You either have justice or you don't. You either
+                          have
+                          a democracy in which
+                          everyone - including the powerful - is subject to the rule of law or you don't.
+                          <br><br><span>John Joseph Moakley, 1991</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#inscription-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#inscription-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> -->
+    </div>
+
+    <div class="alert alert-primary fadein px-lg-5 py-lg-1" role="alert"
+      style="opacity: 0; margin-bottom: 0; font-size: 1.5em; font-family: 'Bell MT Italics'; ">
+      <em>Learn about the U.S. District Court for the District of Massachusetts's specialty courts <a
+          href="specialty-courts.htm" class="text-light" style="color: #cbc2e5!important;">here</a>.</em>
+    </div>
+
+    <div class="row featurette fadein" style="opacity: 0;background: #f3f3f3;">
+      <div class="col-md-12">
+        <h2 class="featurette-heading mt-0">Clerk's Office Mission Statement</h2>
+        <p class="lead">We, the staff of the Clerk's Office, are dedicated to providing access to an impartial forum
+          for
+          the resolution of
+          disputes, through prompt service to the Court, members of the bar, and the public. Our services include
+          processing civil
+          and criminal cases, maintaining records, assembling juries, disseminating information on the activities of
+          the
+          Court,
+          and providing other administrative and management support to the Court and its affiliates.</p>
+        <br>
+        <h4 class="featurette-heading" style="margin-top: 0; font-size: 2rem;">We take pride in working as a team, and
+          pledge to:</h4>
+        <ul class="lead fa-ul mt-3">
+          <li><i class="fas fa-angle-right"></i> Perform our duties with courtesy, respect, equality and fairness, in an
+            accurate and knowledgeable
+            fashion;</li>
+          <li><i class="fas fa-angle-right"></i> Maintain the highest standards of professionalism and ethics, in
+            compliance with the governing rules and
+            regulations;</li>
+          <li><i class="fas fa-angle-right"></i> Strive to improve the quality of our services, thereby promoting public
+            trust and confidence in the
+            judicial system; and</li>
+          <li><i class="fas fa-angle-right"></i> Encourage education and pursue training programs to adapt to the
+            growing needs of the Court and the
+            public, in response to technological advances and innovations in the law.</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="footer"></div>
+    <a style="display: none;" href="/sitemap.html"></a>
+    <div class="modal fade" id="general-public-modal" tabindex="-1" role="dialog"
+      aria-labelledby="general-public-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="general-public-modal-label">General Public</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="col-12 row">
+              <div class="col-md-4 information-box inverted-box">
+                <a href="/history/court-history.htm" class="plain">
+                  <div>
+                    <i class="fas fa-landmark"></i>
+                  </div>
+                  <span>Courthouse Info</span>
+                  <p style="font-size: 1rem;">Learn more about the history and architecture of our courthouses.</p>
+                </a>
+              </div>
+              <div class="col-md-4 information-box inverted-box">
+                <a href="/outreach/outreach.htm" class="plain">
+                  <div>
+                    <i class="fas fa-hands-helping"></i>
+                  </div>
+                  <span>Outreach</span>
+                  <p style="font-size: 1rem;">Learn more about our outreach programs.</p>
+                </a>
+              </div>
+              <div class="col-md-4 information-box inverted-box">
+                <a href="/general/contact-us.htm" class="plain">
+                  <div>
+                    <i class="fas fa-question-circle"></i>
+                  </div>
+                  <span>Contact Us</span>
+                  <p style="font-size: 1rem;">Contact us regarding a question or comment you have.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html><script id="f5_cspm">(function(){var f5_cspm={f5_p:'ECODAAPJOHHEJKNDHELJPLDKJKDNLEGMGEPPEAPCCJFICOFOKOKKIODHCPDDEKHLEDPBDPKHAAMIFCKNCDNAOIKHAAKKMCGGMMMIKEAEEDMGBBKJEAEHIMPJFOLJJDJC',setCharAt:function(str,index,chr){if(index>str.length-1)return str;return str.substr(0,index)+chr+str.substr(index+1);},get_byte:function(str,i){var s=(i/16)|0;i=(i&15);s=s*32;return((str.charCodeAt(i+16+s)-65)<<4)|(str.charCodeAt(i+s)-65);},set_byte:function(str,i,b){var s=(i/16)|0;i=(i&15);s=s*32;str=f5_cspm.setCharAt(str,(i+16+s),String.fromCharCode((b>>4)+65));str=f5_cspm.setCharAt(str,(i+s),String.fromCharCode((b&15)+65));return str;},set_latency:function(str,latency){latency=latency&0xffff;str=f5_cspm.set_byte(str,40,(latency>>8));str=f5_cspm.set_byte(str,41,(latency&0xff));str=f5_cspm.set_byte(str,35,2);return str;},wait_perf_data:function(){try{var wp=window.performance.timing;if(wp.loadEventEnd>0){var res=wp.loadEventEnd-wp.navigationStart;if(res<60001){var cookie_val=f5_cspm.set_latency(f5_cspm.f5_p,res);window.document.cookie='f5avr0048383893aaaaaaaaaaaaaaaa_cspm_='+encodeURIComponent(cookie_val)+';path=/;'+'';}
+return;}}
+catch(err){return;}
+setTimeout(f5_cspm.wait_perf_data,100);return;},go:function(){var chunk=window.document.cookie.split(/\s*;\s*/);for(var i=0;i<chunk.length;++i){var pair=chunk[i].split(/\s*=\s*/);if(pair[0]=='f5_cspm'&&pair[1]=='1234')
+{var d=new Date();d.setTime(d.getTime()-1000);window.document.cookie='f5_cspm=;expires='+d.toUTCString()+';path=/;'+';';setTimeout(f5_cspm.wait_perf_data,100);}}}}
+f5_cspm.go();}());</script>
