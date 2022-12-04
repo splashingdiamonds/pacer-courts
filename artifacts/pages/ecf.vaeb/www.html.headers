@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.vaeb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:52:40 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670155368-0"
+Last-Modified: Sun, 04 Dec 2022 12:02:48 GMT
+X-Cache-Status: EXPIRED
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=CPLHIBAEMMAGGMNIGKFACEEEFPMCHHGEAAHMIDMLBBBEGABPMMEDDNNEGANMNHJLKCBDAELMNFPFDHCLCJPAEOIJNKEDJJBOBFEJJBEKCFOIFPOLPOMCLKHBKENHLGAD; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS012c48c5=01300dc9969d90d8154907be33abeeda00cdbca49a1a0c0fc5a7ed5a148d98ef0c21f4fc5df97985a34f25f23c08b2c523584484f8; Path=/; Domain=.www.vaeb.uscourts.gov
+
