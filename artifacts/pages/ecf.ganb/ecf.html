@@ -1,0 +1,70 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>Georgia Northern Bankruptcy CM/ECF LIVE</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=F9F9F9 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>Georgia Northern Bankruptcy CM/ECF LIVE</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Northern District of Georgia
+<P>
+<A HREF="/cgi-bin/login.pl"> Live - Document Filing System</A>
+<BR>
+<A HREF="https://ecf-train.ganb.uscourts.gov/cgi-bin/login.pl">Train - Document Filing System</A>
+</CENTER>
+<font size = -2> <CENTER>NextGen CM/ECF Release 1.6 (Revision 1.6.4)</CENTER> </font>
+<!-ShowPage(OperationNotice.htm)-> <!-- $Header: /usr/local/cvsroot/bankruptcy/web/html/OperationNotice.htm,v 5.3 2010/02/24 15:44:47 jpd Exp $ -->
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<BR>
+<B> <FONT color="RED">Notice to Chrome Users:</B></FONT> Filing issues have been identified when using Chrome to access the CM/ECF Document Filing System. Try using another browser if you encounter problems. CM/ECF has been tested using Firefox and Internet Explorer 11.
+<BR>
+
+<HR>
+7August2021
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
