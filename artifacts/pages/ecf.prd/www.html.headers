@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 04 Dec 2022 13:51:35 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.prd.uscourts.gov/
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 04 Dec 2022 13:51:35 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.28
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7
+X-Generator: Drupal 7 (http://drupal.org)
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+
