@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.insd.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:30:04 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670158992-0"
+Last-Modified: Sun, 04 Dec 2022 13:03:12 GMT
+X-Cache-Status: EXPIRED
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FLADFBEDPJNKNBGDJFHANOJJPKHMLAHLNGFHMLJCHGKKFCLJJFILJDEFOKPHHDAOEKGDJAGIBAOFNKFBKABABBPBJKGBHPKHOPJLKCNBJHLOJGLMKKMEOBJNLJECMFON; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS013db999=01300dc9966c312e5c1acb1073010d0dacfacd41f09825184b49229c6173337793d87e6d6ea66ec5251ecf81aaf1f06028c7a772f2; Path=/; Domain=.www.insd.uscourts.gov
+
