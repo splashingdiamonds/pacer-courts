@@ -1,0 +1,2339 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	eFiling
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!--[if IE 9]>
+        <link href="/Sitefinity/WebsiteTemplates/Main/App_Themes/Main/Styles/ie9.css" rel="stylesheet" type="text/css" />
+        <![endif]-->
+<meta name="robots" content="noindex" /><meta name="Generator" content="Sitefinity 13.0.7300.0 SE" /><link href="/Telerik.Web.UI.WebResource.axd?d=PMrIT5dOWaVYIcpFWUE4nBjHDw3iIpMXW1YV1f_L9JEG23udLwwI0a3Zfpfjs3riMrF5Wc8c4TCgdtB4WkscRsMCA6PvYNgq9GZex4Sqc-Y1g4Per6VmTZl9d2oV-SWP0&amp;t=637874059180000000&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d13.0.7300.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3a9c89fe50-1afd-41c0-a3c3-7b16353b6192%3a7a90d6a" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/Main/App_Themes/Main/global/normalize.css?v=635471908180000000" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/Main/App_Themes/Main/global/font-awesome.css?v=635471906640000000" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/Main/App_Themes/Main/global/foundation.min.css?v=635672405460000000" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/Main/App_Themes/Main/global/Main.css?v=637332964121197335" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/Main/App_Themes/Main/global/kendo.common.css?v=635708171843614564" type="text/css" rel="stylesheet" /><link href="/Sitefinity/WebsiteTemplates/Main/App_Themes/Main/global/offcanvas.css?v=635672407120000000" type="text/css" rel="stylesheet" /></head>
+<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body class=""> <!--<![endif]-->
+    <form method="post" action="./efiling_cm-ecf" id="form1" data-abide="">
+<input type="hidden" name="ctl08_TSSM" id="ctl08_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="W930mSlSPxuPdTYOiGxdOxflDy0l3gnFIDDaww6hfjnbU7/pUxPTOgfmUpCHKJO0FFA2s1v0Vl+l3SvW895nbPb3npHxYkEDznEdVCnx1HFFwv9+vjSBCIGdIRIHDMx7wArUAVSCbaFL3xjBjrHBbn8+k29K2EJIOr/Too1jr/96urg+kh+wvPrXcBrhy/p4TxRmYtY3HeZSA7uW+3y4iQ==" />
+
+
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yPSGpxrQYd2-oCxYTF53rTDt6w1yZyjJXIIvP8eGdsSQIKmbAdcFD1vuCNC6YQ6aSi1pvXNyFlAFgmeeOfuqQQVSaexkwI6rKXIeJw2k5jh4EZvK0MwFoKbjeoVM-8ehFHnOYQgv5xes0Zpi-2VpOXI1&amp;t=49337fe8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=wIuRaUoAZ6lXIF1Yn5fO2D9XrSbxjXqXtYoW62TZ-JxaxpvtbHWgDKACHcC8O7hSnF8h_qG04-1WbDlwUBCNbKuQG6anfz7R1JpIPln95KVB1L8juUZ9h5xbXDyMGRd0-GbpbOaKLvueH9sR0BmskB4FDLFa8caKwRFArF3_iTxOqVPZzO8v9NmeY0PgGn-t0&amp;t=6b01d13" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EydukmxBmDstn7gSYzQESEH3idV2tBe0CM-BEfHNCjb_LdXNYbuIvSzGgrpISqllSwloSez-4WaxFw8rSkYWEiMoYS5SlNaLc8KFN6GDUkiPifG0ppOSII_DpahE_sj64joRM8sfxXxH6M4Mz8rOZCHgBGqWiOprb7sJAF5-XClLbTvgbK8WZ5WWpa7U1ush0&amp;t=6b01d13" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=vGVeB8tx0DNaPr491vzEhgNB0DLstqyr2hS6VDuww_N16j8oXWPyoIGaeU8R25u4lz_b5niUv7dNYHmrPtI7GefHC4Zrcx87iELzG0hylGLdcYhTCnRDOfOSU2eY0QWkPK24jw3aFXpuafEsxoJe-A2&amp;t=ffffffffaeae81b4" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=0GkboFisZrfvtJYkOlxjHD0ZPGMnAWEzx_R_exIfwmfDYgPWwNmnrGrTRqFs4TH_MmOcerQaJtXe3lRjRK4qIDqYwXgZXusfeXCtXnnW3bv7pU8AeBzBQBvSviMV8xteZ33okkRPpHz02B77JW4NnBbbgMi4SA53VSM1HYJZGNhZShz3NKtnoXuTUaleFoYi0&amp;t=ffffffff8c5aa6fa" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kaVgf7b3wdzIHBYUdB9fDT_qhqqMVGNi1adQ9YFWT5p0bSlSWbII66mRu1vLmfKZAGnuoSk9ZCxkBSZG3uhGWfA5V9yjU2UX_SJuSgowcX1TBWjwADgvPCY1D9nJw_qUFYp9h6eXNMbpSuKRR-9TvA2&amp;t=ffffffffcaa0e53a" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1DA5583B" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="pKqbH0tFqwaj1gP1ID5a6y5VbqDdiaKyLDXFjQSkGwari9Z2P59GeQVieSXMxzW2OHH/AMfoeQhrCysn1JdE9jj52HWM8HYo6V2k0+1Wx5eAvL+pLy8eeMKipH2yM4pXQNNMOLSmo54R1Xa9AeNHSAbor3ZGqNS9aReBHxEJkT8yz1mt2FNsGSNGuSZPTQZ7" />
+        
+        
+
+        <div class="page-container">
+            <!-- Page wrapper to support off canvas navigation -->
+            <div class="mp-pusher" id="mp-pusher">
+                <!-- Container for off canvas navigation -->
+                <nav id="mp-menu" class="mp-menu active">
+                    <div class="mp-level">
+                        
+<div id="MobileNavigation_T7FA5FF2A017">
+	<fieldset id="MobileNavigation_T7FA5FF2A017_ctl00_ctl00_main" class="sfsearchBox">
+    <input name="ctl00$MobileNavigation$T7FA5FF2A017$ctl00$ctl00$searchTextBox" type="text" id="MobileNavigation_T7FA5FF2A017_ctl00_ctl00_searchTextBox" class="sfsearchTxt" placeholder="Search this site..." />
+    <div class="sfsearchButton"><input type="submit" name="ctl00$MobileNavigation$T7FA5FF2A017$ctl00$ctl00$searchButton" value="" onclick="return false;" id="MobileNavigation_T7FA5FF2A017_ctl00_ctl00_searchButton" class="sfsearchSubmit" /></div>
+</fieldset>
+
+</div>
+<span class="nav-label">Site Navigation</span>
+<ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_navigationUl">
+    
+                    <li class=' '>
+                        <a href="../home">Home</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../caseinformationefiling">Case Information & eFiling</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Case Information & eFiling</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl01_childNodesContainer">
+                            
+                    <li class='has-submenu '>
+                        <a href="caseinformation_pacer">Case Information (PACER)</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Case Information (PACER)</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl01_ctl02_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="caseinformation_pacer/register-for-case-search" target="_blank">Register for Case Search</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="caseinformation_pacer/case-search">Case Search Tips</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="caseinformation_pacer/case-notifications">Case Notifications</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Case Notifications</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="caseinformation_pacer/4thcirpacer">Fourth Circuit PACER Sites</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="caseinformation_pacer/national-case-locator" target="_blank">National Case Locator</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="caseinformation_pacer/pacer-faqs" target="_blank">PACER FAQs</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="caseinformation_pacer/pacer-user-manual" target="_blank">PACER User Manual</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="efiling_cm-ecf">eFiling (CM/ECF)</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">eFiling (CM/ECF)</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl01_ctl03_childNodesContainer">
+                            
+                    <li class='has-submenu '>
+                        <a href="efiling_cm-ecf/reqsteps_ecffiler">Register for eFiling</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Register for eFiling</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="efiling_cm-ecf/submit-new-case">Submit New Case</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="efiling_cm-ecf/payfees">Pay Fees By Credit Card</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="efiling_cm-ecf/cm-ecf-attorney-manual" target="_blank">CM/ECF Attorney Manual</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="efiling_cm-ecf/filingevents">Filing Events & Reliefs</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Filing Events & Reliefs</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="efiling_cm-ecf/ecfrules">Local Rules</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="efiling_cm-ecf/training">Training</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Training</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="efiling_cm-ecf/technical-information">Technical Information</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Technical Information</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="efiling_cm-ecf/cm-ecf-faqs">CM/ECF FAQs</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">CM/ECF FAQs</span>
+                            
+                        </div>
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="efiling-contacts">eFiling Contacts</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="cases-of-interest">Cases of Interest</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Cases of Interest</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="copies-of-documents">Copies of Documents</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="privacy-policies">Privacy Policies</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../oral-argument">Oral Argument</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Oral Argument</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl02_childNodesContainer">
+                            
+                    <li class='has-submenu '>
+                        <a href="../oral-argument/oral-argument-calendar">Oral Argument Calendar</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Oral Argument Calendar</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../oral-argument/listen-to-oral-arguments">Listen to Oral Arguments</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Listen to Oral Arguments</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/law-school-sessions">Law School & Special Sessions</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/en-banc-cases">En Banc Cases</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/attending-oral-argument">Attending Oral Argument</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../oral-argument/visiting-the-court">Visiting the Court</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Visiting the Court</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl02_ctl07_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../oral-argument/visiting-the-court/electronic-device-policy">Electronic Device Policy</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/visiting-the-court/entrances-hours-screening">Entrances, Hours & Screening</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/visiting-the-court/access-coordinator">Access Coordinator</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/visiting-the-court/directions">Directions</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/visiting-the-court/parking">Parking</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/visiting-the-court/plane-train-travel">Plane & Train Travel</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/visiting-the-court/hotels-restaurants">Hotels & Restaurants</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../oral-argument/visiting-the-court/government-cja-rates">Government & CJA Rates</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../opinions">Opinions</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Opinions</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl03_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../opinions/search-opinions">Search Opinions</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../opinions/daily-opinions">Daily Opinions</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Daily Opinions</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl03_ctl03_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../opinions/daily-opinions/published-only">Published Only</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../opinions/recent-opinions">Recent Opinions</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Recent Opinions</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl03_ctl04_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../opinions/recent-opinions/published-only">Published Only</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../opinions/en-banc-cases">En Banc Cases</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../opinions/pacer-orders-judgments-opinions-search">PACER Orders/Judgments & Opinions Search</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../opinions/u-s-courts-opinions-gpo-govinfo">U.S. Courts Opinions (govinfo)</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../rules-and-procedures">Rules & Procedures</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Rules & Procedures</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl04_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../rules-and-procedures/federal-local-rules-of-appellate-procedure">Federal & Local Rules of Appellate Procedure</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../rules-and-procedures/rule-amendments">Rule Amendments</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Rule Amendments</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../rules-and-procedures/more-federal-rules" target="_blank">More Federal Rules</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../rules-and-procedures/general-orders">General Orders</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../rules-and-procedures/appointed-counsel">CJA & Assigned Counsel</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../rules-and-procedures/judicial-conduct-disability">Judicial Conduct & Disability</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Judicial Conduct & Disability</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../rules-and-procedures/privacy-policies">Privacy Policies</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../rules-and-procedures/transcript-procedures">Transcript Procedures</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../rules-and-procedures/resources">Resources</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Resources</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl04_ctl10_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../rules-and-procedures/resources/appellate-procedure-guide">Appellate Procedure Guide</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../rules-and-procedures/resources/appellate-deadlines" target="_blank">Appellate Deadlines</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../rules-and-procedures/resources/appeal-process-flowchart" target="_blank">Appeal Process Flowchart</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../rules-and-procedures/resources/pro-se-procedures">Pro Se Procedures</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../court-forms-fees">Forms & Fees</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Forms & Fees</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl05_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../court-forms-fees/forms-by-category">Forms by Category</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../court-forms-fees/forms-listed-alphabetically">Forms Listed Alphabetically</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../court-forms-fees/fee-schedule">Fee Schedule</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../court-forms-fees/pro-se-forms">Pro Se Forms</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../information-for">Information For...</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Information For...</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl06_childNodesContainer">
+                            
+                    <li class='has-submenu '>
+                        <a href="../information-for/attorneys">Attorneys</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Attorneys</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../information-for/appointed-counsel">CJA & Assigned Counsel</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">CJA & Assigned Counsel</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl06_ctl03_childNodesContainer">
+                            
+                    <li class='has-submenu '>
+                        <a href="../information-for/appointed-counsel/cja-evoucher">CJA eVoucher</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">CJA eVoucher</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../information-for/appointed-counsel/cja-cases">CJA Cases</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">CJA Cases</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl06_ctl03_ctl03_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/cja-cases/cja-appointments">CJA Appointments</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/cja-cases/cja-payment" target="_blank">CJA Payment</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/cja-cases/cja-representation">CJA Representation</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../information-for/appointed-counsel/capital-cases">Capital Cases</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Capital Cases</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl06_ctl03_ctl04_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/capital-cases/capital-appointments">Capital Appointments</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/capital-cases/capital-budgeting-payment" target="_blank">Capital Budgeting & Payment</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/capital-cases/capital-representation">Capital Representation</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../information-for/appointed-counsel/non-cja-cases">Non-CJA Cases</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Non-CJA Cases</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl06_ctl03_ctl05_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/non-cja-cases/non-cja-assignments">Non-CJA Assignments</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/non-cja-cases/non-cja-payment" target="_blank">Non-CJA Payment</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../information-for/appointed-counsel/appointment-panels">Appointment Panels</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Appointment Panels</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl06_ctl03_ctl06_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/appointment-panels/cja-panel">CJA Panel</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/appointment-panels/discretionary-panel">Discretionary Panel</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/appointed-counsel-forms">CJA & Assigned Counsel Forms</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../information-for/appointed-counsel/resources-for-appointed-counsel">CJA Policies & Resources</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">CJA Policies & Resources</span>
+                            
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/faqs-for-appointed-counsel">FAQs for CJA & Assigned Counsel</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/appellate-practice-webinar-2021">2021 Appellate Practice Webinar</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/appointed-counsel/fourth-circuit-criminal-appellate-practice-seminar-materials">2019 Criminal Appellate Practice Seminar</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/pro-se-parties">Pro Se Parties</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../information-for/media">Media</a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../information-for/educational-outreach">Educational Outreach</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Educational Outreach</span>
+                            
+                        </div>
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../federal-court-links">Court Links</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Court Links</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl07_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../federal-court-links/fourth-circuit-internet-sites">Fourth Circuit Internet Sites</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../federal-court-links/fourth-circuit-pacer-sites">Fourth Circuit PACER Sites</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../federal-court-links/federal-court-internet-sites" target="_blank">Federal Court Internet Sites</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../federal-court-links/federal-court-pacer-sites" target="_blank">Federal Court PACER Sites</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../federal-court-links/federal-judicial-center" target="_blank">Federal Judicial Center</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../federal-court-links/us-courts" target="_blank">U.S. Courts </a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../federal-court-links/us-supreme-court" target="_blank">U.S. Supreme Court</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class='has-submenu is-grouped'>
+                        <a href="../judges">Judges</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Judges</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl08_childNodesContainer">
+                            
+                    <li class='has-submenu '>
+                        <a href="../judges/judges-of-the-court">Judges of the Court</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Judges of the Court</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl08_ctl02_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/chief-judge-roger-l-gregory">Chief Judge Roger L. Gregory</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-j-harvie-wilkinson-iii">Judge J. Harvie Wilkinson III  </a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-paul-v-niemeyer">Judge Paul V. Niemeyer</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-robert-b-king">Judge Robert B. King</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-g-steven-agee">Judge G. Steven Agee</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-james-andrew-wynn">Judge James Andrew Wynn</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-albert-diaz">Judge Albert Diaz</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-stephanie-d-thacker">Judge Stephanie D. Thacker</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-pamela-a-harris">Judge Pamela A. Harris</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-julius-n-richardson">Judge Julius N. Richardson</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-a-marvin-quattlebaum-jr">Judge A. Marvin Quattlebaum, Jr.</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-allison-jones-rushing">Judge Allison Jones Rushing</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-toby-j-heytens">Judge Toby J. Heytens</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/judge-diana-gribbon-motz">Senior Judge Diana Gribbon Motz</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/senior-judge-william-b-traxler-jr-">Senior Judge William B. Traxler, Jr.</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/senior-judge-barbara-milano-keenan">Senior Judge Barbara Milano Keenan</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/judges-of-the-court/senior-judge-henry-f-floyd">Senior Judge Henry F. Floyd</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../judges/historical-listing-of-judges-by-commission-date-(pdf)">Historical Listing of Judges by Commission Date (PDF)</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../offices">Offices </a>
+                        
+                    </li>
+                
+                    <li class='has-submenu '>
+                        <a href="../mediation">Mediation</a>
+                        <div class="mp-level">
+                            <a class="nav-back" href="#">back</a>
+                            <span class="nav-label">Mediation</span>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl00_ctl10_childNodesContainer">
+                            
+                    <li class=' '>
+                        <a href="../mediation/federal-rule-33-and-local-rule-33-establishing-the-mediation-program">Federal Rule 33 and Local Rule 33 establishing the Mediation Program</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../mediation/circuit-mediation-staff">Circuit Mediation Staff</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../mediation/about-mediations">About Mediations</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../mediation/preparing-for-a-mediation">Preparing for a Mediation</a>
+                        
+                    </li>
+                
+                    <li class=' '>
+                        <a href="../mediation/faqs-mediation">FAQs - Mediation</a>
+                        
+                    </li>
+                </ul>
+                        </div>
+                    </li>
+                
+</ul>
+
+<ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_navigationUl2" class="ie9-only">
+        
+                        <li>
+                          <a href="/"><span>Home</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling" class="sfSel"><span>Case Information & eFiling</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl01_childNodesContainer">
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer"><span>Case Information (PACER)</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl01_ctl01_childNodesContainer">
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/register-for-case-search" target="_blank"><span>Register for Case Search</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/case-search"><span>Case Search Tips</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/case-notifications"><span>Case Notifications</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/4thcirpacer"><span>Fourth Circuit PACER Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/national-case-locator" target="_blank"><span>National Case Locator</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/pacer-faqs" target="_blank"><span>PACER FAQs</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/pacer-user-manual" target="_blank"><span>PACER User Manual</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf" class="sfSel"><span>eFiling (CM/ECF)</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl01_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/reqsteps_ecffiler"><span>Register for eFiling</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/submit-new-case"><span>Submit New Case</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/payfees"><span>Pay Fees By Credit Card</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/cm-ecf-attorney-manual" target="_blank"><span>CM/ECF Attorney Manual</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/filingevents"><span>Filing Events & Reliefs</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/ecfrules"><span>Local Rules</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/training"><span>Training</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/technical-information"><span>Technical Information</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/cm-ecf-faqs"><span>CM/ECF FAQs</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling-contacts"><span>eFiling Contacts</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/cases-of-interest"><span>Cases of Interest</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/copies-of-documents"><span>Copies of Documents</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/privacy-policies"><span>Privacy Policies</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument"><span>Oral Argument</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/oral-argument/oral-argument-calendar"><span>Oral Argument Calendar</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/listen-to-oral-arguments"><span>Listen to Oral Arguments</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/law-school-sessions"><span>Law School & Special Sessions</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/en-banc-cases"><span>En Banc Cases</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/attending-oral-argument"><span>Attending Oral Argument</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court"><span>Visiting the Court</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl02_ctl06_childNodesContainer">
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/electronic-device-policy"><span>Electronic Device Policy</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/entrances-hours-screening"><span>Entrances, Hours & Screening</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/access-coordinator"><span>Access Coordinator</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/directions"><span>Directions</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/parking"><span>Parking</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/plane-train-travel"><span>Plane & Train Travel</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/hotels-restaurants"><span>Hotels & Restaurants</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/government-cja-rates"><span>Government & CJA Rates</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions"><span>Opinions</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl03_childNodesContainer">
+                        <li>
+                          <a href="/opinions/search-opinions"><span>Search Opinions</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/daily-opinions"><span>Daily Opinions</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl03_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/opinions/daily-opinions/published-only"><span>Published Only</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/recent-opinions"><span>Recent Opinions</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl03_ctl03_childNodesContainer">
+                        <li>
+                          <a href="/opinions/recent-opinions/published-only"><span>Published Only</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/en-banc-cases"><span>En Banc Cases</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/pacer-orders-judgments-opinions-search"><span>PACER Orders/Judgments & Opinions Search</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/u-s-courts-opinions-gpo-govinfo"><span>U.S. Courts Opinions (govinfo)</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures"><span>Rules & Procedures</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl04_childNodesContainer">
+                        <li>
+                          <a href="/rules-and-procedures/federal-local-rules-of-appellate-procedure"><span>Federal & Local Rules of Appellate Procedure</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/rule-amendments"><span>Rule Amendments</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/more-federal-rules" target="_blank"><span>More Federal Rules</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/general-orders"><span>General Orders</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/appointed-counsel"><span>CJA & Assigned Counsel</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/judicial-conduct-disability"><span>Judicial Conduct & Disability</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/privacy-policies"><span>Privacy Policies</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/transcript-procedures"><span>Transcript Procedures</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/resources"><span>Resources</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl04_ctl09_childNodesContainer">
+                        <li>
+                          <a href="/rules-and-procedures/resources/appellate-procedure-guide"><span>Appellate Procedure Guide</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/resources/appellate-deadlines" target="_blank"><span>Appellate Deadlines</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/resources/appeal-process-flowchart" target="_blank"><span>Appeal Process Flowchart</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/resources/pro-se-procedures"><span>Pro Se Procedures</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/court-forms-fees"><span>Forms & Fees</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl05_childNodesContainer">
+                        <li>
+                          <a href="/court-forms-fees/forms-by-category"><span>Forms by Category</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/court-forms-fees/forms-listed-alphabetically"><span>Forms Listed Alphabetically</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/court-forms-fees/fee-schedule"><span>Fee Schedule</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/court-forms-fees/pro-se-forms"><span>Pro Se Forms</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for"><span>Information For...</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl06_childNodesContainer">
+                        <li>
+                          <a href="/information-for/attorneys"><span>Attorneys</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel"><span>CJA & Assigned Counsel</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl06_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/information-for/appointed-counsel/cja-evoucher"><span>CJA eVoucher</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/cja-cases"><span>CJA Cases</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl06_ctl02_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/information-for/appointed-counsel/cja-cases/cja-appointments"><span>CJA Appointments</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/cja-cases/cja-payment" target="_blank"><span>CJA Payment</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/cja-cases/cja-representation"><span>CJA Representation</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/capital-cases"><span>Capital Cases</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl06_ctl02_ctl03_childNodesContainer">
+                        <li>
+                          <a href="/information-for/appointed-counsel/capital-cases/capital-appointments"><span>Capital Appointments</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/capital-cases/capital-budgeting-payment" target="_blank"><span>Capital Budgeting & Payment</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/capital-cases/capital-representation"><span>Capital Representation</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/non-cja-cases"><span>Non-CJA Cases</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl06_ctl02_ctl04_childNodesContainer">
+                        <li>
+                          <a href="/information-for/appointed-counsel/non-cja-cases/non-cja-assignments"><span>Non-CJA Assignments</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/non-cja-cases/non-cja-payment" target="_blank"><span>Non-CJA Payment</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/appointment-panels"><span>Appointment Panels</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl06_ctl02_ctl05_childNodesContainer">
+                        <li>
+                          <a href="/information-for/appointed-counsel/appointment-panels/cja-panel"><span>CJA Panel</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/appointment-panels/discretionary-panel"><span>Discretionary Panel</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/appointed-counsel-forms"><span>CJA & Assigned Counsel Forms</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/resources-for-appointed-counsel"><span>CJA Policies & Resources</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/faqs-for-appointed-counsel"><span>FAQs for CJA & Assigned Counsel</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/appellate-practice-webinar-2021"><span>2021 Appellate Practice Webinar</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/fourth-circuit-criminal-appellate-practice-seminar-materials"><span>2019 Criminal Appellate Practice Seminar</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/pro-se-parties"><span>Pro Se Parties</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/media"><span>Media</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/educational-outreach"><span>Educational Outreach</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links"><span>Court Links</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl07_childNodesContainer">
+                        <li>
+                          <a href="/federal-court-links/fourth-circuit-internet-sites"><span>Fourth Circuit Internet Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/fourth-circuit-pacer-sites"><span>Fourth Circuit PACER Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/federal-court-internet-sites" target="_blank"><span>Federal Court Internet Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/federal-court-pacer-sites" target="_blank"><span>Federal Court PACER Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/federal-judicial-center" target="_blank"><span>Federal Judicial Center</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/us-courts" target="_blank"><span>U.S. Courts </span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/us-supreme-court" target="_blank"><span>U.S. Supreme Court</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/judges"><span>Judges</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl08_childNodesContainer">
+                        <li>
+                          <a href="/judges/judges-of-the-court"><span>Judges of the Court</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl08_ctl01_childNodesContainer">
+                        <li>
+                          <a href="/judges/judges-of-the-court/chief-judge-roger-l-gregory"><span>Chief Judge Roger L. Gregory</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-j-harvie-wilkinson-iii"><span>Judge J. Harvie Wilkinson III  </span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-paul-v-niemeyer"><span>Judge Paul V. Niemeyer</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-robert-b-king"><span>Judge Robert B. King</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-g-steven-agee"><span>Judge G. Steven Agee</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-james-andrew-wynn"><span>Judge James Andrew Wynn</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-albert-diaz"><span>Judge Albert Diaz</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-stephanie-d-thacker"><span>Judge Stephanie D. Thacker</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-pamela-a-harris"><span>Judge Pamela A. Harris</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-julius-n-richardson"><span>Judge Julius N. Richardson</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-a-marvin-quattlebaum-jr"><span>Judge A. Marvin Quattlebaum, Jr.</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-allison-jones-rushing"><span>Judge Allison Jones Rushing</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-toby-j-heytens"><span>Judge Toby J. Heytens</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/judge-diana-gribbon-motz"><span>Senior Judge Diana Gribbon Motz</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/senior-judge-william-b-traxler-jr-"><span>Senior Judge William B. Traxler, Jr.</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/senior-judge-barbara-milano-keenan"><span>Senior Judge Barbara Milano Keenan</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/judges-of-the-court/senior-judge-henry-f-floyd"><span>Senior Judge Henry F. Floyd</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/judges/historical-listing-of-judges-by-commission-date-(pdf)"><span>Historical Listing of Judges by Commission Date (PDF)</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/offices"><span>Offices </span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/mediation"><span>Mediation</span></a>
+                            <ul id="MobileNavigation_T7FA5FF2A011_ctl00_ctl00_ctl01_ctl10_childNodesContainer">
+                        <li>
+                          <a href="/mediation/federal-rule-33-and-local-rule-33-establishing-the-mediation-program"><span>Federal Rule 33 and Local Rule 33 establishing the Mediation Program</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/mediation/circuit-mediation-staff"><span>Circuit Mediation Staff</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/mediation/about-mediations"><span>About Mediations</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/mediation/preparing-for-a-mediation"><span>Preparing for a Mediation</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/mediation/faqs-mediation"><span>FAQs - Mediation</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+</ul> <div class='sfContentBlock'><p><a href="https://ecf.ca4.uscourts.gov/" class="button btn-red" target="_blank" title="CM/ECF Login">CM/ECF Login</a></p> <p><a href="https://pacer.login.uscourts.gov/csologin/login.jsf?pscCourtId=04CA&amp;appurl=https%3A%2F%2Fecf.ca4.uscourts.gov%2Fn%2Fbeam%2Fservlet%2FTransportRoom%3Fservlet%3DCaseSearch.jsp" class="button btn-red" target="_blank" title="PACER Login">PACER Login</a></p>
+
+</div>
+
+
+                    </div>
+                </nav>
+
+                <!-- Container for page -->
+                <div class="scroller" id="scroller">
+                    <div class="scroller-inner" id="scroller-inner">
+
+                        <header id="header">
+                            <div class="row">
+                                <!-- Logo / seal -->
+                                <div id="logo" class="columns large-3 medium-only-text-center hide-for-small">
+                                    
+<div class='sfContentBlock'><a href="/home"><img src="/images/theme/logo.png?sfvrsn=ba6ad309_4" displaymode="Original" alt="United States Court of Appeals for the Fourth Circuit" title="Logo" /></a>
+
+</div>
+                                </div>
+                                <div class="columns large-13">
+                                    <div class="row">
+                                        <!-- Top links -->
+                                        <div id="top-links" class="columns large-10">
+                                            
+
+                                        </div>
+                                        <!-- Search box -->
+                                        <div id="search" class="columns large-6 hide-for-medium-down">
+                                            
+<div id="SearchBox_T7FA5FF2A004">
+	<fieldset id="SearchBox_T7FA5FF2A004_ctl00_ctl00_main" class="sfsearchBox">
+    <input name="ctl00$SearchBox$T7FA5FF2A004$ctl00$ctl00$searchTextBox" type="text" id="SearchBox_T7FA5FF2A004_ctl00_ctl00_searchTextBox" class="sfsearchTxt" placeholder="Search this site..." />
+    <div class="sfsearchButton"><input type="submit" name="ctl00$SearchBox$T7FA5FF2A004$ctl00$ctl00$searchButton" value="" onclick="return false;" id="SearchBox_T7FA5FF2A004_ctl00_ctl00_searchButton" class="sfsearchSubmit" /></div>
+</fieldset>
+
+</div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <!-- Tagline -->
+                                        <div id="tagline" class="columns">
+                                            
+<div class='sfContentBlock'><a href="/home">United States Court <em>of</em> Appeals <em>for the</em> Fourth Circuit</a>
+
+</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Rss, subscribe, print, etc -->
+                            <div id="page-controls" class="hide-for-medium-down">
+                                
+<div class='sfContentBlock'><ul> <li><a href="/rss-feeds" title="RSS Feeds">RSS</a> </li> <li><a href="/email-subscription" title="Email Subscription">Subscribe</a> </li> <li><a href="javascript:window.print()">Print</a> </li> <!--<li> <a href="javascript:increaseFontSize();">A+</a> <a href="javascript:decreaseFontSize();">A-</a> Text Size</li> --> </ul>
+
+</div>
+                            </div>
+                            <!-- Quick links -->
+                            <div id="quick-links" class="hide-for-medium-down">
+                                
+<div class='sfContentBlock'><ul>
+    <li><a href="/about-the-court">About the Court</a></li>
+    <li><a title="Judges" href="/judges">Judges</a></li>
+    <li><a href="/offices">Offices</a></li>
+    <li><a href="/mediation">Mediation</a></li>
+    <li><a href="/jobs">Jobs</a></li>
+    <li><a title="Judicial Conference" href="/judicial-conference">Judicial Conference</a></li>
+</ul>
+
+</div>
+                            </div>
+                            <!-- Main navigation -->
+                            <div id="navigation">
+                                <a id="menu-trigger" class="menu-toggle show-for-medium-down"><span>Site Navigation Menu</span></a>
+                                
+
+
+<nav class="hide-for-medium-down ">
+    <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_navigationUl">
+        
+                        <li>
+                          <a href="/"><span>Home</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling" class="sfSel"><span>Case Information & eFiling</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl01_childNodesContainer">
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer"><span>Case Information (PACER)</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl01_ctl01_childNodesContainer">
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/register-for-case-search" target="_blank"><span>Register for Case Search</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/case-search"><span>Case Search Tips</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/case-notifications"><span>Case Notifications</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/4thcirpacer"><span>Fourth Circuit PACER Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/national-case-locator" target="_blank"><span>National Case Locator</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/pacer-faqs" target="_blank"><span>PACER FAQs</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/caseinformation_pacer/pacer-user-manual" target="_blank"><span>PACER User Manual</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf" class="sfSel"><span>eFiling (CM/ECF)</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl01_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/reqsteps_ecffiler"><span>Register for eFiling</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/submit-new-case"><span>Submit New Case</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/payfees"><span>Pay Fees By Credit Card</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/cm-ecf-attorney-manual" target="_blank"><span>CM/ECF Attorney Manual</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/filingevents"><span>Filing Events & Reliefs</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/ecfrules"><span>Local Rules</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/training"><span>Training</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/technical-information"><span>Technical Information</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling_cm-ecf/cm-ecf-faqs"><span>CM/ECF FAQs</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/efiling-contacts"><span>eFiling Contacts</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/cases-of-interest"><span>Cases of Interest</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/copies-of-documents"><span>Copies of Documents</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/caseinformationefiling/privacy-policies"><span>Privacy Policies</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument"><span>Oral Argument</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/oral-argument/oral-argument-calendar"><span>Oral Argument Calendar</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/listen-to-oral-arguments"><span>Listen to Oral Arguments</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/law-school-sessions"><span>Law School & Special Sessions</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/en-banc-cases"><span>En Banc Cases</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/attending-oral-argument"><span>Attending Oral Argument</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court"><span>Visiting the Court</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl02_ctl06_childNodesContainer">
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/electronic-device-policy"><span>Electronic Device Policy</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/entrances-hours-screening"><span>Entrances, Hours & Screening</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/access-coordinator"><span>Access Coordinator</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/directions"><span>Directions</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/parking"><span>Parking</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/plane-train-travel"><span>Plane & Train Travel</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/hotels-restaurants"><span>Hotels & Restaurants</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/oral-argument/visiting-the-court/government-cja-rates"><span>Government & CJA Rates</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions"><span>Opinions</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl03_childNodesContainer">
+                        <li>
+                          <a href="/opinions/search-opinions"><span>Search Opinions</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/daily-opinions"><span>Daily Opinions</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl03_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/opinions/daily-opinions/published-only"><span>Published Only</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/recent-opinions"><span>Recent Opinions</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl03_ctl03_childNodesContainer">
+                        <li>
+                          <a href="/opinions/recent-opinions/published-only"><span>Published Only</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/en-banc-cases"><span>En Banc Cases</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/pacer-orders-judgments-opinions-search"><span>PACER Orders/Judgments & Opinions Search</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/opinions/u-s-courts-opinions-gpo-govinfo"><span>U.S. Courts Opinions (govinfo)</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures"><span>Rules & Procedures</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl04_childNodesContainer">
+                        <li>
+                          <a href="/rules-and-procedures/federal-local-rules-of-appellate-procedure"><span>Federal & Local Rules of Appellate Procedure</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/rule-amendments"><span>Rule Amendments</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/more-federal-rules" target="_blank"><span>More Federal Rules</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/general-orders"><span>General Orders</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/appointed-counsel"><span>CJA & Assigned Counsel</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/judicial-conduct-disability"><span>Judicial Conduct & Disability</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/privacy-policies"><span>Privacy Policies</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/transcript-procedures"><span>Transcript Procedures</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/resources"><span>Resources</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl04_ctl09_childNodesContainer">
+                        <li>
+                          <a href="/rules-and-procedures/resources/appellate-procedure-guide"><span>Appellate Procedure Guide</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/resources/appellate-deadlines" target="_blank"><span>Appellate Deadlines</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/resources/appeal-process-flowchart" target="_blank"><span>Appeal Process Flowchart</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/rules-and-procedures/resources/pro-se-procedures"><span>Pro Se Procedures</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/court-forms-fees"><span>Forms & Fees</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl05_childNodesContainer">
+                        <li>
+                          <a href="/court-forms-fees/forms-by-category"><span>Forms by Category</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/court-forms-fees/forms-listed-alphabetically"><span>Forms Listed Alphabetically</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/court-forms-fees/fee-schedule"><span>Fee Schedule</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/court-forms-fees/pro-se-forms"><span>Pro Se Forms</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for"><span>Information For...</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl06_childNodesContainer">
+                        <li>
+                          <a href="/information-for/attorneys"><span>Attorneys</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel"><span>CJA & Assigned Counsel</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl06_ctl02_childNodesContainer">
+                        <li>
+                          <a href="/information-for/appointed-counsel/cja-evoucher"><span>CJA eVoucher</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/cja-cases"><span>CJA Cases</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/capital-cases"><span>Capital Cases</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/non-cja-cases"><span>Non-CJA Cases</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/appointment-panels"><span>Appointment Panels</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/appointed-counsel-forms"><span>CJA & Assigned Counsel Forms</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/resources-for-appointed-counsel"><span>CJA Policies & Resources</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/faqs-for-appointed-counsel"><span>FAQs for CJA & Assigned Counsel</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/appellate-practice-webinar-2021"><span>2021 Appellate Practice Webinar</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/appointed-counsel/fourth-circuit-criminal-appellate-practice-seminar-materials"><span>2019 Criminal Appellate Practice Seminar</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/pro-se-parties"><span>Pro Se Parties</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/media"><span>Media</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/information-for/educational-outreach"><span>Educational Outreach</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links"><span>Court Links</span></a>
+                            <ul id="Navigation_T7FA5FF2A007_ctl00_ctl00_ctl00_ctl07_childNodesContainer">
+                        <li>
+                          <a href="/federal-court-links/fourth-circuit-internet-sites"><span>Fourth Circuit Internet Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/fourth-circuit-pacer-sites"><span>Fourth Circuit PACER Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/federal-court-internet-sites" target="_blank"><span>Federal Court Internet Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/federal-court-pacer-sites" target="_blank"><span>Federal Court PACER Sites</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/federal-judicial-center" target="_blank"><span>Federal Judicial Center</span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/us-courts" target="_blank"><span>U.S. Courts </span></a>
+                            
+                        </li>
+                    
+                        <li>
+                          <a href="/federal-court-links/us-supreme-court" target="_blank"><span>U.S. Supreme Court</span></a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+    </ul>
+</nav>
+
+                            </div>
+                        </header>
+
+                        <!-- Main page content container -->
+                        <section id="main" role="main">
+                            
+<div class="sf_cols row page-layout">
+    <div class="sf_colsOut columns large-4 hide-for-medium-down" data-placeholder-label="Left Sidebar">
+        <div id="MainContent_TD709DDDA001_Col00" class="sf_colsIn sf_3cols_1in_33">
+
+<aside class="widget sidenav">
+<header class="widget-header">
+  <a href="/caseinformationefiling">Case Information & eFiling</a>
+</header>
+<div class="widget-content-container">
+<nav class="widget-content ">
+    <ul id="MainContent_C022_ctl00_ctl00_navigationUl">
+        
+                        <li>
+                            <a href="/caseinformationefiling/caseinformation_pacer">Case Information (PACER)</a>
+                            <ul id="MainContent_C022_ctl00_ctl00_ctl00_ctl00_childNodesContainer">
+                        <li>
+                            <a href="/caseinformationefiling/caseinformation_pacer/register-for-case-search" target="_blank">Register for Case Search</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/caseinformation_pacer/case-search">Case Search Tips</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/caseinformation_pacer/case-notifications">Case Notifications</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/caseinformation_pacer/4thcirpacer">Fourth Circuit PACER Sites</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/caseinformation_pacer/national-case-locator" target="_blank">National Case Locator</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/caseinformation_pacer/pacer-faqs" target="_blank">PACER FAQs</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/caseinformation_pacer/pacer-user-manual" target="_blank">PACER User Manual</a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf" class="sfSel">eFiling (CM/ECF)</a>
+                            <ul id="MainContent_C022_ctl00_ctl00_ctl00_ctl01_childNodesContainer">
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/reqsteps_ecffiler">Register for eFiling</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/submit-new-case">Submit New Case</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/payfees">Pay Fees By Credit Card</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/cm-ecf-attorney-manual" target="_blank">CM/ECF Attorney Manual</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/filingevents">Filing Events & Reliefs</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/ecfrules">Local Rules</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/training">Training</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/technical-information">Technical Information</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling_cm-ecf/cm-ecf-faqs">CM/ECF FAQs</a>
+                            
+                        </li>
+                    </ul>
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/efiling-contacts">eFiling Contacts</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/cases-of-interest">Cases of Interest</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/copies-of-documents">Copies of Documents</a>
+                            
+                        </li>
+                    
+                        <li>
+                            <a href="/caseinformationefiling/privacy-policies">Privacy Policies</a>
+                            
+                        </li>
+                    
+    </ul>
+</nav>
+</div>
+</aside>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut columns large-8 main" data-placeholder-label="Page Content">
+        <div id="MainContent_TD709DDDA001_Col01" class="sf_colsIn sf_3cols_2in_34"><div id="MainContent_TD709DDDA002">
+	
+
+<div class="sfBreadcrumbWrp">
+    <span id="MainContent_TD709DDDA002_ctl00_ctl00_BreadcrumbLabel" class="sfBreadcrumbLabel" style="display:none;"></span>
+    <div id="ctl00_MainContent_TD709DDDA002_ctl00_ctl00_Breadcrumb" class="RadSiteMap RadSiteMap_Default">
+		<!-- 2020.1.114.45 --><ul class="rsmFlow rsmLevel rsmOneLevel">
+			<li class="rsmItem sfBreadcrumbNavigation"><a class="rsmLink" href="../home" title="United States Court of Appeals for the Fourth Circuit">Home</a><span class='sfBreadcrumbNodeSeparator'>/</span></li> <li class="rsmItem sfBreadcrumbNavigation"><a class="rsmLink" href="../caseinformationefiling">Case Information &amp; eFiling</a><span class='sfBreadcrumbNodeSeparator'>/</span></li> <li class="rsmItem sfNoBreadcrumbNavigation"><a class="rsmLink" href="javascript: void(0)">eFiling (CM/ECF)</a></li>
+		</ul><input id="ctl00_MainContent_TD709DDDA002_ctl00_ctl00_Breadcrumb_ClientState" name="ctl00_MainContent_TD709DDDA002_ctl00_ctl00_Breadcrumb_ClientState" type="hidden" />
+	</div>
+</div>
+<a name="top"></a>
+</div><div class="sf_cols">
+    <div class="sf_colsOut sf_1col_1_100" data-placeholder-label="Page Content">
+        <div id="MainContent_TD709DDDA003_Col00" class="sf_colsIn sf_1col_1in_100"><div class='sfContentBlock'><h1>eFiling (CM/ECF)</h1>
+
+</div><div class="sf_cols row">
+    <div class="sf_colsOut columns medium-4 hide-for-small">
+        <div id="MainContent_C025_Col00" class="sf_colsIn sf_2cols_1in_25"><div class="sfimageWrp">
+	        
+<img id="MainContent_C032_ctl00_ctl00_imageItem" title="cmecf_square_150" src="/images/website-graphics-images/cmecf_square_150.png?sfvrsn=7404ae09_0&amp;MaxWidth=150&amp;MaxHeight=110&amp;ScaleUp=false&amp;Quality=High&amp;Method=ResizeFitToAreaArguments&amp;Signature=4267C88656D5EB41E63DA72982A23CDB" alt="CM/ECF" />
+
+
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut columns medium-12">
+        <div id="MainContent_C025_Col01" class="sf_colsIn sf_2cols_2in_75"><div class='sfContentBlock'><p>The judiciary's Case Management/Electronic Case Files system (CM/ECF) enables counsel to file documents electronically over the Internet 24 hours a day. &nbsp;Use of CM/ECF in the Fourth Circuit is governed by <a href="https://www.ca4.uscourts.gov/Rules/Rule25.html#pID0E01E0HA" title="Local Rule 25(a)">Local Rule 25(a).</a></p>
+
+</div>
+        
+        </div>
+    </div>
+</div><div class='sfContentBlock'><hr class="gold" />
+
+</div><div class='sfContentBlock'><h4>Attorneys</h4> <p>File all documents in electronic form only with the following exceptions:</p> <ul> <li>
+    Briefs and appendices must be filed in both electronic <strong>and</strong> paper form.    </li> <li>
+    New cases (petitions for review, mandamus, or permission to appeal) may be uploaded through the <a href="/caseinformationefiling/efiling_cm-ecf/submit-new-case" title="'Submit New Case' ">"Submit New Case"</a> utility in CM/ECF <strong>or</strong> filed in paper form.
+    </li> <li>
+    CJA and other financial vouchers are <strong>not</strong> filed through CM/ECF. See <a href="/information-for/appointed-counsel/cja-evoucher" title="CJA eVoucher">CJA eVoucher</a>.</li> </ul> <h4><strong>Pro Se Litigants</strong></h4> <p>All documents are filed in paper form unless the pro se litigant obtains a PACER account and requests filing privileges with the Fourth Circuit. Instructions for Pro Se Filers can be found in <a title="Court Approval Process &amp; Required Steps" href="/caseinformationefiling/efiling_cm-ecf/reqsteps_ecffiler">Register for eFiling</a>.</p>
+
+</div><div class="sf_cols">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="MainContent_C036_Col00" class="sf_colsIn sf_1col_1in_100"><div class='sfContentBlock'><hr class="gold" />
+
+</div><div class="sf_cols row">
+    <div class="sf_colsOut columns medium-8" style="">
+        <div id="MainContent_C050_Col00" class="sf_colsIn sf_2cols_1in_50"><div class='sfContentBlock'><p><a href="/caseinformationefiling/efiling_cm-ecf/reqsteps_ecffiler" class="button full-width btn-grey">Register for eFiling</a></p> <p><a href="/caseinformationefiling/efiling_cm-ecf/submit-new-case" class="button full-width btn-grey">Submit New Case</a> </p> <p><a href="/caseinformationefiling/efiling_cm-ecf/payfees" class="button full-width btn-grey">Pay Fees by Credit Card</a> </p> <p><a target="_blank" href="http://www.ca4.uscourts.gov/docs/pdfs/cmecfatyusermanual.pdf" class="button full-width btn-grey">CM/ECF Attorney Manual</a> </p> <p><a href="/caseinformationefiling/efiling_cm-ecf/filingevents"><span class="button full-width btn-grey">Filing Events &amp; Reliefs</span></a></p>
+
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut columns medium-8" style="">
+        <div id="MainContent_C050_Col01" class="sf_colsIn sf_2cols_2in_50"><div class='sfContentBlock'><p><a class="button full-width btn-grey" href="/caseinformationefiling/efiling_cm-ecf/ecfrules">Local Rules</a> </p> <p><a class="button full-width btn-grey" href="/caseinformationefiling/efiling_cm-ecf/training">Training</a> </p> <p><a class="button full-width btn-grey" href="/caseinformationefiling/efiling_cm-ecf/technical-information">Technical Information</a> </p> <p><a class="button full-width btn-grey" href="http://www.ca4.uscourts.gov/caseinformationefiling/efiling_cm-ecf/cm-ecf-faqs">CM/ECF FAQs </a></p> <p><a class="button full-width btn-grey" href="/caseinformationefiling/efiling-contacts">eFiling Contacts</a></p>
+
+</div>            
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut columns large-4" data-placeholder-label="Right Sidebar">
+        <div id="MainContent_TD709DDDA001_Col02" class="sf_colsIn sf_3cols_3in_33"><div class='sfContentBlock'>
+<aside class="widget contentblock">
+    <header class="widget-header">
+        Online Services
+    </header>
+    <div class="widget-content-container">
+        <div class="widget-content">
+            <ul>
+    <li> <a href="/caseinformationefiling/efiling_cm-ecf/reqsteps_ecffiler">Register for eFiling</a></li>
+    <li><a href="https://ecf.ca4.uscourts.gov" target="_cmecf" class="button">CM/ECF Login</a> </li>
+    <li><a href="http://www.pacer.uscourts.gov/reg_pacer.html" target="_blank">Register for Case Search</a> </li>
+    <li><a href="https://ecf.ca4.uscourts.gov/cmecf/servlet/TransportRoom?servlet=CaseSearch.jsp" target="_pacer" class="button">PACER Login</a>  </li>
+    <li><a href="/caseinformationefiling/efiling_cm-ecf/reqsteps_ecffiler/barstatus" title="Check Bar &amp; ECF Status">Check Attorney Bar &amp; ECF Status</a></li>
+    <li><a href="/information-for/appointed-counsel/cja-evoucher" title="Access CJA eVoucher">Access CJA eVoucher</a></li>
+</ul>
+            
+            
+        </div>
+    </div>
+</aside></div>
+            
+        </div>
+    </div>
+</div>
+                        </section>
+
+                        <footer id="footer">
+                            <div class="row">
+                                <div class="columns text-center">
+                                    
+<div class='sfContentBlock'>1100 East Main Street, Suite 501, Richmond, VA 23219 (804) 916-2700 8:30 am &ndash; 5:00 pm M-F
+
+</div><div class='sfContentBlock'><ul> <li><a title="Directions" href="/oral-argument/visiting-the-court/directions">Directions</a></li> <li><a title="Contact" href="/contact">Contact</a></li> <li><a title="Site Map" href="/site-map">Site Map</a></li> <li><a href="/site-policies">Site Policies</a></li> <li><a target="_blank" title="Site Best Viewed" href="/site-best-viewed">Site Best Viewed</a></li> <!-- <li><a sfref="[pages]59017a1c-3d6f-440c-bff4-90373d331fff" title="Browse Aloud" href="/browsealoud">Browse Aloud</a> </li>--> </ul>
+
+</div>
+                                </div>
+                            </div>
+                        </footer>
+
+                        <!-- Required so off canvas navigation can be closed -->
+                        <a class="exit-off-canvas"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<script type="text/javascript" src="/js/externalsitewarning.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30555863-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl08_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Sitefinity.Resources, Version=13.0.7300.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:9c89fe50-1afd-41c0-a3c3-7b16353b6192:7a90d6a';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Services.Search.Web.UI.Public.SearchBox, {"disableSuggestions":false,"indexCatalogue":"site-search","language":null,"minSuggestLength":3,"resultsUrl":"/search-results","searchButton":$get("MobileNavigation_T7FA5FF2A017_ctl00_ctl00_searchButton"),"searchTextBox":$get("MobileNavigation_T7FA5FF2A017_ctl00_ctl00_searchTextBox"),"siteId":"a51bd602-eb52-4eb5-96ed-8c3b1d2c9656","suggestionFields":"Title,Content","suggestionsRoute":"/restapi/search/suggestions","wordsMode":0}, null, null, $get("MobileNavigation_T7FA5FF2A017"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Services.Search.Web.UI.Public.SearchBox, {"disableSuggestions":false,"indexCatalogue":"site-search","language":null,"minSuggestLength":3,"resultsUrl":"/search-results","searchButton":$get("SearchBox_T7FA5FF2A004_ctl00_ctl00_searchButton"),"searchTextBox":$get("SearchBox_T7FA5FF2A004_ctl00_ctl00_searchTextBox"),"siteId":"a51bd602-eb52-4eb5-96ed-8c3b1d2c9656","suggestionFields":"Title,Content","suggestionsRoute":"/restapi/search/suggestions","wordsMode":0}, null, null, $get("SearchBox_T7FA5FF2A004"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadSiteMap, null, null, null, $get("ctl00_MainContent_TD709DDDA002_ctl00_ctl00_Breadcrumb"));
+});
+//]]>
+</script>
+</form>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/vendor/classie.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/plugins/flowtype.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/plugins/hoverIntent.min.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/foundation/foundation.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/foundation/foundation.offcanvas.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/foundation/foundation.abide.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/mlpushmenu.js"></script>
+    <!--[if IE 9]>
+        <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/plugins/jquery.slicknav.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/Main/JS/main.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
