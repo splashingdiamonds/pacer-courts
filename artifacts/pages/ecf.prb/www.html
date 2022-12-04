@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7" />
+<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://www.prb.uscourts.gov/sites/all/themes/bankruptcy/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="apple-touch-icon" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-57x57.png" sizes="57x57" />
+<link rel="apple-touch-icon" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-60x60.png" sizes="60x60" />
+<link rel="apple-touch-icon" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-76x76.png" sizes="76x76" />
+<link rel="apple-touch-icon-precomposed" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-precomposed-152x152.png" sizes="152x152" />
+<link rel="apple-touch-icon-precomposed" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-precomposed-196x196.png" sizes="196x196" />
+<link rel="apple-touch-icon-precomposed" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon" href="https://www.prb.uscourts.gov/sites/all/themes/cstbase/apple-touch-icon.png" />
+<meta name="viewport" content="width=device-width" />
+  <title>District of Puerto Rico | United States Bankruptcy Court</title>
+  <style>
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/system/system.base.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/system/system.theme.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/modules/contrib/date/date_api/date.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/comment/comment.theme.css?r902fu");
+@import url("https://www.prb.uscourts.gov/modules/node/node.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/field/field.theme.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/modules/contrib/views/css/views.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/search/search.theme.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/user/user.base.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/omega/omega/css/modules/user/user.theme.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/modules/contrib/ckeditor/css/ckeditor.css?r902fu");
+</style>
+<style>
+@import url("https://www.prb.uscourts.gov/sites/all/modules/contrib/ctools/css/ctools.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/modules/contrib/custom_search/custom_search.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/modules/contrib/responsive_menus/styles/meanMenu/meanmenu.min.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/modules/custom/us_courts_buttons/css/us-courts-btns.css?r902fu");
+</style>
+<style>
+@import url("https://www.prb.uscourts.gov/sites/all/themes/cstbase/css/cstbase.normalize.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/cstbase/css/cstbase.hacks.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/cstbase/css/cstbase.styles.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/adaptive/css/adaptive.normalize.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/adaptive/css/adaptive.hacks.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/adaptive/css/adaptive.styles.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/bankruptcy/css/bankruptcy.normalize.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/bankruptcy/css/bankruptcy.hacks.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/bankruptcy/css/bankruptcy.styles.css?r902fu");
+</style>
+
+<!--[if lte IE 8]>
+<style>
+@import url("https://www.prb.uscourts.gov/sites/all/themes/cstbase/css/cstbase.no-query.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/adaptive/css/adaptive.no-query.css?r902fu");
+@import url("https://www.prb.uscourts.gov/sites/all/themes/bankruptcy/css/bankruptcy.no-query.css?r902fu");
+</style>
+<![endif]-->
+<style>
+@import url("https://www.prb.uscourts.gov/sites/all/themes/adaptive/css/layouts/adaptive/adaptive.layout.css?r902fu");
+</style>
+  <script src="https://www.prb.uscourts.gov/sites/all/libraries/modernizr/modernizr.custom.45361.js?r902fu"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.prb.uscourts.gov/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script src="https://www.prb.uscourts.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.8.3"></script>
+<script src="https://www.prb.uscourts.gov/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.prb.uscourts.gov/misc/drupal.js?r902fu"></script>
+<script src="https://www.prb.uscourts.gov/sites/all/themes/omega/omega/js/no-js.js?r902fu"></script>
+<script src="https://www.prb.uscourts.gov/sites/all/modules/custom/us_courts_helpers/js/json2.js?r902fu"></script>
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="https://www.prb.uscourts.gov/sites/all/themes/adaptive/libraries/html5shiv/html5shiv.min.js?r902fu"></script>
+<![endif]-->
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="https://www.prb.uscourts.gov/sites/all/themes/adaptive/libraries/html5shiv/html5shiv-printshiv.min.js?r902fu"></script>
+<![endif]-->
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="https://www.prb.uscourts.gov/sites/all/themes/adaptive/libraries/respond/respond.min.js?r902fu"></script>
+<![endif]-->
+<script src="https://www.prb.uscourts.gov/sites/all/modules/contrib/custom_search/js/custom_search.js?r902fu"></script>
+<script src="https://www.prb.uscourts.gov/sites/all/modules/contrib/responsive_menus/styles/meanMenu/jquery.meanmenu.min.js?r902fu"></script>
+<script src="https://www.prb.uscourts.gov/sites/all/modules/contrib/responsive_menus/styles/meanMenu/responsive_menus_mean_menu.js?r902fu"></script>
+<script src="https://www.prb.uscourts.gov/sites/all/themes/cstbase/js/cstbase.behaviors.js?r902fu"></script>
+<script src="https://www.prb.uscourts.gov/sites/all/themes/adaptive/js/jquery.horizontalNav.min.js?r902fu"></script>
+<script src="https://www.prb.uscourts.gov/sites/all/themes/adaptive/js/adaptive.behaviors.js?r902fu"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"custom_search":{"form_target":"_self","solr":0},"responsive_menus":[{"selectors":"#main-menu, .l-region--header .menu-name-main-menu, #block-system-main-menu","container":"body","trigger_txt":"\u0026#8801; MENU","close_txt":"X CLOSE","close_size":"1em","position":"left","media_size":"960","show_children":"1","expand_children":"1","expand_txt":"\u25bc","contract_txt":"\u25b2","remove_attrs":"1","responsive_menus_style":"mean_menu"}],"urlIsAjaxTrusted":{"\/":true}});</script>
+</head>
+<body class="html front not-logged-in page-node">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <div id="header-outline">
+<div id="page-wrapper">
+  <div class="l-page has-no-sidebars">
+
+    <!-- Header -->
+    <header class="l-header" role="banner">
+      <div class="l-branding">
+                  <a href="/" title="Home" rel="home" class="site-logo"><img src="https://www.prb.uscourts.gov/sites/default/files/seal-img_0.png" alt="Home" /></a>
+        
+        <div class="court-info">
+                      <h1 class="court-title"><a href="/" title="Home" rel="home"><img src="sites/default/files/images/logo_wj.png"></a></h1>
+          
+          
+                          <h2 class="site-name">
+                <a href="/" title="Home" rel="home">
+                                    
+                </a>
+              </h2>
+            
+            
+                  </div>
+
+              </div>
+
+        <div class="l-region l-region--header">
+    <div id="block-search-form" role="search" class="block block--search block--search-form">
+        <div class="block__content">
+    <form class="search-form search-block-form" role="search" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search this site </label>
+ <input title="Enter the terms you wish to search for." class="custom-search-box form-text" placeholder="" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-FghuQdtFI4ujk9dIYv3MME0Gy60Axbjdf-c14FteDq4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<div id="block-us-courts-stock-font-resizer" class="block block--us-courts-stock text-resizer-block block--us-courts-stock-font-resizer">
+        <div class="block__content">
+    <div class="resizer-wrap clearfix">
+	<span>Text Size: </span>
+	<ul class="resizer">
+		<li class="decrease-font"><a href="#">Decrease font size</a></li>
+		<li class="reset-font"><a href="#">Reset font size</a></li>
+		<li class="increase-font"><a href="#">Increase font size</a></li>
+	</ul>
+</div>  </div>
+</div>
+<nav id="block-menu-block-us-courts-menu-blocks-main-nav" role="navigation" class="block block--menu-block block--menu-block-us-courts-menu-blocks-main-nav">
+      
+  <div class="menu-block-wrapper menu-block-us_courts_menu_blocks_main_nav menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded menu-mlid-471"><a href="/?q=court-info">Court Info</a><ul class="menu"><li class="first leaf menu-mlid-473"><a href="/?q=court-info/court-locations">Court Locations &amp; Hours</a></li>
+<li class="leaf menu-mlid-474"><a href="/?q=court-info/court-holidays">Court Holidays</a></li>
+<li class="leaf menu-mlid-545"><a href="/?q=employment-0">Employment</a></li>
+<li class="leaf menu-mlid-607"><a href="http://www.prb.uscourts.gov/statistics/General Filings.pdf" target="_blank">Statistics</a></li>
+<li class="leaf has-children menu-mlid-742"><a href="/?q=contact-us">Contact Us</a></li>
+<li class="leaf menu-mlid-968"><a href="/?q=govdelivery">GovDelivery</a></li>
+<li class="last leaf menu-mlid-1694"><a href="/?q=your-employee-rights-and-how-report-wrongful-conduct">Your Employee Rights and How to Report Wrongful Conduct</a></li>
+</ul></li>
+<li class="expanded menu-mlid-480"><a href="/?q=judges-info">Judges&#039; Info</a><ul class="menu"><li class="first leaf menu-mlid-483"><a href="https://www.govinfo.gov/app/collection/uscourts" target="_blank">Opinions</a></li>
+<li class="leaf menu-mlid-536"><a href="/?q=content/chief-judge-mildred-cab%C3%A1n">Chief Judge Mildred Cabán</a></li>
+<li class="leaf menu-mlid-534"><a href="/?q=content/judge-enrique-s-lamoutte">Judge Enrique S. Lamoutte</a></li>
+<li class="leaf menu-mlid-537"><a href="/?q=content/judge-edward-godoy">Judge Edward A. Godoy</a></li>
+<li class="leaf menu-mlid-1650"><a href="/?q=content/judge-mar%C3%ADa-de-los-%C3%A1ngeles-gonz%C3%A1lez">Judge María de los Ángeles González</a></li>
+<li class="last leaf has-children menu-mlid-1696"><a href="/?q=judges-calendar">Judges&#039; Calendar</a></li>
+</ul></li>
+<li class="expanded menu-mlid-487"><a href="/?q=attorneys">For Attorneys</a><ul class="menu"><li class="first leaf has-children menu-mlid-475"><a href="/?q=court-info/local-rules-and-orders">Local Rules and Orders</a></li>
+<li class="leaf menu-mlid-735"><a href="http://www.uscourts.gov/rules-policies/current-rules-practice-procedure/federal-rules-bankruptcy-procedure">Federal Rules of Bankruptcy Procedure</a></li>
+<li class="leaf menu-mlid-736"><a href="http://www.uscourts.gov/RulesAndPolicies/FederalRulemaking/Overview.aspx  ">Federal Rules of  practice, procedure, and evidence</a></li>
+<li class="leaf menu-mlid-472"><a href="/?q=court-info/faq">FAQs</a></li>
+<li class="leaf menu-mlid-544"><a href="/?q=court-procedures">Court Procedures</a></li>
+<li class="leaf menu-mlid-626"><a href="/?q=national-guard-and-reservist-debt-relief-act-2008">National Guard and Reservist Debt Relief Act of 2008</a></li>
+<li class="leaf menu-mlid-745"><a href="http://www.americanbar.org/groups/professional_responsibility.html" target="_blank">Professional Responsibility</a></li>
+<li class="leaf menu-mlid-764"><a href="/?q=cmecf-attorneys-training">CM/ECF Training &amp; Access Request</a></li>
+<li class="leaf menu-mlid-763"><a href="/?q=training-resources">Training Resources</a></li>
+<li class="leaf menu-mlid-979"><a href="http://www.rispri.org/directorio-miembros">Intérpretes para Sordos de Puerto Rico</a></li>
+<li class="last leaf menu-mlid-978"><a href="https://www.prd.uscourts.gov/sites/default/files/2021%20Interpreters%20Roster%20%288-SEP-21%29.pdf">Local Certified Court Interpreters</a></li>
+</ul></li>
+<li class="expanded menu-mlid-970"><a href="/?q=debtors">For Debtors</a><ul class="menu"><li class="first leaf has-children menu-mlid-490"><a href="/?q=understanding-bankruptcy">Understanding Bankruptcy</a></li>
+<li class="leaf menu-mlid-981"><a href="http://www.uscourts.gov/FederalCourts/Bankruptcy/BankruptcyBasics.aspx">Bankruptcy Basics</a></li>
+<li class="leaf menu-mlid-975"><a href="/?q=bankruptcy-resources">Bankruptcy Resources</a></li>
+<li class="leaf menu-mlid-971"><a href="/?q=obtaining-case-information">Obtaining Case Information</a></li>
+<li class="leaf menu-mlid-973"><a href="/?q=pro-bono">Pro Bono</a></li>
+<li class="leaf menu-mlid-963"><a href="/?q=free-debtor-electronic-bankruptcy-noticing-debn">FREE Debtor Electronic Bankruptcy Noticing (DeBN)</a></li>
+<li class="leaf menu-mlid-731"><a href="http://www.uscourts.gov/Common/Glossary.aspx" target="_blank">Glossary of Legal Terms</a></li>
+<li class="leaf menu-mlid-737"><a href="http://www.usdoj.gov/ust/eo/fraud/index.htm">Report Bankruptcy Fraud</a></li>
+<li class="leaf menu-mlid-980"><a href="/?q=court-info/faq">FAQs</a></li>
+<li class="leaf menu-mlid-982"><a href="https://www.justice.gov/ust/list-credit-counseling-agencies-approved-pursuant-11-usc-111">List of Credit Counseling Agencies Approved</a></li>
+<li class="last leaf menu-mlid-983"><a href="https://www.justice.gov/ust/list-approved-providers-personal-financial-management-instructional-courses-debtor-education">List of Approved Providers of Personal Financial Management Instructional Courses (Debtor Education)</a></li>
+</ul></li>
+<li class="expanded menu-mlid-539"><a href="/?q=creditors">For Creditors</a><ul class="menu"><li class="first leaf menu-mlid-484"><a href="/?q=cmecf-info">CM/ECF Info</a></li>
+<li class="leaf menu-mlid-765"><a href="/?q=cmecf-attorneys-training">CM/ECF Training &amp; Access Request</a></li>
+<li class="leaf menu-mlid-541"><a href="/?q=obtaining-case-information">Obtaining Case Information</a></li>
+<li class="leaf menu-mlid-961"><a href="/?q=electronic-proof-claim-and-related-documents">Electronic Proof of Claim (ePOC) and Related Documents</a></li>
+<li class="last leaf menu-mlid-972"><a href="http://www.usdoj.gov/ust/eo/fraud/index.htm">Report Bankruptcy Fraud</a></li>
+</ul></li>
+<li class="expanded menu-mlid-478"><a href="/?q=forms">Forms</a><ul class="menu"><li class="first leaf menu-mlid-740"><a href="http://www.uscourts.gov/FormsAndFees/Forms/BankruptcyForms.aspx" target="_blank">National Forms</a></li>
+<li class="leaf menu-mlid-746"><a href="http://www.archives.gov/research/court-records/bankruptcy.html" target="_blank">NARA Forms</a></li>
+<li class="leaf menu-mlid-479"><a href="/?q=forms/all-forms">All Local Forms</a></li>
+<li class="last leaf menu-mlid-974"><a href="/?q=frequently-used-forms">Frequently Used Forms</a></li>
+</ul></li>
+<li class="expanded menu-mlid-625"><a href="/?q=fees-schedule">Fees &amp; Finance</a><ul class="menu"><li class="first leaf menu-mlid-1560"><a href="/?q=finance-information">Finance Information</a></li>
+<li class="leaf menu-mlid-629"><a href="/?q=fees-schedule">Fees Schedule</a></li>
+<li class="leaf menu-mlid-1308"><a href="/?q=forms-0">Forms</a></li>
+<li class="last leaf has-children menu-mlid-757"><a href="/?q=unclaimed-funds">Unclaimed Funds</a></li>
+</ul></li>
+<li class="expanded menu-mlid-489"><a href="/?q=trustees-information">Trustees&#039; Information</a><ul class="menu"><li class="first leaf has-children menu-mlid-738"><a href="http://www.justice.gov/ust/r21/san_juan/index.htm">Office of the US Trustee - Region 21: District of Puerto Rico</a></li>
+<li class="leaf menu-mlid-962"><a href="https://www.justice.gov/ust">US Trustee Program</a></li>
+<li class="leaf menu-mlid-966"><a href="https://www.justice.gov/ust/eo/private_trustee/locator/7.htm#PR">Chapter 7 Trustees</a></li>
+<li class="last leaf has-children menu-mlid-967"><a href="https://www.justice.gov/ust/eo/private_trustee/locator/13.htm#PR">Chapter 13 Trustees</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-488"><a href="/?q=programs-services">Programs &amp; Services</a><ul class="menu"><li class="first leaf menu-mlid-744"><a href="https://ucfl.uscourts.gov/">Find Unclaimed Funds</a></li>
+<li class="leaf menu-mlid-547"><a href="https://ecf.prb.uscourts.gov/cgi-bin/nos.pl">Notices of Intent to Sell Report</a></li>
+<li class="leaf menu-mlid-627"><a href="https://bankruptcynotices.uscourts.gov/">Electronic Bankruptcy Noticing</a></li>
+<li class="leaf menu-mlid-732"><a href="/?q=care-program">C.A.R.E. Program</a></li>
+<li class="leaf menu-mlid-734"><a href="http://www.ramajudicial.pr/" target="_blank">Rama Judicial de Puerto Rico</a></li>
+<li class="leaf menu-mlid-752"><a href="/?q=register-government-addresses">Register of Government Addresses</a></li>
+<li class="leaf menu-mlid-753"><a href="https://ncrs.uscourts.gov/register/registration.adp">National Creditor Registration Service</a></li>
+<li class="last leaf has-children menu-mlid-1558"><a href="/?q=application-search-bankruptcy-records">Application for Search of Bankruptcy Records</a></li>
+</ul></li>
+</ul></div>
+</nav>
+  </div>
+          </header>
+
+    <!-- Main Content -->
+    <div id="main-content-wrapper">
+      <div class="l-main">
+                
+        <!-- Front page welcome message -->
+
+        <div class="l-welcome">
+                      <!-- Welcome Links -->
+            <div class="l-region l-region--welcome-links">
+              <ul class="welcome-links">
+                <li><a href="https://www.pacer.gov/pcl.html" target="_blank">Case Locator (PACER) &raquo;</a></li>
+                <li><a href="https://ecf.prb.uscourts.gov/cgi-bin/login.pl" target="_blank">E-Filing (CM/ECF) &raquo;</a></li>
+                <li><a href="http://www.prb.uscourts.gov/?q=electronic-proof-claim-and-related-documents" target="_self">File a Proof of Claim &raquo;</a></li>              </ul>
+            </div>
+
+            <div class="l-region l-region--featured">
+                <!-- Welcome Image and Text-->
+                <div class="welcome-wrapper">
+                                      <div class='welcome-img-txt'>
+                      <div class='welcome-txt-wrapper'>
+                        <p><strong>Welcome</strong><br />
+	On behalf of the Judges and staff of the United States Bankruptcy Court for the District of Puerto Rico I welcome you to our internet home. This site is part of our commitment to serve with excellence the public, the bar and the court.&nbsp; Your feedback is welcomed, please let us know what works and what doesn&#39;t and how we can improve our services.<br />
+	<a href="mailto:wilma_jaime@prb.uscourts.gov?subject=Website%20Feedback">Wilma Jaime, Clerk of Court</a></p>
+<ul>
+	<li>
+		<a href="sites/default/files/images/vision,%20mission%20and%20values.jpg">Vision, Mission and Values</a></li>
+	<li>
+		<a href="sites/default/files/docs/pdf/2018-2020 Strategic Plan.pdf">Strategic Plan</a></li>
+</ul>
+                      </div>
+                      <div class='welcome-image-wrapper'>
+                        <img alt="" src="https://www.prb.uscourts.gov/sites/default/files/usbc-night_v2_0.jpg" />                      </div>
+                    </div>
+                                  </div>
+            </div>
+                    </div>
+
+        <!-- Main Content -->
+        <div class="l-content" role="main">
+
+            <div class="l-region l-region--highlighted">
+    <div id="block-nodeblock-511" class="block block--nodeblock block--nodeblock-511">
+        <div class="block__content">
+    <div id="node-511" class="node node--node-block node--full node--node-block--full clearfix" about="/?q=nodeblock/promesa" typeof="sioc:Item foaf:Document" role="article" class="node node--node-block node--full node--node-block--full">
+
+        <span property="dc:title" content="PROMESA" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content" class="node__content">
+    <div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p style="padding: 1em; background-color: rgb(241, 241, 241);"><font color="#740901"><b>Application for Search of Bankruptcy Records</b></font><br />
+	<a href="/?q=application-search-bankruptcy-records">Click here</a> to request and obtain certifications of bankruptcy records electronically.</p>
+<p style="padding: 1em; background-color: rgb(241, 241, 241);"><font color="#740901"><b>Notice to the Bar and Public - Procedures for Remote Appearances</b></font><br />
+	<a href="https://www.prb.uscourts.gov/sites/default/files/sites/default/files/docs/notices/Notice%2020-21%20Teams_0.pdf">Click here</a> to view the Notice regarding the procedures for remote appearances via Teams or phone. <a href="https://www.prb.uscourts.gov/?q=judges-calendar">Click here</a> to view the weekly Teams hearings calendar.</p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+
+                      <a id="main-content"></a>
+          
+          
+                                        
+          
+                    </div>
+                
+
+        <!-- Triptych -->
+        <div class="l-triptych">
+            <div class="l-region l-region--sub-content-left">
+    <div id="block-views-staff-directory-home-court-list" class="block block--views gradient block--views-staff-directory-home-court-list">
+        <h2 class="block__title">Court Locations</h2>
+      <div class="block__content">
+    <div class="view view-staff-directory view-id-staff_directory view-display-id-home_court_list view-dom-id-948ecef5788b7b29b767b18c0a8becb2">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/?q=content/old-san-juan">Old San Juan</a></span>  </div>  
+  <div class="views-field views-field-field-court-st-add">        <div class="field-content"><p>José V. Toledo Federal Building &amp; US Courthouse<br />
+	300 Calle del Recinto S STE 109<br />
+	San Juan, PR 00901-1964</p>
+</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/?q=content/ponce">Ponce</a></span>  </div>  
+  <div class="views-field views-field-field-court-st-add">        <div class="field-content"><p>MCS Building, Suite 222 A<br />
+	880 Tito Castro Avenue<br />
+	Ponce, PR 00716-4732</p>
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+            <div class="l-region l-region--sub-content-center">
+    <div id="block-us-courts-buttons-lcl-rules-gen-ordrs" class="block block--us-courts-buttons block--us-courts-buttons-lcl-rules-gen-ordrs">
+        <div class="block__content">
+    <a href="/?q=court-info/local-rules-and-orders" class="usc-btn usc-lcl-rules-btn"><span class="usc-btn-icon"></span>Local Rules & General Orders</a>  </div>
+</div>
+<div id="block-us-courts-buttons-form" class="block block--us-courts-buttons block--us-courts-buttons-form">
+        <div class="block__content">
+    <a href="/?q=forms/" class="usc-btn usc-form-btn"><span class="usc-btn-icon"></span>Forms</a>  </div>
+</div>
+<div id="block-nodeblock-470" class="block block--nodeblock block--nodeblock-470">
+        <div class="block__content">
+    <a href="/?q=judges-calendar" class="usc-btn"><span class="usc-btn-icon" style="background-image: url(https://www.prb.uscourts.gov/sites/default/files/btn-icons/Calendar_40x40.png)"></span>Judge's Calendar</a>  </div>
+</div>
+<div id="block-nodeblock-469" class="block block--nodeblock block--nodeblock-469">
+        <div class="block__content">
+    <a href="/?q=govdelivery" class="usc-btn"><span class="usc-btn-icon" style="background-image: url(https://www.prb.uscourts.gov/sites/default/files/btn-icons/govd_logo_40x40.png)"></span>Join our Mailing List</a>  </div>
+</div>
+<div id="block-nodeblock-487" class="block block--nodeblock block--nodeblock-487">
+        <div class="block__content">
+    <a href="/?q=judges-info/opinions" class="usc-btn"><span class="usc-btn-icon" style="background-image: url(https://www.prb.uscourts.gov/sites/default/files/btn-icons/mallet.png)"></span>Recent Opinions</a>  </div>
+</div>
+<div id="block-nodeblock-574" class="block block--nodeblock block--nodeblock-574">
+        <div class="block__content">
+    <a href="/?q=unclaimed-funds" class="usc-btn"><span class="usc-btn-icon" style="background-image: url(https://www.prb.uscourts.gov/sites/default/files/btn-icons/money_icon.png)"></span>Unclaimed Funds</a>  </div>
+</div>
+<div id="block-nodeblock-592" class="block block--nodeblock block--nodeblock-592">
+        <div class="block__content">
+    <a href="https://promesa.prd.uscourts.gov/" class="usc-btn"><span class="usc-btn-icon" style="background-image: url(https://www.prb.uscourts.gov/sites/default/files/btn-icons/puerto_rico_640.png)"></span>PROMESA</a>  </div>
+</div>
+<div id="block-nodeblock-959" class="block block--nodeblock block--nodeblock-959">
+        <div class="block__content">
+    <a href="/?q=nextgen-cmecf" class="usc-btn"><span class="usc-btn-icon" style="background-image: url(https://www.prb.uscourts.gov/sites/default/files/btn-icons/nextgen_icon.png)"></span>NextGen CM/ECF</a>  </div>
+</div>
+<div id="block-nodeblock-465" class="block block--nodeblock block--nodeblock-465">
+        <h2 class="block__title">Quick Links</h2>
+      <div class="block__content">
+    <div id="node-465" class="node node--node-block node--full node--node-block--full clearfix" about="/?q=nodeblock/quick-links-0" typeof="sioc:Item foaf:Document" role="article" class="node node--node-block node--full node--node-block--full">
+
+        <span property="dc:title" content="Quick Links" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content" class="node__content">
+    <div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p><a href="http://www.ca1.uscourts.gov/">US Court of Appeals for the First Circuit</a></p>
+<p><a href="http://www.prd.uscourts.gov">US District Court for the District of Puerto Rico</a></p>
+<p><a href="http://www.bap1.uscourts.gov/index.php">US Bankruptcy Appellate Panel For the First Circuit</a></p>
+<p><a href="http://ramajudicial.pr/">Rama Judicial de Puerto Rico</a></p>
+<p><a href="https://subscriberhelp.govdelivery.com/">GovDelivery Help</a></p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+            <div class="l-region l-region--sub-content-right">
+    <div id="block-views-news-fp-news-feed" class="block block--views gradient block--views-news-fp-news-feed">
+        <h2 class="block__title">News &amp; Announcements</h2>
+      <div class="block__content">
+    <div class="view view-news view-id-news view-display-id-fp_news_feed fp-news-feed view-dom-id-901d450ad9717c108810d7aaa313958a">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-news-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-12-01T00:00:00-04:00">Thu, 2022-12-01</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/?q=news/notice-22-28-re-court-closing">Notice 22-28 In Re: Court Closing </a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-news-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-12-01T00:00:00-04:00">Thu, 2022-12-01</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/?q=news/general-order-22-04-re-order-vacating-adoption-local-interim-bankruptcy-rules">General Order 22-04 In Re: Order Vacating Adoption of Local Interim Bankruptcy Rules</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-field-news-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-11-30T00:00:00-04:00">Wed, 2022-11-30</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/?q=news/notice-22-27-re-amendments-federal-rules-bankruptcy-procedure-and-official-forms-effective">Notice 22-27 In Re: Amendments to the Federal Rules of Bankruptcy Procedure and Official Forms, Effective December 1, 2022.</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <p><a href="?q=news/">View all »</a></p>
+    </div>
+  
+  
+</div>  </div>
+</div>
+  </div>
+        </div>
+
+      </div>
+    </div>
+
+     <!-- Footer -->
+    <footer class="l-footer" role="contentinfo">
+        <div class="l-region l-region--footer">
+    <div id="block-nodeblock-468" class="block block--nodeblock block--nodeblock-468">
+        <div class="block__content">
+    <div id="node-468" class="node node--node-block node--full node--node-block--full clearfix" about="/?q=nodeblock/footer" typeof="sioc:Item foaf:Document" role="article" class="node node--node-block node--full node--node-block--full">
+
+        <span property="dc:title" content="Footer" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content" class="node__content">
+    <div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p class="rteright"><a class="ql-first" href="/">Home</a> | <a href="http://www.uscourts.gov/Common/Glossary.aspx" target="_blank">Glossary of Legal Terms</a> | <a class="ql-last" href="?q=court-info/faq">FAQs</a> | <a href="?q=contact-us">Contact Us</a> | <a href="http://www.uscourts.gov/RulesAndPolicies/PrivateSeminarDisclosure/PrivatelySeminarsDisclosureOverview.aspx" target="_blank">Judicial Seminars Disclosure</a> | <font color="#1765b3"><a href="http://www.ca1.uscourts.gov/judicial-conduct-disability" target="_blank">Judicial Conduct and Disability</a> </font>| <a href="?q=disclaimer-external-links">Disclaimer for External Links</a></p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+    </footer>
+
+  </div>
+</div>
+</div>
+  <script src=""></script>
+</body>
+</html>
