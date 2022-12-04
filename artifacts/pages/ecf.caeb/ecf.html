@@ -1,0 +1,134 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>CM/ECF LIVE - U.S. Bankruptcy Court:caeb</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FAF0E6   TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> <!-- #CAEB Local Modifications Contained Within -->
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>CM/ECF LIVE - U.S. Bankruptcy Court:caeb</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<!-- #CAEB Local Modification -->
+<!--<IMG SRC="graphics/seal.gif" >-->
+<IMG SRC="graphics/seal.gif" height="250" width="250" >
+<!--END-->
+<P>
+<font size="+2">Welcome to the U.S. Bankruptcy Court for the
+Eastern District of California</font>
+<P>
+
+<!-- #CAEB Local Modification -->
+<center>
+<table width="700">
+<tr><td>
+<b>This is a restricted government website for official court business only. All activities of
+CM/ECF subscribers or users of this system for any purpose, and all access attempts,
+may be recorded and monitored by persons authorized by the federal judiciary for
+improper use, protection of system security, performance of maintenance and for
+appropriate management by the judiciary of its systems. By subscribing to CM/ECF,
+users expressly consent to system monitoring and to official access to data reviewed and
+created by them on the system. If evidence of unlawful activity is discovered, including
+unauthorized access attempts, it may be reported to law enforcement officials.
+</b>
+<br>
+<br>
+</td></tr>
+</table>
+</center>
+<!--END -->
+
+<hr>
+<!--CAEB Local Modification-->
+<table width="100%" border="1" cellpadding="2" cellspacing="0">
+        <tr bgcolor="CEE3F6">
+                <td colspan="2">
+                <span class="alert_font">Instructions for filing documents:</span><br />
+                </td>
+        </tr>
+        <tr>
+                <td valign="top" width="10%">
+                <b>CM/ECF</b>
+                </td>
+                <td width="90%">
+                Enter your CM/ECF filer login and password if you are electronically filing any of the following:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;&nbsp;A proof of Claim on behalf of a Creditor.
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;&nbsp;Filing a Non-Opposition.
+                <br>
+                </td>
+        </tr>
+        <tr>
+                <td valign="top" width="10%">
+                <b>eCalWebFiling</b>
+                </td>
+                <td width="90%">
+                To electronically file other types of documents, you may access our eCalWebfiling website at <a href="https://efiling3.caeb.uscourts.gov" target = _blank>https://efiling3.caeb.uscourts.gov</a>.
+                <br>
+                </td>
+        </tr>
+        <tr bgcolor="CEE3F6">
+                <td height="8" colspan="2">
+                <font size="-2">&nbsp;</font>
+                </td>
+        </tr>
+</table>
+<!-- END-->
+
+
+
+<!-- #CAEB Local Modification -->
+<font size="+2"><A HREF="/cgi-bin/login.pl">Eastern District of California - Document Filing  Application</A></font>
+<!--END-->
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> <!-- #LOCAL CAEB -->
+<!-- RPM Packages: ao - bkecf - web - * -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<HR><CENTER><B></B></CENTER>
+
+<HR>
+<!-- #CAEB Local Modification -->
+<!--
+12November2022
+
+-->
+<!--END-->
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
