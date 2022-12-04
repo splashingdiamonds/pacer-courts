@@ -1,0 +1,50 @@
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 162
+Content-Type: text/html
+Location: https://www.almd.uscourts.gov/electronic-filing
+Server: nginx
+X-Pantheon-Styx-Hostname: styx-fe3-a-554f6c46b4-l99qj
+X-Styx-Req-Id: b8b3143e-7390-11ed-9ac8-b265ab72d5ed
+Cache-Control: public, max-age=86400
+Date: Sun, 04 Dec 2022 13:20:40 GMT
+X-Served-By: cache-chi-klot8100157-CHI, cache-iad-kiad7000093-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1670160041.646697,VS0,VE4
+Vary: Cookie, Cookie
+Age: 29947
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish
+
+HTTP/2 200 
+cache-control: max-age=10800, public
+content-language: en
+content-type: text/html; charset=UTF-8
+etag: W/"1670033002"
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+last-modified: Sat, 03 Dec 2022 02:03:22 GMT
+link: <https://www.almd.uscourts.gov/electronic-filing>; rel="canonical"
+link: <https://www.almd.uscourts.gov/node/1600>; rel="shortlink"
+permissions-policy: interest-cohort=()
+server: nginx
+strict-transport-security: max-age=300
+x-content-type-options: nosniff
+x-drupal-cache: HIT
+x-drupal-dynamic-cache: MISS
+x-frame-options: SAMEORIGIN
+x-generator: Drupal 9 (https://www.drupal.org)
+x-pantheon-styx-hostname: styx-fe3-a-554f6c46b4-97s57
+x-styx-req-id: 49620b5d-73d2-11ed-9b59-d25e84cb87d0
+x-ua-compatible: IE=edge
+date: Sun, 04 Dec 2022 13:20:40 GMT
+x-served-by: cache-chi-kigq8000169-CHI, cache-iad-kiad7000108-IAD
+x-cache: HIT, HIT
+x-cache-hits: 1, 1
+x-timer: S1670160041.737421,VS0,VE3
+vary: Accept-Encoding, Cookie, Cookie, Cookie
+age: 1787
+accept-ranges: bytes
+via: 1.1 varnish, 1.1 varnish
+content-length: 37308
+
