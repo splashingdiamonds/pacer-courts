@@ -68,7 +68,7 @@ function fetch_rss {
     git add "latest/rss/$dest_slug.rss.xml.missing";
     commit_msg="Missing ${dest_slug} court feed.${commit_msg_suffix}"
     git commit -m "$commit_msg";
-    git push;
+    git push || true;
   fi
 }
 
@@ -77,7 +77,7 @@ commit_msg_suffix=`printf $'\n\t\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n'
 # check rss for in each file
 for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d "," | tr -d '"' | sort -u | sed -e 's/www\.//g' | sort -u | cut -d '.' -f 1- | sort -u | grep -v "pcl\.uscourts\.gov"`; do
   court_html_origin="$(echo $court_id | tr -d '"')"
-  fetch_rss "$court_html_origin"
+  fetch_rss "$court_html_origin" || true
 done
 
 # git push || exit 0
