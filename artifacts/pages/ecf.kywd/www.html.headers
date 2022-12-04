@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.kywd.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:30:23 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670157733-0"
+Last-Modified: Sun, 04 Dec 2022 12:42:13 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=NBPDAPPKEHHFBEFCJAAAPFDKJKHDHKHMIMBPNFOCDJFICOFOKIKKIGDHCPDCEKHLEDPDDPKHEAALOAGOCDNAOIKHKKCMNIOAOLNLALOEEDMGBBJJKABDHFKJFOLJJDDG; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01ead35d=01300dc996cd906b179a8d7aae91f755dd5957ffaad962de170fe01032ab5ac54de5874d87b2c2cdc1f3b5fe35048d70e11778a0f1; Path=/; Domain=.www.kywd.uscourts.gov
+
