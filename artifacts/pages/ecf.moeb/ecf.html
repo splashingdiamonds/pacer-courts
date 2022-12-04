@@ -1,0 +1,136 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>CM/ECF Live Database</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFFF TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>CM/ECF Live Database</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<table width="50%" cellpadding-"0" cellspacing="0" border="0">
+<tr>
+<td align="center" width=50%><IMG SRC="graphics/seal.gif" ><br></td>
+<td align="center"><IMG SRC="graphics/logo.gif" ><br></td>
+</table>
+<P>
+<i>Welcome to the</i><br>
+<h2>U.S. Bankruptcy Court<br>
+<i><font size=-1>for the</font></i><br>
+Eastern District of Missouri</h2>
+<P>
+<A HREF="/cgi-bin/login.pl"><img src="graphics/btn_login.jpg" border="0"><br><font face="Verdana, Arial" size="-1">[LOG IN]</font></a>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+
+<!-- <HR>
+<CENTER><B>This message is contained in the file OperationNotice.htm.
+<BR>You may use this file to alert users to current CM/ECF operational issues.
+</B></CENTER> -->
+
+<!-- Start of Message Table -->
+<table align="center" bgcolor="#FFFFFF" border="2" cellpadding="6" cellspacing="0">
+        <tr>
+         <td bgcolor=#000066><font face="Arial" color=#ffffff><b>NextGen CM/ECF</b> </font>
+         </td>
+        </tr>
+
+<tr><td>
+<font face="Arial"><font color="blue"><b>
+This is a restricted government system for official judiciary business only. All activities on this system for any purpose, and<br>
+all access attempts, may be recorded and monitored or reviewed by persons authorized by the federal judiciary for improper<br>
+use, protection of system security, performance of maintenance, and appropriate management by the judiciary of its systems.<br>
+By using this system or any connected system, users expressly consent to system monitoring and to official access to data<br>
+reviewed and created by them on the system. Any evidence of unlawful activity, including unauthorized access attempts, may<br>
+be reported to law enforcement officials.
+</b></font></font>
+</td></tr>
+
+</table><br><br>
+<!-- End of Message Table -->
+
+<!-- Start of Availability Notice Table -->
+<table align="center" bgcolor="#FFFFFF" border="2" cellpadding="8" cellspacing="0">
+        <tr>
+         <td align="center" bgcolor=#000066><font face="Verdana, Arial" color=#ffffff><b>System Availability Notice</b> </font>
+         </td>
+        </tr>
+        <tr>
+         <td align="center">
+         <font face="Verdana, Arial"> <b><font color="#ff0000">ATTENTION CM/ECF and PACER USERS:</font></b><br><br>
+         <font size="-1">
+
+	<!-- CM/ECF access will be unavailable from 9:00 PM to 10:00 PM <br>
+	Sunday, May 15, 2022, due to required system maintenance.<br><br> -->
+
+        The CM/ECF servers will be updated on Saturday, December 17, 2022, between 4:00 AM and 12:00 PM.<br>
+        Upon completion of the updates, the servers will be down for 5 to 10 minutes while they reboot.<br><br>
+
+	<p><font color="blue">(Last Updated: Monday, November 28, 2022) </font></p>
+         </td>
+        </tr>
+</table>
+<!-- End of Availability Notice Table -->
+
+<p>
+
+<!-- Start of Special Notice Table -->
+<!-- <table align=center bgcolor=#FFFFFF border=2 cellpadding=8 cellspacing=0>
+        <tr>
+         <td align="center" bgcolor=#000066><font face="Verdana, Arial" color=#ffffff><b>Notice to Filers</b>
+         </td>
+        </tr>
+        <tr>
+         <td align="left">
+         <font face="Verdana, Arial"> <b><font color="#000000" size=-1><center>Important Notice Regarding Time Period Changes Effective December 1, 2009, Including<br>14-Day Deadlines for Filing Schedules, Statements, Chapter 13 Plans, and Bankruptcy<br>Appellate Briefs</b></center><p>
+Among the time-computation amendments to the Federal Rules of Bankruptcy Procedure that<br>will take effect on December 1, 2009, are changes to several Federal and Local Rules of<br>Bankruptcy Procedure that will result in a reduction by one day (from 15 to 14 days) of the time<br>to take action.  The affected Federal Rules of Bankruptcy Procedure are 1007, 1019, 1020, 2015,<br>2015.1, 2016, 3015, 4001, 4002, 6004, 6007, and 8009.  The affected Local Rules of Bankruptcy<br>
+Procedure are 1002, 1007-4, 1007-6(B), 1007-7(B), 1019(A)(1), 1030, 2016-1(A), 4004-(C), and<br>6007.<p> Please take note of these changes and particularly of the new 14-day deadline for filing<br>schedules, statements, and other documents under Federal Rule 1007(c) and Local Rule 1002; for<br>filing a Chapter 13 plan under Federal Rule 3015 (b) and Local Rule 1002(E); and for filing<br>appellate briefs under Federal Rule 8009(a).
+         </td>
+        </tr>
+</table> -->
+<!-- End of Special Notice Table -->
+
+<HR>
+3October2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
