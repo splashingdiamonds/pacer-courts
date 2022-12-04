@@ -1,0 +1,583 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="Templates/Main_template.dwt" codeOutsideHTMLIsLocked="false" -->
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- InstanceBeginEditable name="doctitle" -->
+<title>Official Website for the United States District Court for the  District of South Carolina</title>
+<meta name="robots" content="NOODP">
+<meta name="Keywords" content="Aiken, Anderson, appeals, attorney, automation, Beaufort, case manager, cases, Charleston, CJA, CJA voucher, Clerk of Court, Columbia, court, court records, court reporter, courtroom deputy, Criminal Justice Act, decision, district, district court, federal, federal court, federal court forms, federal district court, federal government, Florence, forms, Fourth Circuit, government, Greenville, Greenwood, intake, intake services, judge, judges, judicial, judiciary, jury, jury duty, jury selection, jury services, Larry W. Propes, law, local rules, magistrate, mediation, mediator, naturalization, opinions, Orangeburg, order, PACER, pro se, Rock Hill, ruling, SCD, South Carolina, Spartanburg, United States, United States district court, USDC" />
+<!-- InstanceEndEditable -->
+		<style type="text/css">
+ .menutitle{
+	cursor:pointer;
+	margin-bottom: 5px;
+	margin-left:3px; 
+	margin-right: 3px;
+	background-color:#ABABAB;
+	color:#000000;
+	width:140px;
+	padding:0px;
+	text-align:center;
+	font-weight:bold; 
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	/*/*/border:1px solid #000000;/* */
+	}
+	
+ .submenu{
+		margin-left:4px;
+		margin-right: 0px;
+		margin-bottom: 0.5em;
+		text-decoration:none;
+		font-family: Tahoma, Verdana, Arial, sans-serif;
+		font-size: 13px;
+		color: #555555;
+		font-weight: 300;
+	}
+
+</style>
+		<script type="text/javascript">
+
+/***********************************************
+* Switch Menu script- by Martial B of http://getElementById.com/
+* Modified by Dynamic Drive for format & NS4/IE4 compatibility
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var persistmenu="yes" //"yes" or "no". Make sure each SPAN content contains an incrementing ID starting at 1 (id="sub1", id="sub2", etc)
+var persisttype="sitewide" //enter "sitewide" for menu to persist across site, "local" for this page only
+
+if (document.getElementById){ //DynamicDrive.com change
+document.write('<style type="text/css">\n')
+document.write('.submenu{display: none;}\n')
+document.write('</style>\n')
+}
+
+function SwitchMenu(obj){
+	if(document.getElementById){
+	var el = document.getElementById(obj);
+	var ar = document.getElementById("masterdiv").getElementsByTagName("span"); //DynamicDrive.com change
+		if(el.style.display != "block"){ //DynamicDrive.com change
+			for (var i=0; i<ar.length; i++){
+				if (ar[i].className=="submenu") //DynamicDrive.com change
+				ar[i].style.display = "none";
+			}
+			el.style.display = "block";
+		}else{
+			el.style.display = "none";
+		}
+	}
+}
+
+function get_cookie(Name) { 
+var search = Name + "="
+var returnvalue = "";
+if (document.cookie.length > 0) {
+offset = document.cookie.indexOf(search)
+if (offset != -1) { 
+offset += search.length
+end = document.cookie.indexOf(";", offset);
+if (end == -1) end = document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset, end))
+}
+}
+return returnvalue;
+}
+
+function onloadfunction(){
+/*
+
+  Added code to always expand sub1 when displaying
+  root level index page
+  
+  BBC
+ 
+*/
+var loc1 = location.href.indexOf("/",8);
+var loc = location.href.lastIndexOf("/");
+if ( loc1 == loc && location.href.substr(loc+1) == "index.asp" )
+ {
+    SwitchMenu("sub1");
+ }
+else
+ { 
+	
+	if (persistmenu=="yes"){
+	var cookiename=(persisttype=="sitewide")? "switchmenu" : window.location.pathname
+	var cookievalue=get_cookie(cookiename)
+	if (cookievalue!="")
+	document.getElementById(cookievalue).style.display="block"
+	}
+ }
+}
+
+function savemenustate(){
+var inc=1, blockid=""
+while (document.getElementById("sub"+inc)){
+if (document.getElementById("sub"+inc).style.display=="block"){
+blockid="sub"+inc
+break
+}
+inc++
+}
+var cookiename=(persisttype=="sitewide")? "switchmenu" : window.location.pathname
+var cookievalue=(persisttype=="sitewide")? blockid+";path=/" : blockid
+document.cookie=cookiename+"="+cookievalue
+}
+
+if (window.addEventListener)
+window.addEventListener("load", onloadfunction, false)
+else if (window.attachEvent)
+window.attachEvent("onload", onloadfunction)
+else if (document.getElementById)
+window.onload=onloadfunction
+
+if (persistmenu=="yes" && document.getElementById)
+window.onunload=savemenustate
+
+</script>
+		<!-- This is for the MENU Layout -->
+		<script type="text/JavaScript" language="JavaScript"> 
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+		<script type="text/JavaScript" language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+		<script type="text/javascript" src="Scripts/AC_RunActiveContent.js"></script>
+		<script type="text/javascript" src="p7tbm/p7tbmenu.js"></script>
+		<script type="text/javascript" src="p7tm/p7tmscripts_mod.js"></script>
+		<style type="text/css" media="screen">
+<!--
+@import url("p7tbm/p7tbm_basic_01.css");
+-->
+</style>
+        <link rel="stylesheet" media="print" href="/CSS/print.css" type="text/css" /> 
+		<link href="CSS/USDC_Layout.css" type="text/css" rel="stylesheet" />
+		<link href="p7tm/p7tm.css" type="text/css" rel="stylesheet" />
+		<link href="p7tm/USDC07.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript">
+
+        function switchMenu(obj) {
+            var el = document.getElementById(obj);
+			if ( document.URL.indexOf("/default.asp") > -1)
+			{
+				if ( el.style.display != "none" ) {
+					el.style.display = 'none'; 
+				}
+				else {
+					el.style.display = '';
+				}
+			}
+        }
+        </script>        
+		<!-- InstanceBeginEditable name="head" -->
+		<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	width:496px;
+	height:54px;
+	z-index:9;
+	left: 284px;
+	top: 265px;
+}
+
+-->
+        </style>
+
+<!-- InstanceEndEditable -->
+	</head>
+
+	<body class="twoColLiqLtHdr"  onload="P7_initTBM(1,2,0,1,200,1);P7_TMclass();P7_TMopen();switchMenu('myvar');" bgcolor="#FFFFFF" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+
+	<div id="header" style="background-color:#FFFFFF"> 
+		<a href="/default.asp"  title="Home - www.scd.uscourts.gov" > 
+           <img src="Graphics/top_grey.gif" alt="USDCSC Logo" width="782" height="114"  longdesc="desc/d_logo.html" border="0"
+        onmouseover="this.src='/Graphics/top_grey_h.gif'" onmouseout="this.src='/Graphics/top_grey.gif'"  title="Home - www.scd.uscourts.gov" />
+       </a>
+	</div>
+		<div id="container">			
+		<!-- end #header --><!-- Start TOP MENU -->
+			<div id="Top_Bar_Holder"> 
+
+					<div id="p7TBM">
+						<div id="p7TBMroot">
+							<div id="p7TBMrootbox">
+								<ul class="p7TBMtext">
+									<li><a id="p7TBMt08" href="/StandingOrders/index.asp">STANDING ORDERS</a></li>                                
+									<li><a id="p7TBMt06" href="/navtop/rules.asp">RULES</a></li>
+									<li><a id="p7TBMt05" href="/navtop/records.asp">RECORDS</a></li>
+									<li><a id="p7TBMt04" href="/Court/index.asp">GENERAL INFORMATION</a></li>
+									<li><a id="p7TBMt07" href="/FORMS/index.asp">FORMS</a></li>
+									<li><a id="p7TBMt03" href="/navtop/links.asp">LINKS</a></li>
+									<li><a id="p7TBMt02" href="/navtop/whatsnew.asp">WHAT'S NEW</a></li>
+									<li><a id="p7TBMt01" href="/navtop/home.asp">HOME</a></li>
+								</ul>
+							</div>
+						</div>
+						<!--[if lte IE 6]>
+						<style>#p7TBM div, #p7TBM ul, #p7TBM a {height:1%;}</style>
+						<![endif]--></div>
+				
+			</div>
+			<!-- END TOP MENU --><!-- end #sidebar2 -->
+			<div id="sidebar1">
+				<div class="Search_Box_BG">
+					<div>
+						<center>
+							<script language="JavaScript">
+<!--
+function form1_Validator(theForm)
+{
+
+
+if (document.search.searchstring.value == "")
+{
+document.search.searchstring.focus();
+return (false);
+}
+
+document.search.action="/Search/index.asp";
+document.search.submit();
+return false;
+
+}
+//--> 
+</script>
+
+
+<style>
+	.cse input.gsc-input, input.gsc-input
+	{
+		   background-image:none !important;
+	}
+	
+	.top-search{
+	position: absolute;
+	top:118px;
+	right: 50px;
+	}
+	#searchform #s{
+	color: #49494b;
+	font-size: 12px;
+	width: 160px;
+	height: 21px;
+	margin: 0px 0px 5px 0px;
+	padding: 2px 35px 2px 8px;
+	border: 0;
+	background: #f0efeb;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	}
+	#searchform #searchsubmit{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 25px;
+	height: 25px;
+	border: 0px;
+	background: url(img/search-submit.png) no-repeat transparent -3px 2px;
+	}
+</style>         
+<form class="Search_Form" id="searchbox_012119538469894062112:yvu4wakn628" action="/search/results.asp">
+<img src="Graphics/spacer.gif" height="1" width="1" /> 
+  <input value="012119538469894062112:yvu4wakn628" name="cx" type="hidden"/>
+  <input value="FORID:11" name="cof" type="hidden"/>
+  <input id="q" style="width:110px;" name="q" size="10" type="text" />
+ <input type="image" name="sa" value="Submit" src="Graphics/spacer.gif" alt="Submit" align="middle" height="19" width="100" />
+</form>
+
+
+
+                            
+                            
+						</center>
+					</div>
+				</div>
+				<!-- Left Menu Structure -->
+				<!-- Keep all menus within masterdiv-->
+
+<div id="masterdiv" style="width:200">	
+
+	<!-- 	menu		-->	
+	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub1')">ECF</div>
+	<span id="sub1" class="submenu">
+		<a class="menulink" href="/links/ecf.asp" target="_blank"><b>Logon to ECF/PACER</b></a><br />
+		<a class="menulink" href="/CMECF/annoucements.asp">	Announcements</a><br />
+		<a class="menulink" href="/nextgen">NextGen CM/ECF</a><br />
+		<a class="menulink" href="/CMECF/procedures.asp">		Procedures</a><br />
+		<a class="menulink" href="/Forms/index.asp?c1ygho=53gHeoKnBkj8&c1AZk=ECF_Registration_Forms&c1taZ=ECF_Registration_Forms&hsd=43xzczdsfr">Registration Forms</a><br />
+
+		<a class="menulink" href="/CMECF/ECFResources.asp">	Resources</a><br />
+		<a class="menulink" href="/CMECF/troubleshooting.asp">Troubleshooting</a><br />
+	</span>
+	
+
+	<!-- 	menu		-->	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub2')">Attorneys</div>
+	<span id="sub2" class="submenu">
+	    <a class="menulink" href="/Attorney/admission.asp">Admission to Practice</a><br />
+		<a class="menulink" href="/Attorney/cja.asp">CJA </a><br />
+		<a class="menulink" href="/eCourtroom/index.asp">Electronic Courtrooms</a><br />
+		<a class="menulink" href="/Attorney/attorneyID.asp">Federal ID Search</a><br />	
+		<a class="menulink" href="/records/copies.asp">Juror Questionnaires</a><br />	
+		<a class="menulink" href="/pji">Pattern Jury Instructions</a><br />	
+		<a class="menulink" href="/Attorney/ProBono.asp">Pro Bono Opportunities</a><br />
+	    <a class="menulink" href="/AttorneyResourceManuals">Resource Manuals</a><br />
+		<a class="menulink" href="/links/doi.asp" target="_blank"> Sureties-SC DOI Info</a><br />
+		<a class="menulink" href="/links/treas.asp" target="_blank"> Sureties-Treasury Listing</a><br />
+		<a class="menulink" href="/CMECF/Training.asp">		Training Resources </a><br />
+	    <a class="menulink" href="/CMECF/DOCS/Transcript_Filing_Instructions_Attorneys.pdf" target="_blank">Transcript Redaction</a><br />
+		<a class="menulink" href="/court/Transcripts.asp">Transcript Requests</a><br />
+	</span>
+
+	
+
+
+	<!-- 	menu		-->	
+		
+	<div class="menutitle" onclick="SwitchMenu('sub3')">Judges</div>
+	<span id="sub3" class="submenu"><a class="menulink" href="/Judges/distjudge.asp">District Judges</a><br />
+		<a class="menulink" href="/Judges/magjudge.asp">Magistrate Judges</a><br />
+		<a class="menulink" href="/CMECF/preferences.asp">Filing Preferences</a><br />
+		<a class="menulink" href="/Judges/calendar.asp"><font style="font-size:13px">Jury Selection Calendar</font></a><br />
+		<a class="menulink" href="/Judges/seminar.asp">Seminar Disclosure</a><br />
+	</span>
+
+	<!-- 	menu				
+	
+	<div class="menutitle" onclick="SwitchMenu('sub99')"><a style="text-decoration:none; font-size:12px" href="/judmisconduct.asp">Judicial Misconduct and Disability</a>
+	</div>
+	-->
+	
+	<!-- 	menu		-->	
+	
+
+	<div class="menutitle" onclick="window.location='/Jury/jury.asp';SwitchMenu('sub4')">Jurors</div>
+<span id="sub4">
+</span>
+<!---
+	<div class="menutitle" onclick="SwitchMenu('sub4')">Jurors</div>
+	<span id="sub4" class="submenu"><a class="menulink" href="/Jury/announcements.asp">Announcements</a><br />
+		<a class="menulink" href="/Jury/location.asp">Court Locations</a><br />
+		<a class="menulink" href="/Jury/excuses.asp">Excuses</a><br />
+		<a class="menulink" href="/Jury/exemptions.asp">Exemptions</a><br />
+		<a class="menulink" href="/Jury/FAQ.asp">FAQs</a><br />
+		<a class="menulink" href="/Jury/handbooks.asp">Handbooks</a><br />
+		<a class="menulink" href="/Jury/guideline.asp">Jury Duty Information</a><br />
+		<a class="menulink" href="/Forms/Jury/Standard_Jury_Questionnaire.pdf" target="_blank">Juror Questionnaire</a><br />
+		<a class="menulink" href="/Forms/Jury/Jury_Plan.pdf" target="_blank">Jury Selection Plan</a><br />
+		<a class="menulink" href="/Jury/qualifications.asp">Qualifications</a><br />
+	</span>
+
+--->
+
+
+	<!-- 	menu		-->	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub7')">Mediation / ADR</div>
+	<span id="sub7" class="submenu">
+		<a class="menulink" href="/Mediation/mediatr.asp">Certified Mediator Listing</a><br />
+		<a class="menulink" href="/Forms/index.asp?c1ygho=53gHeoKnBkj8&c1AZk=Mediation_Alternative_Dispute_Resolution&c1taZ=Mediation_Forms%20and%20Orders&hsd=43xzczdsfr">Forms & Orders</a><br />
+		<a class="menulink" href="/Mediation/guideline.asp">Guidelines</a><br />
+		
+	</span>
+
+	
+
+	<!-- 	menu		-->	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub5')">Pro Se<br><font style="font-size:11px">Representing Yourself</font></div>
+	<span id="sub5" class="submenu">
+		<a class="menulink" href="/docs/Warning_to_Pro_Se.pdf" target="_blank">Pro Se WARNING</a><br />
+	   <!-- <a class="menulink" href="/Forms/index.asp?c1ygho=53gHeoKnBkj8&c1AZk=Pro_Se&c1taZ=Pro_Se_Forms&hsd=43xzczdsfr" >Forms</a><br /> -->
+	   <a class="menulink" href="https://www.scd.uscourts.gov/FORMS/indexProSe.asp" >Forms</a><br />
+	    <a class="menulink" href="/DOCS/PROSE.pdf" target="_blank">Guide</a><br />	
+	    <a class="menulink" href="/CMECF/DOCS/Transcript_Filing_Instructions_ProSe.pdf" target="_blank">Transcript Redaction</a><br />	
+	</span>
+
+
+
+	<!-- 	menu		-->	
+		
+	<div class="menutitle" onclick="SwitchMenu('sub6')">Reference</div>
+	<span id="sub6" class="submenu">
+
+		<a class="menulink" href="/Filing/bankruptcy.asp">Bankruptcy transfers</a><br />	
+		<a class="menulink" href="/Filing/casenum.asp">Case number explanation</a><br />	
+		<a class="menulink" href="/Filing/misc.asp">Miscellaneous Cases</a><br />		
+		<a class="menulink" href="/Attorney/PostJudge.asp">Post Judgment</a><br />			 
+		<a class="menulink" href="/Filing/referral.asp">Referral of Cases</a><br />								
+	</span>
+	
+
+	<span id="sub99">
+	</span>
+	
+	<div class="menutitle" onclick="window.location='/cases';">Cases of Interest</div>
+	<div class="menutitle" onclick="window.location='/media';">Media</div>
+
+	<!-- 	menu		-->	
+		
+	<div class="menutitle" onclick="SwitchMenu('sub8')">Vacancies</div>
+	<span id="sub8" class="submenu">
+
+		<a class="menulink" href="/vacancies/22-08%20Announcement-IT%20Engineer.pdf">IT Engineer</a><br />
+<a href="https://www.scd.uscourts.gov/DOCS/Term_Law_Clerk_Ande_2023.pdf">Term Law Clerk</a><br>	
+		<a class="menulink" href="/vacancies/22-09%20Announcement-CHAS%20Clerk.pdf">Case Administrator</a><br />	
+	</span>
+</div>	
+
+
+
+			</div>
+			<!-- end #sidebar1 -->
+			<div id="mainContent" style=" position:relative;min-height:300px;height:auto !important;height:300px;">
+				<!-- InstanceBeginEditable name="Page Content" -->
+
+
+
+<!--DIV layer for Announcements.-->
+
+
+<style type="text/css">
+
+#myvar{
+	position:absolute;
+	top:5px; 
+	left:70px; 
+	z-index: 1; 
+	background:#fff;
+	width:500px; 
+	height: 400px;
+    border:1px solid #ccc; 
+	border-top:10px solid #c00;
+	border-bottom:20px medium #c00; 
+
+       }
+
+#photos img {border:none;}
+</style>
+
+<!-- ************************************************************************************************************************************* -->
+
+ <!-- ************************************************************************************************************************************* -->
+      
+					
+<!--<div style="padding:10px">				
+<h1><font color=red>Request for Quotes - Mobile Acrylic Shields</font></h1>				
+<p>Attached is a Request for Quotes for open market pricing for mobile acrylic shields:  <a href="https://www.scd.uscourts.gov/DOCS/RFQ 20-115_OMV.pdf"><b>RFQ 20-115</b></a>. <br><br> 
+Response deadlines are:<br><br>
+Questions:   Tuesday, 9/22<br>
+Quote:&nbsp; &nbsp; &nbsp; Thursday, 9/24 <br><br>
+We look forward to hearing from you.  Thanks for your consideration.
+</p>	
+</div>	-->
+<!--<div style="padding:10px">
+
+<p><font color=red><b>Server maintenance is scheduled for Sunday, Feb 7 from 12:01am - 6:00am.  During this time connectivity to Juror Forms and ECF/PACER will be intermittent.  Additional maintenance on ECF/PACER is scheduled for Sunday, Feb 7 from 7:00am - 3:15pm.  Please avoid accessing these services during these hours.</b></font></p>
+
+</div> 	-->			
+<div style="padding:10px"> 
+	 <h1>Public Notice</h1>
+   <p>The United States District Court for the District of South Carolina  continues to closely monitor the national response to the respiratory illness  caused by Coronavirus (COVID-19). We would like to assure the public that we  are reviewing the recommended guidelines provided by the <a href="https://www.scdhec.gov/">S.C. Department of Health  and Environmental Control</a> and the <a href="https://www.cdc.gov/">Centers for Disease Control</a> to ensure  our planning is based on the best available information from public health  experts to ensure the safety and health of our visitors and staff.</p>
+   <p><strong>For those  required to appear in court or who are called as jurors:</strong></p>
+   <p>In the event that you have traveled internationally, have been asked to self-quarantine by any doctor, hospital, or health agency, have been diagnosed with or have had contact with anyone diagnosed with COVID-19, or you are experiencing any symptoms of COVID-19, such as fever, cough, shortness of breath, nasal congestion, loss of taste or smell, muscle aches, nausea, vomiting and diarrhea, please contact the court before appearing.  The court will make reasonable accommodations and reschedule appearances and hearings as needed.</p>
+   <p><strong>Notice to Public Access Terminal Users:</strong></p>	
+   <p>The court's public terminals are not currently available and use of an online PACER account is required at this time to access court records.  Depending on the volume of information accessed, your PACER account usage may be free as total access fees of under $30 per quarter are automatically waived.  Please contact PACER at 
+   <a href="https://pacer.uscourts.gov">https://pacer.uscourts.gov</a> or 1-800-676-6856 for registration information and fee exemption request provisions.</p>
+   <p>Please contine to check our website, <a href="http://www.scd.uscourts.gov">www.scd.uscourts.gov</a>, for updates as the situation may evolve.</p>	
+   
+   <p>UPDATED December 22, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/StandingOrders/Order%20Regarding%20Video%20Teleconferencing%20and%20Telephone%20Conferencing/Third_Amended_Standing_Order_Regarding_Video_and_Telephone_Conferencing.pdf">Third Amended Order Regarding Video Teleconferencing and Telephone Conferencing</a></b>.</p>
+	<p>UPDATED September 30, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/StandingOrders/Order%20Regarding%20Video%20Teleconferencing%20and%20Telephone%20Conferencing/Second_Amended_Standing_Order_Regarding_Video_and_Telephone_Conferencing.pdf">Second Amended Order Regarding Video Teleconferencing and Telephone Conferencing</a></b>.</p>
+	<p>UPDATED September 21, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/StandingOrders/Fifth%20Amended%20Order%20Regarding%20Court%20Operations%20in%20Response%20to%20COVID-19/Fifth_Amended_Standing_Order_Regarding_Court_Operations_in_Response_to_COVID-19.pdf">Fifth Amended Order Regarding Court Operations in Response to COVID-19.</a></b>.</p>
+   <p>UPDATED July 6, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/DOCS/ReturntoCourthouseGuide-Covid-19.pdf">District of SC Guide for Courthouse Visitors during COVID-19 Pandemic</a></b>.</p>	
+   <p>UPDATED July 1, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/StandingOrders/Amended_Order_Regarding_Video_Teleconferencing_and_Telephone_Conferencing/Amended_Order_Regarding_Video_Teleconferencing_and_Telephone_Conferencing.pdf">Amended Order Regarding Video Teleconferencing and Telephone Conferencing</a></b>.</p>	
+   <p>UPDATED May 19, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/StandingOrders/Order%20Regarding%20the%20Use%20of%20Face%20Coverings%20and%20Masks%20due%20to%20COVID-19/Order_Regarding_the_Use_of_Face_Coverings_and_Masks_due_to_COVID-19.pdf">Order Regarding the Use of Face Coverings and Masks due to COVID-19</a></b>.</p>
+   <p>UPDATED May 19, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/StandingOrders/Amended%20Order%20Regarding%20Restrictions%20on%20Visitors%20to%20Courthouses%20due%20to%20Coronavirus/Amended_Order_Regarding_Restrictions_on_Visitors_to_Courthouses_due_to_Coronavirus.pdf">Amended Order Regarding Restrictions on Visitors to Courthouses due to Coronavirus</a></b>.</p>
+   <p>UPDATED April 14, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/StandingOrders/Order%20Regarding%20Interim%20CJA%20Voucher%20Process%20due%20to%20COVID-19%20Response/Order_Regarding_Interim_CJA_Voucher_Process_due_to_COVID-19_Response.pdf">Order Regarding Interim CJA Process due to COVID-19 Response</a></b>.</p> 
+   <p>UPDATED March 31, 2020:  Please see further adjustments to court operations - <b><a href="https://www.scd.uscourts.gov/StandingOrders/Order%20Regarding%20District%20Clerks%20Office%20Operations%20in%20Response%20to%20COVID-19/Order_Regarding_District_Clerks_Office_Operations_in_Response_to_COVID-19.pdf">District Clerk's Office Operations In Response to COVID-19</a></b>.</p> 	 
+     
+   </div>
+ <br /><br /><br /><br /><br />
+<div id="Judmiss" style="position:relative; width:504px; height:10px; z-index:8; top: 10px; left: 60px;"> 
+<p>
+  <table width="100%" border="0"  style="border-collapse:collapse;"cellspacing="0" cellpadding="0">
+    <tr align="center">
+      <th scope="col"><p><a href="judmisconduct.asp" style="color:darkblue">Notice: Judicial Misconduct and Disability</a></p></th>
+      <th scope="col"><p><a href="/mediation/edr.asp" style="color:darkblue">Judiciary Employee Rights & How to Report Wrongful Conduct</a></p></th> 
+   </tr>
+  </table>
+ </p></div> 
+	
+                                				<p>&nbsp;</p>
+                                                <p>&nbsp;</p>
+			
+				<!-- InstanceEndEditable --></div>
+			    <div id="footer">
+	<div align="center">
+				<span class="sidetext">
+				| <a href="/contact.asp">Contact Us</a> 
+                | <a href="/navtop/sitemap.asp">Site Map</a> 
+				| <a href="/compatibility.asp">Browser Compatibility</a>
+                | <a href="/disclaimer.asp">Disclaimer</a>
+                | <a href="/SiteSecurity.asp">Site Security</a>
+                |
+                </span> <!-- end #footer -->
+     </div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53510309-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+			<br class="clearfloat" />
+		</div>
+		<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats -->
+		<script language="javascript" type="text/javascript" src="/js/awstats_misc_tracker.js" ></script>
+<noscript><img src="/js/awstats_misc_tracker.js?nojs=y" height="0" width="0" border="0" style="display: none"></noscript>
+	</body>
+
+<!-- InstanceEnd --></html>
