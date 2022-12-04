@@ -1,0 +1,18 @@
+HTTP/1.1 200 200
+Date: Sun, 04 Dec 2022 13:22:37 GMT
+Server: Apache
+Status: 200
+vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+Pragma: No-cache
+Cache-Control: no-cache, max-age=0
+Cache-Control: no-store
+Connection: close
+Content-Disposition: inline; filename=RSSGenerator
+Content-Length: 384
+Expires: Sun, 04 Dec 2022 13:22:37 GMT
+Set-Cookie: CMECFASESSIONID=B80A9A2F3EDD91E87B48BACB0A1CFCA9; Path=/n; secure;HttpOnly;Secure;SameSite=None
+Content-Type: application/rss+xml;charset=ISO-8859-1
+
