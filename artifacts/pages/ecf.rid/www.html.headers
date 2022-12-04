@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.rid.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:51:42 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670160392-0"
+Last-Modified: Sun, 04 Dec 2022 13:26:32 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=LICCALLOAMIDIBIFJJNADIKPBKNPDKOHADKAENEMGPBJGNFEJAIFCDGJAPOFPMLKEGMDKMNLDFCDNBKEHOJAECGFKKMHPJABJAHNNLJDKKMAICOADBMFECPFCNKCKGEM; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01c19b54=01300dc996f56ab213bf8b17ca3fb9f86c4ce8417df24551015aaa5cf9acd5c1b2075c8f21418d7e1ff153c6d74791f076b621d86b; Path=/; Domain=.www.rid.uscourts.gov
+
