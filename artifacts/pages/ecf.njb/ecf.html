@@ -1,10 +1,98 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>504 Gateway Timeout</title>
-</head><body>
-<h1>Gateway Timeout</h1>
-<p>The gateway did not receive a timely response
-from the upstream server or application.</p>
-<hr>
-<address>Apache Server at ecf.njb.uscourts.gov Port 443</address>
-</body></html>
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>US Bankruptcy Court NJ - Live Database</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFF5CE TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>US Bankruptcy Court NJ - Live Database</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+District of New Jersey
+<P>
+<A HREF="/cgi-bin/login.pl">District of New Jersey - Document Filing System</A>
+<BR>
+<A HREF="/cgi-bin/autoFilingClaims.pl">District of New Jersey - ePOC</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+
+<HR>
+This is a restricted government website for official court business only. All activities of CM/ECF subscribers or users of this system for any purpose, and all access attempts, may be recorded and monitored by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance and for appropriate management by the judiciary of its systems. By subscribing to CM/ECF, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. If evidence of unlawful activity is discovered, including unauthorized access attempts, it may be reported to law enforcement officials.
+<br>
+<br>
+<b>
+CHAMBERS EMAIL ACCOUNTS:
+</b>
+<br>
+<br>
+<b>Chief Judge Michael B. Kaplan:</b> <a href="mailto:chambers_of_mbk@njb.uscourts.gov">chambers_of_mbk@njb.uscourts.gov</a><br>
+<b>Judge Rosemary Gambardella:</b> <a href="mailto:chambers_of_rg@njb.uscourts.gov">chambers_of_rg@njb.uscourts.gov</a><br>
+<b>Judge Kathryn C. Ferguson:</b> <a href="mailto:chambers_of_kcf@njb.uscourts.gov">chambers_of_kcf@njb.uscourts.gov</a><br>
+<b>Judge Christine M Gravelle:</b> <a href="mailto:chambers_of_cmg@njb.uscourts.gov">chambers_of_cmg@njb.uscourts.gov</a><br>
+<b>Judge Andrew B. Altenburg, Jr.:</b> <a href="mailto:chambers_of_aba@njb.uscourts.gov">chambers_of_aba@njb.uscourts.gov</a><br>
+<b>Judge Vincent F. Papalia:</b> <a href="mailto:chambers_of_vfp@njb.uscourts.gov">chambers_of_vfp@njb.uscourts.gov</a><br>
+<b>Judge John K. Sherwood:</b> <a href="mailto:chambers_of_jks@njb.uscourts.gov">chambers_of_jks@njb.uscourts.gov</a><br>
+<b>Judge Jerrold N. Poslusny, Jr.:</b> <a href="mailto:chambers_of_jnp@njb.uscourts.gov">chambers_of_jnp@njb.uscourts.gov</a><br>
+<b>Judge Stacey L. Meisel:</b> <a href="mailto:chambers_of_slm@njb.uscourts.gov">chambers_of_slm@njb.uscourts.gov</a><br>
+<br>
+<BR>
+<BR>
+<BR>
+</b>
+From time to time, you may experience significant slowness with the system.  Some
+ of it is due to technical difficulties and some is due to network congestion.
+ When you encounter such an event, please log off the system and wait 10 minutes
+ before retrying.  Please be reminded that clicking on the "submit" button twice
+ may result in duplicated filings.  To work around problems of network congestion, filing in the following time period is encouraged: early in the morning, around lunch hours, and late afternoon.
+<br>
+<HR>
+NextGen Bankruptcy CM/ECF Version 1.7.1.1
+
+<HR>
+3December2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>

@@ -1,8 +1,9 @@
-HTTP/1.0 504 Gateway Timeout
-Date: Sun, 04 Dec 2022 20:36:08 GMT
+HTTP/1.0 200 OK
+Date: Sun, 04 Dec 2022 21:24:05 GMT
 Server: Apache
 X-Frame-Options: SAMEORIGIN
-Content-Length: 318
+Cache-Control: max-age=0
+Expires: Sun, 04 Dec 2022 21:24:05 GMT
 Connection: close
-Content-Type: text/html; charset=iso-8859-1
+Content-Type: text/html; charset=UTF-8
 
