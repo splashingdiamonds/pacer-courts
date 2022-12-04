@@ -1,0 +1,89 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>BK CM/ECF LIVE - US Bankruptcy Court-Texas Southern</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFF0 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>BK CM/ECF LIVE - US Bankruptcy Court-Texas Southern</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Southern District of Texas
+<P>
+<A HREF="/cgi-bin/login.pl">Southern District of Texas - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> <!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+
+
+<CENTER>
+<FONT COLOR="ff0000">
+<BR><BR>
+
+<B>NOTICE: This application is unavailable Monday through Friday from 6:00 am - 6:15 am for system
+maintenance.
+</FONT>
+<br>
+<BR>
+<CENTER><B>This is a restricted government website for official court business only. All activities of CM/ECF subscribers or users of this system for any purpose, and all access attempts, may be recorded and monitored by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance and for appropriate management by the judiciary of its systems. By subscribing to CM/ECF, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. If evidence of unlawful activity is discovered, including unauthorized access attempts, it may be reported to law enforcement officials.
+</B></CENTER>
+<BR>
+<BR>
+<CENTER>
+<hr>
+
+
+<p>Panel Trustees and attorneys appointed under the Criminal Justice Act who have court-authorized fee-exempt PACER accounts are reminded that the fee exemption only applies for limited purposes.  <b>Any transfer of data obtained as a result of a fee exemption is prohibited unless expressly authorized by the court.</b>  Therefore, fee-exempt PACER users must refrain from the use of software that shares or transfers electronic court records to third parties.</p>
+<hr />
+<p><b><font color="red" size="+1">Privacy Notice</font></p
+<p>Electronically filed documents are accessible to the public on the Internet unless filed under seal or in restricted-access cases.  Under <a href="http://www.pacer.gov/privacy/bk.html">FedRBankP 9037</a>, as amended December 1, 2007, parties filing documents must refrain from including or redact personal data identifiers, including social security numbers, names of minor children, dates of birth, and financial account numbers.  Contact our Help Desk 866-358-6201 if you are unsure how best to comply with this rule to protect the personal identification information for your clients.</b></p>
+<hr>
+<CENTER>
+<p>E-Mail ECF Help Desk Bankruptcy Court: <a href="mailto:bankruptcy_ecf_helpdesk@txs.uscourts.gov">bankruptcy_ecf_helpdesk@txs.uscourts.gov</a></p>
+</CENTER>
+
+<HR>
+10February2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
