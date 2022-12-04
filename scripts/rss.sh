@@ -61,9 +61,14 @@ function fetch_rss {
   commit_msg="Update ${dest_slug} court feeds and pages.${commit_msg_suffix}"
 
   git commit -m "$commit_msg";
+  git push;
 
   if [[ ! -f "latest/rss/${dest_slug}.rss.xml" ]]; then
     touch $latest_valid_rss "latest/rss/$dest_slug.rss.xml.missing"
+    git add "latest/rss/$dest_slug.rss.xml.missing";
+    commit_msg="Missing ${dest_slug} court feed.${commit_msg_suffix}"
+    git commit -m "$commit_msg";
+    git push;
   fi
 }
 
