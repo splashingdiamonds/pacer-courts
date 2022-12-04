@@ -1,0 +1,21 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.mab.uscourts.gov/mab/ecf-access-and-training
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 04 Dec 2022 13:30:41 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+X-Redirect-ID: 9
+Location: https://www.mab.uscourts.gov/ecf-access
+X-Cache-Status: MISS
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=OKAHJJIFIGFPAFHJAOPPLIDILEEFDJLLONLGMGCENBHFNOHHCMENGJJGFNMGJCHALLDDBDMKGAFJKCPFOKAABKBMLKKHNEFENOMJEONCPEHMCOHFKBPBLIHBFEHPHOEL; HttpOnly; secure;
+Set-Cookie: TS01b352a7=01300dc996dcd662e911a0a22ad29c736a69a92840613300bdf3377a6650272d8f9bace4405c33e3138f04d465f2129147c37d3d78; Path=/; Domain=.www.mab.uscourts.gov
+
