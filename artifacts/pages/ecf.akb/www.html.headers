@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Sun, 04 Dec 2022 13:21:16 GMT
+Date: Sun, 04 Dec 2022 13:21:36 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670157962-0"
 Last-Modified: Sun, 04 Dec 2022 12:46:02 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=KHEPDJAGBCFNKMPEEOEJDENPELEHKEAMIMPOOIHKLIKGPNKLJJDJOICLEEKFJMFGCGPDMJONBOHFHFGLJLFAFCMJIJJOKLMJGKGFCOPNGJDFGOILMIJLBLGFABLKOAHM; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=NPPLGOILALCMINIJFIILAMIFBOOCBGLKOJGCJDIMFDIMHLJCLEDOEGMBCBKLPIBIEKMDLDOLFOLFCPDPGMFAONKPJJKLPHPNIFPBJHNOLFKCBDHGCLJHBGIDHDPHMBOJ; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01be8909=01300dc99692b60bc8392db0c5c626ac71d3c9f1918728053030f94027878eb68c5d98a6d241cc41f31570e9da280896f263fe3c35; Path=/; Domain=.www.akb.uscourts.gov
+Set-Cookie: TS01be8909=01300dc996f427b0009caba158404025fb439a79a7edbca40f89902fbae181cf312101a1f1cdc76bb6d130351d369f21ac1b2151ec; Path=/; Domain=.www.akb.uscourts.gov
 
