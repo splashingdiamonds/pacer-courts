@@ -1,0 +1,130 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>Live Database Area</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=99CCFF TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>Live Database Area</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Southern District of Illinois<br>CM/ECF NextGen 1.6.3
+<P>
+<A HREF="/cgi-bin/login.pl">Southern District of Illinois - Document Filing System (Live Database)</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+
+<HR>
+<UL>
+<CENTER><FONT FACE="ARIAL" COLOR="#FF0000"><STRONG>* IMPORTANT ANNOUNCEMENTS *</STRONG></FONT></CENTER>
+<BR>
+<FONT FACE="ARIAL" SIZE="2">
+<STRONG>
+<!--<LI>Scheduled System Downtime - September 10, 2021 thru September 13, 2021<BR><BR>
+The court's electronic document filing system (CMECF) will be unavailable from 1:00 PM September 10, 2021, to 8:00 AM Monday, September 13, 2021 due to system maintenance. The court will be upgrading the CM/ECF system to NextGen CM/ECF. Please visit <a href="http://www.ilsb.uscourts.gov/NextGen" target="_blank">www.ilsb.uscourts.gov/NextGen</a> for further guidance.
+<BR><BR></LI>-->
+<LI>Notice Regarding General Order 20-2<BR><BR>
+Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/orders/GeneralOrder_20-2.pdf">here</a> to view General Order 20-2 regarding Proof of Claim deadlines for Chapter 11 Small Business Subchapter V cases.
+<BR><BR></LI>
+
+<LI>Amended Bankruptcy Forms Effective April 1, 2016<BR><BR>
+Please click <a href="http://www.ilsb.uscourts.gov/sites/default/files/Notice_FormsChanges_040116.pdf" target="_blank">here</a> for an important notice regarding amended bankruptcy forms effective April 1, 2016.
+<BR><BR></LI>
+<LI>Revised Official Bankruptcy Forms<BR><BR>Please click <a href="http://www.ilsb.uscourts.gov/sites/default/files/NtcFormChangesDec2015.pdf" target="_blank">here</a> to view an <strong><em>important</em></strong> notice.<BR><BR></LI>
+<LI>Revised Chapter 13 Procedures Manual<BR><BR>
+The Chapter 13 Procedures Manual was revised. &nbsp;Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/forms/13PlanInstruct_062015.pdf" target="_blank">here</a> to view the revised Chapter 13 Procedurs Manual. Please click <a href = "http://www.ilsb.uscourts.gov/forms/chapter-13-plan-07-21-15" target="_blank">here</a> to view the revised Chapter 13 Plan.
+<BR><BR></LI>
+<LI>Chapter 13 Confirmation Hearings<BR><BR>
+Effective in Chapter 13 cases filed June 1, 2015, a confirmation hearing date will be scheduled and noticed within the 341 Meeting of Creditors Notice mailed by the Chapter 13 trustees. &nbsp;A revised Chapter 13 Procedures Manual will be posted soon.
+<BR><BR></LI>
+<LI>Revised Form: Notice of Objection to Claim - Chapter 13<BR><BR>
+An important change was recently made to the 'Notice of Objection to Claim - Chapter 13' form. Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/forms/objclm04-2015_0.pdf" target="_blank">here</a>  to review the revised form.
+<BR><BR></LI>
+<LI>Notice Regarding December 1, 2014 Rules Changes<BR><BR>
+Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/12-01-14_RulesNotice.pdf">here</a> to view a notice regarding rules changes effective December 1, 2014.
+<BR><BR></LI>
+<LI>Notice Regarding General Order 14-2<BR><BR>
+Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/orders/GeneralOrder_14-2.pdf">here</a> to view General Order 14-2 regarding Motions to Redact/Motions to Restrict Access.
+<BR><BR></LI>
+<LI>Notice Regarding General Order 14-1<BR><BR>
+Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/orders/GeneralOrder_14-1.pdf">here</a> to view General Order 14-1 regarding the administration of chapter 13 cases.
+<BR><BR></LI>
+<LI>Notice Regarding June 1, 2014 Fee Changes<BR><BR>
+At its March 2014 session, the Judicial Conference approved changes to the Bankruptcy Court Miscellaneous Fee Schedule. The changes to these fees will become effective on June 1, 2014. <a href = "http://www.ilsb.uscourts.gov/sites/default/files/Ntc_Fee_06012014.pdf"> June 1, 2014 Fee Notice</a>
+<BR><BR></LI>
+<LI>Notice Regarding General Order 13-3<BR><BR>
+Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/orders/GeneralOrder_13-3.pdf">here</a> to view General Order 13-3 regarding Amended Schedules.
+<BR><BR></LI>
+<LI>Notice Regarding General Order 13-2<BR><BR>
+Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/orders/GeneralOrder_13-2.pdf">here</a> to view General Order 13-2 regarding Amended Schedules.
+<BR><BR></LI>
+<LI>Notice Regarding General Order 13-1<BR><BR>
+Please click <a href = "http://www.ilsb.uscourts.gov/sites/default/files/orders/GeneralOrder_13-1.pdf">here</a> to view General Order 13-1 regarding Supplemental Schedules I and J.
+<BR><BR></LI>
+<LI>Notice Regarding Amended Bankruptcy Rules and Forms Effective December 1, 2013<BR><BR>
+Effective December 1, 2013 amended bankruptcy rules and forms will take effect.  Click <a href="http://www.ilsb.uscourts.gov/sites/default/files/NtcRulesFormsEff12012013.pdf">here</a> for details.
+<BR><BR></LI>
+<LI>Notice Regarding December 1, 2013 Fee Changes<BR><BR>
+At its September 2013 session, the Judicial Conference approved changes to the federal court miscellaneous fee schedules.  A redline version of the bankruptcy court fee changes: <a href="http://www.ilsb.uscourts.gov/sites/default/files/Dec2013Fees.pdf">December 1, 2013 Fees Notice</a>
+<BR><BR></LI>
+<LI>Transfer of Claim Fee<BR><BR>
+Notice: Effective May 1, 2013, the bankruptcy courts will begin charging a new fee of $25 for each claim transferred. Please click <a href="http://www.ilsb.uscourts.gov/sites/default/files/TOCFee.pdf">here</a> to review the notice of this new fee.<BR><BR></LI>
+<LI>Public Notice<BR><BR>
+Please click <a href="http://www.ilsb.uscourts.gov/sites/default/files/RSSFeedNotice-Oct2012.pdf">here</a> to view an important notice about the availability of the new CM/ECF RSS Feed feature.<BR><BR></LI>
+<LI>NOTICE REGARDING NEW LOCAL RULES<BR><BR>The Seventh Circuit has approved the Bankruptcy Court.s new Local Rules. The Rules become effective on June 1, 2012 and can be found on the Court's <a href="http://www.ilsb.uscourts.gov/?q=local-rules" target="_blank">Operational Guides/Rules Page</a>. The new Rules are extensive and comprehensive, and as a whole, constitute a substantial revision of the prior rules. Attorneys and any and all parties practicing in this Court should carefully review the Rules and familiarize themselves with any new provisions and/or changes. The Court expects any attorney or party appearing before the Court to comply with these Rules.<BR><BR></LI>
+<LI>Notice to the Bar<BR><BR>Effective November 1, 2012 Illinois Southern Bankruptcy Court will no longer accept proposed orders in WordPerfect format. Proposed orders will need to be submitted in Microsoft Word (.doc) format.  All other requirements for submission of proposed orders remain in effect. <BR><BR></LI>
+<LI>Two new events for rule 3002.1 have been added to the CM/ECF menu of Bankruptcy, Claim Actions.  The events are Notice of Postpetition Fees, Expenses, and Charges (No Proof of Claim Filed) and Response to Notice of Final Cure Payment (No Proof of Claim Filed).  Creditors who have not previously filed a proof of claim can use these events to file the supplemental Notice of Postpetition Fees, Expenses, and Charges, Official Form B10S2 or a Response to a Notice of Final Cure Payment.  These events will appear on the docket report instead of the claims register.<BR><BR></LI>
+<LI>Notice to Bar<BR><BR>Please click <a href="http://www.ilsb.uscourts.gov/sites/default/files/filingagents.pdf">here</a> to view a notice regarding filing agents, which is a special type of CM/ECF account linked to an existing attorney or trustee account.<BR><BR></LI>
+<LI>A new event for Rule 3002.1 has been added to the CM/ECF menu of Bankruptcy, Claim Actions, then Notice of Mortgage Payment Change (No Proof of Claim Filed). Creditors who have not previously filed a proof of claim can use this event to file the supplemental Notice of Mortgage Payment Change, Official Form B10S1. This event will appear on the docket report instead of the claims register.<BR><BR></LI>
+<LI>Due to the CM/ECF system upgrade, summonses issued by the Court prior to November 25, 2011 may not be available through the system. If you are unable to print your summons, please contact the Court.<BR><BR></LI>
+</UL>
+</STRONG>
+
+<HR>
+23February2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
