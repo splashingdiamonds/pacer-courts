@@ -1,0 +1,82 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>CM/ECF - U.S. Bankruptcy Court:insb</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=F9F9F9 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input STYLE="display:none" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!--ShowPage(index.html)-->
+
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>CM/ECF - U.S. Bankruptcy Court:insb</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Southern District of Indiana
+<P>
+<A HREF="/cgi-bin/login.pl">Southern District of Indiana - Document Filing System</A>
+</CENTER>
+<!--ShowPage(OperationNotice.htm)-->
+<!--*****************************************************************************************
+  INSB Changes:
+    10/05/06 (Tim)
+      Get version information from Site table.
+    07/11/14 (BGF) [6070]
+      Read and display a notice automatically upon logging in.
+
+  Notes:
+    The current version of CM/ECF is stored in a Site table entry called Release ID.  The value
+    of ReleaseID is displayed on this page and is updated during every major upgrade.
+  *****************************************************************************************-->
+
+<HR>
+<TABLE ALIGN="Center" BORDER="0">
+  <TR><TH><FONT COLOR="#0000FF">CM/ECF-BK V10.7.1.1</FONT></TH></TR>
+</TABLE>
+
+<!-- Retrieve and display the current operation notice.  The </CENTER> tag closes off a -->
+<!-- <CENTER> tag in mainmenu.htm because it looks better as a regular paragraph. -->
+</CENTER>
+<HR>
+<span class="alert_font">COVID-19 Hearing Information:</span> <A HREF="https://www.insb.uscourts.gov/sites/insb/files/20-0004.pdf">General Order 20-0004, Evidence at Telephonic Hearings</A><BR><BR><span class="alert_font">JUDGES' POLICIES ON COVID-19 PRECAUTIONS IN COURTROOMS:</span> Each Bankruptcy Judge may have recently adopted requirements for those appearing in their Courtrooms that differ from the policies set for the Courthouses.  Be sure to review each <A HREF="https://www.insb.uscourts.gov/judges-info">Judge's Communication Information</A>.  Attorneys should alert their clients to the Judge's policies.<BR><BR><span class="alert_font">IMPORTANT:</span> All filings with the court - including attachments - must comply with Fed. R. Bankr. P. 9037: Social Security or taxpayer-identification numbers; dates of birth; names of minor children; and financial account numbers may not appear except as allowed by the rule. This includes the initial filing of petition and schedules and any subsequent document - including claims - which become available electronically.<BR><BR>The Court will NOT process any wage assignment orders submitted with the debtor's complete Social Security number visible. The better practice is to submit a wage assignment order with the personal identifiers redacted, or truncated to the last four digits, and then provide the employer with the complete Social Security number in a separate cover letter when delivering the order signed by the Court.<BR><BR><CENTER><A HREF="http://bankruptcynotices.uscourts.gov/"><IMG SRC="/graphics/EBN.jpg" ALT="Electronic Bankruptcy Noticing" BORDER="0"></A></CENTER><BR><BR><span class="alert_font">To access copies of documents on cases filed before December 1, 2003, contact the Clerk's office.</span><BR>For more information, <A HREF=""OnClick="alert('To assure privacy, yet allow public access, the Judicial Conference of the United States has restricted public access through the PACER system to all documents (excluding docket sheets and docket information) in bankruptcy cases that were filed before December 1, 2003, and have been closed for more than one year. This restriction also applies to documents from bankruptcy case appeals filed in the district or courts of appeals, prior to December 1, 2003.&#092;n&#092;nThose registered as a party on a particular case may continue to access the full case file electronically through the PACER system.  If you are not a registered party, all documents, except those under seal, will remain fully accessible at the clerk&#092;'s offices, on the public access computers in our lobbies. Additionally, the clerk&#092;'s office may be able to print and mail copies of specific documents upon request and submission of payment in advance. Please call your local Bankruptcy Court Clerk&#092;'s office for further information.'); return (false);">click here</A>.<BR><BR><span class="alert_font">Reminder: Clear your cache on a regular basis.</span><BR>Many CM/ECF issues are the result of not clearing your computer browser's cache (temporary Internet files) regularly. Clearing cache cleans up your Internet browser memory and ensures you are getting the latest CM/ECF updates. For instructions on how to delete these temporary files, see the Help menu on your browser.<BR><BR><span class="alert_font">Having Problems?</span><BR>Using a browser other than <A HREF="https://www.insb.uscourts.gov/cmecf-compatible-browsers">those supported</A> may result in intermittent problems. Try using another supported browser if a document does not display properly. For further assistance, visit our <A HREF="https://www.insb.uscourts.gov/content/utilities-troubleshooting-and-general-filing-information">Troubleshooting Page</A> or contact our <A HREF="https://insb.hesk.com/index.php?a=add&priority=1">CM/ECF Helpdesk</A>.<BR><BR><!--<FONT COLOR=Green><B><span class="alert_font">DOWNTIME:</span> PACER will be performing server maintenance on <A HREF="https://pacer.uscourts.gov/file-case/developer-resources/pacer-maintenance">Sunday, March 13, 2022</A>, from 6:55 am to 1:00 pm Eastern. During this time, you may experience intermittent authentication issues when logging into CM/ECF or intermittent connection issues when making payments through Pay.gov.</B></FONT>--><BR><BR><!-- New CM/ECF Feature--><!--<IMG SRC=/graphics/NewOperationNotice.png><span class="alert_font">STARTING Monday, February 14</span>, the Creditor List  Amended is now Creditor Upload - Amended.  This event is available for use by debtors who have uploaded creditors to a new case and later discover that one or more creditors were inadvertently omitted in the upload process.  The event allows the missing creditors to be uploaded.  The amendment fee is charged for use of this event.  This event should not be used for adding creditors to schedules.  The <A HREF="https://robohelp.ins.circ7.dcn/Procedure/Filing_Documents_Attorney/Amended_Schedules.htm">Amended Schedules</A> event should be used for that purpose.-->
+
+<HR>
+10February2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
