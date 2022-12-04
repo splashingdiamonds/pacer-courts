@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Sun, 04 Dec 2022 21:53:25 GMT
+Date: Sun, 04 Dec 2022 22:22:43 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Content-Language: en
@@ -12,11 +12,11 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie
 Etag: "1670185645-0"
 Last-Modified: Sun, 04 Dec 2022 20:27:25 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=KBFHLGKKPMGPIFKHMHLBNEOCENNBBAKEDGDHDLIJMGMNKLOKPKKENKKIFBFIILDCFCCDLDHKKGEEDLCFHFOAPKEEIBOPCAFHJCNNNFGJMCHGOFKILIFICABIBHBKCFJI; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=GAIFBOEBKFMJDAPKMDILMPBMNIANBGBGJDPKCLFHKNHLAFFPEGCLHNMIGLEACIABDPMDBLDLINJAANDKDPNABOJOGBEOCPGCGNDIIJPCGHNHMDKCEBALPMDGIIGKAHAF; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01d9782a=01300dc9964d6575642d6e27d86176e4a85849c24ad3433137451669769484641a432c83dc9d2c081566bf9d16802b2f94d5f36a99; Path=/; Domain=.www.flsd.uscourts.gov
+Set-Cookie: TS01d9782a=01300dc9966e7b774e65515639fae28494ad858631fc690befc75d24637e32747f1ae88c417e703c2c5f6b1df0801402824b85bd49; Path=/; Domain=.www.flsd.uscourts.gov
 Transfer-Encoding: chunked
 
