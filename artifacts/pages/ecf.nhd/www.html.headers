@@ -1,0 +1,20 @@
+HTTP/1.1 302 Found
+Date: Sun, 04 Dec 2022 13:32:09 GMT
+Server: Apache
+Location: https://www.nhd.uscourts.gov/
+Content-Length: 213
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:32:09 GMT
+Server: Apache
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, must-revalidate
+X-Content-Type-Options: nosniff
+Content-Language: en
+Permissions-Policy: interest-cohort=()
+X-Generator: Drupal 7 (http://drupal.org)
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
