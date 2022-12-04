@@ -1,0 +1,107 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>LAEB Live System</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFF0 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>LAEB Live System</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Eastern District of Louisiana
+<P>
+<A HREF="/cgi-bin/login.pl">Eastern District of Louisiana - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<head>
+<style type="text/css">
+.auto-style1 {
+        text-align: left;
+}
+</style>
+</head>
+
+<body>
+
+<br>
+<br />
+<p><font color=blue>ATTENTION:</font> This is a restricted government website for official court business only. All activities of CM/ECF subscribers or users of
+ this system for any purpose, and all access attempts, may be recorded and monitored by persons authorized by the federal judiciary for improper use, protection
+ of system security, performance of maintenance and for appropriate management by the judiciary of its systems. By subscribing to CM/ECF, users expressly consen
+t to system monitoring and to official access to data reviewed and created by them on the system. If evidence of unlawful activity is discovered, including unauthorized access attempts, it may be reported to law enforcement officials.
+</p>
+
+<br>
+<HR>
+<CENTER><B>
+<p><i><font color="#FF0000" size="6"> <b>System Availability Notice!!</b></font></i></p>
+<p><i>CM/ECF NextGen V1.7 is available. LAEB NextGen upgrade to NextGen V1.7 is completed.</i><br><br><font color=red>Effective October 19, 2022, the new dial-in number for hearings before The United States Bankruptcy Court for the Eastern District of Louisiana is 1-504-517-1385, Conference Code 129611.  Please use the new phone number and conference code on notices of hearing for all hearings set on and after October 19, 2022. Effective October 19, 2022, the old number and old code will no longer function.<br><br> 
+Additionally, as of October 19, 2022, GoToMeeting will replace Zoom. Please use https://gotomeet.me/JudgeGrabill for any video hearings.<br><br>
+Please ensure that you update any Notice of Hearing filed for any hearing set on or after October 19, 2022. Any hearings which have already been set, will be adjusted by order of the Court.</font>
+ </p>
+<br>
+</CENTER>
+<HR>
+
+<CENTER><B>
+<p><i><font color="#FF0000" size="6"> <b>Notice!!</b></font></i></p>
+<p><i>Regular business hours for users' support and filing on this Electronic Filing System are from 8:30 A.M. to 4:30 P.M., Central time. Although the system is available 24 hours per day, 7 days per week, it may be necessary for the court to interrupt service for maintenance at various times. Please be aware that if you choose to file at hours other than the supported times you may experience an interruption of service.</i></p>
+</B>
+<HR>
+<br><a href="http://www.laeb.uscourts.gov">Eastern District of Louisiana - Internet Website</a>
+<br><br><a href="https://ecf.laeb.uscourts.gov/cgi-bin/PublicCalendar.pl">Eastern District of Louisiana - Court Calendar</a>
+<br><br><a href="http://www.laeb.uscourts.gov/case-info/cm-ecf-case-info">Information Regarding PACER Access Restrictions</a>
+<br><br><a HREF="http://ebn.uscourts.gov/court" TARGET="_TOP"><img src=../graphics/EBN_Banner_728x90.jpg></img></a>
+<br>
+</CENTER>
+</body>
+<BR>This database contains software release NextGen CM/ECF V1.7 up to Hotfix 1.7.0 installed on April 9, 2022.
+
+<HR>
+2September2021
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
