@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.nywb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:50:29 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670158710-0"
+Last-Modified: Sun, 04 Dec 2022 12:58:30 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=HNFGEAKBGKJFECNEGICKDOMLPKHIGCDJHGEKHIDKIGIMGGIOJPBHDMGCLFEFPCOAIDNDDFDJKFDAOKEFHJDAKFDJFKJABPHADMBKEEFMKNIADAFHFAOINELIJPOJCNNM; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS019b2d0e=01300dc996e5101790b9cd8b2f0d29d2212ecbd382a7f08356bf0ad6484cca2779c90a5ef5d1169d5d38316529fbb9d601be2ad969; Path=/; Domain=.www.nywb.uscourts.gov
+
