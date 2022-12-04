@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.okwb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:50:59 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670158886-0"
+Last-Modified: Sun, 04 Dec 2022 13:01:26 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=MEMLKPLAFAOFAILLAIEDBPLCJFLFMOBIIOIOCCCJHIDJCIEFAKAAMPEFLCBAKFIFDHGDHIFMIFOKELIHKJJAKPNDHKBGJABOLMCNOEHFMKPOCDHDFJJBINHEPIEJONPJ; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01ca5464=01300dc996e9ed4bee0dcb288ff96fd858959039a7fd8c58ea2802770e15d3262e114f5aa21f8e6a94cf41d16f46ff3a9aedd7eda1; Path=/; Domain=.www.okwb.uscourts.gov
+
