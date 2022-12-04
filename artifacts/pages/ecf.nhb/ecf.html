@@ -1,0 +1,118 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>USNHB Live</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFF0 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>USNHB Live</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+U.S. Bankruptcy Court for the
+District of New Hampshire Live Database
+
+<P>
+<A HREF="/cgi-bin/login.pl">District of New Hampshire Live Database - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> <center>
+<P style="border-bottom:1px solid;
+  border-top:1px solid;
+  border-color: red;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:justify;
+  width: 900px;" >
+
+
+This is a restricted government system for official judiciary business only. All activities on this system for any purpose, and all access attempts, may be recorded and monitored or reviewed by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance, and appropriate management by the judiciary of its systems. By using this system or any connected system, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. Any evidence of unlawful activity, including unauthorized access attempts, may be reported to law enforcement officials.
+
+</P>
+<!-- Maintenance window notice -->
+<!-- Remove comment to display on web page
+<P style="border-bottom:1px solid;
+  border-top:1px solid;
+  border-color: red;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:justify;
+  width: 900px;" >
+
+*** The U.S. Bankruptcy Court for the District of New Hampshire's CM/ECF system is unavailable for filing on Saturday, October 22, 2022, from 8:00 A.M. ET until 6:00 P.M. ET, while required maintenance is performed.
+<br /> <br />
+Electronic filing and access to PACER records are not available during maintenance. We apologize for any inconvenience this may cause and ask that you plan your filings accordingly.
+
+</P>
+
+<hr />
+-->
+
+<p>
+The New Hampshire Bankruptcy Court is a NextGen court.
+</p>
+
+
+<p>
+You will NOT be able to file in NextGen until your CM/ECF account is linked to your upgraded, individual PACER account.<br> Click <a href="https://www.nhb.uscourts.gov/nextgen-links">here</a> for instructions on how to link your accounts.
+</p>
+
+<hr>
+
+<b>If you have any questions or problems using CM/ECF-BK V10.6.4, please call our Help Desk at 1-866-252-6323.</b>
+<p />
+
+<font size=+1, color=#000077>The United States Bankruptcy Court for the District of New Hampshire is located at</font
+<p align='center'>
+<table>
+        <tr><td><font color=#000077>
+                Warren B Rudman United States Courthouse<br />
+                55 Pleasant Street, Room 200<br />
+                Concord, NH 03301
+        </font></td></tr>
+</table>
+</p>
+
+<p><center><a HREF="http://bankruptcynotices.uscourts.gov/" TARGET="_blank"><img src=../graphics/EBN_Banner_728x90.jpg></img></a></center></p>
+</center>
+
+<HR>
+30October2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
