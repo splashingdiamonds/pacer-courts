@@ -1,0 +1,329 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>WIWB CM/ECF live (v1.5.3) Database</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"/><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=#f2f2ff TEXT=#000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!--ShowPage(index.html)--> 
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>WIWB CM/ECF live (v1.5.3) Database</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="/graphics/seal.gif" WIDTH="124" HEIGHT="124" BORDER="0">
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Western District of Wisconsin
+<!--not EMBED="CourtName"-->
+<P>
+<A HREF="/cgi-bin/login.pl">
+Western District of Wisconsin - Document Filing System
+</A>
+<!--not EMBED="CourtName"-->
+</CENTER>
+<!--ShowPage(OperationNotice.htm)--> <!-- rcsid="$Header: /ecf/bankruptcy/html/OperationNotice.htm,v 2.2 2002-04-19 10:32:46-04 wright Exp $" -->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<style type="text/css">
+<!--
+link23 {	color: #0000CE;
+	text-decoration: underline;
+	cursor: pointer; cursor: hand;
+}
+-->
+body {
+    margin: 10;
+    padding: 10;
+}
+div.head {
+    text-align: center;
+}
+div.main {
+    text-align: left;
+}
+
+</style>
+<script type="text/javascript">
+<!--
+var BrowserDetect = {
+init: function () {
+	this.browser = this.searchString(this.dataBrowser) || "An unknown browser";
+	this.version = this.searchVersion(navigator.userAgent)
+		|| this.searchVersion(navigator.appVersion)
+		|| "an unknown version";
+	this.OS = this.searchString(this.dataOS) || "an unknown OS";
+},
+searchString: function (data) {
+	for (var i=0;i<data.length;i++)	{
+		var dataString = data[i].string;
+		var dataProp = data[i].prop;
+		this.versionSearchString = data[i].versionSearch || data[i].identity;
+		if (dataString) {
+			if (dataString.indexOf(data[i].subString) != -1)
+				return data[i].identity;
+		}
+		else if (dataProp)
+			return data[i].identity;
+	}
+},
+searchVersion: function (dataString) {
+	var index = dataString.indexOf(this.versionSearchString);
+	if (index == -1) return;
+	return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+},
+dataBrowser: [
+	{ 	string: navigator.userAgent,
+		subString: "OmniWeb",
+		versionSearch: "OmniWeb/",
+		identity: "OmniWeb"
+	},
+	{
+		string: navigator.vendor,
+		subString: "Apple",
+		identity: "Safari"
+	},
+	{
+		prop: window.opera,
+		identity: "Opera"
+	},
+	{
+		string: navigator.vendor,
+		subString: "iCab",
+		identity: "iCab"
+	},
+	{
+		string: navigator.vendor,
+		subString: "KDE",
+		identity: "Konqueror"
+	},
+	{
+		string: navigator.userAgent,
+		subString: "Firefox",
+		identity: "Firefox"
+	},
+	{
+		string: navigator.vendor,
+		subString: "Camino",
+		identity: "Camino"
+	},
+	{		// for newer Netscapes (6+)
+		string: navigator.userAgent,
+		subString: "Netscape",
+		identity: "Netscape"
+	},
+	{
+		string: navigator.userAgent,
+		subString: "MSIE",
+		identity: "Internet Explorer",
+		versionSearch: "MSIE"
+	},
+	{
+		string: navigator.userAgent,
+		subString: "Gecko",
+		identity: "Mozilla",
+		versionSearch: "rv"
+	},
+	{ 		// for older Netscapes (4-)
+		string: navigator.userAgent,
+		subString: "Mozilla",
+		identity: "Netscape",
+		versionSearch: "Mozilla"
+	}
+],
+dataOS : [
+	{
+		string: navigator.platform,
+		subString: "Win",
+		identity: "Windows"
+	},
+	{
+		string: navigator.platform,
+		subString: "Mac",
+		identity: "Mac"
+	},
+	{
+		string: navigator.platform,
+		subString: "Linux",
+		identity: "Linux"
+	}
+]
+
+};
+//BrowserDetect.init();
+
+-->
+</script>
+<!--
+<div align="center">
+<h3>
+<font color="red">
+<h2> Scheduled CM/ECF System Maintenance</h2>
+<br>
+
+CM/ECF may be intermitantly unavailable on Saturday, November 12, 2022, from 8:00 a.m. until 9:30 a.m. on Saturday, November 12, 2022.   We apologize for any inconvenience this may cause.  If you have any questions, please contact the Clerk's Office at (833) 758-0380.
+</font>
+</h3>
+</div>
+-->
+
+<div align="center">
+<h3>
+Wisconsin Western Bankruptcy Court is Live on NextGen CM/ECF as of March 30, 2020. 
+</h3>
+
+Please click here for information about NextGen.
+
+<a href="https://www.wiwb.uscourts.gov/nextgen">
+https://www.wiwb.uscourts.gov/nextgen
+</a>
+<br>
+ 
+</div>
+<div class="head">
+<a target="_blank"
+href="https://ecf.wiwb.uscourts.gov/wiwb/webhelp/ecf_atty_manual.htm" title="CLICK here now to open a new window.
+
+You will then have access to step-by-step help, via a searchable, on-line ECF user manual -- designed specifically for Wisconsin Western ECF filers.
+
+For additional filing/technical assistance, please dial 1-800-373-8708 or send an email to helpdesk@wiwb.uscourts.gov
+
+Thank you.">On-line ECF User's Manual </a><br/>
+<br/>
+<a href="http://www.youtube.com/wiwbankruptcy" class="javalink7" target="_blank">
+Our YouTube Channel
+</a>
+<br/>
+(<i>links will open in a new browser window</i>)
+
+
+</div>
+<hr/>
+<div align="left">
+<h3>
+Court Conference Line Phone Numbers 
+</h3>
+<p/>
+<ul>
+<li>
+Judge Furay: (877) 336-1828, access code: 8588228##
+</li>
+<li>
+Judge Blise: (888)808-6929, access code: 4896101##
+</li>
+<li>
+Judge Perhach: (888) 557-8511, access code: 5616974##
+</li>
+<li>
+Judge Altenberger: (888) 684-8852, access code: 123321##
+</li>
+<li>
+Judge Lynch:  (877) 873-8017, access code: 9577398## 
+</li>
+<li>
+Judge Halfenger:  (877) 411-9748, access code: 4283105##
+</li>
+</ul>
+<p/>
+Please review your hearing notices for the appropriate judge and conference line number.  
+<br/>
+Should you have any questions, please contact the clerk's office at (608) 264-5178 or (715) 839-2980.
+<p/>
+</div>
+<hr/>
+
+<div align="left">
+Subscribe	to	an	RSS	feed	to	get	news	updates	delivered	directly	to	your	RSS	reader	or	news	aggregator.	
+<ul>
+<li>
+The	Bankruptcy	Court's	Orders	and	Complaints	RSS	feed	is	available	
+<a href="https://ecf.wiwb.uscourts.gov/cgi-bin/rss_outside.pl">
+here
+</a>
+</li>
+<li>
+The <a href="http://pacer.psc.uscourts.gov/">
+Pacer Service Center's
+</a>
+What's	New	RSS	feed	is	available	
+<a href="http://pacer.psc.uscourts.gov/pacerrss.xml">
+here
+</a>
+</li>
+<li>
+The	Bankruptcy	Court's	News	and	Announcements	is on our home page 
+ <a target="_blank" href="http://www.wiwb.uscourts.gov">
+here
+</a>
+</li>
+</ul>
+<hr>
+<div align="left">
+
+Question? Contact us at 1-800-373-8708 or 
+<a
+href="mailto:helpdesk@wiwb.uscourts.gov"
+>helpdesk@wiwb.uscourts.gov
+</a>
+You can also check out our 
+<a href="http://www.wiwb.uscourts.gov/faqs">
+FAQ
+</a>
+page.
+</div>
+<p/>
+<p/>
+<p/>
+<p/>
+<p/>
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
