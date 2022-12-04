@@ -4,3 +4,24 @@ Server: BigIP
 Connection: Keep-Alive
 Content-Length: 0
 
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 22:55:15 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670191463-0"
+Last-Modified: Sun, 04 Dec 2022 22:04:23 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=MJAPNEJHELJBKHGIEKDBEAGJDKGHMEHHFFFNILGPHLHBCGABFJLNOCDJKLLBGFHJLIMDEELIIFEKEGMDFGBAFGEIACHLIFNDFGNNBEMIPDJBJJOOAACODGINBEOIJFFE; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01fa0e0a=01300dc996324dcb87456fc62d09ee84b325d042bf1011ab42537f996390fad9153092b6ed3cf5f4c42f87d93802e0d0172a01c936; Path=/; Domain=.www.mnd.uscourts.gov
+
