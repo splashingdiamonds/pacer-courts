@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.ncmd.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:31:48 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670157392-0"
+Last-Modified: Sun, 04 Dec 2022 12:36:32 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=OHDHKNLFPMIAOPAEEMCDGJNOHLENMHDNGLEBDPHDKLLGKMFHHOBBFJMKCJHHEAGHDGJDIDIIJAEOPKOGCEJALPGDPKIBFJNMEGGHFNKPIFFDCLIBCGLHAHBCBJKGKAAJ; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS0188f027=01300dc99641a70d0149ceba9d2938dd7103a611a4e8c353cd6856b9a882806a5e271d9c1ab552201b55e6cebd69cdef1242d1ac2e; Path=/; Domain=.www.ncmd.uscourts.gov
+
