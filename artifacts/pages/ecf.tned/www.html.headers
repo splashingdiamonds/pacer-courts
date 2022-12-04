@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.tned.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:51:57 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Etag: "1670158827-0"
+Last-Modified: Sun, 04 Dec 2022 13:00:27 GMT
+X-Cache-Status: EXPIRED
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=KEODEAKAGKJFECNECCHKDOMLPKHIGCDJHGEKHIDKIGIMGGIOJPBHDMGCLFEFPCOAIDNDDFDJCFDAGLEFHJDAKFDJLKJAOPHADMBKEEFMKNIADAPIFAOINELIJPOJCNMI; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS012b75f4=01300dc996661b46907358e3cfa7a046af1059dff1e52e0b4533fe1fc466eb7ea38a61c9c37848005a6e6cc1235e124ee23142c687; Path=/; Domain=.www.tned.uscourts.gov
+
