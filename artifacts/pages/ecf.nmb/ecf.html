@@ -1,0 +1,83 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>District of New Mexico Electronic Filing System</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFE0 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>District of New Mexico Electronic Filing System</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. BANKRUPTCY COURT for the
+District of New Mexico
+<P>
+<A HREF="/cgi-bin/login.pl">District of New Mexico - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+
+<HR>
+<HR>
+<!--<CENTER><B>CM/ECF Version 3.3.3 Installed 11/21/2009</B></CENTER>
+<CENTER><B>CM/ECF Version 3.4   Installed 03/26/2011</B></CENTER>
+<CENTER><B>CM/ECF Version 4.1   Installed 10/10/2011</B></CENTER>
+<CENTER><B>CM/ECF Version 4.2-6 Installed 11/19/2011</B></CENTER>
+<CENTER><B>CM/ECF Version 4.3-4 Installed 03/24/2012</B></CENTER>-->
+<CENTER><B>CM/ECF Version 5.1   Installed 04/20/2013</B></CENTER>
+<CENTER><B>CM/ECF Version 5.1.1 Installed 12/01/2015</B></CENTER>
+<CENTER><B>CM/ECF Version 5.2 Installed 11/18/2017</B></CENTER>
+<CENTER><B>CM/ECF Version 5.2.1 Installed 12/01/2017</B></CENTER>
+<CENTER><B>CM/ECF Version 5.2.2 Installed 06/18/2018</B></CENTER>
+
+		<CENTER><B>CM/ECF Next Gen Version 1.3 Installed 07/29/2019</B></CENTER>
+		<CENTER><B>CM/ECF Next Gen Version 1.5 Installed 10/03/2020</B></CENTER>
+                <center><b>CM/ECF Next Gen Version 1.6 Installed 02/26/2022</b></center>
+                <CENTER><B>CM/ECF Next Gen Version 1.7 Installed 11/11/2022</B></CENTER>
+
+
+<HR>
+10February2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
