@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.sdb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:51:49 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670153306-0"
+Last-Modified: Sun, 04 Dec 2022 11:28:26 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=BELPGIGEFHFJJIGLKEFJGDHPJDIKNIEAHOHIINLMJBOIFAECOFHFANFLAEBNJHHDFOIDFJMKKFPKLNJCIHKAFOAOKKBJDHIGIMJAJEMDGKLLKPJMDHFEFLPGPBDIIKIB; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01386743=01300dc996f13d8c70f6f5761d34a8dd263921d215f33c88e16568c5c31681da41a8a5f3bcddd174973c734eaf48c5108593687d30; Path=/; Domain=.www.sdb.uscourts.gov
+
