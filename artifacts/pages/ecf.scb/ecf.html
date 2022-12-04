@@ -1,0 +1,92 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>SC Bankruptcy CM/ECF - LIVE</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFF0 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>SC Bankruptcy CM/ECF - LIVE</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the United States Bankruptcy Court for the
+District of South Carolina
+<P>
+<A HREF="/cgi-bin/login.pl">District of South Carolina - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<center>
+<DIV style="text-align:justify;max-width:600px">
+This is a restricted government website for official court business only.
+All activities of CM/ECF subscribers or users of this system for any purpose, and 
+all access attempts, may be recorded and monitored by persons authorized by the 
+federal judiciary for improper use, protection of system security, performance of 
+maintenance and for appropriate management by the judiciary of its systems. By 
+subscribing to CM/ECF, users expressly consent to system monitoring and to 
+official access to data reviewed and created by them on the system. If evidence of 
+unlawful activity is discovered, including unauthorized access attempts, it may be 
+reported to law enforcement officials.
+</DIV><BR /><BR />
+<b><font color="red">To file documents on this CM/ECF System, you must have a unique login and password issued by this Court.  <a href="https://www.scb.uscourts.gov/pdf/oporder/opor13-03.pdf">Click here for information.</a></font></b></center>
+<br />
+<center>
+<b><a href="https://www.scb.uscourts.gov/chambers-guidelines-information" target="_blank">Local Rules and Chambers Guidelines</a>
+</center>
+<br />
+<HR>
+<CENTER><B><FONT COLOR="blue" SIZE="5">South Carolina Centralized CM/ECF V10.7.1.1 LIVE Database</FONT></B><BR></CENTER>
+<BR><CENTER>
+<DIV style="text-align:justify;max-width:800px">
+<B><FONT COLOR="red" SIZE="4">The U.S. Bankruptcy Court for the District of South Carolina reserves the following dates and times to perform routine maintenance and upgrades to the CM/ECF system(s). During these maintenance windows, end users MAY experience intermittent service interruptions.
+</DIV><br />
+First Saturday of each month 5AM - 1PM (EST)<br />
+Third Saturday of each month 5AM - 2PM (EST)<br /><br />
+<i>*Any maintenance scheduled outside the reserved maintenance window will be communicated with as much advance notice as possible.</i>
+</FONT></B></CENTER>
+
+<HR>
+3September2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
