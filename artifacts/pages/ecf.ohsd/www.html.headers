@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.ohsd.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:50:44 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670150976-0"
+Last-Modified: Sun, 04 Dec 2022 10:49:36 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=GBHLPDAIAMHKEOBHFEGOAPEBILBGGGOPFDJMHPGCOCOKNFLILMHILCJNPHNICHAPCNEDJIBJJFPKHCMPCBDADGELGKKOCKABHJIOJOBHAPBOFMNDMPAHCJFCBCLDKLKB; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS018660a4=01300dc996a3e5b523cb98993588f489828452bff9c86a1da2bc3c8a27ca003638dc1d3051a0d411b3a39938bf1641da6a858afe68; Path=/; Domain=.www.ohsd.uscourts.gov
+
