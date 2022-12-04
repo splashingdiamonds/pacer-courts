@@ -1,0 +1,185 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>CM/ECF-BK - U.S. District Court, Bankruptcy Division, Northern Mariana Islands</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=E6E6FA TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<html>
+<head>
+	<title>CM/ECF-BK - U.S. District Court, Bankruptcy Division, Northern Mariana Islands</title>
+	<style type="text/css">
+		html, body {
+		  font-family: "Times New Roman", Times, serif;
+		  font-size:15px;
+		  -webkit-font-smoothing: subpixel-antialiased!important;
+		  color:black;
+		  font-weight:400;
+		}
+		
+		a {
+			text-decoration:none;
+			outline:none;
+		}
+		
+		.div-warning {
+			width: 600px;
+			border: 1px solid;
+			border-color: #8c8c8c;
+			height: auto;    
+			padding: 15px;
+			box-sizing: border-box;
+			font-style: italic;
+			text-align: justify;
+		}
+		
+		.div-notice {
+			width: 600px;
+			border: 0px solid;
+			height: auto;    
+			padding: 15px;
+			box-sizing: border-box;
+			text-align: justify;
+		}
+		
+		.button{
+			width: 180px;
+			height: 47px;
+			margin: 20px auto;
+			line-height: 47px;
+			border: none;
+			text-align: center;
+			text-decoration: none;
+			font-family: 'Source Sans Pro', sans-serif;
+			color: #ffffff;
+			cursor: pointer;
+			font-size: 18px;
+			background: #006040; /* Green */
+			-webkit-transition: all 0.2s ease-in;
+			-moz-transition: all 0.2s ease-in;
+			-ms-transition: all 0.2s ease-in;
+			-o-transition: all 0.2s ease-in;
+			transition: all 0.2s ease-in;
+		}
+		
+		.shadow:hover {
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+	</style>
+
+	<!-- Display Date and Time -->
+	<script type="text/javascript">
+		tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+		tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+		function GetClock(){
+		var tzOffset = +10;//set this to the number of hours offset from UTC
+		var d=new Date();
+		var dx=d.toGMTString();
+		dx=dx.substr(0,dx.length -3);
+		d.setTime(Date.parse(dx))
+		d.setHours(d.getHours()+tzOffset);
+		var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+		if(nyear<1000) nyear+=1900;
+		var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+		if(nhour==0){ap=" AM";nhour=12;}
+		else if(nhour<12){ap=" AM";}
+		else if(nhour==12){ap=" PM";}
+		else if(nhour>12){ap=" PM";nhour-=12;}
+
+		if(nmin<=9) nmin="0"+nmin;
+		if(nsec<=9) nsec="0"+nsec;
+
+		document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+		}
+
+		window.onload=function(){
+		GetClock();
+		setInterval(GetClock,1000);
+		}
+	</script>
+</head>
+<body>
+
+	<center>
+	<br />
+	<img src="/graphics/nmidseal.gif" width=200 height=200 align="middle" title="U.S. District Court, Bankruptcy Division for the Northern Mariana Islands">
+	<p>
+		Welcome to the U.S. District Court<BR />Bankruptcy Division for the
+		Northern Mariana Islands
+	</p>
+	<br />
+	<strong>BANKRUPTCY<br />CASE MANAGEMENT/ELECTRONIC CASE FILING (CM/ECF)</strong>
+	<br />
+	<br />
+	<div class="div-warning">
+		This is a restricted government website for official court business only. All activities of CM/ECF subscribers or users of this system for any purpose, and all access attempts, may be recorded and monitored by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance and for appropriate management by the judiciary of its systems. By subscribing to CM/ECF, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. If evidence of unlawful activity is discovered, including unauthorized access attempts, it may be reported to law enforcement officials.
+	</div>
+	<br />
+	<div style="width: 180px;">
+		<a href="/cgi-bin/login.pl"><div class="button shadow">CONTINUE</div></a>
+	</div>
+	<br />
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+
+<div class="div-notice">
+</div>
+	
+	
+	</center>
+	<hr style="border:0; border-top:1px solid #8c8c8c; border-bottom: 1px solid #fff;">
+	<table width="100%">
+		<tr>
+			<td><span id="clockbox" style="font-size:12px; color:#8c8c8c;"></span><span style="font-size:12px; color:#8c8c8c;">&nbsp;ChST</span><br /><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a></td>
+			<td valign="top" align="right">
+				<span style="font-size:12px; color:#8c8c8c;">Last Modified:&nbsp;
+					31August2022
+					
+				</span>
+				<span style="font-size:12px; color:#8c8c8c;">
+					 - NextGen CM/ECF Release 1.7.1 (Revision 1.7.1.1)
+				</span>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+</div></body></html>
