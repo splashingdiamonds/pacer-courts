@@ -1,0 +1,182 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>CANB Live Database</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFCC TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>CANB Live Database</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+California Northern Bankruptcy Court
+<P>
+<A HREF="/cgi-bin/login.pl">California Northern Bankruptcy Court - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> <!-- rcsid="$Header: /usr/local/cvsroot/bankruptcy/web/html/OperationNotice.htm,v 3.1 2003/04/25 11:55:57 loy Exp $" -->
+
+<CENTER><font color=green><b>CM/ECF BK-NextGen 1.6.4 </b></font></CENTER><br />
+<HR>
+
+<BR>
+<CENTER>
+<font color=red><B>Security Warning</B><br />
+</CENTER>
+<p><font color=blue align=left> 
+This is a restricted government website for official court business only. All activities of CM/ECF subscribers or users of this system for any purpose, and all access attempts, may be recorded and monitored by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance and for appropriate management by the judiciary of its systems. By subscribing to CM/ECF, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. If evidence of unlawful activity is discovered, including unauthorized access attempts, it may be reported to law enforcement officials.
+
+</font></p>
+<CENTER>
+<B>Unauthorized Access to Sealed and Fee Exempt PACER Documents</B></font>
+</CENTER>
+
+<p><font color=blue align=left> Sharing your CM/ECF and PACER account credentials (such as logins and passwords) with a third-party service provider or designating such a provider to receive a Notice of Electronic Filing in your cases, gives the provider access to sealed case information and documents in violation of court order.  You are urged to use caution in your computer security practices to ensure sealed documents to which you have access are not disclosed.  Unless expressly authorized by the court, users exempt from PACER fees should not share documents obtained from PACER under the exemption.</font></p>
+
+
+
+<!--
+<font color=red>
+<center>
+<B>Attention!<BR /><BR />
+</font>
+<font color=blue>
+ 
+Access to CM/ECF will be unavailable on Saturday, September 17th, 2022, from 7.00 AM to 11:00 AM due to system maintenance. <BR />
+Please contact Helpdesk if you have any issues or concerns. 
+
+</font color>
+</center>
+</font
+<br/><br/>
+<HR>
+Attention: The court would like to make CM/ECF filers aware of certain security concerns relating to a
+software application or .plug-in. called RECAP, which was designed by a group from Princeton
+University to enable the sharing of court documents on the Internet.
+<br>
+<br>
+Once a user loads RECAP, documents that he or she subsequently accesses via PACER are
+automatically sent to a public Internet repository. Other RECAP/PACER users are then able to
+see whether documents are available from the Internet repository. RECAP captures District and
+Bankruptcy Court documents, but has not yet incorporated Appellate Court functionality. At this
+time, RECAP does not appear to provide users with access to restricted or sealed documents.
+Please be aware that RECAP is "open-source" software, which can be freely obtained by anyone
+with Internet access and modified for benign or malicious purposes, such as facilitating
+unauthorized access to restricted or sealed documents. Accordingly, CM/ECF filers are
+reminded to be diligent about their computer security practices to ensure that documents are not
+inadvertently shared or compromised.
+<br>
+<br>
+The court and the Administrative Office of the U.S. Courts will continue to analyze the
+implications of RECAP or related-software and advise you of any ongoing or further concerns.
+<br>
+<br>
+-->
+
+
+</font>
+
+<!--
+CM/ECF will be unavailable on Saturday, August 21, 2010 from 4:00 AM to 6:00 PM for regularly scheduled maintenance. Thank you for your patience. 
+The regularly scheduled maintenance for the month of April is rescheduled from April 17 to April 24.
+CM/ECF will be down from 7:00 am - 3:00 pm, Saturday, April 24, 2010, for regularly scheduled maintenance.  We apologize for any inconvenience.
+Announcement:
+CM/ECF will be down from 7:30 am - 3:30 pm, Saturday, March 20, 2010, for regularly scheduled maintenance.
+<br>
+CM/ECF will be unavailable starting Saturday, October 31 at 12:01 a.m. until
+12:01 a.m. Monday, November 2, 2009, to install our new servers.   Please
+contact the courts Helpdesk (415)268-2350 for more information.
+Along with the rest of the bankruptcy courts throughout the nation, we will be upgrading CM/ECF to version 3.3.2.  This upgrade will take place on Saturday, September 12, 2009.  On this day CM/ECF will  be unavailable from 6:00 a.m. till 5:00 p.m..  
+This upgrade emphasizes increased awareness of the requirements to redact personal information on documents filed with the court.  Please visit our web site, www.canb.uscourts.gov, for more details regarding the new changes.
+During the next few months we are working on several major projects which involves the ECF system. As we implement  these changes, this will require the system to become unavailable at times.
+Attention: CM/ECF will be upgraded to version 3.3.2.  CM/ECF will be unavailable from Friday, August 14, 2009 starting at 12:01 PM  through  Monday, August 24, 2009 at 11:59 pm.
+CM/ECF will be unavailable Wednesday, August 5th from 5:00 PM until 5:30 PM for a Network Service Upgrade.  During that time access from the outside to our CM/ECF server and our Internet site will be down.  Please accept our apologies for any inconvenience this may cause as we are working with several agencies to enable increased bandwidth for our external customers.   The system will be inaccessible for no longer then 30 minutes.
+CM/ECF will be unavailable on Saturday, July 18, 2009 from 9:00 AM - 12:00 noon due to Scheduled Maintenance.
+CM/ECF will be unavailable on Saturday, June 20, 2009 from 6:00 AM - 1:00 PM due to Scheduled Maintenance.
+CM/ECF will be unavailable on Saturday, May 16, 2009 from 6:00 AM - 6:00 PM due to Scheduled Maintenance.
+CM/ECF will be unavailable on Saturday, April 18, 2009 from 7:00 AM - 3:00 PM due to Scheduled Maintenance.
+Attention: CM/ECF for the Northern District of California Bankruptcy Court will be unavailable Saturday, from March 21 6:00 am  to  10:00 pm for system maintenance.
+Attention: CM/ECF will be upgraded to version 3.3.1 during the weekend of March 7, 2009.  CM/ECF will  be unavailable from Friday, March 6, 2009 starting at 4:30 PM  through Sunday, March 8, 2009 at 11:59 pm.
+Attention: CM/ECF for the Northern District of California Bankruptcy Court will be unavailable from Friday, February 6  to  Tuesday, February 24 for CM/ECF Version 3.3.1 upgrade.
+Attention: CM/ECF for the Northern District of California Bankruptcy Court will be unavailable from Thursday, January 22 5:00 am  to  5:30 am for system maintenance.
+Attention: CM/ECF for the Northern District of California Bankruptcy Court will be unavailable from Saturday, January 17 6:00 am  to  Sunday, January 18 6:00 pm for system maintenance.
+CM/ECF will be unavailable on Saturday December 20, from 6:00 AM until 12:00 Noon for its regular scheduled maintenance.
+Please check here for any future scheduled downtime and informational messages.
+Attention: CM/ECF Version 3.2 upgrade scheduled for the weekend of October 10 has been postponed.
+
+Attention: Due to unexpected system issue.  CM/ECF will be unavailable on Wednesday, May 28, 2008 from 4:30 PM to 6:00 PM.
+
+-->
+</font>
+<HR>
+REMINDER - Please, do not forget to submit <a href="http://www.canb.uscourts.gov/ecf/reference-desk" target="_blank"> chamber's copies!</a>
+<br>
+<HR>
+
+<!--
+NOTICE - NEW CLAIMS TRANSFER FEE EFFECTIVE MAY 1, 2013 <a href="http://www.canb.uscourts.gov/announcements/notice-new-claims-transfer-fee" target="_blank"> For more information</a>
+<br>
+<HR>
+-->
+
+<!--
+ECF becomes mandatory on January 1, 2005.
+For More information please visit our  <a href="http://www.canb.uscourts.gov/ecf/ecf-home" target="_blank">Web Site</a>
+<br>
+-->
+<a href='http://www.canb.uscourts.gov/faq' TARGET="_blank">Getting help and Answers to Frequently Asked Questions</a>
+
+<!--
+<HR>
+<font color="#ff0000">
+<b>Attention: CM/ECF will be down Thursday July 15, 2004 from 6:00 pm until 7:00
+ pm for emergency hardware maintenance.
+</b>
+</font>
+<HR>
+<CENTER><B>This message is contained in the file OperationNotice.htm.
+<BR>You may use this file to alert users to current CM/ECF operational issues.</
+B></CENTER>
+-->
+
+<HR>
+<!--5March2022 -->
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
