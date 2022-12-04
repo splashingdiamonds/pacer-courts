@@ -1,0 +1,445 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>Live Database Area</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=F5DEB3 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> <!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<!-- ORB WDG Added a few additional mods and reformatting 9-5-09 -->
+<!-- ORB RLM fix pacer link 9-3-2010  -->
+<!-- ORB RLM integrated into 4.1 src base 2-25-11 -->
+<!-- # ORB WF 2016-11-29 14:13 - applied to v1.1.2 -->
+<!-- # ORB WF 2020-06-29 08:30 - updated PACER link -->
+
+<HTML>
+<HEAD><TITLE>Live Database Area</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif"  height=150 width=150 > <!-- ORB RLM added height widht -->
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+District of Oregon
+<P>
+
+<!-- ORB RLM special stuff follows -->
+<BLOCKQUOTE>
+<B>FOR CASE INFORMATION, USE:</B><br>
+(1) <B>VCIS</B> (Voice Case Information System) for free basic case data by
+dialing 503&#8209;326&#8209;2249 or 800&#8209;726&#8209;2227;<br>
+(2) <B>PACER</B> (real-time access to case data, and documents in cases filed on or after 12/1/2003, from the internet).
+<!-- ORB WDG break before the pacer link -->
+<br />PACER requires a user account available at
+<A href=https://pacer.uscourts.gov style='font-weight:bold; font-size:12pt; color:#0055BE'>https://pacer.uscourts.gov</A>.
+</BLOCKQUOTE>
+<P>
+<!-- ORB RLM end of special stuff -->
+<!-- ORB WDG Added a login button -->
+<INPUT TYPE=button VALUE="Click Here to Login" ONCLICK=window.location="/cgi-bin/login.pl"><p>
+<A HREF="/cgi-bin/login.pl">District of Oregon - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<HR/>
+<DIV ALIGN="center" STYLE="margin-left: 1.5in; margin-right: 1.5in">
+</DIV>
+<P>
+<B>
+<!-- begin alert block -->
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Sunday, November 20th, 7:00AM to Monday, November 21st, 7:00AM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars - Judges Calendars and Meeting of Creditors (341(a)) , and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+<!-- end alert block -->
+
+<CENTER>
+<B>
+CM/ECF NextGen version <FONT color=RED> 1.6.4 (11/20/2022)</FONT> 
+</B>
+</CENTER>
+<hr>
+<p style="font-style:italic">NOTICE TO USERS
+
+This is a restricted government system for official judiciary business only. All activities on this system for any purpose, and all access attempts, may be recorded and monitored or reviewed by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance, and appropriate management by the judiciary of its systems. By using this system or any connected system, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. Any evidence of unlawful activity, including unauthorized access attempts, may be reported to law enforcement officials.</p>
+
+
+<!-- OLD ALERTS BELOW -->
+<!-- begin alert block 
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Saturday, June 25th, 7:00AM to Sunday, June 26th, 5:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars - Judges Calendars and Meeting of Creditors (341(a)) , and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Saturday, November 23rd 7:00AM to 12:00PM and Sunday, November 24th 7:00AM to 12:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars - Judges Calendars and Meeting of Creditors (341(a)) , and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Saturday, November 16th 10:00AM to Sunday, November 17th 12:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars - Judges Calendars and Meeting of Creditors (341(a)) , and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+ end alert block -->
+
+<!-- begin alert block 
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Saturday, February 23rd 8:00AM to 8:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars - Judges Calendars and Meeting of Creditors (341(a)) , and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+end alert block -->
+<!-- begin alert block
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Friday, January 18th 6:00PM to 10:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars - Judges Calendars and Meeting of Creditors (341(a)) , and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+end alert block -->
+
+<!-- begin alert block
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Friday, January 11th 6:00PM to Monday, January 14th 7:00AM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Website calendars - Judges Calendars and Meeting of Creditors (341(a)) - will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+end alert block -->
+
+<!-- begin alert block
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Monday, December 17th 6:00PM to 10:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Website calendars - Judges Calendars and Meeting of Creditors (341(a)) - will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+end alert block -->
+
+<!-- begin alert block
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Sunday, November 18th 5:00PM to 6:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+end alert block -->
+
+<!--<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td><br>
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<font size=+1>
+PACER issues are now resolved. Please pay any outstanding filing fees.
+</font>
+<BR>
+<BR>
+</td></tr>
+</table> -->
+<!--<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Saturday, July 28th 8:00AM to 6:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>-->
+<!--
+<font size=+1 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+1 style="color: rgb(0, 176, 80)">Saturday, June 2nd 8:00AM to 11:00AM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+1>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+-->
+<!--
+<font size=+2 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+2 style="color: rgb(0, 176, 80)">Thursday, November 30th 9:00PM to 11:59PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+2>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+<HR/>
+-->
+<!--
+<font size=+2 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+2 style="color: rgb(0, 176, 80)">Saturday, April 15th 8:00AM to 11:00AM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+2>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table>
+-->
+
+<!--
+<font size=+2 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<br>
+<B>
+<font size=+2 style="color: rgb(0, 176, 80)">NextGen CM/ECF, Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users on the following dates and times as the Court tests a 7 day read/write failover and subsequent failback in support of the Court's "Continuity Of Operations" (COOP) plan for NextGen CM/ECF.</font>
+</B>
+<BR>
+<font size=+2>
+<ul>
+<li><b>Saturday, March 25th, 8:00AM Pacific to 10:00AM Pacific</b></li>
+	<ul>
+		<li>The "failover" - where the primary NextGen CM/ECF servers (hosted in San Diego, CA) will be taken off-line and the secondary (or, replication) servers (hosted in Ashburn, VA) will assume the primary server role.</li>
+	</ul>
+</ul>
+<ul>
+<li><b>Saturday, April 1st, 8:00AM Pacific to 10:00AM Pacific</b></li>
+	<ul>
+		<li>The "failback" - where the replication servers (hosted in Ashburn, VA) will be taken off-line and the primary NextGen CM/ECF servers (hosted in San Diego, CA) will resume their primary server roles. </li>	
+	</ul>
+</ul>
+</ul>
+<B>
+<font size=+2 style="color: rgb(0, 176, 80)">In addition to these scheduled dates and times, there will be a high potential for broken functionality and interruptions in service in NextGen CM/ECF and related applications the weekend of March 25th.
+<br><br>
+To report issues or service interruptions during the failover period, please use the "contact us" page at <a href=http://www.orb.uscourts.gov/contact  target="_blank">http://www.orb.uscourts.gov/contact</a> and select the "E-Filing Technical Problem" category.</font>
+</B>
+</p>
+</font>
+</td></tr>
+</table> -->
+
+<!-- <BR>
+<font size=+2 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+2 style="color: rgb(0, 176, 80)">Saturday, January 7th 12:00AM to Sunday, January 8th 11:59PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+2>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table> -->
+
+<!-- <BR>
+<font size=+2 color=red><b>System Alert: </b></font>
+<BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+2 style="color: rgb(0, 176, 80)">Sunday, July 10th 8:00AM to Sunday, July 10th 12:00PM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+2>
+Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users as the court servers undergo maintenance.
+</font>
+</td></tr>
+</table> -->
+
+<!-- <BR>
+<BR>
+<table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<font size=+2>
+Due to problems with the Judge/Trustee Assignment program, the option has been removed from attorney menus.  The clerk's office will manually assign cases until the problem is resolved.
+</font>
+</td></tr>
+</table> -->
+<!-- <table border=0 style="background: rgb(218, 238, 243)">
+<tr><td>
+<B>
+<font size=+2 style="color: rgb(0, 176, 80)">Monday, November 30th 6:00PM to 12:00AM Pacific Time.</font>
+</B>
+<BR>
+<BR>
+<font size=+2>
+Electronic Case Filing [ECF], PACER, filling claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users as the court upgrades for new Official Bankruptcy Forms effective 12/1/2015.
+</font>
+</td></tr>
+</table> -->
+
+<!-- <table border=0 bgcolor=gray>
+<tr><td>
+<font color=white size=+2>Starting Friday, September 25, 2015 at 5:00 PM PDT and continuing through Sunday, September 27, 2015, Electronic Case Filing [ECF], PACER, filing claims via the court website [ePOC], filing financial certificates via the court website [eFinCert], website calendars, and VCIS will be unavailable to all users while the court installs NextGen CM/ECF. We apologize for the inconvenience. To access information about NextGen, <a href=http://www.orb.uscourts.gov/nextgen-cmecf  target="_blank" >Click here</a></FONT>
+</td></tr>
+</table> -->
+
+<HR>
+<!-- # ORB WF 2018-11-07 15:12 - removed 29June2020 -->
+<!-- 29June2020 -->
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>

@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.orb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:51:05 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670160874-0"
+Last-Modified: Sun, 04 Dec 2022 13:34:34 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=MAGAEHHDKDFEFLBHECLBKLJAGIFALCLLCPBFMLOEGDKDEGEJBCHKJDAIAFLNBAFMMACDINODOFLGKOACOGKALCHCHKKAAHJHIOGEJFIPIDCNJHALAILKMMCMBOKCOPBG; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01a1bdaf=01300dc9960987bb7ebc8957319884babc694d93d4f5abdd12374360d281ca7f515e0440720b9df4183b9675646d0138293cb51d37; Path=/; Domain=.www.orb.uscourts.gov
+
