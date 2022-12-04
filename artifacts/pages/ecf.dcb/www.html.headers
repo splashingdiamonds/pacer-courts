@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.dcb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:23:39 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Etag: "1670153872-0"
+Last-Modified: Sun, 04 Dec 2022 11:37:52 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=HIOJHEADJFMKANCILCHHECDHLJBDEEFAIHMEEICLCPECOAEFJDIOIKIOFKMLOBGHCHBDCIAMAPKNNIKBNEHABKKMBJIBIPAMADHELJPNIDPGDDLNJBIBLAPALMLKNCID; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS0178ba0c=01300dc996d09a6381f84c3744ab1aa29ef707654cab1d6b0ed5990e921072a747a7c535f2a6f2e1c7dde8710bc2f2c585df945513; Path=/; Domain=.www.dcb.uscourts.gov
+
