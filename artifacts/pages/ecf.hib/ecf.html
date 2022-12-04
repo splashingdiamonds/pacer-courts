@@ -1,0 +1,75 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>Live Database</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFFF TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>Live Database</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the United States Bankruptcy Court for the
+District of Hawaii
+<P>
+<A HREF="/cgi-bin/login.pl">District of Hawaii - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+
+<HR>
+<CENTER>
+
+<!-- added per MBD      amw     08/09/2011 -->
+<p><font color="darkblue" size="2" face="verdana"> Access to documents in cases filed before December 1, 2003, and which have been closed<br> for more than a year may be restricted in PACER.  Documents in these cases may be viewed <br>via the Internet only by parties in the case who have a separate CM/ECF login issued by <br>the United States Bankruptcy Court for the District of Hawaii.  For information about viewing <br>these documents in the Clerk's Office or ordering copies by mail, please see the <br>information about <a href="https://www.hib.uscourts.gov/copies-documents"> Copy Requests</a> at the court's website.</p>
+        All case information is  available by logging in with a PACER account
+      and password.  </p>
+</CENTER>
+
+<!--EVAL="require '../support/wieb_newsEditor.pl';wieb_getNews()"removed after NextGen  amw->
+
+<HR>
+3September2020
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
