@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.ianb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:24:29 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670158490-0"
+Last-Modified: Sun, 04 Dec 2022 12:54:50 GMT
+X-Cache-Status: MISS
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=GALKAFANDHBHAGIPNGDGPMBPPFFGOIFDGLADDMKIHICFBMNHJEAEHDBBNGKABBGGBCDDMOEPCPKGCPJCOCMAEIMDEJCKCFIFKFFNCPFJIHPJEMGBEAHLEINBPHBAJIBK; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01706bfb=01300dc996b19cdf45580ccfede7f37e5fc8c369d683dc1eb9d737068cf7a200f13d83d0e4940ec57343e68264df5acb7713cf16d3; Path=/; Domain=.www.ianb.uscourts.gov
+
