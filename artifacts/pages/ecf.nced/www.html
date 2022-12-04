@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head><meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1" /><meta name="ProgId" content="VisualStudio.HTML" /><meta name="Originator" content="Microsoft Visual Studio .NET 7.1" /><title>
+	
+HOME
+
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />   
+     <script src="/jquery-2.2.1.min.js"></script>
+     
+<script>
+window.jQuery || document.write('<script src="/jquery-2.2.1.min.js"><\/script>')
+</script>
+    <script src="/JavaScript2responsive.js"></script>
+    <script src="/JavaScript3responsive.js"></script>
+    <link href="/defaultResponsive.css" rel="stylesheet" type="text/css" /><link href="/print.css" rel="stylesheet" type="text/css" media="print" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta http-equiv="Page-Enter" content="blendTrans(Duration=0.2)" /><meta http-equiv="Page-Exit" content="blendTrans(Duration=0.2)" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="/font-awesome.min.css" />  
+    
+   <script type="text/javascript" src="/modernizr-custom.js"></script>
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "navigation") {
+                x.className += " responsive";                
+            } else {
+                x.className = "navigation";                
+            }
+        }   
+    </script>
+</head>
+<body>   
+     <!--CSS Flexbox-->
+     <form name="aspnetForm" method="post" action="./" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTc2MjkxMDQ4OQ9kFgJmDw8WBB4OaW1hZ2VzQmFubmVyQXIUKV9TeXN0ZW0uSU8uRmlsZUluZm8sIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQoykwEAAQAAAP////8BAAAAAAAAAAQBAAAAElN5c3RlbS5JTy5GaWxlSW5mbwIAAAAMT3JpZ2luYWxQYXRoCEZ1bGxQYXRoAQEGAgAAAAdlYzEuanBnBgMAAAA6QzpcaW5ldHB1Ylx3d3dyb290XGltYWdlc1xpbWFnZXNSZXNwb25zaXZlXGJhbm5lcnNcZWMxLmpwZwsykwEAAQAAAP////8BAAAAAAAAAAQBAAAAElN5c3RlbS5JTy5GaWxlSW5mbwIAAAAMT3JpZ2luYWxQYXRoCEZ1bGxQYXRoAQEGAgAAAAdlYzIuanBnBgMAAAA6QzpcaW5ldHB1Ylx3d3dyb290XGltYWdlc1xpbWFnZXNSZXNwb25zaXZlXGJhbm5lcnNcZWMyLmpwZwsykwEAAQAAAP////8BAAAAAAAAAAQBAAAAElN5c3RlbS5JTy5GaWxlSW5mbwIAAAAMT3JpZ2luYWxQYXRoCEZ1bGxQYXRoAQEGAgAAAAduYjEuanBnBgMAAAA6QzpcaW5ldHB1Ylx3d3dyb290XGltYWdlc1xpbWFnZXNSZXNwb25zaXZlXGJhbm5lcnNcbmIxLmpwZwsykwEAAQAAAP////8BAAAAAAAAAAQBAAAAElN5c3RlbS5JTy5GaWxlSW5mbwIAAAAMT3JpZ2luYWxQYXRoCEZ1bGxQYXRoAQEGAgAAAAduYjIuanBnBgMAAAA6QzpcaW5ldHB1Ylx3d3dyb290XGltYWdlc1xpbWFnZXNSZXNwb25zaXZlXGJhbm5lcnNcbmIyLmpwZwsykwEAAQAAAP////8BAAAAAAAAAAQBAAAAElN5c3RlbS5JTy5GaWxlSW5mbwIAAAAMT3JpZ2luYWxQYXRoCEZ1bGxQYXRoAQEGAgAAAAduYjMuanBnBgMAAAA6QzpcaW5ldHB1Ylx3d3dyb290XGltYWdlc1xpbWFnZXNSZXNwb25zaXZlXGJhbm5lcnNcbmIzLmpwZwsykwEAAQAAAP////8BAAAAAAAAAAQBAAAAElN5c3RlbS5JTy5GaWxlSW5mbwIAAAAMT3JpZ2luYWxQYXRoCEZ1bGxQYXRoAQEGAgAAAAduYjQuanBnBgMAAAA6QzpcaW5ldHB1Ylx3d3dyb290XGltYWdlc1xpbWFnZXNSZXNwb25zaXZlXGJhbm5lcnNcbmI0LmpwZwsykwEAAQAAAP////8BAAAAAAAAAAQBAAAAElN5c3RlbS5JTy5GaWxlSW5mbwIAAAAMT3JpZ2luYWxQYXRoCEZ1bGxQYXRoAQEGAgAAAAduYjUuanBnBgMAAAA6QzpcaW5ldHB1Ylx3d3dyb290XGltYWdlc1xpbWFnZXNSZXNwb25zaXZlXGJhbm5lcnNcbmI1LmpwZwsykQEAAQAAAP////8BAAAAAAAAAAQBAAAAElN5c3RlbS5JTy5GaWxlSW5mbwIAAAAMT3JpZ2luYWxQYXRoCEZ1bGxQYXRoAQEGAgAAAAZyMS5qcGcGAwAAADlDOlxpbmV0cHViXHd3d3Jvb3RcaW1hZ2VzXGltYWdlc1Jlc3BvbnNpdmVcYmFubmVyc1xyMS5qcGcLMpEBAAEAAAD/////AQAAAAAAAAAEAQAAABJTeXN0ZW0uSU8uRmlsZUluZm8CAAAADE9yaWdpbmFsUGF0aAhGdWxsUGF0aAEBBgIAAAAGcjIuanBnBgMAAAA5QzpcaW5ldHB1Ylx3d3dyb290XGltYWdlc1xpbWFnZXNSZXNwb25zaXZlXGJhbm5lcnNccjIuanBnCzKRAQABAAAA/////wEAAAAAAAAABAEAAAASU3lzdGVtLklPLkZpbGVJbmZvAgAAAAxPcmlnaW5hbFBhdGgIRnVsbFBhdGgBAQYCAAAABnIzLmpwZwYDAAAAOUM6XGluZXRwdWJcd3d3cm9vdFxpbWFnZXNcaW1hZ2VzUmVzcG9uc2l2ZVxiYW5uZXJzXHIzLmpwZwseEGltYWdlc0Jhbm5lclBhdGgFIS9pbWFnZXMvaW1hZ2VzUmVzcG9uc2l2ZS9iYW5uZXJzL2RkZJ0Mib7gsAOrN1Y+Zpg+FoxJ5YSIX7bU99FNgt50Nbks" />
+
+
+<script src="/ScriptResource.axd?d=_ZdzJq6xVVfjnG3uddKyIFPwBpYI7PkiT6FbqYQ6haemhrZF5wH-uSq-K2IDXW_iYVnTTTcNEyr-3PvqYp8GhBWJIP1kI3G3VFi3MZBjM9lsc0-EEI6abGEGtlWmYlUhTEddk_9OkNA9Rg1_1uV4fkJifec_ZwjghomgnOU2P7g1&amp;t=49337fe8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=GrEqBVTFrzg1uuUX6KsUzX9zeKvaJPg_AyQx04lPEdmxlPLhZHoKKPb7_L2lIDqWq_ouyUBbjRtDsXgC_BzwQI5U7edt56wXsDSF7Ydv5xNc8NINvgxjoNpWPK1_aNQ211PPAqRhL2uB9slm9WkHIQTrrBvOjb7BRIvZiYfjEWo1&amp;t=49337fe8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=CBhQL4qx7SLnyWiocagvp8hI9CSRDTPjmX4ia0Ruu65uM5p7aJJZr6vpAcXcQxFuUr2Emx0wTney6idmpdmsShBKwUyHmZ7P5uL_tffjpWJVM5p3k-0AJBcReLjD70vxXNceJN7WvWhrfzCzriV5Jg2&amp;t=17b84382" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=tfKRfUWwO91PiKAhh5K2WUFNXqLXj1H7o8yBDchXg0FgkPv87OAQ6fLDQcl6lkziFLEXfg0O0QPxgDuqsib9-SVgGXLSz1ZIjgTxv7O4F8DDW_6t0ejDhEgW0oXhCb2Y0&amp;t=17b84382" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=2Ekghfz_4WsKsWAnoc3MX7pv2JhnnQvHsxmu96ZzZq1hn6Y775_WNHvX-fkAnOCM6jhDDhZuloAoQBFFk7sBinm5UeiKiB2wV0QDUdb1ibM-DV_9SWdv3PEQ8qnGUvJb0&amp;t=17b84382" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=xc1DsfuKRoGuYJdcorky65jAKkJGqZ50KWR_3xkD7YSvipaXIrf3xIVmA3zygXxqyKcPfbUD8nO1gjJgJmQ1pR0VTy6iyMcSscKQMnrybf59zogqixZN5cfMHHnbBKMB0&amp;t=17b84382" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=vklS6sGJ8aGb69yTNaKtYDPedseeji4V-lNXy0k8s4d5xjchXbyUtMhVCAO7LaNc7CtumArPcR27pWhJPbHcdmM0F47zzI4GGNC9ADpmyTaLefsBtBGoisaoTzGir7RPYaccbX2Gym5yp9dZcgrOGg2&amp;t=17b84382" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SeuOcF12r46OHR2MKMHxjIkVgFSBlPC9O9mOvojZY_wtN3BTua49-ZdBVqnjj6pYtBFWVVml5y_b1SnDYEeGgXV7xhR-vYgBCel19N9bG9rkAfsCnbvPkpohXW8_g_8T0&amp;t=17b84382" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=nnLHk4KHdvqtWIIOSWNt7AIG09OmLp8akorUeFqfCbJmdLO7RCs1d5h7A3ty3RdeRmUjJRGBibHCfuefDjg89GV9zLHnXlU0XsAk76ULu5tScFRgPhu_gYk-mUexGWm10&amp;t=17b84382" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=7NDTUH1YpKObnwOq3dH9zrNNMXs-Vo4bCx62eTD3HHQ9nj1uASR-7jFm2i1ua8owfTrm8EQgcQ1OrUtTcLN8JnENs9W6NWprMleP1jK4Q8052zp6h6PZz0NsiA03wgh9zZ2YpfpRQiHM9JCyYRK-uw2&amp;t=17b84382" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />      
+    <section id="printHide1">
+        <div class="boxes flex-containertopnav">
+            <!--only show on large screens, this is the seal-->
+            <div class="box box1 albottom"><img class="imgLogo" height="92" width="90" src="/images/imagesResponsive/logonoseal_small.jpg" alt="court seal: United States District Court - Eastern District of North Carolina" /></div>
+            <div class="box box2">
+                <span class="head2">United States District Court</span><br />
+                <span class="head1">Eastern District of North Carolina</span>
+            </div>
+            <div><!--put search box here when we build it--></div>
+        </div>
+    </section>
+       
+    <section id="printHide2" class="alertfl">   
+        <p style="text-align:left"><strong><strong>In reference to the Honoring our PACT Act of 2022 (&quot;Pact Act&quot;):</strong><br />
+<br />
+The text of the PACT Act may be found <a href="https://www.congress.gov/117/bills/s3373/BILLS-117s3373enr.xml#toc-H1974679CDA864491B1CB10D5F1E0BF71" style="color: white;" target="_blank">here</a>. The Eastern District of North Carolina has been designated as the exclusive jurisdiction and venue for cases filed pursuant to Section 804 of the Act, known as the Camp Lejeune Justice Act of 2022. Cases arising under this section should be filed in the correct division as provided in Local Civil Rule 40.1. If a plaintiff does not reside within the Eastern District of North Carolina, the case should be filed in the Southern Division. The Cause of Action should be 804 (Camp Lejeune Justice Act of 2022) and the Nature of Suit should be 360 (P.I. : Other).<br />
+<br />
+By law, the clerk&#39;s office may not provide legal advice or recommend a particular attorney or law firm.<br />
+<br />
+<strong>PLEASE NOTE:</strong><br />
+September 22, 2022 - The Court is accepting applications for a Full-time U.S. Magistrate Judge in Greenville, NC until 5:00 p.m. on October 24, 2022. Please review the <a href="/pdfs/Full%20Public%20Notice.pdf" style="color: white;" target="_blank">Public Notice</a> for additional details<br />
+April 8, 2022 - <a href="https://www.nced.uscourts.gov/pdfs/FullPublicNoticeNumbers.pdf" style="color: white;" target="_blank">Public notice regarding reappointment of Incumbent United States Magistrate Judge Robert T. Numbers, II.</a> for the United States District Court Eastern District of North Carolina.<br />
+<br />
+<strong>In reference to COVID-19, please see:</strong></strong></p>
+
+<ul>
+	<li style="text-align:left"><strong><a href="https://www.nced.uscourts.gov/data/StandingOrders/20-S0-4.pdf" style="color: white;" target="_blank">Standing Order 20-SO-4</a>, IN RE: RESTRICTIONS ON VISITORS TO COURTHOUSES.</strong></li>
+</ul>
+  
+    </section>       
+
+    <section id="myTopnav" class="navigation">       
+            <!--this navigation file contains top navigation for a regular computer monitor experience
+    it also contains both top and left navigation for a mobile experience so if you make edits
+    to the left navigation: you must make edits here and here:  leftnavResponsive.htm-->
+<div class="nav-container">
+    <div class="brand">
+        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+    </div>
+    <nav>
+        <ul class="nav-list">
+            <!--BEGIN special short vertical menu of quick links that only appear at very top of vertical mobile menu -->
+            <li class="specialIntroMenu itemDivider">&nbsp;</li>
+            <li class="specialIntroMenu"><a href="/Default.aspx" title="Home">Home</a></li>
+            <li class="specialIntroMenu"><a href="/cmecf/Default.aspx" title="CM/ECF">CM/ECF</a></li>
+            <li class="specialIntroMenu">
+                <a href="#!" title="Attorneys">Attorneys</a>
+                <ul class="nav-dropdown">
+                    <li><a class="specialLinkColorPadding" href="/attorney/Default.aspx" title="Attorneys">Attorneys Home</a></li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/attorney/evoucher/evoucher.aspx" title="CJA and e-Voucher Information">CJA and e-Voucher Information</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/attorney/mediators.aspx" title="Attorneys">Mediators</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/attorney/crtech.aspx" title="Attorneys">Courtroom Technology</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/attorney/probonopanel.aspx" title="Attorneys">Pro Bono Panel</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="specialIntroMenu">
+                <a href="#!" title="Jurors">Jurors</a>
+                <ul class="nav-dropdown">
+                    <li><a class="specialLinkColorPadding" href="/jurors/default.aspx" title="Jurors">Jurors Home</a></li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/jurors/ejuror.aspx" title="eJuror">eJuror</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/jurors/faq.aspx" title="FAQ">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/jurors/summons.aspx" title="Summons">Summons</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="specialIntroMenu"><a href="/prose/Default.aspx" title="Self Representation">Self Representation</a></li>
+            <li class="specialIntroMenu"><a href="/courtlocations/Default.aspx" title="Court Locations">Court Locations</a></li>
+            <li class="specialIntroMenu itemDivider">&nbsp;</li>
+            <!--END special short vertical menu of quick links that only appear at very top of vertical mobile menu -->
+            <!--BEGIN special short menu of horizontal top navigation that only appear at very top of horizontal regular top nav menu -->
+            <li class="topOnlyMenu">
+                <a href="/Default.aspx" title="Home">Home</a>
+            </li>
+            <li class="topOnlyMenu">
+                <a href="/cmecf/Default.aspx" title="CM/ECF">CM/ECF</a>
+            </li>
+            <li class="topOnlyMenu">
+                <a href="#!" title="Attorneys">Attorneys</a>
+                <ul class="nav-dropdown">
+                    <li><a href="/attorney/Default.aspx" title="Attorneys">Attorneys Home</a></li>
+                    <li>
+                        <a href="/attorney/evoucher/evoucher.aspx" title="CJA and e-Voucher Information">CJA and e-Voucher Information</a>
+                    </li>
+                    <li>
+                        <a href="/attorney/mediators.aspx" title="Attorneys">Mediators</a>
+                    </li>
+                    <li>
+                        <a href="/attorney/crtech.aspx" title="Attorneys">Courtroom Technology</a>
+                    </li>
+                    <li>
+                        <a href="/attorney/probonopanel.aspx" title="Attorneys">Pro Bono Panel</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="topOnlyMenu">
+                <a href="#!" title="Jurors">Jurors</a>
+                <ul class="nav-dropdown">
+                    <li><a href="/jurors/default.aspx" title="Jurors">Jurors Home</a></li>
+                    <li>
+                        <a href="/jurors/ejuror.aspx" title="eJuror">eJuror</a>
+                    </li>
+                    <li>
+                        <a href="/jurors/faq.aspx" title="FAQ">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="/jurors/summons.aspx" title="Summons">Summons</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="topOnlyMenu">
+                <a href="#!" title="Public">Public</a>
+                <ul class="nav-dropdown">
+                    <li><a href="/public1/default.aspx" title="Public">Public Home</a></li>
+                    <li>
+                        <a href="https://www.uscourts.gov/federal-court-finder/search" target="_blank" title="Court Locator">Court Locator</a>
+                    </li>
+                    <li>
+                        <a href="/feedback/default.aspx" title="Feedback">Feedback</a>
+                    </li>
+                    <li>
+                        <a href="/public1/immigration.aspx" title="Immigration and Naturalization">Immigration and Naturalization</a>
+                    </li>
+                    <li>
+                        <a href="/public1/procurement.aspx" title="Procurement">Procurement</a>
+                    </li>
+                    <li>
+                        <a href="/public1/holidays.aspx" title="Court Holidays">Court Holidays</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="topOnlyMenu">
+                <a href="#!" title="Court Locations">Court Locations</a>
+                <ul class="nav-dropdown">
+                    <li><a href="/courtlocations/default.aspx" title="Court Locations">Court Locations Home</a></li>
+                    <li>
+                        <a href="/courtlocations/default.aspx?loc=ec" title="Elizabeth City">Elizabeth City</a>
+                    </li>
+                    <li>
+                        <a href="/courtlocations/default.aspx?loc=fay" title="Fayetteville">Fayetteville</a>
+                    </li>
+                    <li>
+                        <a href="/courtlocations/default.aspx?loc=green" title="Greenville">Greenville</a>
+                    </li>
+                    <li>
+                        <a href="/courtlocations/default.aspx?loc=nb" title="New Bern">New Bern</a>
+                    </li>
+                    <li>
+                        <a href="/courtlocations/default.aspx?loc=ral" title="Raleigh">Raleigh</a>
+                    </li>
+                    <li>
+                        <a href="/courtlocations/default.aspx?loc=wil" title="Wilmington">Wilmington</a>
+                    </li>
+                </ul>
+            </li>
+            <!--END special short menu of horizontal top navigation that only appear at very top of horizontal regular top nav menu -->
+            <!--BEGIN special long vertical menu of all links that only appear in vertical mobile menu -->
+            <li class="fullMenu"><a href="/access/Default.aspx" title="Accessibility Accommodations">Accessibility Accommodations</a></li>
+            <li class="fullMenu">
+                <a href="#!" title="Attorneys">Attorneys</a>
+                <ul class="nav-dropdown">
+                    <li><a class="specialLinkColorPadding" href="/attorney/Default.aspx" title="Attorneys">Attorneys Home</a></li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/attorney/evoucher/evoucher.aspx" title="CJA and e-Voucher Information">CJA and e-Voucher Information</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/attorney/mediators.aspx" title="Attorneys">Mediators</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/attorney/crtech.aspx" title="Attorneys">Courtroom Technology</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/attorney/probonopanel.aspx" title="Attorneys">Pro Bono Panel</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fullMenu"><a href="/cmecf/Default.aspx" title="CM/ECF">CM/ECF</a></li>
+            <li class="fullMenu">
+                <a href="#!" title="Court Locations">Court Locations</a>
+                <ul class="nav-dropdown">
+                    <li><a class="specialLinkColorPadding" href="/courtlocations/default.aspx" title="Court Locations">Court Locations Home</a></li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/courtlocations/default.aspx?loc=ec" title="Elizabeth City">Elizabeth City</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/courtlocations/default.aspx?loc=fay" title="Fayetteville">Fayetteville</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/courtlocations/default.aspx?loc=green" title="Greenville">Greenville</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/courtlocations/default.aspx?loc=nb" title="New Bern">New Bern</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/courtlocations/default.aspx?loc=ral" title="Raleigh">Raleigh</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/courtlocations/default.aspx?loc=wil" title="Wilmington">Wilmington</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fullMenu"><a href="/calendar/Default.aspx" title="Court Schedule">Court Schedule</a></li>
+            <li class="fullMenu"><a href="/crsM/crt.aspx" title="Court Reporter">Court Reporter</a></li>
+            <li class="fullMenu"><a href="/counties/Default.aspx" title="County List">County List</a></li>
+            <li class="fullMenu"><a href="/employment/Default.aspx" title="Employment">Employment</a></li>
+            <li class="fullMenu"><a href="/feedback/Default.aspx" title="Feedback">Feedback</a></li>
+            <li class="fullMenu"><a href="/forms/Default.aspx" title="Forms">Forms</a></li>
+            <li class="fullMenu"><a href="/Default.aspx" title="Home">Home</a></li>
+            <li class="fullMenu">
+                <a href="#!" title="Judges">Judges</a>
+                <ul class="nav-dropdown">
+                    <li>
+                        <a class="specialLinkColorPadding" href="/judges/Default.aspx" title="Preferences">Judges Home</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/judges/preferences.aspx" title="Preferences">Preferences</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/judges/pfsds.aspx" title="Seminars Disclosure">Seminars Disclosure</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fullMenu">
+                <a href="#!" title="Jurors">Jurors</a>
+                <ul class="nav-dropdown">
+                    <li><a class="specialLinkColorPadding" href="/jurors/default.aspx" title="Jurors">Jurors Home</a></li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/jurors/ejuror.aspx" title="eJuror">eJuror</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/jurors/faq.aspx" title="FAQ">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/jurors/summons.aspx" title="Summons">Summons</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fullMenu"><a class="item2 forMobile" href="/news/latestnews.aspx" title="Jurors">Latest News</a></li>
+            <li class="fullMenu"><a class="item2 forMobile" href="/media/Default.aspx" title="Media">Media</a></li>
+            <li class="fullMenu"><a class="item2 forMobile" href="/mA.html" target="_blank" title="Power Act Program - 2020">POWER Act Program – 2020</a></li>
+            <li class="fullMenu"><a class="item2 forMobile" href="/privacy/Default.aspx" title="Privacy Policy">Privacy Policy</a></li>
+            <li class="fullMenu">
+                <a href="#!" title="Public">Public</a>
+                <ul class="nav-dropdown">
+                    <li><a class="specialLinkColorPadding" href="/public1/default.aspx" title="Public">Public Home</a></li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="https://www.uscourts.gov/federal-court-finder/search" target="_blank" title="Court Locator">Court Locator</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/feedback/default.aspx" title="Feedback">Feedback</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/public1/immigration.aspx" title="Immigration and Naturalization">Immigration and Naturalization</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/public1/procurement.aspx" title="Procurement">Procurement</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/public1/holidays.aspx" title="Court Holidays">Court Holidays</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fullMenu"><a class="item2 forMobile" href="/crsM/Default.aspx" title="Record Request">Record Request</a></li>
+            <li class="fullMenu">
+                <a href="#!" title="Rules/Standing Orders">Rules/Standing Orders</a>
+                <ul class="nav-dropdown">
+                    <li><a class="specialLinkColorPadding" href="/rules/Default.aspx" title="Rules/Standing Orders">Rules/Standing Orders Home</a></li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/rules/Default.aspx" title="Preferences">Local Rules</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="http://www.uscourts.gov/file/document/rules-civil-procedure" target="_blank" title="Federal Rules Civil">Federal Rules Civil</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="http://www.uscourts.gov/file/document/rules-criminal-procedure" target="_blank" title="Federal Rules Criminal">Federal Rules Criminal</a>
+                    </li>
+                    <li>
+                        <a class="specialLinkColorPadding" href="/rules/so.aspx" title="Standing Orders">Standing Orders</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="fullMenu"><a class="item2 forMobile" href="/prose/Default.aspx" title="Self Representation">Self Representation</a></li>
+            <li class="fullMenu"><a class="item2 forMobile" href="/sm.html" title="Site Map">Site Map</a></li>
+            <li class="fullMenu"><a class="item2 forMobile" style="line-height:20px; text-wrap:normal" href="/employment/workplacerelations.aspx" title="Your Employee Rights and How to Report Wrongful Conduct">Your Employee Rights and How to Report Wrongful Conduct</a></li>
+            <!--END special long vertical menu of all links that only appear in vertical mobile menu -->
+        </ul>
+    </nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+    </section>
+        
+            
+              <div id="ctl00_UpdatePanel1">
+	 
+        <!-- your content here, no timer -->       
+        <img id="ctl00_imageBanner" class="imgBanner" src="/images/imagesResponsive/banners/r1.jpg" alt="courthouses" border="0" /> 
+          
+</div> 
+              <span id="ctl00_Timer1" style="display:none;"></span>
+            
+             <div class="visitorInfo"><span style="font-weight:bold">VISITOR INFORMATION</span>: Mobile devices and weapons are not permitted in the courthouse. Please bring a photo ID. </div>
+             <section>
+        <div>
+        <!-- your content here, no timer -->
+                     
+              <div class="boxes flex-container">
+                <div class="box box1 forBigScreens">
+                <!--only show on large screens, this is the left navigation-->
+                  <!--this navigation file contains left navigation for a regular computer monitor experience
+    but pieces of this left navigation also reside in this file: topnavResponsive to handle a mobile experience
+    so if you make edits to this file (leftnavResponsive.htm) you must make edits here as well:  topnavResponsive.htm-->
+<leftnav>
+    <ul class="leftnav-list">
+        <li class="itemleftnav"><a href="/access/Default.aspx" title="Accessibility Accommodations">- Accessibility Accommodations</a></li>
+        <li class="itemleftnav"><a href="/counties/Default.aspx" title="County List">- County List</a></li>
+        <li class="itemleftnav"><a href="/calendar/Default.aspx" title="Court Schedule">- Court Schedule</a></li>
+        <li class="itemleftnav"><a href="/crsM/crt.aspx" title="Court Reporter">- Court Reporter</a></li>
+        <li class="itemleftnav"><a href="/employment/Default.aspx" title="Employment">- Employment</a></li>
+        <li class="itemleftnav"><a href="/feedback/Default.aspx" title="Feedback">- Feedback</a></li>
+        <li class="itemleftnav"><a href="/forms/Default.aspx" title="Forms">- Forms</a></li>
+        <li class="itemleftnav">
+            <a href="#!" title="Judges">- Judges</a>
+            <ul class="leftnav-dropdown">
+                <li>
+                    <a href="/judges/Default.aspx" title="Preferences">Judges Home</a>
+                </li>
+                <li>
+                    <a href="/judges/preferences.aspx" title="Preferences">Preferences</a>
+                </li>
+                <li>
+                    <a href="/judges/pfsds.aspx" title="Seminars Disclosure">Seminars Disclosure</a>
+                </li>
+            </ul>
+        </li>
+        <li class="itemleftnav"><a href="/news/latestnews.aspx" title="Media">- Latest News</a></li>
+        <li class="itemleftnav"><a href="/media/Default.aspx" title="Media">- Media</a></li>
+        <li class="itemleftnav"><a href="/mA.html" target="_blank" title="POWER Act Program – 2020">- POWER Act Program – 2020</a></li>
+        <li class="itemleftnav"><a href="/privacy/Default.aspx" title="Privacy Policy">- Privacy Policy</a></li>
+        <li class="itemleftnav"><a href="/crsM/Default.aspx" title="Record Request">- Record Request</a></li>
+        <li class="itemleftnav">
+            <a href="#!" title="Rules/Standing Orders">- Rules/Standing Orders</a>
+            <ul class="leftnav-dropdown">
+                <li><a href="/rules/Default.aspx" title="Rules/Standing Orders">Rules/Standing Orders Home</a></li>
+                <li>
+                    <a href="/rules/Default.aspx" title="Preferences">Local Rules</a>
+                </li>
+                <li>
+                    <a href="http://www.uscourts.gov/file/document/rules-civil-procedure" target="_blank" title="Federal Rules Civil">Federal Rules Civil</a>
+                </li>
+                <li>
+                    <a href="http://www.uscourts.gov/file/document/rules-criminal-procedure" target="_blank" title="Federal Rules Criminal">Federal Rules Criminal</a>
+                </li>
+                <li>
+                    <a href="/rules/so.aspx" title="Standing Orders">Standing Orders</a>
+                </li>
+            </ul>
+        </li>
+        <li class="itemleftnav"><a href="/prose/Default.aspx" title="Self Representation">- Self Representation</a></li>
+        <li class="itemleftnav"><a href="/sm.html" target="_blank" title="Site Map">- Site Map</a></li>
+        <li class="itemleftnav"><a href="/employment/workplacerelations.aspx" title="Your Employee Rights and How to Report Wrongful Conduct">- Your Employee Rights and<br>How to Report Wrongful<br>Conduct</a></li>
+    </ul>
+</leftnav>
+
+
+  
+                 </div>
+            <div class="article specialPadding">                
+                         <div><strong>
+WELCOME
+</strong></div> 
+                        <div>
+<p style="text-align:right"><a href="/jurors/ejuror.aspx">eJuror</a></p>
+<p>
+    The mission of the United States District Court for the Eastern District of North Carolina is to support, defend and preserve the Constitution of the United States by providing an impartial forum for the just resolution of disputes. The clerk&#39;s office, as the doorway to the court, continuously strives to provide quality, courteous, and prompt service with a commitment to professionalism, teamwork and efficiency based on our belief that all people have a right to be treated with fairness and dignity. Our motto is &quot;Service to the Public; Support to the Court.&quot;
+</p>
+<p>
+    We serve 44 North Carolina counties from Raleigh to the Atlantic coast and are under the United States Federal Court System in which both civil and criminal cases are filed. Court is held in six cities in the District: Elizabeth City, Fayetteville, Greenville, New Bern, Raleigh, and Wilmington.
+</p>
+<p>
+    Pleadings may be filed in the Office of the Clerk in Raleigh, Greenville, New Bern or Wilmington regardless of the division or judge to which the case is assigned.
+</p>
+<p>
+    For office hours and directions to specific locations, please visit our <a href="courtlocations/Default.aspx">Court Locations</a> section.
+</p>
+
+
+</div>
+                <div class="box box1"><p><strong>Latest News</strong></p>
+
+<ul>
+	<li>October 28, 2022 -&nbsp;<a href="https://www.nced.uscourts.gov/data/StandingOrders/22-S0-2-M.pdf" target="_blank">Standing Order 22-S0-2-M</a>, IN RE: PROHIBITION OF WIRELESS COMMUNICATION DEVICES</li>
+	<li>October 25, 2022 -&nbsp;<a href="https://www.nced.uscourts.gov/pdfs/HolidayOrder2022.pdf" target="_blank">Holiday Order 2022</a></li>
+	<li>September 22, 2022 -&nbsp;<a href="https://www.nced.uscourts.gov/data/StandingOrders/22-SO-1.pdf" target="_blank">Standing Order 22-SO-1</a>, IN RE: GUILTY PLEAS IN CRIMINAL FELONY CASES</li>
+	<li>September 22, 2022 -&nbsp;<a href="https://www.nced.uscourts.gov/employment/Default.aspx">Public Notice for Appointment of a New Magistrate Judge</a></li>
+	<li>April 8, 2022 - <a href="https://www.nced.uscourts.gov/pdfs/FullPublicNoticeNumbers.pdf" target="_blank">Public notice regarding reappointment of Incumbent United States Magistrate Judge Robert T. Numbers, II.</a> for the United States District Court Eastern District of North Carolina.</li>
+	<li>January 27, 2022 -&nbsp;The United States District Court for the Eastern District of North Carolina gives <a href="https://www.nced.uscourts.gov/rules/default.aspx">public notice</a> of proposed amendments to the Local Civil, Criminal, and Admiralty Rules.</li>
+	<li>September 13, 2021&nbsp; - <a href="https://www.nced.uscourts.gov/pdfs/2021Announcement.pdf" target="_blank">Sentencing Guidelines Training - November 9, 2021</a></li>
+	<li>March 8, 2021&nbsp; - <a href="http://www.nced.uscourts.gov/data/StandingOrders/21-SO-3.pdf" target="_blank">Standing Order 21-SO-3</a> IN RE: VIDEO CONFERENCING FOR CRIMINAL PROCEEDINGS UNDER THE CARES ACT AND IN LIGHT OF THE COVID-19 PANDEMIC</li>
+	<li>January 8, 2021&nbsp; - <a href="https://www.nced.uscourts.gov/data/StandingOrders/21-SO-2.pdf" target="_blank">Standing Order 21-SO-2</a> IN RE: PROCEDURES FOR THE FILING, SERVICE, AND MANAGEMENT OF HIGHLY SENSITIVE DOCUMENTS</li>
+	<li>December 8, 2020&nbsp; - <a href="http://www.nced.uscourts.gov/data/StandingOrders/20-SO-13.pdf" target="_blank">Standing Order 20-SO-13</a> IN RE: VIDEO CONFERENCING FOR CRIMINAL PROCEEDINGS UNDER THE CARES ACT AND IN LIGHT OF THE COVID-19 PANDEMIC</li>
+	<li>October 16, 2020&nbsp; - <a href="http://www.nced.uscourts.gov/pdfs/order-appointment-USMJ-Meyers.pdf">United States Magistrate Judge Meyers Appointed</a></li>
+	<li>April 8, 2020 - In reference to COVID-19, please see <a href="http://www.nced.uscourts.gov/pdfs/20-JP-1-RJ.pdf" target="_blank">Judicial Preference Order 20-JP-1-RJ</a>, In re: Duty Court Proceedings Before United States Magistrate Judge Robert B. Jones, Jr. During the National Emergency Created by the COVID-19 Pandemic.</li>
+	<li>April 6, 2020 - In reference to COVID-19, please see <a href="http://www.nced.uscourts.gov/pdfs/20-JP-1-RN.pdf" target="_blank">Judicial Preference Order 20-JP-1-RN</a>, In re: Duty Court Proceedings Before United States Magistrate Judge Robert T. Numbers, II During the National Emergency Created by the COVID-19 Pandemic.</li>
+	<li>April 1, 2020 - In reference to COVID-19, please see <a href="http://www.nced.uscourts.gov/data/StandingOrders/20-SO-7.pdf" target="_blank">Standing Order 20-SO-7</a>, IN RE: VIDEO CONFERENCING FOR CRIMINAL PROCEEDINGS UNDER THE CARES ACT AND IN LIGHT OF THE COVID-19 PANDEMIC.</li>
+	<li>March 18, 2020 -&nbsp;In reference to COVID-19, please see <a href="http://www.nced.uscourts.gov/data/StandingOrders/20-S0-5.pdf" target="_blank">Standing Order 20-SO-5</a>, IN RE: COURT OPERATIONS UNDER THE EXIGENT CIRCUMSTANCES CREATED BY THE COVID-19 PANDEMIC.</li>
+	<li>March 12, 2020 -&nbsp;In reference to COVID-19, please see <a href="http://www.nced.uscourts.gov/data/StandingOrders/20-S0-4.pdf" target="_blank">Standing Order 20-SO-4</a>, IN RE: RESTRICTIONS ON VISITORS TO COURTHOUSES.</li>
+	<li>November 15, 2019 -&nbsp;<a href="http://www.nced.uscourts.gov/rules/Default.aspx">19-SO-5, In re Amendments to the Local Civil and Criminal Rules of Practice and Procedure</a></li>
+	<li>August 29, 2019 - <a href="http://www.nced.uscourts.gov/pdfs/ChineseManufacturedDrywall1.pdf" target="_blank">In re: Chinese-Manufactured Drywall Products Liability Litigation.</a> Court&#39;s Order and Notice of Pendency and Proposed Settlement of Class Action against Taishan.</li>
+	<li>March 23, 2019 - <a href="http://www.nced.uscourts.gov/judges/fox.aspx">Judge James C. Fox passed away on Saturday, March 23, 2019. Judge Fox honorably served our nation for over thirty five years as a United States District Judge in the Eastern District of North Carolina.</a></li>
+	<li>November 27, 2018 - <a href="http://www.nced.uscourts.gov/data/StandingOrders/18-SO-5.pdf" target="_blank">18-SO-5, In re: Electronic Service of Documents Filed By Unrepresented Litigants.</a></li>
+	<li>April 11, 2018 - <a href="http://www.nced.uscourts.gov/data/StandingOrders/18-SO-2.pdf" target="_blank">18-SO-2, In re: Schedule of Transcript Fees</a></li>
+	<li>April 10, 2018 - <a href="http://www.nced.uscourts.gov/data/StandingOrders/18-SO-1.pdf" target="_blank">Amended Criminal Justice Act Plan</a></li>
+	<li>August&nbsp;8, 2017 - <a href="http://www.nced.uscourts.gov/data/StandingOrders/17-SO-4.pdf">Standing Order 17-SO-4; In re Interim Amendments&nbsp;to Local Criminal Rule 32.2</a></li>
+	<li>August 2, 2017 - <a href="http://www.nced.uscourts.gov/data/StandingOrders/17-SO-3.pdf" target="_blank">In Re: Appointment of North Carolina Prisoner Legal Services, Inc. in State Prisoner Civil Rights Cases</a></li>
+	<li>March 20, 2017 - The United States District Court for the Eastern District of North Carolina has approved e-noticing for pro se parties in civil cases. Effective March 20, 2017, a non-incarcerated pro se litigant may consent to electronic service of documents filed in CM/ECF in civil cases in this court. Further information regarding e-noticing may be found in the revised <a href="http://www.nced.uscourts.gov/pdfs/cmecfPolicyManual.pdf" target="_blank">CM/ECF Policy Manual</a>.</li>
+	<li>March 16, 2017 - The United States District Court for the Eastern District of North Carolina announces the selection of Peter A. Moore, Jr., as Clerk of Court. Mr. Moore was sworn in by the Court on March 13, 2017, and replaces Julie Richards Johnston, who retired on March 6, 2017.</li>
+	<li>March 14, 2017 - <a href="http://www.nced.uscourts.gov/attorney/probonopanel.aspx">Learn about our Pro Bono Program.</a></li>
+	<li>December 2, 2016 - <a href="http://www.nced.uscourts.gov/data/StandingOrders/16-SO-5.pdf">IN RE: GUIDELINES FOR COLLECTION AND EXPENDITURE OF NON-APPROPRIATED FUNDS</a></li>
+	<li style="text-align:right"><a href="/news/latestnews.aspx" target="_blank">More news &gt;&gt;</a></li>
+</ul>
+</div>
+                            <div class="box box2"><p><strong>Resources</strong></p>
+
+<ul>
+	<li><a href="http://www.ca4.uscourts.gov/docs/pdfs/judicial-complaint-form.pdf?sfvrsn=6" target="_blank">4th Circuit&#39;s Judicial Misconduct and Disability Policy</a> <em>(pdf)</em></li>
+	<li>Understanding the <a href="http://www.uscourts.gov/FederalCourts.aspx" target="_blank">Federal Courts</a></li>
+	<li><a href="https://pacer.uscourts.gov/" target="_blank">Case Locator (PACER)</a>: Public Access to Court Electronic Records</li>
+	<li><a href="http://www.uscourts.gov/Statistics/FederalCourtManagementStatistics.aspx" target="_blank">Court Statistics</a></li>
+	<li><a href="http://www.ncep.uscourts.gov/" target="_blank">U.S. Probation Office</a>, Eastern District of N.C.</li>
+	<li><a href="http://www.justice.gov/marshals/" target="_blank">U.S. Marshals Service</a></li>
+	<li><a href="http://www.uscourts.gov/FormsAndFees/Fees/DistrictCourtMiscellaneousFeeSchedule.aspx" target="_blank">District Court Miscellaneous Fee Schedule</a></li>
+</ul>
+</div>
+                <div>     
+                </div>
+            </div> 
+            </div>
+                   
+                           
+        </div>
+        
+  </section> 
+         <section id="printHide3">         
+        <div class="footer">
+        </div>
+    </section>     
+  
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.UI._Timer, {"enabled":true,"interval":24000,"uniqueID":"ctl00$Timer1"}, null, null, $get("ctl00_Timer1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.Animation.UpdatePanelAnimationBehavior, {"id":"animation","onUpdated":"{\"AnimationName\":\"sequence\",\"AnimationChildren\":[{\"AnimationName\":\"Parallel\",\"duration\":\".5\",\"fps\":\"30\",\"AnimationChildren\":[{\"AnimationName\":\"FadeIn\",\"TargetScript\":\"$get(\\u0027ctl00_imageBanner\\u0027)\",\"maximumOpacity\":\"1.0\",\"AnimationChildren\":[]}]}]}","onUpdating":"{\"AnimationName\":\"sequence\",\"AnimationChildren\":[{\"AnimationName\":\"Parallel\",\"duration\":\".5\",\"fps\":\"30\",\"AnimationChildren\":[{\"AnimationName\":\"FadeOut\",\"TargetScript\":\"$get(\\u0027ctl00_imageBanner\\u0027)\",\"minimumOpacity\":\".1\",\"AnimationChildren\":[]}]}]}","triggerControlsClientID":["ctl00_Timer1"],"updatePanelClientID":"ctl00_UpdatePanel1","updatePanelID":"ctl00$UpdatePanel1"}, null, null, $get("ctl00_UpdatePanel1"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
