@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="shortcut icon"  href="/favicon.ico"/><title>Live Database: nyeb_live</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFF0 TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>Live Database: nyeb_live</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Eastern District of New York
+<P>
+<A HREF="/cgi-bin/login.pl">Eastern District of New York - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> <!-- rcsid="$Header: /usr/local/cvsroot/bankruptcy/web/html/OperationNotice.htm,v 3.1 2003/04/25 11:55:57 loy Exp $" -->.
+
+<!-- HR -->
+
+  <!--
+  <FONT COLOR="blue" SIZE=3><B>
+  The system update was successfully completed. The system is now available
+  and is being monitored. Please send any of your concerns about the system to
+  the Automation Department. <br> <br>
+  </B></font>
+  -->
+  
+  <!-- System upgrade notification -->
+  
+  <font COLOR="blue" SIZE=3>
+<!-- 
+  <p><strong><u>ECF/PACER Service Disruption [ 11/30/2022 ]</u><br>
+  Due to a system upgrade, the court’s ECF/PACER system will be inaccessible for query or filing purposes between 5:30 p.m. and 6:30 p.m. on Wednesday, November 30, 2022.<br>
+  The Voice Case Information System (VCIS) will be available.  We apologize for any inconvenience this may cause.
+  </strong></p>
+ -->
+
+ <!-- 
+  <p><strong>Please refer to Local Bankruptcy Rule 5001-2 for instructions on after hours filing.</strong></p>
+  <p><strong>If necessary, you can send PDF documents to the Court's Electronic Drop Box at <a href="mailto:NYEB_Dropbox@nyeb.uscourts.gov">NYEB_Dropbox@nyeb.uscourts.gov</a>.</strong></p>
+  <p><strong>We apologize for any inconvenience this may cause.</strong></p>
+  </font>
+  -->
+  <hr/>
+ 
+
+<!--  
+<div style="color:blue; font-size:14px; font-weight:bold;">
+  <br>
+  <U>PLEASE NOTE:</U> CM/ECF is unavailable every weekday morning
+    between 5:30 a.m. and 5:45 a.m. We apologize for any inconvenience.
+   <br>   <br>
+</div>
+<hr/>
+-->
+
+<!--
+-->
+<div style="color:red; font-size:16px;">
+ <br>
+This is a restricted government website for official court business only. All activities of CM/ECF subscribers or users of this system for any purpose, and all access attempts, may be recorded and monitored by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance and for appropriate management by the judiciary of its systems. By subscribing to CM/ECF, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. If evidence of unlawful activity is discovered, including unauthorized access attempts, it may be reported to law enforcement officials.
+<br>  <br>
+</div>
+<HR>
+<div style="color:black; font-size:16px;">
+The United States Bankruptcy Court for the Eastern District of New York is responding to the recent disclosure of wide-spread cybersecurity breaches of government computer systems with new security procedures to protect highly sensitive confidential documents.<a href="https://www.uscourts.gov/news/2021/01/06/judiciary-addresses-cybersecurity-breach-extra-safeguards-protect-sensitive-court">Learn more.</a> Please refer to Administrative Order No. 716, PROCEDURES FOR THE FILING, SERVICE, AND MANAGEMENT OF HIGHLY SENSITIVE DOCUMENTS, <a href="https://www.nyeb.uscourts.gov/sites/nyeb/files/general-ordes/ord_716.pdf">Click here to view.</a>
+</div>
+<hr/>
+
+
+  
+ <!--
+
+  <FONT COLOR="red" SIZE=3><B>
+  ECF/PACER Service Disruption [6/5/2020] 
+  <br>
+  <br>
+  Due to a system upgrade, the court’s ECF/PACER system will be inaccessible for query or filing purposes between 5:30 p.m. and 6:30 p.m. on Friday, Jun 5, 2020.
+  <br>
+  <br>
+  The Voice Case Information System (VCIS) will be available. 
+  <br>
+  <br>
+  We apologize for any inconvenience this may cause.
+  <br>
+  <br>
+  <br>
+  </B></font>
+ -->
+
+<HR>
+9October2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
