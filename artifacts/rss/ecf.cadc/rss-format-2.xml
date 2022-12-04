@@ -1,40 +1,28 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<title>Object not found!</title>
-<link rev="made" href="mailto:root@www" />
-<style type="text/css"><!--/*--><![CDATA[/*><!--*/ 
-    body { color: #000000; background-color: #FFFFFF; }
-    a:link { color: #0000CC; }
-    p, address {margin-left: 3em;}
-    span {font-size: smaller;}
-/*]]>*/--></style>
-</head>
+<?xml version='1.0' encoding='ISO-8859-1'?>
 
-<body>
-<h1>Object not found!</h1>
-<p>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
 
+<channel>
+	<title>United States Court of Appeals for District of Columbia Circuit - Recent Entries</title>
+	<link>https://ecf.cadc.uscourts.gov</link>
+	<description>Docket entries of type: orders,opinions,judgments</description>
+	<lastBuildDate>Sun, 04 Dec 2022 11:57:04 EST</lastBuildDate>
+<item>
+	<title>22-1301 American Clean Power Association, et al v. FERC</title>
+	<link>https://ecf.cadc.uscourts.gov/n/beam/servlet/TransportRoom?servlet=DocketReportFilter.jsp&amp;caseNum=22-1301</link>
+	<description>[Order Filed (CLERK)] (&lt;a href='https://ecf.cadc.uscourts.gov/docs1/01208475189'>Document&lt;/a>)</description>
+	<guid isPermaLink="true">https://ecf.cadc.uscourts.gov/n/beam/servlet/TransportRoom?servlet=DocketReportFilter.jsp&amp;caseNum=22-1301&amp;partId=1976084</guid>
+	<pubDate>Sun, 04 Dec 2022 11:39:53 EST</pubDate>
 
-    The requested URL was not found on this server.
+</item>
+<item>
+	<title>22-5320 Serge Bega, et al v. Ur Jaddou</title>
+	<link>https://ecf.cadc.uscourts.gov/n/beam/servlet/TransportRoom?servlet=DocketReportFilter.jsp&amp;caseNum=22-5320</link>
+	<description>[Order Filed (CLERK)] (&lt;a href='https://ecf.cadc.uscourts.gov/docs1/01208475185'>Document&lt;/a>)</description>
+	<guid isPermaLink="true">https://ecf.cadc.uscourts.gov/n/beam/servlet/TransportRoom?servlet=DocketReportFilter.jsp&amp;caseNum=22-5320&amp;partId=1976081</guid>
+	<pubDate>Sun, 04 Dec 2022 10:56:32 EST</pubDate>
 
-  
+</item>
 
-    If you entered the URL manually please check your
-    spelling and try again.
-
-  
-
-</p>
-<p>
-</p>
-
-<h2>Error 404</h2>
-<address>
-
-  
-</address>
-</body>
-</html>
+</channel>
+</rss>
