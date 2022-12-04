@@ -1,0 +1,27 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.vtb.uscourts.gov/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Date: Sun, 04 Dec 2022 13:52:53 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670159309-0"
+Last-Modified: Sun, 04 Dec 2022 13:08:29 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=NNJLMMBDNPNJINBPJPEOHHFPBHFFJPKPMAFDCCAJNFFNCMOFOMMLIJKEKDGPNOOHCFFDIPEFKFDFOHKIGEGANMMPOKMIHFGGALODOPMLEBIHNGEELKLDDFHOJOOGMNAG; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01e6ba21=01300dc996e935d6dd5c1e0618a45bea55c1b7789ed4b5eb336fca15e07d4fb9bf2d7e8069014070231f3a351ba61a04bfe4669787; Path=/; Domain=.www.vtb.uscourts.gov
+

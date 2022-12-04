@@ -1,0 +1,76 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>G6 VTB Live Database Area</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFFF TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>G6 VTB Live Database Area</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+District of Vermont
+<P>
+<A HREF="/cgi-bin/login.pl">District of Vermont - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+
+<br>
+<table width="80%" align="center" border="1">
+<tr>
+<td>
+<p><B>3/09/2022 <br>
+The Court's Case Management/Electronic Case Filing (CM/ECF) system is now on NextGen 1.6.3</B>
+<p><b>02/17/2019 <br>
+<font color=crimson>When you have an emergency motion to file, do you know what to do?<font color=black>  <A HREF="http://www.vtb.uscourts.gov/what-you-need-know-when-filing-emergency-motion" target="_blank">Handling Emergencies in Vermont </A> will provide you with all the information you need to know when filing an emergency motion.</b>
+</td>
+</tr>
+</table>
+
+<HR>
+3September2020
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
