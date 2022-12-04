@@ -1,0 +1,31 @@
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-US
+Location: https://www.caed.uscourts.gov/caednew/index.cfm/cmecf-e-filing/
+Server: Microsoft-IIS/10.0
+Set-Cookie: CFID=2814816; Expires=Mon, 05-Dec-2022 13:22:56 GMT; Path=/; HttpOnly
+Set-Cookie: CFTOKEN=e4e131659d4e1024-A508CD6F-91DB-19E3-3C86DEF7CFC75D01; Expires=Mon, 05-Dec-2022 13:22:56 GMT; Path=/; HttpOnly
+Set-Cookie: USERID=""; Max-Age=946080000; Expires=Tue, 26-Nov-2052 01:22:56 GMT; Path=/
+Set-Cookie: USERHASH=""; Max-Age=946080000; Expires=Tue, 26-Nov-2052 01:22:56 GMT; Path=/
+Set-Cookie: ORIGINALURLTOKEN=A508CD7F%2DD5A7%2D526A%2D17E1221456C23137; Expires=Tue, 26-Nov-2052 13:22:56 GMT; Path=/
+Set-Cookie: MOBILEFORMAT=false; Path=/
+X-Powered-By: ASP.NET
+Date: Sun, 04 Dec 2022 13:22:56 GMT
+Content-Length: 0
+
+HTTP/2 200 
+content-type: text/html;charset=UTF-8
+content-language: en-US
+server: Microsoft-IIS/10.0
+set-cookie: CFID=2814817; Expires=Mon, 05-Dec-2022 13:22:56 GMT; Path=/; HttpOnly
+set-cookie: CFTOKEN=dcdb0995ed08d873-A508DE0A-9C14-61BB-B4CA5252E2D753E5; Expires=Mon, 05-Dec-2022 13:22:56 GMT; Path=/; HttpOnly
+set-cookie: USERID=""; Max-Age=946080000; Expires=Tue, 26-Nov-2052 01:22:56 GMT; Path=/
+set-cookie: USERHASH=""; Max-Age=946080000; Expires=Tue, 26-Nov-2052 01:22:56 GMT; Path=/
+set-cookie: ORIGINALURLTOKEN=A508DE19%2DAFF5%2DFD5F%2D8DE8AB33F8E3F17C; Expires=Tue, 26-Nov-2052 13:22:56 GMT; Path=/
+set-cookie: MOBILEFORMAT=false; Path=/
+x-powered-by: ASP.NET
+date: Sun, 04 Dec 2022 13:22:56 GMT
+content-length: 25923
+
