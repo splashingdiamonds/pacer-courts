@@ -1,0 +1,98 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>CM/ECF LIVE DATABASE</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=LIGHTBLUE TEXT=00000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>CM/ECF LIVE DATABASE</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the U.S. Bankruptcy Court for the
+Northern District of New York
+<P>
+<A HREF="/cgi-bin/login.pl">Northern District of New York - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- rcsid="$Header: /ecf/bankruptcy/html/OperationNotice.htm,v 2.3 2002-04-19 10:32:46-04 wright Exp $" -->
+</head>
+<body>
+<p><center><b><font size="4" color="red">NOTICE:</font></br>
+<font size="4">This is a <u>restricted government system</u> for official judiciary business only. All activities on this system for any purpose, and all access attempts, may be recorded and monitored or reviewed by persons authorized by the federal judiciary for improper use, protection of system security, performance of maintenance, and appropriate management by the judiciary of its systems. By using this system or any connected system, users expressly consent to system monitoring and to official access to data reviewed and created by them on the system. Any evidence of unlawful activity, including unauthorized access attempts, may be reported to law enforcement officials.
+</font></b></center></p>
+<center>
+  <p><b><font color="red" size="4"><blink>IMPORTANT:</blink> <a href="http://www.nynb.uscourts.gov/?q=requests-copies">CLICK HERE FOR INFORMATION REGARDING NEW PACER ACCESS<br />
+RESTRICTIONS AND OBTAINING PHOTOCOPIES.</a></font></b></p>
+<p><b>This system contains case information dated January 1, 1986 to the
+present.</b><br>
+Documents filed on or after December 30, 2002 will be in electronic
+format. </b></p>
+</center>
+<HR>
+<center><b><font color="red"> ALBANY HELP DESK TELEPHONE NUMBER IS
+518-257-1616.</font></b></center>
+<center><b><font color="red"> UTICA HELP DESK TELEPHONE NUMBER IS
+315-266-1118. </font></b></center>
+<center><b><font color="red"> SYRACUSE HELP DESK TELEPHONE NUMBER IS
+315-295-1618. </font></b></center>
+<p><center><b><font color="purple" size="4"><blink>IMPORTANT:</blink>It is the
+Clerk's responsibility to maintain an accurate index of all documents
+filed. Please be advised that where a discrepancy exists between the
+content of a pleading pdf and the data entered during submission, that
+the court will proceed as if the information contained in the pdf is
+correct and may adjust its records accordingly. If the information
+contained in the pdf is not correct, it is the responsibility of the
+filer to amend the document.</font></b></center></p>
+<p><center><b><font color="brown" size="4">Notice Regarding Filing Claims in the Coyne International Enterprise Corp. 15-31160.  All proofs of claim will be processed by Rust Consulting/Omni Bankruptcy.  Claims cannot be filed with the Court.  For additional information on filing claims in the Coyne International Enterprise Corporation case, please visit the website of Rust Consulting/Omni Bankruptcy at http://www.omnimgt.com/coyne
+</font></b></center></p>
+<p><center><b><font color="blue" size ="4">Digital Audio Recording (CourtSpeak) pilot begins March 16, 2015 in Syracuse division.  Please visit our internet site www.nynb.uscourts.gov for additional information regarding CourtSpeak and compliance with privacy rules.</font></b></center></p>
+<p><center><b><font color="red" size="4">IMPORTANT: </font><font color = brown>All filings with the court including attachments must comply with Fed. R. Bankr. P. 9037:
+Social Security or taxpayer-identification numbers; dates of birth; names of minor children; and financial account
+numbers may not appear except as allowed by the rule.</b></font></center></p>
+</body>
+</html>
+
+<HR>
+3September2020
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
