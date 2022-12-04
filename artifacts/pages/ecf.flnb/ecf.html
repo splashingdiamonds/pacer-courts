@@ -1,0 +1,225 @@
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>FLNB CMECF *Live* database</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=AFEEEE TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> <!-- $Header: /usr/local/cvsroot/bankruptcy/web/html/index.html,v 5.3 2009/11/28 02:40:36 jpd Exp $ -->
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 444 -->
+<!-- RPM Owner: nobody -->
+<!-- RPM Group: nobody -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<head>
+<title>FLNB Main</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#AFEEEE">
+<table width="100%" border="0">
+  <tr> 
+    <td width="15%"><img src="graphics/seal.gif" width="113" height="108"></td>
+    <td width="85%"><div align="center"> 
+        <p><strong><font size="+2">United States Bankruptcy Court<br>
+          </font></strong><font size="+1"><strong>Northern District of Florida</strong><br>
+          </font>Case Management and Electronic Case Filing<br>
+<br /><br />
+ <table width="100%" border="0">
+  <tr>
+     <td width="100%"><div align="center"> 
+          Each Filer MUST have their own PACER account.  
+			  <a href="https://pacer.uscourts.gov/register-account" target="_top">Click for instructions</a><br />
+          PACER account must be upgraded if PACER ID is only six characters.  
+			  <a href="http://www.flnb.uscourts.gov/sites/flnb/files/Upgrade%20Legacy%20PACER%20Accounts.pdf" target="_top">Click for instructions</a><br />
+	  </p>
+       <p><div align="center"><strong><font size="+1">Actions Required before first NextGen login (12/6/2021)</font> </strong> </font><br><br>
+          Each Filer MUST Link PACER account to CM/ECF account. <br />
+		  You MUST know your CM/ECF username and password.  
+			  <a href="http://pacer.uscourts.gov/help/cmecf/linking-your-district-or-bankruptcy-court-cmecf-account" target="_top">Click for instructions</a><br />
+	  </p>	
+	</div></td>
+  </tr>
+</table>
+         <br>
+<!-ShowPage(login_link.htm)-> <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Login Link</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#AFEEEE">
+  <strong><a href="https://ecf.flnb.uscourts.gov/cgi-bin/login.pl" target="_top">Click Here to Start CM/ECF</a></strong><br />
+
+
+</body>
+</html>
+          
+                  </p>
+          <strong><font size="+1">CM/ECF NextGen Version 1.7.1.1 </font></strong>
+          <br>
+<!-ShowPage(FLNB_DatabaseName.htm)-> <!-- rcsid="$Header: /usr/local/cvsroot/bankruptcy/web/html/FLNB_DatabaseName.htm,v 1.0 2008/01/23 11:55:57 boj Exp $" -->
+<div align="center"><font size="+1"><strong>Centralized LIVE Database</strong></font></div>
+          
+		  </div></td>
+  </tr>
+</table>
+
+<br />
+
+<table width="100%" border="0">
+  <tr>
+    <td width="15%"><p><font size="2">
+        <a href="https://bankruptcynotices.uscourts.gov/">
+          <img src="graphics/EBN.jpg" width="120" height="450" border="0"></a><br>
+        <br>
+        Need?<br>
+<!--        <a href="https://ecf.flnb.uscourts.gov/PasswordReset">-Password Reset</a><br> -->
+        <a href="http://www.flnb.uscourts.gov/online-filing/training-request">-Training</a><br>
+<!--        <a href="https://ecf.flnb.uscourts.gov/AttorneyReg/">-Request CM/ECF Account</a><br> -->
+        <a href="http://pacer.psc.uscourts.gov/cmecf/index.html">-Pacer 
+        Account</a><br> 
+        <a href="http://www.flnb.uscourts.gov/forms">-Local 
+        Forms</a><br>
+        <a href="http://www.flnb.uscourts.gov/court-resources/local-rules">-Local Rules</a><br>
+        <a href="http://www.flnb.uscourts.gov/online-filing#pacer">-Copies</a><br>
+        <a href="http://www.flnb.uscourts.gov/helpdesk">-Help 
+        Desk</a><br>
+<!--        <a href="http://www.flnb.uscourts.gov/documents/court_info/proposed_orders.pdf">-Proposed 
+		Orders</a></font></p> -->
+
+	<p><a href="https://ecf.flnb.uscourts.gov/publiccalendar/">
+	  <img src="graphics/calendar2.gif" width="78" height="81" border="0"></a><br>
+        <font size="2">C</font><font size="2">lick picture for<br>
+        court calendars</font></p>
+      <div align="left"> 
+        <p align="left"><font size="2">Court Hours:<br>
+          M-F 9:00-4:00<br>
+          <a href="http://www.flnb.uscourts.gov/calendar">Holiday 
+          Schedule</a></font></p>
+      </div>
+</td>
+    <td width="85%" valign="Top" align="center">
+<!-ShowPage(OperationNotice.htm)-> <!-- rcsid="$Header: /usr/local/cvsroot/bankruptcy/web/html/OperationNotice.htm,v 3.1 2003/04/25 11:55:57 loy Exp $" -->
+<table width="100%" border="0">
+  <tr> 
+    <td width="19%"> 
+	<div align="left"><font color="#000066"><strong><u>Scheduled Down Times</u></strong></font></div>
+    </td>
+  </tr>
+</table>
+<table width="100%" border="0">
+  <tr>
+    <td width="14%" valign="top"><em><strong><font color='red'>&nbsp;</font></strong></em></td>
+    <td width="86%"><p><font color='red'><strong> &nbsp;
+	</strong> </font></p>
+    </td>
+  </tr>
+</table>
+
+       <table width="100%" border="0">
+        <tr> 
+          <td width="17%" height="23"> 
+            <div align="left"><font color="#000066"><strong><u>Announcements</u></strong></font></div></td>
+          <td width="72%"> &nbsp; </td>
+          <td width="11%"> &nbsp;</td>
+        </tr>
+
+	<tr>
+          <td valign="top" align="center"><strong><font size="2"><img src="../graphics/r_hand.gif" width="29" height="13"></font></strong></td>
+          <td><font size="4" ><strong> &nbsp; </strong></font></td>
+        </tr>
+<!--
+A bug in the latest version of the Microsoft Edge browser (released 4/30/18) has a compatibility issue with CM/ECF.  
+		  This browser will add extra characters to select or option input fields causing things like bad or erroneous text in 
+		  docket text and reports.  It has also been reported that MS Edge users may be getting invalid data returned from PACER.  
+		  Please do not use this latest version of the Edge browser until Microsoft resolves this issue.  
+		  For more information, on this bug, please visit <br />
+		  <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/17544525">
+		  https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/17544525 </a>	
+		  
+		<tr>
+          <td valign="top" align="center"><strong><font size="2"><img src="../graphics/r_hand.gif" width="29" height="13"></font></strong></td>
+          <td><font size="3"><strong>&nbsp;</strong>
+	  <br /><br />
+	  &nbsp; </td>
+        </tr>
+-->
+
+
+</table>
+      
+<!--     <table width="100%" border="0">
+        <tr> 
+          <td width="17%" height="23"><div align="left"><font color="#000066"><strong><u>Tips & Tricks</u></strong></font></div></td>
+          <td width="72%"><hr></td>
+          <td width="11%" height="23"><div align="right"><font color="#000066"><strong>
+		  <a href="http://www.flnb.uscourts.gov/CMECF/FLNB-Tips.htm">Archived</a></strong></font></div></td>
+        </tr>
+	</table>
+      <table width="100%" border="0">
+        <tr> 
+          <td width="8%" valign="top"> <div align="center"><strong><font size="2"> 
+              <img src="graphics/bulb.gif" width="10" height="15"></font></strong></div></td>
+          <td width="92%"><font size="2">Print your filing fee statement from the Internet Payments Due 
+	  utility by right-clicking and selecting print in the window. This will show the case number 
+	  for each of the payments due. Printing the receipt from the Pay.gov site will not include the 
+	  case number.  Once the payment has been made, you may go to the Internet Payment History screen 
+	  to see the case name, case number, receipt number, and amount paid. </font></td>
+        </tr>
+        <tr> 
+          <td width="8%" valign="top"> <div align="center"><strong><font size="2"> 
+              <img src="graphics/bulb.gif" width="10" height="15"></font></strong></div></td>
+          <td width="92%"><font size="2">When filing multiple cases, select Continue 
+            Filing when PAY.GOV asks you to pay for each fee. When finished filing 
+            for the day, use Utility/Internet Payments Due to pay all your fees 
+            at once. (Don't forget to settle your account daily!)</font></td>
+        </tr>
+        <tr> 
+          <td width="8%" valign="top"> <div align="center"><strong><font size="2"> 
+              <img src="graphics/bulb.gif" width="10" height="15"></font></strong></div></td>
+          <td width="92%"><font size="2">Use E-mail Summary report to check for 
+            important e-mail activity on an as needed basis instead of having 
+            to wait until the next morning to receive the full automatic report.</font></td>
+        </tr>
+	</table>
+-->
+</td>
+  </tr>
+</table>
+<p align="center">&nbsp;</p>
+<HR>
+5November2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+<script type='text/javascript'>SetFocus();</script></div></body></html>
