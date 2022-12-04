@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<!-- rcsid="$Header: /usr/local/cvsroot/appellate/html/atyindex.html,v 3.1 2005/08/31 11:59:46 jwh Exp $" --> 
+<head>
+<title>U.S. Court Of Appeals for the Tenth Circuit</title>
+<script>
+var img = new Image();
+img.onerror = function() {toggleBlock('ecfLogins');};
+img.onabort = function() {toggleBlock('ecfLogins');};
+img.onload = function() {toggleBlock('webserver');};
+img.src = "https://www.ca10.uscourts.gov/sites/ca10/files/ajax-tester-do-not-delete.gif";
+
+function toggleBlock(section) {
+	thisStyle = document.getElementById(section).style;
+	thisDisplay = thisStyle.display;
+	if (thisDisplay == "" || thisDisplay == null) {
+		thisStyle.display = "none"
+	} else {
+		if (thisDisplay == "block") {
+			thisStyle.display = "none"
+		} else {
+			thisStyle.display = "block"
+		}
+	}
+}
+
+</script>
+<style type="text/css">
+body {
+    width: 100%;
+    margin: 0px 0px;
+	background-image: url(http://www.ca10.uscourts.gov/sites/all/themes/ca10/assets/img/light_wool.png);
+	background-repeat: repeat;
+}
+
+div, table {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.starsnstripes {
+	background-image: url(https://www.ca10.uscourts.gov/sites/all/themes/appeals/images/body-header-star-appeals.jpg);
+	background-repeat:no-repeat,repeat-x;
+	background-position:center top,left top;
+	width:100%;
+	height:170px;
+    margin-top:0px;
+	-moz-box-shadow:0px 5px 20px #888888;
+	-webkit-box-shadow:0px 5px 20px #888888;
+	box-shadow:0px 5px 20px #888888;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4,Direction=0,Color='#c6c6c6')";
+	filter:progid:DXImageTransform.Microsoft.Shadow(Strength=4,Direction=0,Color='#c6c6c6';);
+}
+.starsnstripes div.container {
+	background-image: url(https://www.ca10.uscourts.gov/sites/ca10/files/CA10%20-%20Color%20-%20Option2.png);
+	background-repeat:no-repeat;
+	background-position: center center;
+    background-size: 160px 160px;
+	height: 100%;
+}
+.tableDiv {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+	width: 400px;
+}
+.optionsTable {
+	width: 100%;
+}
+tbody {
+	width: 100%;
+}
+body {
+	text-align: center;
+}
+</style>
+</head>
+<body bgcolor="#F3F3F3">
+<div class="starsnstripes">
+<div class="container">
+</div>
+</div>
+
+<center><div style="color: #C43B1F; font-size: 16pt; text-align:center; width: 600px; display: none;">
+<br><big><b>ECF Outage</b></big>
+<p>The Court is currently experiencing an outage with its 
+Electronic Case Filing System (ECF). It should be back online later this afternoon.   In the event ECF is 
+not available for the rest of the day, filings with 
+deadlines today will be accepted as timely filed once 
+the system is back online.<br><br>
+Please call the Clerk's Office (303-844-3157) if you
+have an emergency.<br><br>
+
+Please check our <a href="http://www.ca10.uscourts.gov/" target="_blank">Court Website</a> for additional updates.
+</p>
+</div></center>
+
+<div class="tableDiv">
+<table class="optionsTable">
+
+<tr>
+<td style="width: 380px;">
+
+<div id=webserver style="display: none;">
+<p><b><h3>10th Circuit Court of Appeals:</h3></b>
+<a href="http://www.ca10.uscourts.gov/cmecf">CM/ECF</a><br>
+<a href="http://www.ca10.uscourts.gov/pacer">PACER</a>
+</p>
+
+<p><b><h3>10th Circuit Bankruptcy Appellate Panel:</h3></b>
+<a href="http://www.bap10.uscourts.gov/cmecf">CM/ECF</a><br>
+<a href="http://www.bap10.uscourts.gov/pacer">PACER</a>
+</p>
+</div>
+
+<div id=ecfLogins style="display: none;">
+<p><b><h3>10th Circuit Court of Appeals:</h3></b>
+<a href="https://ecf.ca10.uscourts.gov/cmecf/servlet/TransportRoom?servlet=Login">CM/ECF Login</a><br>
+<a href="https://ecf.ca10.uscourts.gov/cmecf/servlet/TransportRoom?servlet=CaseSearch.jsp">PACER Login</a>
+</p>
+
+<p><b><h3>10th Circuit Bankruptcy Appellate Panel:</h3></b>
+<a href="https://ecf.ca10.uscourts.gov/cmecf-bap-live/servlet/TransportRoom?servlet=Login">CM/ECF Login</a><br>
+<a href="https://ecf.ca10.uscourts.gov/cmecf-bap-live/servlet/TransportRoom?servlet=CaseSearch.jsp">PACER Login</a>
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
