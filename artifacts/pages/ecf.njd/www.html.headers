@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Mon, 05 Dec 2022 11:09:50 GMT
+Date: Mon, 05 Dec 2022 11:32:05 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -16,12 +16,12 @@ X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie
-Etag: "1670236040-0"
-Last-Modified: Mon, 05 Dec 2022 10:27:20 GMT
-X-Cache-Status: EXPIRED
+Etag: "1670239804-0"
+Last-Modified: Mon, 05 Dec 2022 11:30:04 GMT
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FBAAKLMEICFNMADHNEEGKLCLDHKNJALHDHGMLMJPLGHPCPEAJLGECMHOJFMDIFKAHJADNFDFDBOACEGIIEMAJACNDNDHGLADOBHJNBIIHAHKPMPKBPKELCDFHAJPFDED; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=BEIOKOEAKFMJDAPKFGILNPBMNIANBGBGJDPKCLFHKNHLAFFPEGCLHNMIGLEACIABDPMDBLDLKGJAOEDKDPNABOJOGNEOBDGCGNDIIJPCGHNHMDIMEBALPMDGIIGKAHDN; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS0191ca0b=01300dc9967d4232ba2517b2833ddda1353c11865bb16659bae9457dcc2e5e143447cba42aef8959b858073af5b6d8ac95028e3b74; Path=/; Domain=.www.njd.uscourts.gov
+Set-Cookie: TS0191ca0b=01300dc996dd46dc12e28c67713b2e69629d05996809df80b54e68909ded161ae4b370b6b5c1e3636fde99fc0bf5099c3efd300c52; Path=/; Domain=.www.njd.uscourts.gov
 
