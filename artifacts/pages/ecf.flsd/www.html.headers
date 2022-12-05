@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Mon, 05 Dec 2022 07:52:52 GMT
+Date: Mon, 05 Dec 2022 08:30:38 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Content-Language: en
@@ -10,13 +10,13 @@ X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie
-Etag: "1670217892-0"
-Last-Modified: Mon, 05 Dec 2022 05:24:52 GMT
-X-Cache-Status: HIT
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Etag: "1670228729-0"
+Last-Modified: Mon, 05 Dec 2022 08:25:29 GMT
+X-Cache-Status: EXPIRED
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=HAAFPLLPAMIDIBIFHLECDIKPBKNPDKOHADKAENEMGPBJGNFEJAIFCDGJAPOFPMLKEGMDKMNLJDDDHCLEHOJAECGFAKMHGJABJAHNNLJDKKMAICMADBMFECPFCNKCKGEO; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=ENPDHEABJFMKANCIMFGIFCDHLJBDEEFAIHMEEICLCPECOAEFJDIOIKIOFKMLOBGHCHBDCIAMDLLNAFLBNEHABKKMOKIBFPAMADHELJPNIDPGDDDNJBIBLAPALMLKNCOL; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01d9782a=01300dc996fc12d86797d2e246aee3bdfba3a20d3d11458bd1fa9452b1e9e5563ee60ffca4099404ac90f26619b611513a2c723c75; Path=/; Domain=.www.flsd.uscourts.gov
+Set-Cookie: TS01d9782a=01300dc996a20931305f37f9723cd68e754aa1a23e0c51c2bab67feb407d2ce925d1008cd7bc0cf33e32b1b90949fa421acd10dfa2; Path=/; Domain=.www.flsd.uscourts.gov
 Transfer-Encoding: chunked
 
