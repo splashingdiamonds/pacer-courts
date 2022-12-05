@@ -4,16 +4,16 @@ Content-Length: 162
 Content-Type: text/html
 Location: https://www.almd.uscourts.gov/electronic-filing
 Server: nginx
-X-Pantheon-Styx-Hostname: styx-fe3-b-85b85cd7b6-g869j
-X-Styx-Req-Id: 9e85a774-745c-11ed-8e23-42366567dba7
+X-Pantheon-Styx-Hostname: styx-fe3-a-554f6c46b4-952ch
+X-Styx-Req-Id: 50db3fb5-74ba-11ed-acd3-2a023b70e0ab
 Cache-Control: public, max-age=86400
-Date: Mon, 05 Dec 2022 15:50:24 GMT
-X-Served-By: cache-chi-klot8100157-CHI, cache-iad-kiad7000098-IAD
-X-Cache: HIT, HIT
-X-Cache-Hits: 3, 1
-X-Timer: S1670255425.840179,VS0,VE2
+Date: Mon, 05 Dec 2022 16:31:48 GMT
+X-Served-By: cache-chi-klot8100157-CHI, cache-dfw-kdfw8210087-DFW
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1670257909.743100,VS0,VE43
 Vary: Cookie, Cookie
-Age: 37758
+Age: 0
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 
@@ -21,30 +21,30 @@ HTTP/2 200
 cache-control: max-age=10800, public
 content-language: en
 content-type: text/html; charset=UTF-8
-etag: W/"1670033002"
+etag: W/"1670257909"
 expires: Sun, 19 Nov 1978 05:00:00 GMT
-last-modified: Sat, 03 Dec 2022 02:03:22 GMT
+last-modified: Mon, 05 Dec 2022 16:31:49 GMT
 link: <https://www.almd.uscourts.gov/electronic-filing>; rel="canonical"
 link: <https://www.almd.uscourts.gov/node/1600>; rel="shortlink"
 permissions-policy: interest-cohort=()
 server: nginx
 strict-transport-security: max-age=300
 x-content-type-options: nosniff
-x-drupal-cache: HIT
+x-drupal-cache: MISS
 x-drupal-dynamic-cache: MISS
 x-frame-options: SAMEORIGIN
 x-generator: Drupal 9 (https://www.drupal.org)
-x-pantheon-styx-hostname: styx-fe3-a-554f6c46b4-97s57
-x-styx-req-id: 49620b5d-73d2-11ed-9b59-d25e84cb87d0
+x-pantheon-styx-hostname: styx-fe3-b-85b85cd7b6-q4dd7
+x-styx-req-id: 5120fb20-74ba-11ed-8bd3-9659c0da7158
 x-ua-compatible: IE=edge
-date: Mon, 05 Dec 2022 15:50:24 GMT
-x-served-by: cache-chi-kigq8000169-CHI, cache-iad-kiad7000102-IAD
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-x-timer: S1670255425.929670,VS0,VE2
+date: Mon, 05 Dec 2022 16:31:50 GMT
+x-served-by: cache-chi-kigq8000169-CHI, cache-dfw-kdfw8210074-DFW
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1670257909.199904,VS0,VE1067
 vary: Accept-Encoding, Cookie, Cookie, Cookie
-age: 4763
+age: 0
 accept-ranges: bytes
 via: 1.1 varnish, 1.1 varnish
-content-length: 37308
+content-length: 37294
 
