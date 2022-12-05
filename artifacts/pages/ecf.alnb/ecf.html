@@ -1,69 +1,10 @@
-<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>ALNB Live Database Area</title>
-<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFCC TEXT=000000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
-		var IsForm = false;
-		var FirstField;
-		function SetFocus() {
-			if(IsForm) {
-				if(FirstField) {
-					var ind = FirstField.indexOf('document.',0);
-					if(ind == 0)
-					{
-						eval(FirstField);
-					}
-					else
-					{
-						var Code = "document.forms[0]."+FirstField+".focus();";
-						eval(Code);
-					}
-				} else {
-					var Cnt = 0;
-					while(document.forms[0].elements[Cnt] != null) {
-						if(document.forms[0].elements[Cnt].type != "hidden") {
-							document.forms[0].elements[Cnt].focus();
-							break;
-						}
-						Cnt += 1;
-					}
-				}
-			}
-			return(true);
-		}
-		</SCRIPT>
-<!-ShowPage(index.html)-> 
-
-<!-- RPM Packages: ao-bkecf-web-* -->
-<!-- RPM Permissions: 750 -->
-<!-- RPM Owner: ecf_web -->
-<!-- RPM Group: ecf_web -->
-<!-- RPM Flags: configure -->
-
-<HTML>
-<HEAD><TITLE>ALNB Live Database Area</TITLE></HEAD>
-<BODY BGCOLOR="#FFFFF0">
-<CENTER>
-<IMG SRC="graphics/seal.gif" >
-<P>
-Welcome to the U.S. BANKRUPTCY COURT for the
-NORTHERN DISTRICT OF ALABAMA
-<P>
-<A HREF="/cgi-bin/login.pl">NORTHERN DISTRICT OF ALABAMA - Document Filing System</A>
-</CENTER>
-<!-ShowPage(OperationNotice.htm)-> 
-
-<!-- RPM Packages: ao-bkecf-web-* -->
-<!-- RPM Permissions: 750 -->
-<!-- RPM Owner: ecf_web -->
-<!-- RPM Group: ecf_web -->
-
-<HR>
-<CENTER><B>This message is contained in the file OperationNotice.htm.
-<BR>You may use this file to alert users to current CM/ECF operational issues.
-</B></CENTER>
-
-<HR>
-10February2022
-
-<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
-</BODY>
-</HTML>
-</div></body></html>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>504 Gateway Timeout</title>
+</head><body>
+<h1>Gateway Timeout</h1>
+<p>The gateway did not receive a timely response
+from the upstream server or application.</p>
+<hr>
+<address>Apache Server at ecf.alnb.uscourts.gov Port 443</address>
+</body></html>
