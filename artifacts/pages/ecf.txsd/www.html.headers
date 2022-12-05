@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Mon, 05 Dec 2022 09:30:45 GMT
+Date: Mon, 05 Dec 2022 09:59:19 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Content-Language: en
@@ -13,11 +13,11 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670232642-0"
 Last-Modified: Mon, 05 Dec 2022 09:30:42 GMT
-X-Cache-Status: HIT
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: EXPIRED
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=GAEONFKJCLCHCKGJNFHEAACMDKNCABPNJHJLHBFJJLHBNIICNLJJOJIIJCICEDCPHHADBFHDKJHBFLBOMCAABDNEPLOILNDPHFIPHNIAIPCFHKNCBFDPOLIIOAKDEMBJ; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=OFHJFJOBEFPDOAFGNDFPCINJFIBLIEMGMGJPMBMOIPAKMAALLFLMOCGGOGONPEGEJFHDLODPMAOBAKFMJEDAKGHPKMDOPLGOOBPKDLJLKJFHJFEBMKFLMMCKDAIDEOHF; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS0192c308=01300dc9966478389349c7e38691c38c534cbb437f267130bbea62194d665a012c6042d2d54a88f7d662cd2520de51e0cdc4313647; Path=/; Domain=.www.txs.uscourts.gov
+Set-Cookie: TS0192c308=01300dc996ae3b121397c782ae974509ea4bd7c998b676dfaefb88b2874f2a8ac56199d32a644ad4585d7b5cd81ed55208dbd2596a; Path=/; Domain=.www.txs.uscourts.gov
 Transfer-Encoding: chunked
 
