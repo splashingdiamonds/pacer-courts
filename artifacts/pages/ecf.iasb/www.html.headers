@@ -4,3 +4,24 @@ Server: BigIP
 Connection: Keep-Alive
 Content-Length: 0
 
+HTTP/1.1 200 OK
+Date: Mon, 05 Dec 2022 04:30:36 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670209437-0"
+Last-Modified: Mon, 05 Dec 2022 03:03:57 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FNDEAAKLKJGMGLHOBKCFOIPGBOENDGGIILFGDEMNICPIBPCLAEGPJADDCFOJPGDILFGDEIHOBDHLBELCCDNAKPHLKHBHDHCFMLHPADMIGLAHLCDMEACNBGBDLANKHAFN; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS014d1e47=01300dc9960522d154308f83e73974f93da60739cf73198e2fd4dbed4fbc37d8e1565706f51e955efd4818149defccea8d0bbeaa8d; Path=/; Domain=.www.iasb.uscourts.gov
+
