@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Mon, 05 Dec 2022 16:57:41 GMT
+Date: Mon, 05 Dec 2022 17:23:44 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670255170-0"
 Last-Modified: Mon, 05 Dec 2022 15:46:10 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=DCNNBOIJALCMINIJEEGFBMIFBOOCBGLKOJGCJDIMFDIMHLJCLEDOEGMBCBKLPIBIEKMDLDOLKCJFPLBPGMFAONKPLCKLMPPNIFPBJHNOLFKCBDJGCLJHBGIDHDPHMBJL; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=PHKKLCLPACKJMGICCGDJJMMEHAOCLFEHHGDEENPIHCMPBCBMOOLKJHPLFPEKEOKDNLLDIBDIFIMMIAPIDMOAPHOGNCBEGPCGAEPFCONJBKICMJLBMFKFNKACKFNODHII; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01579b3a=01300dc99673783c798a86999b1e64be02a75879cebcd811ec35812541a7159f7789137a1433dd7102bcd7f763679fc9bb51eae958; Path=/; Domain=.www.iand.uscourts.gov
+Set-Cookie: TS01579b3a=01300dc996bbbb4ae7bf101043e1dce7ff28be91c57dd8f7222bd9f947a953678e6a9c49f8d87fe9e19f47b3d85ca9fc9b0bb8fef2; Path=/; Domain=.www.iand.uscourts.gov
 
