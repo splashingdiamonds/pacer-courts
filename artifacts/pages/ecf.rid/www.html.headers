@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Mon, 05 Dec 2022 11:58:39 GMT
+Date: Mon, 05 Dec 2022 12:50:09 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670236645-0"
 Last-Modified: Mon, 05 Dec 2022 10:37:25 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=HCFAFOIIALCMINIJLPMKBMIFBOOCBGLKOJGCJDIMFDIMHLJCLEDOEGMBCBKLPIBIEKMDLDOLEMKFFBCPGMFAONKPKNKLOAPNIFPBJHNOLFKCBDJGCLJHBGIDHDPHMBMH; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FJKDIPAILNOKBPJNNPHHLOFOELOEGOBECMGKNKJNBDDCFLDILNPFHMPHLIHIEIGHEGODGLEBGIGKPOLHODGADBGILOEFGAAJANOOHILILOKAJNOBMHEDEELPMCHBLNCM; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01c19b54=01300dc99601cd6b85f58ff74214afbd11b873c7c17b515d81f5b999c039066a3f390a74c3f39072dc31aad314fa72d1929ebcb35a; Path=/; Domain=.www.rid.uscourts.gov
+Set-Cookie: TS01c19b54=01300dc99630564bca0b7de244f64466707621230d568c84bf7aad512adbbc85cfe3f321c6dde13837c1607d118bd6ed937d9b24ea; Path=/; Domain=.www.rid.uscourts.gov
 
