@@ -4,24 +4,3 @@ Server: BigIP
 Connection: Keep-Alive
 Content-Length: 0
 
-HTTP/1.1 200 OK
-Date: Mon, 05 Dec 2022 03:27:44 GMT
-Content-Type: text/html; charset=utf-8
-Connection: close
-Content-Language: en
-X-Frame-Options: SAMEORIGIN
-X-Content-Type-Options: nosniff
-Permissions-Policy: interest-cohort=()
-X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
-Cache-Control: public, max-age=300
-Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Vary: Cookie,Accept-Encoding
-Etag: "1670202739-0"
-Last-Modified: Mon, 05 Dec 2022 01:12:19 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
-Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=OLJCMFANDHBHAGIPIOPFPMBPPFFGOIFDGLADDMKIHICFBMNHJEAEHDBBNGKABBGGBCDDMOEPFELGHJICOCMAEIMDOGCKMJIFKFFNCPFJIHPJEMOOEAHLEINBPHBAJIOO; HttpOnly; secure;
-Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01b90a8d=01300dc996ec32489329fedb9d575a5cd4eb6aeef71f824a823ca0a1443cdfd10e5e5826dfa4303b495f641328c0408333554710c9; Path=/; Domain=.www.kyed.uscourts.gov
-
