@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Mon, 05 Dec 2022 07:38:38 GMT
+Date: Mon, 05 Dec 2022 07:56:05 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670225359-0"
 Last-Modified: Mon, 05 Dec 2022 07:29:19 GMT
-X-Cache-Status: HIT
+X-Cache-Status: EXPIRED
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=NPFOLLCCNGKOMHLBBMLKCNNEBBHHKKDPLGPPFNNEEOKBOAIDFLFJNFJIEMEJCPMGFGJDKNGHDPIMCBNAJANADJAFLJFDALNOGPCMMAAAOKCMKKMEMKCJAMCFIGOLFKBP; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=LIPFAPPLEHHFBEFCNOEJOFDKJKHDHKHMIMBPNFOCDJFICOFOKIKKIGDHCPDCEKHLEDPDDPKHKDBLEHHOCDNAOIKHMKCMIIOAOLNLALOEEDMGBBLJKABDHFKJFOLJJDDG; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01082739=01300dc996e75525f59179db99c32caeee02c9da53b10a5318c07608e49702559ced5ea170cb614b627694a0337f5c8748456889f7; Path=/; Domain=.www.ncwb.uscourts.gov
+Set-Cookie: TS01082739=01300dc9967317768ba90d2a7fb012da98fec77577f472c09b03f8ebd3a5226ad25fd5a762fab42c2c817075086fa9445a0f0da125; Path=/; Domain=.www.ncwb.uscourts.gov
 
