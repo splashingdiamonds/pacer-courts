@@ -7,13 +7,13 @@ Server: nginx
 X-Pantheon-Styx-Hostname: styx-fe3-a-554f6c46b4-952ch
 X-Styx-Req-Id: 50db3fb5-74ba-11ed-acd3-2a023b70e0ab
 Cache-Control: public, max-age=86400
-Date: Mon, 05 Dec 2022 22:21:42 GMT
-X-Served-By: cache-chi-klot8100157-CHI, cache-dfw-kdfw8210037-DFW
+Date: Mon, 05 Dec 2022 22:50:45 GMT
+X-Served-By: cache-chi-klot8100157-CHI, cache-dfw-kdfw8210093-DFW
 X-Cache: MISS, HIT
 X-Cache-Hits: 0, 1
-X-Timer: S1670278902.449486,VS0,VE2
+X-Timer: S1670280645.352033,VS0,VE2
 Vary: Cookie, Cookie
-Age: 20994
+Age: 22737
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 
@@ -21,29 +21,29 @@ HTTP/2 200
 cache-control: max-age=10800, public
 content-language: en
 content-type: text/html; charset=UTF-8
-etag: W/"1670257909"
+etag: W/"1670275254"
 expires: Sun, 19 Nov 1978 05:00:00 GMT
-last-modified: Mon, 05 Dec 2022 16:31:49 GMT
+last-modified: Mon, 05 Dec 2022 21:20:54 GMT
 link: <https://www.almd.uscourts.gov/electronic-filing>; rel="canonical"
 link: <https://www.almd.uscourts.gov/node/1600>; rel="shortlink"
 permissions-policy: interest-cohort=()
 server: nginx
 strict-transport-security: max-age=300
 x-content-type-options: nosniff
-x-drupal-cache: MISS
+x-drupal-cache: HIT
 x-drupal-dynamic-cache: MISS
 x-frame-options: SAMEORIGIN
 x-generator: Drupal 9 (https://www.drupal.org)
-x-pantheon-styx-hostname: styx-fe3-b-85b85cd7b6-q4dd7
-x-styx-req-id: 5120fb20-74ba-11ed-8bd3-9659c0da7158
+x-pantheon-styx-hostname: styx-fe3-b-85b85cd7b6-trdmm
+x-styx-req-id: 41009f1f-74ef-11ed-85ed-3ede5d7aef68
 x-ua-compatible: IE=edge
-date: Mon, 05 Dec 2022 22:21:42 GMT
-x-served-by: cache-chi-kigq8000169-CHI, cache-dfw-kdfw8210036-DFW
-x-cache: MISS, HIT
-x-cache-hits: 0, 1
-x-timer: S1670278903.561285,VS0,VE20
+date: Mon, 05 Dec 2022 22:50:45 GMT
+x-served-by: cache-chi-kigq8000169-CHI, cache-dfw-kdfw8210098-DFW
+x-cache: MISS, MISS
+x-cache-hits: 0, 0
+x-timer: S1670280645.471157,VS0,VE69
 vary: Accept-Encoding, Cookie, Cookie, Cookie
-age: 9073
+age: 0
 accept-ranges: bytes
 via: 1.1 varnish, 1.1 varnish
 content-length: 37294
