@@ -1,7 +1,8 @@
-HTTP/1.0 504 Gateway Timeout
-Date: Mon, 05 Dec 2022 11:20:49 GMT
+HTTP/1.0 200 OK
+Date: Mon, 05 Dec 2022 11:50:45 GMT
 Server: Apache
-Content-Length: 319
+Cache-Control: max-age=0
+Expires: Mon, 05 Dec 2022 11:50:45 GMT
 Connection: close
-Content-Type: text/html; charset=iso-8859-1
+Content-Type: text/xml
 
