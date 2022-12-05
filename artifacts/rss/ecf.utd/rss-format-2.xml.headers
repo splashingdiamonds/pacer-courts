@@ -1,7 +1,15 @@
-HTTP/1.0 503 Service Unavailable
-Date: Mon, 05 Dec 2022 10:43:50 GMT
+HTTP/1.0 404 404
+Date: Mon, 05 Dec 2022 11:13:08 GMT
 Server: Apache
-Content-Length: 370
+Status: 404
+Pragma: cache
+Cache-Control: post-check=3600,pre-check=3601, max-age=0
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials
+Content-Language: en
 Connection: close
-Content-Type: text/html; charset=iso-8859-1
+Content-Disposition: inline; filename=RSSGenerator
+Content-Length: 785
+Expires: Mon, 05 Dec 2022 11:13:08 GMT
+Content-Type: text/html;charset=utf-8
 
