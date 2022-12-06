@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 11:22:13 GMT
+Date: Tue, 06 Dec 2022 13:38:22 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Content-Language: en
@@ -11,12 +11,13 @@ Link: </electronic-case-filing-ecf>; rel="canonical",</node/73>; rel="shortlink"
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Etag: "1670322513-0"
-Last-Modified: Tue, 06 Dec 2022 10:28:33 GMT
-X-Cache-Status: EXPIRED
+Etag: "1670333867-0"
+Last-Modified: Tue, 06 Dec 2022 13:37:47 GMT
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=JCGIHLLNAMIDIBIFNKDNBIKPBKNPDKOHADKAENEMGPBJGNFEJAIFCDGJAPOFPMLKEGMDKMNLKFBDGBJEHOJAECGFJCMHPBABJAHNNLJDKKMAICCODBMFECPFCNKCKGNK; HttpOnly; secure;
-Set-Cookie: TS01273ce4=01300dc99692811e08ede07c711524f3f24b16e88253bd49238bf48d783b13a0fd85801c57b6d40fa872614504e478619588596f7d; Path=/; Domain=.www.innb.uscourts.gov
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=PAGJEPAJLNOKBPJNJADLIOFOELOEGOBECMGKNKJNBDDCFLDILNPFHMPHLIHIEIGHEGODGLEBDFEKICJHODGADBGIIEEFLKAJANOOHILILOKAJNBBMHEDEELPMCHBLNOC; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01273ce4=01300dc996cf903efac545530cdbe8aafb049bf828f16b38741b8026c2543f36f7088e24667ddbb96e0a840c87bfe0dc8c9c2c78c4; Path=/; Domain=.www.innb.uscourts.gov
 Transfer-Encoding: chunked
 
