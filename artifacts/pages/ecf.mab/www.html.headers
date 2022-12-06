@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 06 Dec 2022 02:40:33 GMT
+Date: Tue, 06 Dec 2022 03:04:42 GMT
 Content-Type: text/html; charset=UTF-8
 Connection: close
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
@@ -16,6 +16,6 @@ Location: https://www.mab.uscourts.gov/ecf-access
 X-Cache-Status: MISS
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=GPMOPLLJJNNDLFMNFFFOLDINBNNPEIHLJEFICLJDGBLOLKCBEFNFONBPBELINJCMIGPDLAIEFLGKHIIHCCBAPKJBFKIKDCACIMMLHFOOGJMCDPCINFJLDLKEPGNNAPPK; HttpOnly; secure;
-Set-Cookie: TS01b352a7=01300dc996debe7cfe227a47b4d523a977116d30b86e75d0760f1c8b5978697f5a9c39e26dd0c03810b8fefc863a1c51fb51489c8b; Path=/; Domain=.www.mab.uscourts.gov
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=BNAJILMFICFNMADHPKBMJLCLDHKNJALHDHGMLMJPLGHPCPEAJLGECMHOJFMDIFKAHJADNFDFOANANEFIIEMAJACNPLDHLNADOBHJNBIIHAHKPMKLBPKELCDFHAJPFDON; HttpOnly; secure;
+Set-Cookie: TS01b352a7=01300dc9964bbb2c2b3d2a123eaec60a03f2ceb63f9bb4d791524eb9c1ceac6d21c8e46a0ec2f7c3eea9e0f26f5e3998df94f507d2; Path=/; Domain=.www.mab.uscourts.gov
 
