@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 08:00:28 GMT
+Date: Tue, 06 Dec 2022 08:37:55 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670307626-0"
 Last-Modified: Tue, 06 Dec 2022 06:20:26 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=DNMGELLKJNNDLFMNFPHGIDINBNNPEIHLJEFICLJDGBLOLKCBEFNFONBPBELINJCMIGPDLAIEBGGKDDIHCCBAPKJBFPIKDHACIMMLHFOOGJMCDPDINFJLDLKEPGNNAPKI; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=JCDLIPAILNOKBPJNNOKOIOFOELOEGOBECMGKNKJNBDDCFLDILNPFHMPHLIHIEIGHEGODGLEBIPFKNEJHODGADBGIBPEFMOAJANOOHILILOKAJNAOMHEDEELPMCHBLNHE; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01e15a98=01300dc996934e43730d368a35dbaedb7344286ed081386184ecc6f0af1f5f2f94ee92c47370b9c7f4c417f1051490caa0cc016b5c; Path=/; Domain=.www.wawd.uscourts.gov
+Set-Cookie: TS01e15a98=01300dc99642fb3eae22db3f2a5e108bf9139fa27fe90b31fe9950f19a3cc87e6486875f9792ca82a3e617c7b4ddc3241135a663a9; Path=/; Domain=.www.wawd.uscourts.gov
 
