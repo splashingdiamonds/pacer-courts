@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 21:00:42 GMT
+Date: Tue, 06 Dec 2022 21:26:11 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Content-Language: en
@@ -10,13 +10,13 @@ X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Etag: "1670357192-0"
-Last-Modified: Tue, 06 Dec 2022 20:06:32 GMT
-X-Cache-Status: EXPIRED
+Etag: "1670361035-0"
+Last-Modified: Tue, 06 Dec 2022 21:10:35 GMT
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=PDCMGJIFIGFPAFHJEGOHJIDILEEFDJLLONLGMGCENBHFNOHHCMENGJJGFNMGJCHALLDDBDMKPNGJBOMFOKAABKBMCKKHFEFENOMJEONCPEHMCOOFKBPBLIHBFEHPHOEB; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=DIMPFBLIDCBKGCLJOGGOIALKAHFALDHDLOKJEMIFHCCPOECHOIHIIDIBHNMOCMOFKIGDGPCJIDLEJLOCDHAAGKGGCLPLHFJLNLKCHDHOFJNDOPNLHIFAMOBDLNCOJAPM; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01d896a6=01300dc9965f314628c246260bf7de1680d0299085bdadb553cb9144e865600e84a15a15479d2258415863fb9ecfdf9039d712d6fa; Path=/; Domain=.www.neb.uscourts.gov
+Set-Cookie: TS01d896a6=01300dc996cb3ed2564c8fb03fc1b0df695ab1875a96a667ca293f77e90ae02b7b71cc7469d5fd4920db2bfaa17d45b2eebc8b9b1e; Path=/; Domain=.www.neb.uscourts.gov
 Transfer-Encoding: chunked
 
