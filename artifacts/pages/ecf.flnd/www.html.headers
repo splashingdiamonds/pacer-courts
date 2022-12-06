@@ -1,15 +1,16 @@
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 08:30:21 GMT
+Date: Tue, 06 Dec 2022 08:52:46 GMT
 Server: Apache/2.4.51 (Win32)
-X-Drupal-Cache: HIT
-Etag: "1670305983-0"
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: public, max-age=1800
+X-Content-Type-Options: nosniff
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 7 (http://drupal.org)
 Link: </ecf>; rel="canonical",</node/7>; rel="shortlink"
-Cache-Control: public, max-age=1800
-Last-Modified: Tue, 06 Dec 2022 05:53:03 GMT
-Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Etag: "1670316766-0"
+Last-Modified: Tue, 06 Dec 2022 08:52:46 GMT
 Vary: Cookie,Accept-Encoding
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=utf-8
