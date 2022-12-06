@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 10:57:24 GMT
+Date: Tue, 06 Dec 2022 11:25:28 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -17,12 +17,12 @@ Link: </cmecf>; rel="canonical",</node/297>; rel="shortlink"
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie
-Etag: "1670315690-0"
-Last-Modified: Tue, 06 Dec 2022 08:34:50 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Etag: "1670325928-0"
+Last-Modified: Tue, 06 Dec 2022 11:25:28 GMT
+X-Cache-Status: MISS
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FHDLOKHGCEAGBGBBFIAAOLOIEFPOALGJFNKACCAHHOKAMPCGNEIGBADAJHENICKCNHHDMNJPJPKBPHMHFOHADKLHMBOGBOBFENEGPENGDHGPHIOHBBJCBMCLEHIMKCJN; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=PCKDDAKAGKJFECNELNAHBOMLPKHIGCDJHGEKHIDKIGIMGGIOJPBHDMGCLFEFPCOAIDNDDFDJNGAALLHFHJDAKFDJFCJABHHADMBKEEFMKNIADAGIFAOINELIJPOJCNKC; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01fbd774=01300dc996b2c41439811db70f1cca19392128a0ea816c07b248c8c2209d7ad586e43829fdc8428b30041d3998a8a0aa8ceae2330a; Path=/; Domain=.www.nynd.uscourts.gov
+Set-Cookie: TS01fbd774=01300dc996bd58478fffb4fdcd9919a8297917c201a4576bf92cd8587ff8f4dadbb06338f967070d42c32f7609e0a3d8e03a90737a; Path=/; Domain=.www.nynd.uscourts.gov
 
