@@ -122,11 +122,12 @@ function fetch_rss {
   fi
   date_saved="$(date -u)"
 
-  should_commit="false"
+  force_commit="true"
+
 
   # Commit '.missing' files. Examples:
   # - latest/ecf.wvsd.rss.xml.missing
-  git ls-files --modified --deleted --others | grep -q '\.missing$' && should_commit="true"
+  git ls-files --modified --deleted --others | grep -q '\.missing$' && force_commit="true"
 
   # Commit any additions or modifications to the downloaded HTML documents
   # of the court login & root web pages. Examples:
@@ -134,24 +135,22 @@ function fetch_rss {
   #   (downloaded from ecf.almb.uscourts.gov -- the court's log-in page / root page on hostname)
   # - artifacts/pages/ecf.almb/www.html
   #   (downloaded from www.ecf.almb.uscourts.gov -- the court's public entry-point page)
-  git ls-files --modified --deleted --others | grep -q '\.html$' && should_commit="true"
+  git ls-files --modified --deleted --others | grep -q '\.html$' && force_commit="true"
 
   # Commit newly created files. Examples:
   # - artifacts/pages/www.html
-  git ls-files --others | grep -q -v '^temp/' && should_commit="true"
+  git ls-files --others | grep -q -v '^temp/' && force_commit="true"
 
   # The number of lines changed in the RSS feed. Examples:
   #  0: The remote file is up to date with (identical to) the saved file tracked in this repository.
   #  1: The `lastBuildDate` timestamp in the RSS feed changed, but no new items were added/changed.
   # 2+: The `lastBuildDate` timestamp changed, and new <item>s were found in the <channel>'s RSS feed.
   rss_diff_lines_changed="$(git diff -- "latest/rss/${dest_slug}.rss.xml" | grep '@@' | wc -l)"
+  [[ git ls-files --modified --deleted --others | grep -q "latest/rss/${dest_slug}.rss.xml" ]] && \
+    [[ "$rss_diff_lines_changed" -lt 2 ]] && \
+      force_commit="false"
 
-  if [[ "$should_commit" != "true" && \
-        -f "latest/rss/${dest_slug}.rss.xml" && \
-        git ls-files --modified --deleted --others | grep -q "latest/rss/${dest_slug}.rss.xml" && \
-        "$rss_diff_lines_changed" -lt 2 \
-     ]]; then
-
+  if [[ "$force_commit" == "false" ]]; then
     echo_notice 'RSS <lastBuildDate> changed but <channel> <item>s remain unchanged. (Skipping git commit and push.)';
     graceful git checkout artifacts/rss/${dest_slug}/
     graceful git checkout latest/rss/${dest_slug}/
