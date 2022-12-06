@@ -7,13 +7,13 @@ Server: nginx
 X-Pantheon-Styx-Hostname: styx-fe3-a-554f6c46b4-952ch
 X-Styx-Req-Id: 50db3fb5-74ba-11ed-acd3-2a023b70e0ab
 Cache-Control: public, max-age=86400
-Date: Tue, 06 Dec 2022 05:19:45 GMT
-X-Served-By: cache-chi-klot8100157-CHI, cache-dfw-kdfw8210136-DFW
-X-Cache: MISS, HIT
-X-Cache-Hits: 0, 1
-X-Timer: S1670303986.948896,VS0,VE2
+Date: Tue, 06 Dec 2022 05:50:37 GMT
+X-Served-By: cache-chi-klot8100157-CHI, cache-iad-kiad7000173-IAD
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1670305837.275076,VS0,VE3
 Vary: Cookie, Cookie
-Age: 46077
+Age: 47929
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 
@@ -37,13 +37,13 @@ x-generator: Drupal 9 (https://www.drupal.org)
 x-pantheon-styx-hostname: styx-fe3-b-85b85cd7b6-trdmm
 x-styx-req-id: 41009f1f-74ef-11ed-85ed-3ede5d7aef68
 x-ua-compatible: IE=edge
-date: Tue, 06 Dec 2022 05:19:46 GMT
-x-served-by: cache-chi-kigq8000169-CHI, cache-dfw-kdfw8210127-DFW
-x-cache: MISS, HIT
-x-cache-hits: 0, 1
-x-timer: S1670303986.061805,VS0,VE3
+date: Tue, 06 Dec 2022 05:50:37 GMT
+x-served-by: cache-chi-kigq8000169-CHI, cache-iad-kiad7000085-IAD
+x-cache: HIT, HIT
+x-cache-hits: 1, 1
+x-timer: S1670305837.382732,VS0,VE76
 vary: Accept-Encoding, Cookie, Cookie, Cookie
-age: 9835
+age: 0
 accept-ranges: bytes
 via: 1.1 varnish, 1.1 varnish
 content-length: 37294
