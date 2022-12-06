@@ -4,16 +4,16 @@ Content-Length: 162
 Content-Type: text/html
 Location: https://www.almd.uscourts.gov/electronic-filing
 Server: nginx
-X-Pantheon-Styx-Hostname: styx-fe3-a-554f6c46b4-952ch
-X-Styx-Req-Id: 50db3fb5-74ba-11ed-acd3-2a023b70e0ab
+X-Pantheon-Styx-Hostname: styx-fe3-b-85b85cd7b6-g869j
+X-Styx-Req-Id: 7fdd6f49-7583-11ed-8e23-42366567dba7
 Cache-Control: public, max-age=86400
-Date: Tue, 06 Dec 2022 15:50:52 GMT
-X-Served-By: cache-chi-klot8100157-CHI, cache-iad-kiad7000084-IAD
-X-Cache: HIT, HIT
-X-Cache-Hits: 1, 1
-X-Timer: S1670341852.279101,VS0,VE2
+Date: Tue, 06 Dec 2022 16:31:56 GMT
+X-Served-By: cache-chi-klot8100157-CHI, cache-iad-kiad7000107-IAD
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1670344316.454552,VS0,VE45
 Vary: Cookie, Cookie
-Age: 83944
+Age: 0
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 
@@ -37,13 +37,13 @@ x-generator: Drupal 9 (https://www.drupal.org)
 x-pantheon-styx-hostname: styx-fe3-b-85b85cd7b6-trdmm
 x-styx-req-id: 41009f1f-74ef-11ed-85ed-3ede5d7aef68
 x-ua-compatible: IE=edge
-date: Tue, 06 Dec 2022 15:50:52 GMT
-x-served-by: cache-chi-kigq8000169-CHI, cache-iad-kiad7000021-IAD
+date: Tue, 06 Dec 2022 16:31:56 GMT
+x-served-by: cache-chi-kigq8000169-CHI, cache-iad-kiad7000151-IAD
 x-cache: HIT, HIT
 x-cache-hits: 1, 1
-x-timer: S1670341852.370646,VS0,VE5
+x-timer: S1670344317.570998,VS0,VE3
 vary: Accept-Encoding, Cookie, Cookie, Cookie
-age: 8236
+age: 10700
 accept-ranges: bytes
 via: 1.1 varnish, 1.1 varnish
 content-length: 37294
