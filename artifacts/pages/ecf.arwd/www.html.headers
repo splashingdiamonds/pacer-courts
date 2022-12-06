@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 20:51:18 GMT
+Date: Tue, 06 Dec 2022 21:19:53 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670359084-0"
 Last-Modified: Tue, 06 Dec 2022 20:38:04 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FPBKNJAEBCFNKMPEDIHBBENPELEHKEAMIMPOOIHKLIKGPNKLJJDJOICLEEKFJMFGCGPDMJONLKEFNGFLJLFAFCMJPKJOCIMJGKGFCOPNGJDFGOMEMIJLBLGFABLKOANM; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=LJHLEFGAAKOILNAIBILNFDDNGBEELNCHEKICBGFHGICKPLHBPDALCJIMBPPODMIGGPFDJNOKOBNAPBENIFOADBPJKLGJALOHMDAOJGFAOIKNDBHCDHNFAFCCEBAIOJCH; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS012c3d6f=01300dc996b6aa519e3fd6edeebe151b4c49b1690fb2cc0863cb0937a993dfd1b448075863db5b93f23ca393057d83f6fa4048b0eb; Path=/; Domain=.www.arwd.uscourts.gov
+Set-Cookie: TS012c3d6f=01300dc9962f2c0330843e3f759152dd17463f9728ffc0987a5b90dd4a32f4169a5c7fe6f48a6dbd19e4ae6c8e999372fae127a740; Path=/; Domain=.www.arwd.uscourts.gov
 
