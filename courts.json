@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Mon, 05 Dec 2022 06:10:04 -0500"
+    "last_updated": "Tue, 06 Dec 2022 06:10:04 -0500"
   },
   "data": [
     {
@@ -18061,6 +18061,7 @@
       "pdf_size": "35.0",
       "merge_doc_size": "50",
       "web_url": "http://www.alnb.uscourts.gov",
+      "rss_url": "https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.alnb.uscourts.gov",
       "counties": [
         {
@@ -64094,7 +64095,7 @@
     {
       "title": "Mississippi Northern District Court",
       "court_name": "Northern District of Mississippi",
-      "software_version": "NextGen CM/ECF Release 1.7.1 (Revision 1.7.1)",
+      "software_version": "NextGen CM/ECF Release 1.7.1 (Revision 1.7.1.1)",
       "go_live_date": "January 1, 2005",
       "pdf_size": "35 MB",
       "merge_doc_size": "64 MB",
@@ -78170,7 +78171,6 @@
       "pdf_size": "50",
       "merge_doc_size": "100",
       "web_url": "http://www.nysb.uscourts.gov",
-      "rss_url": "https://ecf.nysb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.nysb.uscourts.gov",
       "counties": [
         {
