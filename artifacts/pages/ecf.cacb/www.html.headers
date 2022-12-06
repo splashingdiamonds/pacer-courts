@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 07:51:41 GMT
+Date: Tue, 06 Dec 2022 08:29:02 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670312038-0"
 Last-Modified: Tue, 06 Dec 2022 07:33:58 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=DANCEPPJEHHFBEFCNJKINFDKJKHDHKHMIMBPNFOCDJFICOFOKIKKIGDHCPDCEKHLEDPDDPKHCECLMHEOCDNAOIKHEPCMHNOAOLNLALOEEDMGBBBJKABDHFKJFOLJJDOO; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=OIJEELLNAMIDIBIFDPJEBIKPBKNPDKOHADKAENEMGPBJGNFEJAIFCDGJAPOFPMLKEGMDKMNLDNADNIIEHOJAECGFAPMHJMABJAHNNLJDKKMAICIADBMFECPFCNKCKGFM; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS010d130a=01300dc9965bb0e00334f296530994f5d932b1886224fae546281ce1675927360a4d508efe0661ba7f5932f41e2a4a278014dba855; Path=/; Domain=.www.cacb.uscourts.gov
+Set-Cookie: TS010d130a=01300dc9961901e9ab434b0fe60227939b93a70cf3c1b4a141757b7e1ce7563855381c7444f46b1b832c875865f140a71f97dd2fbe; Path=/; Domain=.www.cacb.uscourts.gov
 
