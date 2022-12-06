@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 10:26:40 GMT
+Date: Tue, 06 Dec 2022 10:52:29 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie
 Etag: "1670322008-0"
 Last-Modified: Tue, 06 Dec 2022 10:20:08 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=KOJAFGHGFHAIEIHEJJIIAPGHCNFNHKOJKJCDIGCODEKLPNOJJMDNMCAMPOKJKALJBCGDLOMBFIGKIKCMEJEAKLANJBCGAIBPKPCCGFAJJKEIICMLFMHCPHPOFJIAKEOB; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=BDPJCHGOHLNGFBMOGEFNGOINBNCCECLGIMMIHDNGFPCIMHDAMDCPKEHLAFDHNBPFGKLDCHDKCOPEINKKIOGAPBNAKBLFDMCIJCCAFPHKOJCLBGPFCNONBFIBLLJJNICC; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS0122e709=01300dc996d94b45c00e174a228bcbf1dff7195ca102f543a6c472aaa66b5417e3780a18e6e23ad54b033a09014e06d5864a792192; Path=/; Domain=.www.ctb.uscourts.gov
+Set-Cookie: TS0122e709=01300dc996e47694f6cbf3ee5d9b71c16e032ec5be634b6588a8aad6a84adc1cfae83c3a942beeac5984a835d8b1fe00212e9a9149; Path=/; Domain=.www.ctb.uscourts.gov
 
