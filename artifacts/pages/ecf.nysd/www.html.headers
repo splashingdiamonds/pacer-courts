@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 06:47:31 GMT
+Date: Tue, 06 Dec 2022 07:26:22 GMT
 Server: Apache
 X-Content-Type-Options: nosniff
 Cache-Control: max-age=10800, public
@@ -10,11 +10,11 @@ X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 Permissions-Policy: interest-cohort=()
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Last-Modified: Tue, 06 Dec 2022 06:47:31 GMT
-ETag: "1670309251"
+Last-Modified: Tue, 06 Dec 2022 07:17:26 GMT
+ETag: "1670311046"
 Vary: Cookie
 X-Generator: Drupal 9 (https://www.drupal.org)
-X-Drupal-Cache: MISS
+X-Drupal-Cache: HIT
 X-XSS-Protection: 1; mode=block
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=UTF-8
