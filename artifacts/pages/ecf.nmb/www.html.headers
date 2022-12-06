@@ -1,7 +1,7 @@
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 09:27:36 GMT
+Date: Tue, 06 Dec 2022 09:56:34 GMT
 Server: Apache
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
 X-Content-Type-Options: nosniff
@@ -10,8 +10,8 @@ Cache-Control: public, max-age=1800
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Strict-Transport-Security: max-age=600
-Etag: "1670309753-0"
-Last-Modified: Tue, 06 Dec 2022 06:55:53 GMT
+Etag: "1670320594-0"
+Last-Modified: Tue, 06 Dec 2022 09:56:34 GMT
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=utf-8
 
