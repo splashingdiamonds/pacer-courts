@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 01:53:31 GMT
+Date: Tue, 06 Dec 2022 02:41:06 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,9 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670290706-0"
 Last-Modified: Tue, 06 Dec 2022 01:38:26 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=PNKPBJAPHDJMCGGEOHELNMFEGHKHNILOKDINNLLNOCIDOEJDLBGNDENKHJBFPGILCMADCBDJAAIEFNFPPOEABLOHFKHJNAFKADJNPEKNHDAFHJKIMEKPIIKABMGBCOLC; HttpOnly; secure;
-Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01fa0e0a=01300dc996d68ee3154679529c00f6efc1c447a5416c04278e978d5adf8ed881019c273e082a125bc0a9efe505cf91591f6d4b7508; Path=/; Domain=.www.mnd.uscourts.gov
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=NGGMBPDFGCOPHEAMNBNFMIEHCMKKCPNEILOJMNLKEPJGAPAGJMKNKIKOEFIMDKBEKMFDMKDDHLMALOBNDJCAPGGCHKFDOABPOOHKLCEPBNFCNFMDGEHBNCABIIOLDPMO; HttpOnly; secure;
+Set-Cookie: TS01fa0e0a=01300dc99621bacfb9b51c7a797787988069ad49d528ff51ed6b23972995bd5f98d01908f8a93d9c4b82b10dc28abdb1b09d3fc092; Path=/; Domain=.www.mnd.uscourts.gov
 
