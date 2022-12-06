@@ -56,6 +56,12 @@ function fetch_rss {
     fi
   fi
 
+  diff_num_changes="$(git diff -- "latest/rss/${dest_slug}.rss.xml" | grep '@@' | wc -l)"
+  if [[ "$diff_num_changes" -lt 2 ]]; then
+    echo 'NOTICE: RSS channel items unchanged. git commit skipped.'
+    exit 0
+  fi
+
   git add -A
 
   commit_msg="Update ${dest_slug} court feeds and pages.${commit_msg_suffix}"
