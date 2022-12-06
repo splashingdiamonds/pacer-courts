@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 08:30:39 GMT
+Date: Tue, 06 Dec 2022 08:53:05 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,9 +18,9 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670309504-0"
 Last-Modified: Tue, 06 Dec 2022 06:51:44 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=ECMMBBEAPJNKNBGDMHIAPOJJPKHMLAHLNGFHMLJCHGKKFCLJJFILJDEFOKPHHDAOEKGDJAGIENMFOGHBKABABBPBGPGBKKKHOPJLKCNBJHLOJGOCKKMEOBJNLJECMFHF; HttpOnly; secure;
-Set-Cookie: TS010e36bc=01300dc9962c4924d39a4bc78787a40ccb699c1354c30a2d6628adc28f54961545d78343ab757725a6f4bad713fbd6c4f4fdd06ffc; Path=/; Domain=.www.gasb.uscourts.gov
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=IMNKELLKJNNDLFMNMCKLIDINBNNPEIHLJEFICLJDGBLOLKCBEFNFONBPBELINJCMIGPDLAIEGCHKGAJHCCBAPKJBKAIKOIACIMMLHFOOGJMCDPLGNFJLDLKEPGNNAPBE; HttpOnly; secure;
+Set-Cookie: TS010e36bc=01300dc996e8fa3e0619fea52fed5d354dce27e8eb5eaa0137bf6d4c0a2138262e3cde736bef2daf2b7f693ab284a01c4d24c8b4dd; Path=/; Domain=.www.gasb.uscourts.gov
 
