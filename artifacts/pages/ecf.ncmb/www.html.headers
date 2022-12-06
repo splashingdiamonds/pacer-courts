@@ -1,5 +1,5 @@
 HTTP/1.1 302 Found
-Date: Tue, 06 Dec 2022 08:58:38 GMT
+Date: Tue, 06 Dec 2022 09:29:23 GMT
 Server: Apache
 X-Frame-Options: SAMEORIGIN
 Location: https://www.ncmb.uscourts.gov/
@@ -7,11 +7,10 @@ Content-Length: 214
 Content-Type: text/html; charset=iso-8859-1
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 08:58:38 GMT
+Date: Tue, 06 Dec 2022 09:29:24 GMT
 Server: Apache
 X-Powered-By: PHP/7.4.33
-X-Drupal-Cache: MISS
-X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
 Content-Language: en
 X-Frame-Options: SAMEORIGIN, SAMEORIGIN
 Permissions-Policy: interest-cohort=()
