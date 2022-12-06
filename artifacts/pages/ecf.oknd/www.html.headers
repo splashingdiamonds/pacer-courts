@@ -1,13 +1,13 @@
 HTTP/1.1 302 Found
-Date: Tue, 06 Dec 2022 16:44:17 GMT
+Date: Tue, 06 Dec 2022 17:09:15 GMT
 Server: Apache
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 Location: https://www.oknd.uscourts.gov/
 Content-Length: 214
 Content-Type: text/html; charset=iso-8859-1
 
-HTTP/1.1 503 Service unavailable
-Date: Tue, 06 Dec 2022 16:44:17 GMT
+HTTP/1.1 200 OK
+Date: Tue, 06 Dec 2022 17:09:15 GMT
 Server: Apache
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Cache-Control: no-cache, must-revalidate
@@ -15,8 +15,8 @@ Content-Language: en
 X-Frame-Options: ALLOW-FROM .fedcourts.sharepoint.com
 X-Content-Type-Options: nosniff
 Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7
 Strict-Transport-Security: max-age=31536000; includeSubDomains
-Connection: close
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=utf-8
 
