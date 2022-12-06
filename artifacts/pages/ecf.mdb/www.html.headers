@@ -1,13 +1,26 @@
 HTTP/1.1 301 Moved Permanently
-Date: Tue, 06 Dec 2022 08:55:07 GMT
+Date: Tue, 06 Dec 2022 09:25:56 GMT
 Server: Apache
 Location: https://www.mdb.uscourts.gov/
 Content-Length: 237
 Content-Type: text/html; charset=iso-8859-1
 
-HTTP/1.1 403 Forbidden
-Date: Tue, 06 Dec 2022 08:55:07 GMT
+HTTP/1.1 200 OK
+Date: Tue, 06 Dec 2022 09:25:57 GMT
 Server: Apache
-Content-Length: 202
-Content-Type: text/html; charset=iso-8859-1
+X-Content-Type-Options: nosniff
+X-Powered-By: PHP/7.4.33
+Cache-Control: must-revalidate, no-cache, private
+X-Drupal-Dynamic-Cache: UNCACHEABLE
+Link: <https://www.mdb.uscourts.gov/>; rel="canonical", <https://www.mdb.uscourts.gov/>; rel="shortlink"
+Link: <https://www.mdb.uscourts.gov/homepage/homepage>; rel="revision"
+X-UA-Compatible: IE=edge
+Content-language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 9 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
 
