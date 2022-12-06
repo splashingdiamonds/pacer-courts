@@ -146,9 +146,11 @@ function fetch_rss {
   #  1: The `lastBuildDate` timestamp in the RSS feed changed, but no new items were added/changed.
   # 2+: The `lastBuildDate` timestamp changed, and new <item>s were found in the <channel>'s RSS feed.
   rss_diff_lines_changed="$(git diff -- "latest/rss/${dest_slug}.rss.xml" | grep '@@' | wc -l)"
-  [[ git ls-files --modified --deleted --others | grep -q "latest/rss/${dest_slug}.rss.xml" ]] && \
-    [[ "$rss_diff_lines_changed" -lt 2 ]] && \
-      force_commit="false"
+  if [[ "$rss_diff_lines_changed" -lt 2 ]]; then
+    git ls-files --modified --deleted --others | \
+      grep -q "latest/rss/${dest_slug}.rss.xml" && \
+        force_commit="false"
+  fi
 
   if [[ "$force_commit" == "false" ]]; then
     echo_notice 'RSS <lastBuildDate> changed but <channel> <item>s remain unchanged. (Skipping git commit and push.)';
