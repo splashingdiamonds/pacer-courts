@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 09:54:15 GMT
+Date: Tue, 06 Dec 2022 10:28:49 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,9 +18,9 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670312302-0"
 Last-Modified: Tue, 06 Dec 2022 07:38:22 GMT
-X-Cache-Status: HIT
+X-Cache-Status: EXPIRED
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=APNIHBLNBCECCDBLMEMIDCCOEKHAEMABJJLHNLIFOPMAIOMCMOMEJJNMAFDJPDGHBOGDMPDOMAPHIDPGGAMANNFBPBKKPDGDLLMIGENEDJELHBDKAKJKEHGFNKOMOFPH; HttpOnly; secure;
-Set-Cookie: TS01c3fd7b=01300dc996ecd10533c1500d34bdea4274b48ae9fc3d3b176e824031b1485fcc8c0c67429e83c7df907b2eee2d83a6159cdcf52198; Path=/; Domain=.www.ksb.uscourts.gov
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=LCPIACPPEAMCDBPEGFJEJBKLMAGKHNIAGCCGKNMIDHGLNBBINFLPJGLDMOPMLFPOPGHDEFAIGJFLAADAMIPAIKHEBBGHCGJOMOKGMGPPNFLLGMHHMMHGDDJPBJMNOLEM; HttpOnly; secure;
+Set-Cookie: TS01c3fd7b=01300dc99631d0d1509085ef02eb76f6a8431e7dfec61dd59bb2cfcf74dcd120e78f0360d2217c24c84037b1a97d875b2db775858c; Path=/; Domain=.www.ksb.uscourts.gov
 
