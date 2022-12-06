@@ -1,5 +1,5 @@
 HTTP/1.1 302 Found
-Date: Tue, 06 Dec 2022 07:27:33 GMT
+Date: Tue, 06 Dec 2022 07:58:48 GMT
 Server: Apache
 X-Frame-Options: SAMEORIGIN
 Location: https://www.ncmb.uscourts.gov/
@@ -7,10 +7,11 @@ Content-Length: 214
 Content-Type: text/html; charset=iso-8859-1
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 07:27:33 GMT
+Date: Tue, 06 Dec 2022 07:58:48 GMT
 Server: Apache
 X-Powered-By: PHP/7.4.33
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
+X-Content-Type-Options: nosniff
 Content-Language: en
 X-Frame-Options: SAMEORIGIN, SAMEORIGIN
 Permissions-Policy: interest-cohort=()
@@ -18,8 +19,8 @@ X-Generator: Drupal 7 (http://drupal.org)
 Cache-Control: public, max-age=0
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Etag: "1670309694-0"
-Last-Modified: Tue, 06 Dec 2022 06:54:54 GMT
+Etag: "1670313528-0"
+Last-Modified: Tue, 06 Dec 2022 07:58:48 GMT
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=utf-8
 
