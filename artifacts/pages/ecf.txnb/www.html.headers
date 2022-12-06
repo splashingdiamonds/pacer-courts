@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 14:35:19 GMT
+Date: Tue, 06 Dec 2022 15:06:14 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670335021-0"
 Last-Modified: Tue, 06 Dec 2022 13:57:01 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=AADGLLBAKLEJANGMHEMKENCGPNAAALCKBCECNHCAFDCHGPHBMMEHAKKPFMJPPCOCPJLDNDOIMCONDDFCJDCAGFGGNFPEGMFJJODHFFHKJJBPIIAEFBGGMAFBMOBLBPPG; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=ONHIJGHHFHAIEIHEGEPJAPGHCNFNHKOJKJCDIGCODEKLPNOJJMDNMCAMPOKJKALJBCGDLOMBLKGKGLCMEJEAKLANBFCGJMBPKPCCGFAJJKEIICFIFMHCPHPOFJIAKEHH; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01cdb070=01300dc996887966c92267eed17731484284c427fa1880666013c1b435ab423ac90ecfbcbadfddbe9ef363af9e4fdbf66062605a07; Path=/; Domain=.www.txnb.uscourts.gov
+Set-Cookie: TS01cdb070=01300dc9966858443db31a223bc46940b63a3200c48416db9233a74b784c1efb7358a3c80238b1b29b0f82696678dbcdfa7fb05eec; Path=/; Domain=.www.txnb.uscourts.gov
 
