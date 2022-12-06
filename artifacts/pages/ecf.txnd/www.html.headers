@@ -5,10 +5,21 @@ Pragma: no-cache
 Expires: 0
 Connection: close
 
-HTTP/1.0 404 Not Found
-Content-Type: text/html; charset=UTF-8
-Cache-Control: no-cache
-Pragma: no-cache
-Expires: 0
+HTTP/1.1 200 OK
+Date: Tue, 06 Dec 2022 15:38:52 GMT
+Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
+X-Powered-By: PHP/7.2.24
+X-Drupal-Cache: HIT
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 7 (http://drupal.org)
+Link: </frontpage>; rel="canonical",</node/10993>; rel="shortlink"
+Cache-Control: public, max-age=900
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+X-Content-Type-Options: nosniff
+Etag: "1670302031-0"
+Last-Modified: Tue, 06 Dec 2022 04:47:11 GMT
 Connection: close
+Content-Type: text/html; charset=utf-8
 
