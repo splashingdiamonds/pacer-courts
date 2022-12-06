@@ -43,7 +43,7 @@ Includes:
 | Alaska District Court | District | https://ecf.akd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.akd.uscourts.gov/cmecf-info | https://ecf.akd.uscourts.gov |
 | Alabama Middle Bankruptcy Court | Bankruptcy | https://ecf.almb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almb.uscourts.gov | https://ecf.almb.uscourts.gov |
 | Alabama Middle District Court | District | https://ecf.almd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almd.uscourts.gov/electronic-filing | https://ecf.almd.uscourts.gov |
-| Alabama Northern Bankruptcy Court | Bankruptcy |  | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
+| Alabama Northern Bankruptcy Court | Bankruptcy | https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
 | Alabama Northern District Court | District |  | https://www.alnd.uscourts.gov/ | https://ecf.alnd.uscourts.gov |
 | Alabama Southern Bankruptcy Court | Bankruptcy | https://ecf.alsb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alsb.uscourts.gov | https://ecf.alsb.uscourts.gov |
 | Alabama Southern District Court | District | https://ecf.alsd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.alsd.uscourts.gov/case-info/cm-ecf-case-info | https://ecf.alsd.uscourts.gov |
@@ -162,7 +162,7 @@ Includes:
 | New York Eastern District Court | District |  | http://www.nyed.uscourts.gov | https://ecf.nyed.uscourts.gov |
 | New York Northern Bankruptcy Court | Bankruptcy | https://ecf.nynb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nynb.uscourts.gov | https://ecf.nynb.uscourts.gov |
 | New York Northern District Court | District | https://ecf.nynd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nynd.uscourts.gov/cmecf/ | https://ecf.nynd.uscourts.gov |
-| New York Southern Bankruptcy Court | Bankruptcy | https://ecf.nysb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nysb.uscourts.gov | https://ecf.nysb.uscourts.gov |
+| New York Southern Bankruptcy Court | Bankruptcy |  | http://www.nysb.uscourts.gov | https://ecf.nysb.uscourts.gov |
 | New York Southern District Court | District | https://ecf.nysd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.nysd.uscourts.gov/electronic-case-filing | https://ecf.nysd.uscourts.gov |
 | New York Western Bankruptcy Court | Bankruptcy | https://ecf.nywb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.nywb.uscourts.gov | https://ecf.nywb.uscourts.gov |
 | New York Western District Court | District |  | http://www.nywd.uscourts.gov | https://ecf.nywd.uscourts.gov |
