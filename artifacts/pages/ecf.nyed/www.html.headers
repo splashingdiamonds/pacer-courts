@@ -1,5 +1,12 @@
+HTTP/1.1 302 Found
+Date: Tue, 06 Dec 2022 14:33:09 GMT
+Server: Apache
+Location: https://www.nyed.uscourts.gov/
+Content-Length: 214
+Content-Type: text/html; charset=iso-8859-1
+
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 13:58:01 GMT
+Date: Tue, 06 Dec 2022 14:33:09 GMT
 Server: Apache
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Cache-Control: no-cache, must-revalidate
@@ -9,6 +16,7 @@ X-Content-Type-Options: nosniff
 Permissions-Policy: interest-cohort=()
 X-UA-Compatible: IE=9; IE=8; IE=7
 X-Generator: Drupal 7 (http://drupal.org)
-Content-Length: 55081
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Content-Length: 55157
 Content-Type: text/html; charset=utf-8
 
