@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 07:54:55 GMT
+Date: Tue, 06 Dec 2022 08:32:17 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670312146-0"
 Last-Modified: Tue, 06 Dec 2022 07:35:46 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=PJEMADIJNGACOIHCAMOJBHFOOCJGBANKGMAJCAPIEOHHPCELNIGMGDGJIEJGLBMKNAEDMFGJEFFJFFCGJEPANIMMAPKKCPOFPNOBNOJBMAJLCNBEIMPPPGIILCOHDKKD; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=JAJDNOEBKFMJDAPKBJLBOPBMNIANBGBGJDPKCLFHKNHLAFFPEGCLHNMIGLEACIABDPMDBLDLGNKACMAKDPNABOJOMPEOMBGCGNDIIJPCGHNHMDPMEBALPMDGIIGKAHCP; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS0132b602=01300dc9960bd132fc4b8d7b0fdb0896a94764922a71618b545eb5dbd7e7fcdc4555d36503e63a11a3ade683d29eb36e1cbb8caa88; Path=/; Domain=.www.laeb.uscourts.gov
+Set-Cookie: TS0132b602=01300dc99675e1b831ad2aed78293542b9961219a2fe057d913970afca02a29abdeefaa876fc1fcd0113f5550bc89d520ac9160921; Path=/; Domain=.www.laeb.uscourts.gov
 
