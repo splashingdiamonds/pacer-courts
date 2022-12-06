@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 10:32:14 GMT
+Date: Tue, 06 Dec 2022 10:57:14 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670321482-0"
 Last-Modified: Tue, 06 Dec 2022 10:11:22 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=BHBMACPMEAMCDBPEOANFJBKLMAGKHNIAGCCGKNMIDHGLNBBINFLPJGLDMOPMLFPOPGHDEFAIDJFLHBDAMIPAIKHEOBGHPGJOMOKGMGPPNFLLGMGGMMHGDDJPBJMNOLGC; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=HBKNPOEAKFMJDAPKPCFBOPBMNIANBGBGJDPKCLFHKNHLAFFPEGCLHNMIGLEACIABDPMDBLDLPPLAJCBKDPNABOJOLBEOMMGCGNDIIJPCGHNHMDODEBALPMDGIIGKAHPL; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01c8f4de=01300dc9960679c689c22020e16f14de3538416a54cd9e38ac9ca2d3966b83331997b61d3661119f14d6404b89c2c24ae590ce3a5f; Path=/; Domain=.www.nyeb.uscourts.gov
+Set-Cookie: TS01c8f4de=01300dc996ce0138e6b7cd9f648a3cded3f073e40a0f8feefbf0afe867480f700bbcf5e138ce603e880443796b3c41f3392774f9ba; Path=/; Domain=.www.nyeb.uscourts.gov
 
