@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Wed, 07 Dec 2022 16:32:22 GMT
+Date: Wed, 07 Dec 2022 16:55:23 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie
 Etag: "1670426104-0"
 Last-Modified: Wed, 07 Dec 2022 15:15:04 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=LMBPDMBCNPNJINBPGOFHEHFPBHFFJPKPMAFDCCAJNFFNCMOFOMMLIJKEKDGPNOOHCFFDIPEFLPPFNBGIGEGANMMPMLNIFDHGALODOPMLEBIHNGHLLKLDDFHOJOOGMNNC; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=LJCMELKIIAGOJCILGOPBAEFONADMLGLLFPLFFNCONMMEHKMOHAHFCHKAAHHIDFALMPKDDNOLAFJEBHCIPKPAFOOCDMGMCHPJANAGKCEHOAMFKIGKMNFOFPPGGHOKMPFP; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS012c7f7e=01300dc996835ec6369aa797ce42a5aa411509a5f74abdbbeb34f955f18bd86808cb34d20780bcbdb6e28fbedbbc94e6d034deaae0; Path=/; Domain=.www.are.uscourts.gov
+Set-Cookie: TS012c7f7e=01300dc996713c532e9083a2342513f0d2251a0d33297e8616d1db6d5032345b6a34e08b776a8f246de4691b7f278fba81ac32e7c0; Path=/; Domain=.www.are.uscourts.gov
 
