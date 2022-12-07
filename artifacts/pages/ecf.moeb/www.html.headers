@@ -4,3 +4,24 @@ Server: BigIP
 Connection: Keep-Alive
 Content-Length: 0
 
+HTTP/1.1 200 OK
+Date: Wed, 07 Dec 2022 05:32:34 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1670389274-0"
+Last-Modified: Wed, 07 Dec 2022 05:01:14 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=ABCPFMDFMDOENNHBLIBOHNLDJOIPCLDAEPPKFHDJCFAKDGAEDMHHFNELDDDIBLJJCODDBHAOHFCEFPIMEAEAEBPNCCEEKCLAIHJNONGACGLFMLNGNKOCHCOLGBDHMMLI; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01d3b353=01300dc99683895dd838fd9ccb5db16319ffcf4bd0b15fda89dbf2e010e3331d3b1bb59932ec0970920b84b5e5b67ecadd6c3f8181; Path=/; Domain=.www.moeb.uscourts.gov
+
