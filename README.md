@@ -84,7 +84,7 @@ Includes:
 | Georgia Southern Bankruptcy Court | Bankruptcy | https://ecf.gasb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.gasb.uscourts.gov | https://ecf.gasb.uscourts.gov |
 | Georgia Southern District Court | District |  | http://www.gasd.uscourts.gov/ | https://ecf.gasd.uscourts.gov |
 | Guam Bankruptcy Court | Bankruptcy | https://ecf.gub.uscourts.gov/cgi-bin/rss_outside.pl | http://ecf.gub.uscourts.gov | https://ecf.gub.uscourts.gov |
-| Guam District Court | District | https://ecf.gud.uscourts.gov/cgi-bin/rss_outside.pl | http://www.gud.uscourts.gov/ | https://ecf.gud.uscourts.gov |
+| Guam District Court | District |  | http://www.gud.uscourts.gov/ | https://ecf.gud.uscourts.gov |
 | Hawaii Bankruptcy Court | Bankruptcy | https://ecf.hib.uscourts.gov/cgi-bin/rss_outside.pl | http://www.hib.uscourts.gov/cmecf/index_cmecf.htm | https://ecf.hib.uscourts.gov |
 | Hawaii District Court | District | https://ecf.hid.uscourts.gov/cgi-bin/rss_outside.pl | http://www.hid.uscourts.gov/ | https://ecf.hid.uscourts.gov |
 | Iowa Northern Bankruptcy Court | Bankruptcy | https://ecf.ianb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ianb.uscourts.gov/ | https://ecf.ianb.uscourts.gov |
