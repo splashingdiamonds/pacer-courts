@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Tue, 06 Dec 2022 23:54:49 GMT
+Date: Wed, 07 Dec 2022 01:54:53 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Content-Language: en
@@ -11,13 +11,13 @@ Link: </case-information>; rel="canonical",</node/7>; rel="shortlink"
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Etag: "1670361814-0"
-Last-Modified: Tue, 06 Dec 2022 21:23:34 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Etag: "1670378093-0"
+Last-Modified: Wed, 07 Dec 2022 01:54:53 GMT
+X-Cache-Status: MISS
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=EJOAIOECKFMJDAPKPIHDPPBMNIANBGBGJDPKCLFHKNHLAFFPEGCLHNMIGLEACIABDPMDBLDLOFLAKEBKDPNABOJOPNEOIDGCGNDIIJPCGHNHMDDMEBALPMDGIIGKAHJF; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=IPKIDPBLPNLMEHMFMHDCPAOEBOONFHNAFDHILNOACGFAJBBKLNCGHMOIAFAJMBCBJLCDMIJLCCHJCHACIPGANBMPCPFDLENIHHJDEHDGNIGHKIPPIIEAFDIFIIOFJAMJ; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS0100cc25=01300dc996d4e4d97e2f244f74fe5a4485b57b766e9023d511dd07574df4890a372cf5e9c60476d790c11cc0de53aa8a0884276f65; Path=/; Domain=.www.innd.uscourts.gov
+Set-Cookie: TS0100cc25=01300dc996420212e5b6213e4ec1996d00de14d46ca22457b67fc1b2de1abb55843e17ea73033a765e1efdc73e04ebad1f20f6f56d; Path=/; Domain=.www.innd.uscourts.gov
 Transfer-Encoding: chunked
 
