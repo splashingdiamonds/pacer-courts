@@ -1,23 +1,23 @@
 HTTP/1.1 301 Moved Permanently
-Date: Thu, 08 Dec 2022 04:47:56 GMT
+Date: Thu, 08 Dec 2022 06:34:03 GMT
 Server: Apache
 Location: https://www.ned.uscourts.gov/
 Content-Length: 237
 Content-Type: text/html; charset=iso-8859-1
 
 HTTP/1.1 200 OK
-Date: Thu, 08 Dec 2022 04:47:56 GMT
+Date: Thu, 08 Dec 2022 06:34:03 GMT
 Server: Apache
-X-Drupal-Cache: HIT
-Etag: "1670472385-0"
+X-Drupal-Cache: MISS
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Cache-Control: public, max-age=0
+X-Content-Type-Options: nosniff
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
-X-Content-Type-Options: nosniff
 Permissions-Policy: interest-cohort=()
 X-UA-Compatible: IE=9; IE=8; IE=7
-Cache-Control: public, max-age=0
-Last-Modified: Thu, 08 Dec 2022 04:06:25 GMT
-Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Etag: "1670481243-0"
+Last-Modified: Thu, 08 Dec 2022 06:34:03 GMT
 Vary: Cookie,Accept-Encoding
 Transfer-Encoding: chunked
 Content-Type: text/html; charset=utf-8
