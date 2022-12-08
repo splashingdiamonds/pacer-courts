@@ -1,16 +1,25 @@
-HTTP/1.1 200 OK
-Date: Thu, 08 Dec 2022 18:53:14 GMT
-Server: Apache/2.4.51 (Win32)
-X-Drupal-Cache: HIT
-Etag: "1670525210-0"
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.flnd.uscourts.gov/ecf
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 404 Not Found
+Date: Thu, 08 Dec 2022 19:20:16 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
-X-Generator: Drupal 7 (http://drupal.org)
-Link: </ecf>; rel="canonical",</node/7>; rel="shortlink"
-Cache-Control: public, max-age=1800
-Last-Modified: Thu, 08 Dec 2022 18:46:50 GMT
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Transfer-Encoding: chunked
-Content-Type: text/html; charset=utf-8
+Etag: "1670527216-0"
+Last-Modified: Thu, 08 Dec 2022 19:20:16 GMT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=ILGIAICCGAPDMKIGPEOEFJGMKLFOCKEIONGPEKCEOOOBGECLNFOAINNMEJFDMGHFNDNDLDABFIGMGHELACPAJGAEKDLFBFFIKMIOHKCFIBGOFIKJMKPEIMBNGHACNHGK; HttpOnly; secure;
+Set-Cookie: TS01e40d96=01300dc9965fc3b4e9820f5162daf0c4c46748166884e9552dc84212f5ef4066af7d0faaaa7b88ab6872d36d60b10ed04d5313e3ac; Path=/; Domain=.www.flnd.uscourts.gov
 
