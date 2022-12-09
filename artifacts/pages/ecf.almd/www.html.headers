@@ -7,13 +7,13 @@ Server: nginx
 X-Pantheon-Styx-Hostname: styx-fe3-a-554f6c46b4-4lp94
 X-Styx-Req-Id: dbaa79bc-7715-11ed-a598-16bfde6aa44a
 Cache-Control: public, max-age=86400
-Date: Fri, 09 Dec 2022 03:50:45 GMT
-X-Served-By: cache-chi-klot8100157-CHI, cache-iad-kiad7000124-IAD
-X-Cache: MISS, HIT
-X-Cache-Hits: 0, 1
-X-Timer: S1670557846.964376,VS0,VE3
+Date: Fri, 09 Dec 2022 07:19:32 GMT
+X-Served-By: cache-chi-klot8100157-CHI, cache-sjc10032-SJC
+X-Cache: HIT, HIT
+X-Cache-Hits: 1, 1
+X-Timer: S1670570373.941515,VS0,VE8
 Vary: Cookie, Cookie
-Age: 40718
+Age: 53244
 Accept-Ranges: bytes
 Via: 1.1 varnish, 1.1 varnish
 
@@ -21,9 +21,9 @@ HTTP/2 200
 cache-control: max-age=10800, public
 content-language: en
 content-type: text/html; charset=UTF-8
-etag: W/"1670275254"
+etag: W/"1670565802"
 expires: Sun, 19 Nov 1978 05:00:00 GMT
-last-modified: Mon, 05 Dec 2022 21:20:54 GMT
+last-modified: Fri, 09 Dec 2022 06:03:22 GMT
 link: <https://www.almd.uscourts.gov/electronic-filing>; rel="canonical"
 link: <https://www.almd.uscourts.gov/node/1600>; rel="shortlink"
 permissions-policy: interest-cohort=()
@@ -34,16 +34,16 @@ x-drupal-cache: HIT
 x-drupal-dynamic-cache: MISS
 x-frame-options: SAMEORIGIN
 x-generator: Drupal 9 (https://www.drupal.org)
-x-pantheon-styx-hostname: styx-fe3-b-85b85cd7b6-trdmm
-x-styx-req-id: 41009f1f-74ef-11ed-85ed-3ede5d7aef68
+x-pantheon-styx-hostname: styx-fe3-b-85b85cd7b6-g869j
+x-styx-req-id: 7ccfba11-778a-11ed-a121-42366567dba7
 x-ua-compatible: IE=edge
-date: Fri, 09 Dec 2022 03:50:46 GMT
-x-served-by: cache-chi-kigq8000169-CHI, cache-iad-kiad7000126-IAD
-x-cache: HIT, HIT
-x-cache-hits: 1, 1
-x-timer: S1670557846.053132,VS0,VE3
+date: Fri, 09 Dec 2022 07:19:33 GMT
+x-served-by: cache-chi-kigq8000169-CHI, cache-sjc10036-SJC
+x-cache: HIT, MISS
+x-cache-hits: 2, 0
+x-timer: S1670570373.059117,VS0,VE47
 vary: Accept-Encoding, Cookie, Cookie, Cookie
-age: 1521
+age: 3153
 accept-ranges: bytes
 via: 1.1 varnish, 1.1 varnish
 content-length: 37294
