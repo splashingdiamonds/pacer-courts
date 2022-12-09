@@ -1,16 +1,8 @@
-HTTP/1.0 404 404
-Date: Fri, 09 Dec 2022 06:48:07 GMT
+HTTP/1.0 200 200
+Date: Fri, 09 Dec 2022 11:25:50 GMT
 Server: Apache
 X-Frame-Options: SAMEORIGIN
-Status: 404
-Pragma: cache
-Cache-Control: post-check=3600,pre-check=3601, max-age=0
-Access-Control-Allow-Credentials: true
-Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials
-Content-Language: en
+Cache-Control: max-age=0
+Expires: Fri, 09 Dec 2022 11:25:50 GMT
 Connection: close
-Content-Disposition: inline; filename=RSSGenerator
-Content-Length: 785
-Expires: Fri, 09 Dec 2022 06:48:07 GMT
-Content-Type: text/html;charset=utf-8
 
