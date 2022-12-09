@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Fri, 09 Dec 2022 00:00:11 GMT
+Date: Fri, 09 Dec 2022 01:59:09 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -17,12 +17,12 @@ Link: </criminal-justice-act-info>; rel="canonical",</node/1>; rel="shortlink"
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Etag: "1670534957-0"
-Last-Modified: Thu, 08 Dec 2022 21:29:17 GMT
-X-Cache-Status: EXPIRED
+Etag: "1670551149-0"
+Last-Modified: Fri, 09 Dec 2022 01:59:09 GMT
+X-Cache-Status: MISS
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=CGDDMICCGAPDMKIGBNNHFJGMKLFOCKEIONGPEKCEOOOBGECLNFOAINNMEJFDMGHFNDNDLDABAKGMNGELACPAJGAEEHLFLBFIKMIOHKCFIBGOFIKGMKPEIMBNGHACNHJM; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=OKHCIGHFFHAIEIHEJGAMHPGHCNFNHKOJKJCDIGCODEKLPNOJJMDNMCAMPOKJKALJBCGDLOMBCGLKNHPMEJEAKLANCJDGJAAPKPCCGFAJJKEIICNKFMHCPHPOFJIAKEMN; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01be7d75=01300dc996b2e9bcbd1994d7163a2c89942c76b46ee0c4086c17606f1126406df5a7ad8940ce6ed1cd409e9eeaea3a9d266313521f; Path=/; Domain=.www.oked.uscourts.gov
+Set-Cookie: TS01be7d75=01300dc9967fe55cd6e58e5d976503f5d404be046e65511fd571c77df6e4381591bd748e969dd8e03ac5c918af9194920fc2bdb171; Path=/; Domain=.www.oked.uscourts.gov
 
