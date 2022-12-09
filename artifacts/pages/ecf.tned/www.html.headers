@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Fri, 09 Dec 2022 18:00:57 GMT
+Date: Fri, 09 Dec 2022 18:36:46 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie
 Etag: "1670608857-0"
 Last-Modified: Fri, 09 Dec 2022 18:00:57 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=HADCLJAFBCFNKMPEMBCAFENPELEHKEAMIMPOOIHKLIKGPNKLJJDJOICLEEKFJMFGCGPDMJONOHIFKDJLJLFAFCMJIHIOFFNJGKGFCOPNGJDFGOMLMIJLBLGFABLKOAIA; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=DOADDCLCBNECJCKCGHAIAEHPKFGOFGKLJOEKADANGJOJNJKDMFEHHJCHMAANDGDOHDODAKOBDPACPPHNONCAIECCPHJGJCCNMIIMLIJBBHLPAFOEAPDHIFPFGACJHGGK; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS012b75f4=01300dc9962f616972376c783342305cfc0a9062596ca605a85e02939f2cb514fd1d3e3c312b210e8c01c78ad2b84dff33807dce88; Path=/; Domain=.www.tned.uscourts.gov
+Set-Cookie: TS012b75f4=01300dc996873eed7234c1ea9dc00969f1a7771a8a423c56b51b9778798694f1cd003aad470eba3de22bfe0d6447dd0d6b9a9b1f7c; Path=/; Domain=.www.tned.uscourts.gov
 
