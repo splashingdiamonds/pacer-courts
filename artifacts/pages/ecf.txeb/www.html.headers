@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Sat, 10 Dec 2022 20:59:59 GMT
+Date: Sat, 10 Dec 2022 21:40:26 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670700245-0"
 Last-Modified: Sat, 10 Dec 2022 19:24:05 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=LEEOGJAPGAJGNEDOJBNAEBMBFBPJNGPAGIIBCJMDOHDJMEPLHLFDEGBHEMPKBLGPLLBDBPFHEDJOJEPLKLDALDPAAPAECGKKJEKLNGOLOBFKFECNEJPIPBPENPPPKGGI; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=GCIJJOEDKFMJDAPKPILKEPBMNIANBGBGJDPKCLFHKNHLAFFPEGCLHNMIGLEACIABDPMDBLDLPMAAJOKKDPNABOJOHPFOABHCGNDIIJPCGHNHMDAMEBALPMDGIIGKAHIJ; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01d9631b=01300dc996a380126fa180af9838e0d0f358f946f6de2f4ba60cbd49d485684c76722e9abd5cb26fa22b62af82402fb43b8390ef31; Path=/; Domain=.www.txeb.uscourts.gov
+Set-Cookie: TS01d9631b=01300dc9968775fc11b1cb0a956e7ca8d23bd175df29f3f5c202d5e2652e2273e81fbe2bf251972c29433a6df1ef76cc07e39e6d28; Path=/; Domain=.www.txeb.uscourts.gov
 
