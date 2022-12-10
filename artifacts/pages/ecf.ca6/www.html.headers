@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Fri, 09 Dec 2022 23:51:52 GMT
+Date: Sat, 10 Dec 2022 01:44:13 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Content-Language: en
@@ -12,11 +12,11 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670628264-0"
 Last-Modified: Fri, 09 Dec 2022 23:24:24 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: MISS
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=MNJCJJOCEFPDOAFGLBJJFINJFIBLIEMGMGJPMBMOIPAKMAALLFLMOCGGOGONPEGEJFHDLODPNJABHDLMJEDAKGHPMMCOJLHOOBPKDLJLKJFHJFAPMKFLMMCKDAIDEOJJ; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=KIAFJCPNEAMCDBPECNNGNBKLMAGKHNIAGCCGKNMIDHGLNBBINFLPJGLDMOPMLFPOPGHDEFAICEJLEPPAMIPAIKHECOHHDJIOMOKGMGPPNFLLGMNJMMHGDDJPBJMNOLNC; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS0163d69c=01300dc9967f2116045aa7ccfc7691f0c94a76842e95bc3c2924ac815c00faafa98058ed2b0ced9734b25d7fb2e940deb923a45451; Path=/; Domain=.www.ca6.uscourts.gov
+Set-Cookie: TS0163d69c=01300dc9966a7d80b548ad5e67df141cf94768c523667ffbbb18996033323684f10ac63f7d554825801c86e84115ae7479b3e3fccd; Path=/; Domain=.www.ca6.uscourts.gov
 Transfer-Encoding: chunked
 
