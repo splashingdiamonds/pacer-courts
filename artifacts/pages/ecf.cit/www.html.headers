@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Fri, 09 Dec 2022 23:52:39 GMT
+Date: Sat, 10 Dec 2022 01:45:16 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
 Content-Language: en
@@ -11,13 +11,12 @@ Link: </cmecf-links>; rel="canonical",</node/9>; rel="shortlink"
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Etag: "1670628317-0"
-Last-Modified: Fri, 09 Dec 2022 23:25:17 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+Etag: "1670636154-0"
+Last-Modified: Sat, 10 Dec 2022 01:35:54 GMT
+X-Cache-Status: MISS
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=AHBJFKHECEAGBGBBABAHKLOIEFPOALGJFNKACCAHHOKAMPCGNEIGBADAJHENICKCNHHDMNJPMJGBMNAHFOHADKLHPMPGCAAFENEGPENGDHGPHIKIBBJCBMCLEHIMKCCN; HttpOnly; secure;
-Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS012e445c=01300dc99691c927cec76ce74331a79a3f3f05791177a700377a9d10f3632a90eb5cf34d61d31e0e423cac2ee94f5c4d1cc1d950db; Path=/; Domain=.www.cit.uscourts.gov
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=MMABMJAGBCFNKMPEJMFIFENPELEHKEAMIMPOOIHKLIKGPNKLJJDJOICLEEKFJMFGCGPDMJONBEIFHPJLJLFAFCMJGOIOIMNJGKGFCOPNGJDFGOALMIJLBLGFABLKOANG; HttpOnly; secure;
+Set-Cookie: TS012e445c=01300dc996eb2f9a7b90d1d650d07a39523da0572c955e3af9bd71107606bb5414025109667694e90569929cd8e245d58ca4cded9e; Path=/; Domain=.www.cit.uscourts.gov
 Transfer-Encoding: chunked
 
