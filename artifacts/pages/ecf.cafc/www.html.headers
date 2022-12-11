@@ -1,26 +1,26 @@
 HTTP/1.1 301 Moved Permanently
-Date: Sun, 11 Dec 2022 20:52:20 GMT
+Date: Sun, 11 Dec 2022 21:19:54 GMT
 Content-Type: text/html
 Content-Length: 162
 Connection: keep-alive
 Server: Pagely-ARES/1.10.7
-X-Gateway-Request-Id: 7f01752b12b899f14b988c91f6828b83
+X-Gateway-Request-Id: 11f0ac2e000d87a137419b2db5918734
 Location: http://cafc.uscourts.gov/home/case-information/electronic-filing-information/
 X-Gateway-Cache-Key: 0|standard|http|www.cafc.uscourts.gov||/cm/ecf/case-management/electronic-case-files
 X-Gateway-Skip-Cache: 1
 
 HTTP/1.1 200 OK
-Date: Sun, 11 Dec 2022 20:52:20 GMT
+Date: Sun, 11 Dec 2022 21:19:55 GMT
 Content-Type: text/html; charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Vary: Accept-Encoding
 Server: Pagely-ARES/1.10.7
-X-Gateway-Request-Id: 007b47bc0c58113e266613c064ece6b2
+X-Gateway-Request-Id: 4c36a342ed94af83392857398cd281e7
 X-FRAME-OPTIONS: SAMEORIGIN
 Link: <https://cafc.uscourts.gov/wp-json/>; rel="https://api.w.org/", <https://cafc.uscourts.gov/wp-json/wp/v2/pages/1084>; rel="alternate"; type="application/json", <https://cafc.uscourts.gov/?p=1084>; rel=shortlink
 Vary: Accept-Encoding
 X-Gateway-Cache-Key: 1670618017.186|standard|http|cafc.uscourts.gov||/home/case-information/electronic-filing-information/
-X-Gateway-Cache-Status: HIT
+X-Gateway-Cache-Status: EXPIRED
 X-Gateway-Skip-Cache: 0
 
