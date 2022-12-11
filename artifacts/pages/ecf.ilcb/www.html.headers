@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Sun, 11 Dec 2022 04:30:39 GMT
+Date: Sun, 11 Dec 2022 04:43:55 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670727732-0"
 Last-Modified: Sun, 11 Dec 2022 03:02:12 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=BFDAJCLMACKJMGICBEHLAMMEHAOCLFEHHGDEENPIHCMPBCBMOOLKJHPLFPEKEOKDNLLDIBDIEMHMPEEIDMOAPHOGKFAEDIDGAEPFCONJBKICMJBOMFKFNKACKFNODHGK; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=CHHEMBLLDCBKGCLJNBFJCALKAHFALDHDLOKJEMIFHCCPOECHOIHIIDIBHNMOCMOFKIGDGPCJAPBEBOECDHAAGKGGMFOLNIILNLKCHDHOFJNDOPALHIFAMOBDLNCOJAEM; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01e88b34=01300dc9961e5a29ddb0b6c57ae750c8823a4bb085a678afd4f717f21a64f40532c734c9d1b785100e2d9760595c8b8522a498dd34; Path=/; Domain=.www.ilcb.uscourts.gov
+Set-Cookie: TS01e88b34=01300dc996a3954eba94f6d915bf51138ed6b30be461fa9048e8be2f3d88770087c7e5e37ef4bc7fcffdf1c73aed9d68fc0b4b6f14; Path=/; Domain=.www.ilcb.uscourts.gov
 
