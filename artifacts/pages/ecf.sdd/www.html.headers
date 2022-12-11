@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Sun, 11 Dec 2022 03:35:25 GMT
+Date: Sun, 11 Dec 2022 03:48:11 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670728046-0"
 Last-Modified: Sun, 11 Dec 2022 03:07:26 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=PAPKJFKLCLCHCKGJAMCAJACMDKNCABPNJHJLHBFJJLHBNIICNLJJOJIIJCICEDCPHHADBFHDCPPBNBJOMCAABDNELEPIODCPHFIPHNIAIPCFHKJNBFDPOLIIOAKDEMAB; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=GHFMGJAGBCFNKMPEAACKLENPELEHKEAMIMPOOIHKLIKGPNKLJJDJOICLEEKFJMFGCGPDMJONACOFIOPLJLFAFCMJLFIOHHNJGKGFCOPNGJDFGOKLMIJLBLGFABLKOAME; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS011f9782=01300dc996903525e4f33b9e285209402624a7020231a33c3fc4213a9920fa1c6477f129c15899b0348f18edd0975ddf98ffd9a354; Path=/; Domain=.www.sdd.uscourts.gov
+Set-Cookie: TS011f9782=01300dc9962fca493d2e49e054d96c5fec51cb2e7b587d9e58d63f7165a2b60e2a07e8ea24da67ac71a1195f6f3291e337de9e479e; Path=/; Domain=.www.sdd.uscourts.gov
 
