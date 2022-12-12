@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Mon, 12 Dec 2022 12:53:37 GMT
+Date: Mon, 12 Dec 2022 13:12:21 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -19,10 +19,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670849617-0"
 Last-Modified: Mon, 12 Dec 2022 12:53:37 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: MISS
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=NIOAIFJIKHPCIOANPPKLLPFPLFLDIBHGELLGDNOAJPNHBMGPOGJBAFBPKLHHKMNAHIFDCFDMGEIGNKFHKBKADLKOACIPPKJAKNLOLJOEILLKHBMMPJHPPJOKFGBPDPOK; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=GNGINMBBNPNJINBPCJKENHFPBHFFJPKPMAFDCCAJNFFNCMOFOMMLIJKEKDGPNOOHCFFDIPEFKIIFOJBIGEGANMMPGCNIPNHGALODOPMLEBIHNGLLLKLDDFHOJOOGMNLG; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS0157de3d=01300dc99664847ccfb2acfc05505db4593a4b9d20863f556639e74ca8baaae62d4679cf2bbab6bc0c41dee848eaaa68881f128e8f; Path=/; Domain=.www.ca3.uscourts.gov
+Set-Cookie: TS0157de3d=01300dc9967d027ec44d0994895b87ef6431a7c6ef29b3dcae809a0ce69c67d2f1c946e7a70fe138103934d45c8bb645942c438e8d; Path=/; Domain=.www.ca3.uscourts.gov
 
