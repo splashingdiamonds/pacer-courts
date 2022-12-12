@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Mon, 12 Dec 2022 17:27:24 GMT
+Date: Mon, 12 Dec 2022 17:57:16 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -16,12 +16,12 @@ X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Etag: "1670865785-0"
-Last-Modified: Mon, 12 Dec 2022 17:23:05 GMT
-X-Cache-Status: EXPIRED
+Etag: "1670866992-0"
+Last-Modified: Mon, 12 Dec 2022 17:43:12 GMT
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FPHGOHIMKMLKIGALMCDHKBADIBGJHLPOMEJDLAFMPFOOGKMMJFNCGOPFDCLBHOBMCBPDJLODBEJDILMPPEJADHAMDGMHJCGKDEAOEFKEKICACOEBKNPALOGPACBIBCCH; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=EMAJKMEBGIFIAHDFOCOMJJINMFBDCDBOHCFGJPCDNBAJBMBMCDIJKIPAOGEGAMMNMKODNCIDBLLIMDGPDPKAGFBDDGPKMBCOBGCLGEODFONGKOCFLDCFMBFLHJBHGNNB; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS015bfee9=01300dc996e8ec3200b22174696e88d2f7feae6ba297d4dabd99beae649c829245010b9f8f3f7b80ee580278f33ca1b29d9bb100f3; Path=/; Domain=.www.nceb.uscourts.gov
+Set-Cookie: TS015bfee9=01300dc9962cf7c13473a9d84c29fb4dc0db402f37aaea02f99557419d9f50a75a88d1917dc0b7a4ab8d1685a4a90750e87dab533d; Path=/; Domain=.www.nceb.uscourts.gov
 
