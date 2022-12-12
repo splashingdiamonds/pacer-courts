@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Mon, 12 Dec 2022 12:57:40 GMT
+Date: Mon, 12 Dec 2022 13:16:18 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1670842114-0"
 Last-Modified: Mon, 12 Dec 2022 10:48:34 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=CHLBHCPOEAMCDBPEMHPABBKLMAGKHNIAGCCGKNMIDHGLNBBINFLPJGLDMOPMLFPOPGHDEFAIJENLNMLAMIPAIKHEPCHHNFIOMOKGMGPPNFLLGMHJMMHGDDJPBJMNOLGI; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=ELDNFDIKNGACOIHCJJHMJHFOOCJGBANKGMAJCAPIEOHHPCELNIGMGDGJIEJGLBMKNAEDMFGJHJMJAJLGJEPANIMMFCLKJCPFPNOBNOJBMAJLCNCLIMPPPGIILCOHDKCD; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01a31c8f=01300dc996860254bfd2b2c5c1cecee18d264c080b6b53d6e55e24873bfa28cb6179ef9311195e85d2f19ecc5801d37448fdb54983; Path=/; Domain=.www.miwb.uscourts.gov
+Set-Cookie: TS01a31c8f=01300dc996ec22f9ed0cc23d67bf60153aab0e6bd336a5ff99b9c690640546a50ba66a088ddcfef5cb6d44aa57a4b90f871c0ab885; Path=/; Domain=.www.miwb.uscourts.gov
 
