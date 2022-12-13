@@ -6,10 +6,11 @@ Expires: 0
 Connection: close
 
 HTTP/1.1 200 OK
-Date: Tue, 13 Dec 2022 04:37:16 GMT
+Date: Tue, 13 Dec 2022 05:02:48 GMT
 Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
 X-Powered-By: PHP/7.2.24
-X-Drupal-Cache: HIT
+X-Drupal-Cache: MISS
+X-Content-Type-Options: nosniff
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
 X-Generator: Drupal 7 (http://drupal.org)
@@ -17,9 +18,8 @@ Link: </frontpage>; rel="canonical",</node/10993>; rel="shortlink"
 Cache-Control: public, max-age=900
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-X-Content-Type-Options: nosniff
-Etag: "1670890733-0"
-Last-Modified: Tue, 13 Dec 2022 00:18:53 GMT
+Etag: "1670907768-0"
+Last-Modified: Tue, 13 Dec 2022 05:02:48 GMT
 Connection: close
 Content-Type: text/html; charset=utf-8
 
