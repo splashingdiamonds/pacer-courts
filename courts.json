@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Mon, 12 Dec 2022 06:10:04 -0500"
+    "last_updated": "Tue, 13 Dec 2022 06:10:05 -0500"
   },
   "data": [
     {
@@ -18061,6 +18061,7 @@
       "pdf_size": "35.0",
       "merge_doc_size": "50",
       "web_url": "http://www.alnb.uscourts.gov",
+      "rss_url": "https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.alnb.uscourts.gov",
       "counties": [
         {
@@ -24074,30 +24075,30 @@
         }
       ],
       "locations": {
-        "0": {
-          "name": "Eastern District of California"
-        },
         "1": {
-          "name": "Sacramento Division",
-          "address": "501 I Street, Suite 3-200, Sacramento, CA  95814",
-          "hours": "9:00 a.m. - 4:00 p.m., Monday - Friday",
-          "phone": "(916) 930-4400"
+          "name": "Modesto Division Mailing Address:",
+          "address": "501 I Street, Suite 3-200, Sacramento, CA  95814"
         },
         "2": {
+          "name": "Eastern District of California"
+        },
+        "3": {
           "name": "Fresno Division",
           "address": "2500 Tulare Street, Suite 2501, Fresno, CA  93721",
           "hours": "9:00 a.m. - 4:00 p.m., Monday - Friday",
           "phone": "(559) 499-5800"
         },
-        "3": {
+        "4": {
+          "name": "Sacramento Division",
+          "address": "501 I Street, Suite 3-200, Sacramento, CA  95814",
+          "hours": "9:00 a.m. - 4:00 p.m., Monday - Friday",
+          "phone": "(916) 930-4400"
+        },
+        "5": {
           "name": "Modesto Division",
           "address": "1200 I Street, Suite 4, Modesto, CA 95354",
           "hours": "9:00 a.m. - 4:00 p.m., Monday - Friday",
           "phone": "(209) 521-5160"
-        },
-        "5": {
-          "name": "Modesto Division Mailing Address:",
-          "address": "501 I Street, Suite 3-200, Sacramento, CA  95814"
         }
       },
       "flags": [
@@ -29344,7 +29345,7 @@
       "court_name": "District of Columbia",
       "software_version": "NextGen CM/ECF Release 1.6 (Revision 1.6.3)",
       "go_live_date": "1/31/2001",
-      "pdf_size": "50 MB",
+      "pdf_size": "90 MB",
       "merge_doc_size": "500 MB",
       "web_url": "http://www.dcd.uscourts.gov",
       "rss_url": "https://ecf.dcd.uscourts.gov/cgi-bin/rss_outside.pl",
@@ -45091,7 +45092,6 @@
       "pdf_size": "10",
       "merge_doc_size": "10",
       "web_url": "https://www.innb.uscourts.gov/electronic-case-filing-ecf",
-      "rss_url": "https://ecf.innb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.innb.uscourts.gov",
       "counties": [
         {
@@ -82753,6 +82753,16 @@
       ],
       "locations": [
         {
+          "name": "Eastern Division At Columbus",
+          "address": "Joseph P. Kinneary U.S. Courthouse, Room 121, 85 Marconi Boulevard, Columbus, Ohio 43215",
+          "phone": "614-719-3000"
+        },
+        {
+          "name": "Western Division At Cincinnati",
+          "address": "Potter Stewart U.S. Courthouse, Room 103, 100 East Fifth Street, Cincinnati, Ohio 45202",
+          "phone": "513-564-7500"
+        },
+        {
           "name": "Southern District of Ohio",
           "address": "see below",
           "email": "---",
@@ -82763,16 +82773,6 @@
           "name": "Western Division At Dayton",
           "address": "Federal Building, Room 712, 200 West Second Street, Dayton, Ohio 45402",
           "phone": "937-512-1400"
-        },
-        {
-          "name": "Eastern Division At Columbus",
-          "address": "Joseph P. Kinneary U.S. Courthouse, Room 121, 85 Marconi Boulevard, Columbus, Ohio 43215",
-          "phone": "614-719-3000"
-        },
-        {
-          "name": "Western Division At Cincinnati",
-          "address": "Potter Stewart U.S. Courthouse, Room 103, 100 East Fifth Street, Cincinnati, Ohio 45202",
-          "phone": "513-564-7500"
         }
       ],
       "flags": [
@@ -82837,6 +82837,10 @@
         {
           "code": "Discovery Stayed",
           "translation": "Discovery Stayed"
+        },
+        {
+          "code": "DPLC_AN",
+          "translation": "Death Penalty Law Clerk, Amy Newsome"
         },
         {
           "code": "Durrani",
