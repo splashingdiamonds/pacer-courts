@@ -1,20 +1,23 @@
 HTTP/1.1 200 OK
-Date: Tue, 13 Dec 2022 09:32:23 GMT
+Date: Tue, 13 Dec 2022 09:52:05 GMT
 Content-Type: text/html; charset=utf-8
 Connection: keep-alive
-Expires: Sun, 19 Nov 1978 05:00:00 GMT
-Cache-Control: no-cache, must-revalidate
 Content-Language: en
 X-Frame-Options: SAMEORIGIN
 X-Content-Type-Options: nosniff
 Permissions-Policy: interest-cohort=()
 X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
 Link: </cmecf-information>; rel="canonical",</node/232>; rel="shortlink"
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie
+Etag: "1670909502-0"
+Last-Modified: Tue, 13 Dec 2022 05:31:42 GMT
 X-Cache-Status: MISS
-Set-Cookie: cst-web=2802360330.20480.0000; path=/; Httponly; Secure
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=BAEPLJAOGAJGNEDOFHFMIBMBFBPJNGPAGIIBCJMDOHDJMEPLHLFDEGBHEMPKBLGPLLBDBPFHMGFOBHDLKLDALDPAFEAEINKKJEKLNGOLOBFKFEPCEJPIPBPENPPPKGLI; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=FJHFCLJHJAEHCIGFAGOCJLODCAKFEPGKGCCKFOKKJKEPOLCLFCGJBIOHBBOCKLNIMBKDFMMOKKNMIHMMEELAJCMLPEIABDINNGJDEDNNNBMMMOGMJHFLAECBFBEAMBMK; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01cdc372=01db980006a24e8ad1a484e56d91acb6998552770e70bc88438c236571674610826b62991b0063bd063415d112965b184dd130ca7d; Path=/; Domain=.www.ca8.uscourts.gov
+Set-Cookie: TS01cdc372=01300dc996d2d55f494cebbf46333495938e9c4273a05e93badb539bc875a84361063c105371c197170f6d31b5d037ba3924cc6ca7; Path=/; Domain=.www.ca8.uscourts.gov
 Transfer-Encoding: chunked
 
