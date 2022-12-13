@@ -6,7 +6,7 @@ Expires: 0
 Connection: close
 
 HTTP/1.1 200 OK
-Date: Tue, 13 Dec 2022 00:00:06 GMT
+Date: Tue, 13 Dec 2022 02:04:56 GMT
 Server: Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k
 X-Powered-By: PHP/7.2.24
 X-Drupal-Cache: HIT
@@ -18,8 +18,8 @@ Cache-Control: public, max-age=900
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 X-Content-Type-Options: nosniff
-Etag: "1670868404-0"
-Last-Modified: Mon, 12 Dec 2022 18:06:44 GMT
+Etag: "1670890733-0"
+Last-Modified: Tue, 13 Dec 2022 00:18:53 GMT
 Connection: close
 Content-Type: text/html; charset=utf-8
 
