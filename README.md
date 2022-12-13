@@ -43,7 +43,7 @@ Includes:
 | Alaska District Court | District | https://ecf.akd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.akd.uscourts.gov/cmecf-info | https://ecf.akd.uscourts.gov |
 | Alabama Middle Bankruptcy Court | Bankruptcy | https://ecf.almb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almb.uscourts.gov | https://ecf.almb.uscourts.gov |
 | Alabama Middle District Court | District | https://ecf.almd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almd.uscourts.gov/electronic-filing | https://ecf.almd.uscourts.gov |
-| Alabama Northern Bankruptcy Court | Bankruptcy |  | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
+| Alabama Northern Bankruptcy Court | Bankruptcy | https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
 | Alabama Northern District Court | District |  | https://www.alnd.uscourts.gov/ | https://ecf.alnd.uscourts.gov |
 | Alabama Southern Bankruptcy Court | Bankruptcy | https://ecf.alsb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alsb.uscourts.gov | https://ecf.alsb.uscourts.gov |
 | Alabama Southern District Court | District | https://ecf.alsd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.alsd.uscourts.gov/case-info/cm-ecf-case-info | https://ecf.alsd.uscourts.gov |
@@ -99,7 +99,7 @@ Includes:
 | Illinois Northern District Court | District | https://ecf.ilnd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.ilnd.uscourts.gov/CMECF.aspx | https://ecf.ilnd.uscourts.gov |
 | Illinois Southern Bankruptcy Court | Bankruptcy | https://ecf.ilsb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ilsb.uscourts.gov | https://ecf.ilsb.uscourts.gov |
 | Illinois Southern District Court | District | https://ecf.ilsd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ilsd.uscourts.gov/Ecf.aspx | https://ecf.ilsd.uscourts.gov |
-| Indiana Northern Bankruptcy Court | Bankruptcy | https://ecf.innb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.innb.uscourts.gov/electronic-case-filing-ecf | https://ecf.innb.uscourts.gov |
+| Indiana Northern Bankruptcy Court | Bankruptcy |  | https://www.innb.uscourts.gov/electronic-case-filing-ecf | https://ecf.innb.uscourts.gov |
 | Indiana Northern District Court | District | https://ecf.innd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.innd.uscourts.gov/case-information | https://ecf.innd.uscourts.gov |
 | Indiana Southern Bankruptcy Court | Bankruptcy | https://ecf.insb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.insb.uscourts.gov/cmecf-registration-training | https://ecf.insb.uscourts.gov |
 | Indiana Southern District Court | District | https://ecf.insd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.insd.uscourts.gov | https://ecf.insd.uscourts.gov |
