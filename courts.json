@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Tue, 13 Dec 2022 06:10:05 -0500"
+    "last_updated": "Wed, 14 Dec 2022 06:10:05 -0500"
   },
   "data": [
     {
@@ -27176,7 +27176,6 @@
       "pdf_size": "60.00",
       "merge_doc_size": "50",
       "web_url": "http://www.cob.uscourts.gov/",
-      "rss_url": "https://ecf.cob.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.cob.uscourts.gov",
       "counties": [
         {
@@ -29345,7 +29344,7 @@
       "court_name": "District of Columbia",
       "software_version": "NextGen CM/ECF Release 1.6 (Revision 1.6.3)",
       "go_live_date": "1/31/2001",
-      "pdf_size": "90 MB",
+      "pdf_size": "75 MB",
       "merge_doc_size": "500 MB",
       "web_url": "http://www.dcd.uscourts.gov",
       "rss_url": "https://ecf.dcd.uscourts.gov/cgi-bin/rss_outside.pl",
@@ -45092,6 +45091,7 @@
       "pdf_size": "10",
       "merge_doc_size": "10",
       "web_url": "https://www.innb.uscourts.gov/electronic-case-filing-ecf",
+      "rss_url": "https://ecf.innb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.innb.uscourts.gov",
       "counties": [
         {
@@ -52307,7 +52307,7 @@
       "court_name": "Eastern District of Louisiana",
       "software_version": "NextGen CM/ECF Release 1.7.1 (Revision 1.7.1)",
       "go_live_date": "3/1/2005",
-      "pdf_size": "35 MB",
+      "pdf_size": "200 MB",
       "merge_doc_size": "500 MB",
       "web_url": "http://www.laed.uscourts.gov/case-information/electronic-filing",
       "rss_url": "https://ecf.laed.uscourts.gov/cgi-bin/rss_outside.pl",
@@ -98662,7 +98662,6 @@
       "pdf_size": "30 MB",
       "merge_doc_size": "100 MB",
       "web_url": "http://www.tnwd.uscourts.gov/",
-      "rss_url": "https://ecf.tnwd.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.tnwd.uscourts.gov",
       "counties": [
         {
