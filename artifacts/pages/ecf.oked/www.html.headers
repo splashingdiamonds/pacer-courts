@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Wed, 14 Dec 2022 13:57:49 GMT
+Date: Wed, 14 Dec 2022 14:28:58 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -17,11 +17,12 @@ Link: </criminal-justice-act-info>; rel="canonical",</node/1>; rel="shortlink"
 Cache-Control: public, max-age=300
 Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
-Etag: "1671017104-0"
-Last-Modified: Wed, 14 Dec 2022 11:25:04 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Etag: "1671028138-0"
+Last-Modified: Wed, 14 Dec 2022 14:28:58 GMT
+X-Cache-Status: MISS
+Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=DCJDKLLNAMIDIBIFFHAMPIKPBKNPDKOHADKAENEMGPBJGNFEJAIFCDGJAPOFPMLKEGMDKMNLCGHDOBPEHOJAECGFBNNHGOBBJAHNNLJDKKMAICGADBMFECPFCNKCKGOC; HttpOnly; secure;
-Set-Cookie: TS01be7d75=01300dc99614d4fb75e3b30b9310ab89922048287bfed119448296f9a33080e336e6b8f63da42a80dc927e2f5771479440abca8a55; Path=/; Domain=.www.oked.uscourts.gov
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=CNMNNEACJFMKANCIKEHIICDHLJBDEEFAIHMEEICLCPECOAEFJDIOIKIOFKMLOBGHCHBDCIAMPNPNMGPBNEHABKKMFNJBNIBMADHELJPNIDPGDDODJBIBLAPALMLKNCCP; HttpOnly; secure;
+Set-Cookie: f5_cspm=1234;;
+Set-Cookie: TS01be7d75=01300dc9969f81c317b38f65fe9e05f289973131ad1b2b02ca4b3e5749d4eed754fb51375358889859a558c7327a62d37a6dd17d37; Path=/; Domain=.www.oked.uscourts.gov
 
