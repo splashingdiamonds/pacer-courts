@@ -4,3 +4,23 @@ Server: BigIP
 Connection: Keep-Alive
 Content-Length: 0
 
+HTTP/1.1 200 OK
+Date: Thu, 15 Dec 2022 05:27:08 GMT
+Content-Type: text/html; charset=utf-8
+Connection: close
+Content-Language: en
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: interest-cohort=()
+X-UA-Compatible: IE=9; IE=8; IE=7; IE=EDGE
+Cache-Control: public, max-age=300
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+Etag: "1671078678-0"
+Last-Modified: Thu, 15 Dec 2022 04:31:18 GMT
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; preload
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=OGMIDDIKNGACOIHCHJMJOHFOOCJGBANKGMAJCAPIEOHHPCELNIGMGDGJIEJGLBMKNAEDMFGJBPBJGCGGJEPANIMMOKLKALPFPNOBNOJBMAJLCNMEIMPPPGIILCOHDKMF; HttpOnly; secure;
+Set-Cookie: TS015bfee9=01300dc9964dc036073d7bc4de8d3362a48fbc1c1aff24846b58aa5d100e070442398b6b11250ca2588c41d4e40f679c91cd82c2dd; Path=/; Domain=.www.nceb.uscourts.gov
+
