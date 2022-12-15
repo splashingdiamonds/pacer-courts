@@ -63,7 +63,7 @@ Includes:
 | California Southern Bankruptcy Court | Bankruptcy | https://ecf.casb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.casb.uscourts.gov/about-cm-ecf | https://ecf.casb.uscourts.gov |
 | California Southern District Court | District | https://ecf.casd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.casd.uscourts.gov/cmecf | https://ecf.casd.uscourts.gov |
 | U.S. Court of International Trade | National | https://ecf.cit.uscourts.gov/cgi-bin/rss_outside.pl | https://www.cit.uscourts.gov/cmecf-links | https://ecf.cit.uscourts.gov |
-| Colorado Bankruptcy Court | Bankruptcy |  | http://www.cob.uscourts.gov/ | https://ecf.cob.uscourts.gov |
+| Colorado Bankruptcy Court | Bankruptcy | https://ecf.cob.uscourts.gov/cgi-bin/rss_outside.pl | http://www.cob.uscourts.gov/ | https://ecf.cob.uscourts.gov |
 | Colorado District Court | District | https://ecf.cod.uscourts.gov/cgi-bin/rss_outside.pl | http://www.cod.uscourts.gov/ | https://ecf.cod.uscourts.gov |
 | Connecticut Bankruptcy Court | Bankruptcy | https://ecf.ctb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ctb.uscourts.gov/ | https://ecf.ctb.uscourts.gov |
 | Connecticut District Court | District | https://ecf.ctd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ctd.uscourts.gov | https://ecf.ctd.uscourts.gov |
@@ -199,7 +199,7 @@ Includes:
 | Tennessee Middle Bankruptcy Court | Bankruptcy | https://ecf.tnmb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tnmb.uscourts.gov | https://ecf.tnmb.uscourts.gov |
 | Tennessee Middle District Court | District | https://ecf.tnmd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tnmd.uscourts.gov/ | https://ecf.tnmd.uscourts.gov |
 | Tennessee Western Bankruptcy Court | Bankruptcy | https://ecf.tnwb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tnwb.uscourts.gov | https://ecf.tnwb.uscourts.gov |
-| Tennessee Western District Court | District |  | http://www.tnwd.uscourts.gov/ | https://ecf.tnwd.uscourts.gov |
+| Tennessee Western District Court | District | https://ecf.tnwd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tnwd.uscourts.gov/ | https://ecf.tnwd.uscourts.gov |
 | Texas Eastern Bankruptcy Court | Bankruptcy | https://ecf.txeb.uscourts.gov//cgi-bin/rss_outside.pl | http://www.txeb.uscourts.gov/ | https://ecf.txeb.uscourts.gov/ |
 | Texas Eastern District Court | District | https://ecf.txed.uscourts.gov/cgi-bin/rss_outside.pl | http://www.txed.uscourts.gov | https://ecf.txed.uscourts.gov |
 | Texas Northern Bankruptcy Court | Bankruptcy | https://ecf.txnb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.txnb.uscourts.gov | https://ecf.txnb.uscourts.gov |
