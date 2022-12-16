@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Fri, 16 Dec 2022 21:34:21 GMT
+Date: Fri, 16 Dec 2022 21:54:51 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1671225928-0"
 Last-Modified: Fri, 16 Dec 2022 21:25:28 GMT
-X-Cache-Status: EXPIRED
-Set-Cookie: cst-web=2852693002.20480.0000; path=/; Httponly; Secure
+X-Cache-Status: HIT
+Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=OEMDLECKMOEDHNGLCOPFDHDHIBBBMJLBDLHLIOJAOIMPHIGCBKPNGAHONIMDNOPPNBIDNMIJCEACAGBPLGCAPAMIBOAJPLJOOEHHDBHBJDAAMHGNPAGGBOEPGBDEPCEE; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=JIDJFKDDEABJMNFDGFAHJDKOPBHMHKGOINOKAJIFIJNEGMMKJICNMLPIDNFONJEDDPKDELFJAIOEDCGPICDAAFAPOOFIHMFNFIGFBOLKHIONEKMDLPJHLIPOGFMDPBOG; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01cf7bf5=01300dc996b5d095d87bc677d93706c439a6493fa1f806237aa998e87cb83bc918ebd5432c31049bf653cb09d2e0345beaf98e0cef; Path=/; Domain=.www.ilcd.uscourts.gov
+Set-Cookie: TS01cf7bf5=01300dc996a895d74967f090f1384062832651eb46ad3cb7277ed74727556b8c87a68dddc4e92f8a4cb9280765ea30a95ef21490f8; Path=/; Domain=.www.ilcd.uscourts.gov
 
