@@ -5,7 +5,7 @@ Connection: Keep-Alive
 Content-Length: 0
 
 HTTP/1.1 200 OK
-Date: Fri, 16 Dec 2022 10:57:06 GMT
+Date: Fri, 16 Dec 2022 11:23:59 GMT
 Content-Type: text/html; charset=utf-8
 Connection: close
 Content-Language: en
@@ -18,10 +18,10 @@ Expires: Sun, 19 Nov 1978 05:00:00 GMT
 Vary: Cookie,Accept-Encoding
 Etag: "1671183023-0"
 Last-Modified: Fri, 16 Dec 2022 09:30:23 GMT
-X-Cache-Status: EXPIRED
+X-Cache-Status: HIT
 Set-Cookie: cst-web=2869470218.20480.0000; path=/; Httponly; Secure
 Strict-Transport-Security: max-age=16070400; preload
-Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=CDKBELKKIAGOJCILKNDANEFONADMLGLLFPLFFNCONMMEHKMOHAHFCHKAAHHIDFALMPKDDNOLHOFEIBOIPKPAFOOCLEGMKOPJANAGKCEHOAMFKINLMNFOFPPGGHOKMPLP; HttpOnly; secure;
+Set-Cookie: f5avraaaaaaaaaaaaaaaa_session_=NEMDAFAPDHBHAGIPHMACAMBPPFFGOIFDGLADDMKIHICFBMNHJEAEHDBBNGKABBGGBCDDMOEPEFKGAJJCOCMAEIMDAFDKOKJFKFFNCPFJIHPJEMDOEAHLEINBPHBAJIOI; HttpOnly; secure;
 Set-Cookie: f5_cspm=1234;;
-Set-Cookie: TS01bcddcf=01300dc996d900cfe97cf87dddcb3999394f74d8fc4f3e10a1e02eba3a808921e4be4533cc9a7ab5338f6c52601defc68f9589580b; Path=/; Domain=.www.nywd.uscourts.gov
+Set-Cookie: TS01bcddcf=01300dc99651e50bd2c7fe58e167be5ad8a138b02fd2d077caa6f3089d4441f8ed4dabb115117c5b699d9ba519ff9260296ac61f2c; Path=/; Domain=.www.nywd.uscourts.gov
 
