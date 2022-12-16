@@ -59,11 +59,11 @@ Includes:
 | California Eastern District Court | District | https://ecf.caed.uscourts.gov/cgi-bin/rss_outside.pl | http://www.caed.uscourts.gov/caednew/index.cfm/cmecf-e-filing/ | https://ecf.caed.uscourts.gov |
 | U.S. Court of Appeals, Federal Circuit | Appeals | https://ecf.cafc.uscourts.gov/n/beam/servlet/TransportRoom?servlet=RSSGenerator | http://www.cafc.uscourts.gov/cm/ecf/case-management/electronic-case-files | https://ecf.cafc.uscourts.gov |
 | California Northern Bankruptcy Court | Bankruptcy | https://ecf.canb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.canb.uscourts.gov/ | https://ecf.canb.uscourts.gov |
-| California Northern District Court | District | https://ecf.cand.uscourts.gov/cgi-bin/rss_outside.pl | https://ecf.cand.uscourts.gov/ | https://ecf.cand.uscourts.gov |
+| California Northern District Court | District |  | https://ecf.cand.uscourts.gov/ | https://ecf.cand.uscourts.gov |
 | California Southern Bankruptcy Court | Bankruptcy | https://ecf.casb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.casb.uscourts.gov/about-cm-ecf | https://ecf.casb.uscourts.gov |
 | California Southern District Court | District | https://ecf.casd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.casd.uscourts.gov/cmecf | https://ecf.casd.uscourts.gov |
 | U.S. Court of International Trade | National | https://ecf.cit.uscourts.gov/cgi-bin/rss_outside.pl | https://www.cit.uscourts.gov/cmecf-links | https://ecf.cit.uscourts.gov |
-| Colorado Bankruptcy Court | Bankruptcy | https://ecf.cob.uscourts.gov/cgi-bin/rss_outside.pl | http://www.cob.uscourts.gov/ | https://ecf.cob.uscourts.gov |
+| Colorado Bankruptcy Court | Bankruptcy |  | http://www.cob.uscourts.gov/ | https://ecf.cob.uscourts.gov |
 | Colorado District Court | District | https://ecf.cod.uscourts.gov/cgi-bin/rss_outside.pl | http://www.cod.uscourts.gov/ | https://ecf.cod.uscourts.gov |
 | Connecticut Bankruptcy Court | Bankruptcy | https://ecf.ctb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ctb.uscourts.gov/ | https://ecf.ctb.uscourts.gov |
 | Connecticut District Court | District | https://ecf.ctd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ctd.uscourts.gov | https://ecf.ctd.uscourts.gov |
@@ -219,7 +219,7 @@ Includes:
 | Virgin Islands District Court | District | https://ecf.vid.uscourts.gov/cgi-bin/rss_outside.pl | http://ecf.vid.uscourts.gov | https://ecf.vid.uscourts.gov |
 | Vermont Bankruptcy Court | Bankruptcy | https://ecf.vtb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.vtb.uscourts.gov | https://ecf.vtb.uscourts.gov |
 | Vermont District Court | District | https://ecf.vtd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.vtd.uscourts.gov | https://ecf.vtd.uscourts.gov |
-| Washington Eastern Bankruptcy Court | Bankruptcy | https://ecf.waeb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.waeb.uscourts.gov | https://ecf.waeb.uscourts.gov |
+| Washington Eastern Bankruptcy Court | Bankruptcy |  | http://www.waeb.uscourts.gov | https://ecf.waeb.uscourts.gov |
 | Washington Eastern District Court | District | https://ecf.waed.uscourts.gov/cgi-bin/rss_outside.pl | http://www.waed.uscourts.gov | https://ecf.waed.uscourts.gov |
 | Washington Western Bankruptcy Court | Bankruptcy | https://ecf.wawb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.wawb.uscourts.gov/nextgen-cmecf | https://ecf.wawb.uscourts.gov |
 | Washington Western District Court | District | https://ecf.wawd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.wawd.uscourts.gov | https://ecf.wawd.uscourts.gov |
