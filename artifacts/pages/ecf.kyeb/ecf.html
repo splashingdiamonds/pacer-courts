@@ -1,10 +1,88 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>504 Gateway Timeout</title>
-</head><body>
-<h1>Gateway Timeout</h1>
-<p>The gateway did not receive a timely response
-from the upstream server or application.</p>
-<hr>
-<address>Apache Server at ecf.kyeb.uscourts.gov Port 443</address>
-</body></html>
+<html><head><link rel="shortcut icon"  href="/favicon.ico"/><title>Kentucky Eastern Live Database</title>
+<script>var default_base_path = "/"; </script> <link rel="stylesheet" type="text/css" href="/css/default.css"><script type="text/javascript" src="/lib/core.js"></script><script type="text/javascript" src="/lib/autocomplete.js"></script><script type="text/javascript" src="/lib/DisableAJTALinks.js"></script><script type="text/javascript">if (top!=self) {top.location.replace(location.href);}</script><script>var default_base_path = "/"; </script></head><body BGCOLOR=FFFFFF TEXT=000000 LINK=800000 onLoad='SetFocus()'><script type="text/javascript"> CMECF.whenPageHasLoaded(CMECF.MainMenu.setMainContentSize); CMECF.util.Event.addListener(window, "resize", CMECF.MainMenu.setMainContentSize);</script> <div id="cmecfMainContent"><input type="hidden" id="cmecfMainContentScroll" value="0"><SCRIPT LANGUAGE="JavaScript">
+		var IsForm = false;
+		var FirstField;
+		function SetFocus() {
+			if(IsForm) {
+				if(FirstField) {
+					var ind = FirstField.indexOf('document.',0);
+					if(ind == 0)
+					{
+						eval(FirstField);
+					}
+					else
+					{
+						var Code = "document.forms[0]."+FirstField+".focus();";
+						eval(Code);
+					}
+				} else {
+					var Cnt = 0;
+					while(document.forms[0].elements[Cnt] != null) {
+						if(document.forms[0].elements[Cnt].type != "hidden") {
+							document.forms[0].elements[Cnt].focus();
+							break;
+						}
+						Cnt += 1;
+					}
+				}
+			}
+			return(true);
+		}
+		</SCRIPT>
+<!-ShowPage(index.html)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+<!-- RPM Flags: configure -->
+
+<HTML>
+<HEAD><TITLE>Kentucky Eastern Live Database</TITLE></HEAD>
+<BODY BGCOLOR="#FFFFF0">
+<CENTER>
+<IMG SRC="graphics/seal.gif" >
+<P>
+Welcome to the United States Bankruptcy Court for the
+Eastern District of Kentucky
+<P>
+<A HREF="/cgi-bin/login.pl">Eastern District of Kentucky - Document Filing System</A>
+</CENTER>
+<!-ShowPage(OperationNotice.htm)-> 
+
+<!-- RPM Packages: ao-bkecf-web-* -->
+<!-- RPM Permissions: 750 -->
+<!-- RPM Owner: ecf_web -->
+<!-- RPM Group: ecf_web -->
+
+<HR>
+<CENTER><B>
+<!-- <font color="red">To post an announcement, type it here and remove the comment sign.</font> <br> -->
+<br>
+CM/ECF NextGen Version 1.7.1.1<br><br><br>
+This is a restricted government system for official judiciary business only.<br>
+All activities on this system for any purpose, and all access attempts, may<br>
+be recorded and monitored or reviewed by persons authorized by the federal<br>
+judiciary for improper use, protection of system security, performance of<br>
+maintenance, and appropriate management by the judiciary of its systems.<br>
+By using this system or any connected system, users expressly consent to<br>
+system monitoring and to official access to data reviewed and created by<br>
+them on the system. Any evidence of unlawful activity, including unauthorized<br>
+access attempts, may be reported to law enforcement officials.<br><br>
+<!-- <B><font color="red">NOTICE: The pay.gov credit card processor is experiencing broad outages which may prevent payment transactions from processing correctly.  Please visit <a href="https://www.pay.gov/public/home">pay.gov</a> for further information and updates.</font><br><br> -->
+
+<!-- <B><font color="red">MAINTENANCE NOTICE: Starting at 7:00 A.M. Eastern Time on Friday, November 11, 2022 thru Sunday, November 13, 2022 the CM/ECF system will be unavailable due to maintenance and upgrade.<br><br>
+Please check the Kentucky Eastern Bankruptcy <a href="https://www.kyeb.uscourts.gov">website</a> for updates. We apologize for the inconvenience.</font><br><br> -->
+
+<!-- <B><font color="red">MAINTENANCE NOTICE:</font> On Saturday, February 27, 2021, a Pay.gov scheduled outage will occur from approximately 6:00 p.m. - 10:00 p.m. EST. During the scheduled outage, users will be unable to pay CM/ECF filing fees due the court via the internet on-line payment service supported by Pay.gov. CM/ECF filers will be able to file documents without interruption during the scheduled outage.</font> 
+</B> -->
+<p>
+</CENTER>
+
+<HR>
+10February2022
+
+<br><a href='/cgi-bin/CourtInfo.pl?location=main'>Court Information</a>
+</BODY>
+</HTML>
+</div></body></html>
