@@ -1,7 +1,18 @@
-HTTP/1.1 503 Service Unavailable
-Date: Sat, 17 Dec 2022 15:42:05 GMT
+HTTP/1.1 200 200
+Date: Sat, 17 Dec 2022 16:38:09 GMT
 Server: Apache
-Content-Length: 371
+Status: 200
+vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+Pragma: No-cache
+Cache-Control: no-cache, max-age=0
+Cache-Control: no-store
 Connection: close
-Content-Type: text/html; charset=iso-8859-1
+Content-Disposition: inline; filename=RSSGenerator
+Content-Length: 2047
+Expires: Sat, 17 Dec 2022 16:38:09 GMT
+Set-Cookie: CMECFASESSIONID=E7DC0D779D4EAEE8A33B7C2E1DC986C7; Path=/n; secure;HttpOnly;Secure;SameSite=None
+Content-Type: application/rss+xml;charset=ISO-8859-1
 
