@@ -1,7 +1,18 @@
-HTTP/1.1 404 Not Found
-Content-Type: text/html; charset=UTF-8
-Cache-Control: no-cache
-Pragma: no-cache
-Expires: 0
+HTTP/1.1 200 200
+Date: Sun, 18 Dec 2022 04:35:46 GMT
+Server: Apache
+Status: 200
+vary: Origin
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+Pragma: No-cache
+Cache-Control: no-cache, max-age=0
+Cache-Control: no-store
 Connection: close
+Content-Disposition: inline; filename=RSSGenerator
+Content-Length: 417
+Expires: Sun, 18 Dec 2022 04:35:46 GMT
+Set-Cookie: CMECFASESSIONID=BAF8A082785E127B770446C49EB90925; Path=/n; secure;HttpOnly;Secure;SameSite=None
+Content-Type: application/rss+xml;charset=ISO-8859-1
 
