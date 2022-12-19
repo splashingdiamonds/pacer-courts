@@ -72,7 +72,7 @@ function fetch_rss {
   fetch "$rss_feed_format_2" "artifacts/rss/${dest_slug}/rss-format-2.xml";
 
   mkdir -p "artifacts/rss/$dest_slug/raw"
-  status="$(grep -ri '200 OK' "artifacts/rss/$dest_slug/" --files-with-matches | grep '\.headers')"
+  statusz="$(grep -ri '200 OK' "artifacts/rss/$dest_slug/" --files-with-matches | grep '\.headers')"
   latest_valid_rss=""
   if [[ ! "$status" = "" ]]; then
     latest_valid_rss="${status%.*}"
@@ -87,7 +87,7 @@ function fetch_rss {
         echo_debug $'Detected URL format 1 (from Status of HTTP response):\n\t(200 STATUS OK)\t'$(echo $status | sed -e 's/\.headers$//')
         rss_url=$rss_feed_format_1;
       elif [[ "$rss_basename" =~ "rss-format-2.xml" ]]; then
-        echo_debug $'Detect URL format 2 (from Status of HTTP response):\n\t(200 STATUS OK)\t\t'$(echo $status | sed -e 's/\.headers$//')
+        echo_debug $'Detected URL format 2 (from Status of HTTP response):\n\t(200 STATUS OK)\t\t'$(echo $status | sed -e 's/\.headers$//')
         rss_url=$rss_feed_format_2;
       fi
       echo_debug $'\nRSS URL:\t'$rss_url$'\n';
@@ -108,7 +108,7 @@ function fetch_rss {
 
     cat "temp/rss/${dest_slug}.modified.rss.xml" > "artifacts/rss/${dest_slug}.rss.xml"
 
-    cat "artifacts/rss/${dest_slug}.rss.xml" > "latest/rss/${dest_slug}.rss.xml"
+    cat "artifacts/rss/${dest_slug}.rss.xml" > "latest/rss/${dest_slug}.rss.xml";
 
     if [ -f "$PWD/latest/rss/$dest_slug.rss.xml.missing" ]; then
       git rm $latest_valid_rss "latest/rss/$dest_slug.rss.xml.missing" --silent;
@@ -174,7 +174,7 @@ function fetch_rss {
     git commit -m "$commit_msg";
 
     if [[ ! -f "latest/rss/${dest_slug}.rss.xml" ]]; then
-      touch $latest_valid_rss "latest/rss/$dest_slug.rss.xml.missing"
+      touch $latest_valid_rss "latest/rss/$dest_slug.rss.xml.missing"'
       git add "latest/rss/$dest_slug.rss.xml.missing";
       commit_msg="Missing ${dest_slug} court feed.${commit_msg_suffix}"
       git commit -m "$commit_msg";
@@ -198,4 +198,3 @@ for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d 
     git push || true;
   fi
 done
-
