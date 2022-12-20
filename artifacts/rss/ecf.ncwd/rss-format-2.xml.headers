@@ -1,9 +1,15 @@
-HTTP/1.0 503 503
-Date: Sun, 11 Dec 2022 11:56:03 GMT
+HTTP/1.0 404 404
+Date: Tue, 20 Dec 2022 12:01:16 GMT
 Server: Apache
-Content-Length: 288
-Cache-Control: max-age=0
-Expires: Sun, 11 Dec 2022 11:56:03 GMT
+Status: 404
+Pragma: cache
+Cache-Control: post-check=3600,pre-check=3601, max-age=0
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Access-Control-Allow-Origin,Access-Control-Allow-Credentials
+Content-Language: en
 Connection: close
-Content-Type: text/html;charset=ISO-8859-1
+Content-Disposition: inline; filename=RSSGenerator
+Content-Length: 1108
+Expires: Tue, 20 Dec 2022 12:01:16 GMT
+Content-Type: text/html;charset=utf-8
 
