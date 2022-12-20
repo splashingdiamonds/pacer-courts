@@ -1,14 +1,14 @@
 HTTP/2 200 
 content-type: text/html
 content-length: 60687
-last-modified: Fri, 02 Dec 2022 20:10:13 GMT
+date: Tue, 20 Dec 2022 12:11:36 GMT
+last-modified: Mon, 19 Dec 2022 18:20:05 GMT
+etag: "5b491e9ded190703f69543742737d7ec"
 x-amz-version-id: null
 accept-ranges: bytes
 server: AmazonS3
-date: Tue, 06 Dec 2022 14:35:40 GMT
-etag: "5b491e9ded190703f69543742737d7ec"
-x-cache: RefreshHit from cloudfront
-via: 1.1 6ff4697c5089876d94430beacc9a4d5e.cloudfront.net (CloudFront)
-x-amz-cf-pop: IAD66-C1
-x-amz-cf-id: aWxfHM3TPIGtZX1LP-bpnRS34eF31U7XibURchkUKKlink9zVkKyQQ==
+x-cache: Miss from cloudfront
+via: 1.1 6aa8d2883437a2897f326bfc58beed3c.cloudfront.net (CloudFront)
+x-amz-cf-pop: IAD89-P2
+x-amz-cf-id: rzflO0lmyiB3E51RHYOojAJM8kjZHsZ-BfuHA4x_lUV3kMbq39lFmQ==
 
