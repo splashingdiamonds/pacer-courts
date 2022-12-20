@@ -46,7 +46,9 @@ jobs:
           touch temp/README.md
 
           head -$(grep --line-num 'TABLE_PLACEHOLDER_START' README.md | cut -d ':' -f 1) README.md >> temp/README.md
+          echo $'\n' >> temp/README.md
           cat courts.json | jq '.data' | jq -r '["Title", "Type", "RSS", "Homepage", "Login"], ["---","---","---","---","---"], (.[] | [.title, .type, .rss_url, .web_url, .login_url]) | @tsv' | sed -e $'s/\t/ | /g' | sed -e 's/^/| /g' | sed -e 's/$/ |/' | grep -v -i 'Pacer Case Locator' >> temp/README.md
+          echo $'\n' >> temp/README.md
           tail +$(grep --line-num 'TABLE_PLACEHOLDER_END' README.md | cut -d ':' -f 1) README.md >> temp/README.md
 
           printf '' > README.md
