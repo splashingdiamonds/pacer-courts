@@ -2,7 +2,7 @@ mkd#!/bin/bash
 
 # set -e -o xtrace
 
-DEBUG="1"
+DEBUG="${1:=1}"
 
 function echo_debug () {
   [[ -n "$DEBUG" ]] && \
@@ -251,9 +251,9 @@ commit_msg_suffix=`printf $'\n\t\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n'
 
 # For each court's hostname:
 # Fetch, check, commit changes from every RSS feed (on either of the two URL permutations).
-for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d "," | tr -d '"' | sort -u | sed -e 's/www\.//g' | sort -u | cut -d '.' -f 1- | sort -u | grep -v "pcl\.uscourts\.gov"| grep "njb\.uscourts\.gov"`; do
+for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d "," | tr -d '"' | sort -u | sed -e 's/www\.//g' | sort -u | cut -d '.' -f 1- | sort -u | grep -v "pcl\.uscourts\.gov"`; do
   court_html_origin="$(echo $court_id | tr -d '"')"
-  echo_debug $'\n\nCOURT HTML ORIGIN:\t'$court_html_origin$'\n'
+  echo_debug $'\n\nCOURT HOMEPAGE BASE ORIGIN:\t'$court_html_origin$'\n'
   fetch_rss "$court_html_origin" || true
   if [[ -n "$CI" ]]; then
     git push || true;
