@@ -86,4 +86,4 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
 
         chmod +x ./scripts/rss.sh
-        ./scripts/rss.sh
+        bash ./scripts/rss.sh
