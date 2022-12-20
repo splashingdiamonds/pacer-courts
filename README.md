@@ -43,7 +43,7 @@ Includes:
 | Alaska District Court | District | https://ecf.akd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.akd.uscourts.gov/cmecf-info | https://ecf.akd.uscourts.gov |
 | Alabama Middle Bankruptcy Court | Bankruptcy | https://ecf.almb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almb.uscourts.gov | https://ecf.almb.uscourts.gov |
 | Alabama Middle District Court | District | https://ecf.almd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almd.uscourts.gov/electronic-filing | https://ecf.almd.uscourts.gov |
-| Alabama Northern Bankruptcy Court | Bankruptcy |  | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
+| Alabama Northern Bankruptcy Court | Bankruptcy | https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
 | Alabama Northern District Court | District |  | https://www.alnd.uscourts.gov/ | https://ecf.alnd.uscourts.gov |
 | Alabama Southern Bankruptcy Court | Bankruptcy | https://ecf.alsb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alsb.uscourts.gov | https://ecf.alsb.uscourts.gov |
 | Alabama Southern District Court | District | https://ecf.alsd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.alsd.uscourts.gov/case-info/cm-ecf-case-info | https://ecf.alsd.uscourts.gov |
@@ -77,7 +77,7 @@ Includes:
 | Florida Northern District Court | District |  | http://www.flnd.uscourts.gov/ecf | https://ecf.flnd.uscourts.gov |
 | Florida Southern Bankruptcy Court | Bankruptcy | https://ecf.flsb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.flsb.uscourts.gov/cmecf | https://ecf.flsb.uscourts.gov |
 | Florida Southern District Court | District | https://ecf.flsd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.flsd.uscourts.gov | https://ecf.flsd.uscourts.gov |
-| Georgia Middle Bankruptcy Court | Bankruptcy |  | http://www.gamb.uscourts.gov | https://ecf.gamb.uscourts.gov |
+| Georgia Middle Bankruptcy Court | Bankruptcy | https://ecf.gamb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.gamb.uscourts.gov | https://ecf.gamb.uscourts.gov |
 | Georgia Middle District Court | District | https://ecf.gamd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.gamd.uscourts.gov/cmecf | https://ecf.gamd.uscourts.gov |
 | Georgia Northern Bankruptcy Court | Bankruptcy | https://ecf.ganb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.ganb.uscourts.gov/cmecf-information | https://ecf.ganb.uscourts.gov |
 | Georgia Northern District Court | District |  | http://www.gand.uscourts.gov/electronic-case-filing-information | https://ecf.gand.uscourts.gov |
@@ -184,7 +184,7 @@ Includes:
 | Pennsylvania Middle Bankruptcy Court | Bankruptcy |  | http://www.pamb.uscourts.gov | https://ecf.pamb.uscourts.gov |
 | Pennsylvania Middle District Court | District |  | http://www.pamd.uscourts.gov | https://ecf.pamd.uscourts.gov |
 | Pennsylvania Western Bankruptcy Court | Bankruptcy | https://ecf.pawb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.pawb.uscourts.gov | https://ecf.pawb.uscourts.gov |
-| Pennsylvania Western District Court | District | https://ecf.pawd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.pawd.uscourts.gov/cmecf-policies-procedures | https://ecf.pawd.uscourts.gov |
+| Pennsylvania Western District Court | District |  | https://www.pawd.uscourts.gov/cmecf-policies-procedures | https://ecf.pawd.uscourts.gov |
 | Puerto Rico Bankruptcy Court | Bankruptcy | https://ecf.prb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.prb.uscourts.gov | https://ecf.prb.uscourts.gov |
 | Puerto Rico District Court | District | https://ecf.prd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.prd.uscourts.gov | https://ecf.prd.uscourts.gov |
 | Rhode Island Bankruptcy Court | Bankruptcy | https://ecf.rib.uscourts.gov/cgi-bin/rss_outside.pl | http://www.rib.uscourts.gov | https://ecf.rib.uscourts.gov |
