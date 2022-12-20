@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Sun, 18 Dec 2022 06:10:04 -0500"
+    "last_updated": "Tue, 20 Dec 2022 06:10:04 -0500"
   },
   "data": [
     {
@@ -18061,6 +18061,7 @@
       "pdf_size": "35.0",
       "merge_doc_size": "50",
       "web_url": "http://www.alnb.uscourts.gov",
+      "rss_url": "https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.alnb.uscourts.gov",
       "counties": [
         {
@@ -27172,7 +27173,7 @@
       "court_name": "District of Colorado",
       "software_version": "NextGen CM/ECF Release 1.7.1 (Revision 1.7.1.1)",
       "go_live_date": "01/17/2000",
-      "pdf_size": "60.00",
+      "pdf_size": "80.00",
       "merge_doc_size": "50",
       "web_url": "http://www.cob.uscourts.gov/",
       "login_url": "https://ecf.cob.uscourts.gov",
@@ -33518,6 +33519,7 @@
       "pdf_size": "35",
       "merge_doc_size": "1",
       "web_url": "http://www.gamb.uscourts.gov",
+      "rss_url": "https://ecf.gamb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.gamb.uscourts.gov",
       "counties": [
         {
@@ -72789,7 +72791,7 @@
       "court_name": "District of New Jersey",
       "software_version": "NextGen CM/ECF Release 1.7.1 (Revision 1.7.1.1)",
       "go_live_date": "4/1/02",
-      "pdf_size": "10",
+      "pdf_size": "50",
       "merge_doc_size": "10",
       "web_url": "http://www.njb.uscourts.gov",
       "rss_url": "https://ecf.njb.uscourts.gov/cgi-bin/rss_outside.pl",
@@ -85500,7 +85502,7 @@
         {
           "name": "Western District of Oklahoma",
           "address": "215 Dean A. McGee Avenue, Oklahoma City, OK 73102",
-          "email": "[email address]",
+          "email": "cmecfhelpdesk@okwb.uscourts.gov",
           "hours": "8:30am - 4:30pm",
           "phone": "405-609-5700"
         }
@@ -92049,7 +92051,6 @@
       "pdf_size": "50 MB",
       "merge_doc_size": "400 MB",
       "web_url": "https://www.pawd.uscourts.gov/cmecf-policies-procedures",
-      "rss_url": "https://ecf.pawd.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.pawd.uscourts.gov",
       "counties": [
         {
