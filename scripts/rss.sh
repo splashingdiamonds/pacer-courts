@@ -1,4 +1,4 @@
-mkd#!/bin/bash
+#!/bin/bash
 
 # set -e -o xtrace
 
@@ -185,7 +185,8 @@ function fetch_rss {
 
   # Commit newly created files. Examples:
   # - artifacts/pages/www.html
-  for file in `git ls-files --modified --deleted --others | grep -q -v '^temp/'`; do
+  # Check for changes in artifacts/ latest/ courts.json courts.meta.json
+  for file in `git ls-files --exclude-standard --modified --deleted --others | sort -u`; do
     diff_lines_changed=`git_diff_modified_lines_count "$latest_rss_fn"`
     echo_debug '$file' $'\t' 'Lines changed count:'$diff_lines_changed
 
@@ -195,6 +196,9 @@ function fetch_rss {
     fi
   done
 
+  # If this script (and xml_format.sh) changes, force a commit to re-generate `artifacts`, `latest`, etc.
+  git ls-files --exclude-standard --modified --deleted --others scripts/ | sort -u | grep -q scripts/ && force_commit="true"
+  
   # The number of lines changed in the RSS feed. Examples:
   #  0: The remote file is up to date with (identical to) the saved file tracked in this repository.
   #  1: The `lastBuildDate` timestamp in the RSS feed changed, but no new items were added/changed.
