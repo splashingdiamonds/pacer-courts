@@ -23,8 +23,9 @@ Includes:
 
 <!-- TABLE_PLACEHOLDER_START -->
 
+
 | Title | Type | RSS | Homepage | Login |
-| ----- | ---- | --- | -------- | ----- |
+| --- | --- | --- | --- | --- |
 | U.S. Court of Appeals, First Circuit BAP | Appeals |  | https://www.bap1.uscourts.gov/nextgen-cmecf | https://ecf.ca1.uscourts.gov |
 | U.S. Court of Appeals, First Circuit | Appeals |  | http://www.ca1.uscourts.gov/cmecf | https://ecf.ca1.uscourts.gov |
 | U.S. Court of Appeals, Second Circuit | Appeals | https://ecf.ca2.uscourts.gov/n/beam/servlet/TransportRoom?servlet=RSSGenerator | http://www.ca2.uscourts.gov/clerk/case_filing/electronic_filing/efiling_info.html | https://ecf.ca2.uscourts.gov |
@@ -185,7 +186,7 @@ Includes:
 | Pennsylvania Middle Bankruptcy Court | Bankruptcy |  | http://www.pamb.uscourts.gov | https://ecf.pamb.uscourts.gov |
 | Pennsylvania Middle District Court | District |  | http://www.pamd.uscourts.gov | https://ecf.pamd.uscourts.gov |
 | Pennsylvania Western Bankruptcy Court | Bankruptcy | https://ecf.pawb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.pawb.uscourts.gov | https://ecf.pawb.uscourts.gov |
-| Pennsylvania Western District Court | District |  | https://www.pawd.uscourts.gov/cmecf-policies-procedures | https://ecf.pawd.uscourts.gov |
+| Pennsylvania Western District Court | District | https://ecf.pawd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.pawd.uscourts.gov/cmecf-policies-procedures | https://ecf.pawd.uscourts.gov |
 | Puerto Rico Bankruptcy Court | Bankruptcy | https://ecf.prb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.prb.uscourts.gov | https://ecf.prb.uscourts.gov |
 | Puerto Rico District Court | District | https://ecf.prd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.prd.uscourts.gov | https://ecf.prd.uscourts.gov |
 | Rhode Island Bankruptcy Court | Bankruptcy | https://ecf.rib.uscourts.gov/cgi-bin/rss_outside.pl | http://www.rib.uscourts.gov | https://ecf.rib.uscourts.gov |
@@ -234,4 +235,6 @@ Includes:
 | West Virginia Southern District Court | District | https://ecf.wvsd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.wvsd.uscourts.gov | https://ecf.wvsd.uscourts.gov |
 | Wyoming Bankruptcy Court | Bankruptcy | https://ecf.wyb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.wyb.uscourts.gov/ | https://ecf.wyb.uscourts.gov |
 | Wyoming District Court | District | https://ecf.wyd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.wyd.uscourts.gov/wyoming-cmecf | https://ecf.wyd.uscourts.gov |
+
+
 <!-- TABLE_PLACEHOLDER_END -->
