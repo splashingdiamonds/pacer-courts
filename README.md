@@ -119,7 +119,7 @@ Includes:
 | Louisiana Western Bankruptcy Court | Bankruptcy | https://ecf.lawb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.lawb.uscourts.gov | https://ecf.lawb.uscourts.gov |
 | Louisiana Western District Court | District | https://ecf.lawd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.lawd.uscourts.gov/ | https://ecf.lawd.uscourts.gov |
 | Massachusetts Bankruptcy Court | Bankruptcy | https://ecf.mab.uscourts.gov/cgi-bin/rss_outside.pl | http://www.mab.uscourts.gov/mab/ecf-access-and-training | https://ecf.mab.uscourts.gov |
-| Massachusetts District Court | District | https://ecf.mad.uscourts.gov/cgi-bin/rss_outside.pl | http://www.mad.uscourts.gov | https://ecf.mad.uscourts.gov |
+| Massachusetts District Court | District |  | http://www.mad.uscourts.gov | https://ecf.mad.uscourts.gov |
 | Maryland Bankruptcy Court | Bankruptcy | https://ecf.mdb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.mdb.uscourts.gov | https://ecf.mdb.uscourts.gov |
 | Maryland District Court | District |  | http://www.mdd.uscourts.gov | https://ecf.mdd.uscourts.gov |
 | Maine Bankruptcy Court | Bankruptcy | https://ecf.meb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.meb.uscourts.gov/ | https://ecf.meb.uscourts.gov |
