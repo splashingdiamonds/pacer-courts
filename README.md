@@ -45,7 +45,7 @@ Includes:
 | Alaska District Court | District | https://ecf.akd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.akd.uscourts.gov/cmecf-info | https://ecf.akd.uscourts.gov |
 | Alabama Middle Bankruptcy Court | Bankruptcy | https://ecf.almb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almb.uscourts.gov | https://ecf.almb.uscourts.gov |
 | Alabama Middle District Court | District | https://ecf.almd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almd.uscourts.gov/electronic-filing | https://ecf.almd.uscourts.gov |
-| Alabama Northern Bankruptcy Court | Bankruptcy | https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
+| Alabama Northern Bankruptcy Court | Bankruptcy |  | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
 | Alabama Northern District Court | District |  | https://www.alnd.uscourts.gov/ | https://ecf.alnd.uscourts.gov |
 | Alabama Southern Bankruptcy Court | Bankruptcy | https://ecf.alsb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alsb.uscourts.gov | https://ecf.alsb.uscourts.gov |
 | Alabama Southern District Court | District | https://ecf.alsd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.alsd.uscourts.gov/case-info/cm-ecf-case-info | https://ecf.alsd.uscourts.gov |
@@ -195,7 +195,7 @@ Includes:
 | South Carolina District Court | District | https://ecf.scd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.scd.uscourts.gov/index.asp | https://ecf.scd.uscourts.gov |
 | Supreme Court of the United States | National |  | https://www.supremecourt.gov/ |  |
 | South Dakota Bankruptcy Court | Bankruptcy | https://ecf.sdb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.sdb.uscourts.gov | https://ecf.sdb.uscourts.gov |
-| South Dakota District Court | District | https://ecf.sdd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.sdd.uscourts.gov | https://ecf.sdd.uscourts.gov |
+| South Dakota District Court | District |  | http://www.sdd.uscourts.gov | https://ecf.sdd.uscourts.gov |
 | Tennessee Eastern Bankruptcy Court | Bankruptcy | https://ecf.tneb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tneb.uscourts.gov | https://ecf.tneb.uscourts.gov |
 | Tennessee Eastern District Court | District | https://ecf.tned.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tned.uscourts.gov | https://ecf.tned.uscourts.gov |
 | Tennessee Middle Bankruptcy Court | Bankruptcy | https://ecf.tnmb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tnmb.uscourts.gov | https://ecf.tnmb.uscourts.gov |
