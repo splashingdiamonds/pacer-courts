@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Mon, 26 Dec 2022 06:10:04 -0500"
+    "last_updated": "Tue, 27 Dec 2022 06:10:04 -0500"
   },
   "data": [
     {
@@ -50524,7 +50524,6 @@
       "pdf_size": "30",
       "merge_doc_size": "10",
       "web_url": "http://www.kywb.uscourts.gov",
-      "rss_url": "https://ecf.kywb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.kywb.uscourts.gov",
       "counties": [
         {
@@ -95792,6 +95791,7 @@
       "pdf_size": "40.0 MB",
       "merge_doc_size": "82 MB",
       "web_url": "http://www.sdd.uscourts.gov",
+      "rss_url": "https://ecf.sdd.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.sdd.uscourts.gov",
       "counties": [
         {
