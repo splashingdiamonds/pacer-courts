@@ -110,7 +110,7 @@ Includes:
 | Kansas District Court | District | https://ecf.ksd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ksd.uscourts.gov | https://ecf.ksd.uscourts.gov |
 | Kentucky Eastern Bankruptcy Court | Bankruptcy | https://ecf.kyeb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.kyeb.uscourts.gov | https://ecf.kyeb.uscourts.gov |
 | Kentucky Eastern District Court | District |  | http://www.kyed.uscourts.gov | https://ecf.kyed.uscourts.gov |
-| Kentucky Western Bankruptcy Court | Bankruptcy | https://ecf.kywb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.kywb.uscourts.gov | https://ecf.kywb.uscourts.gov |
+| Kentucky Western Bankruptcy Court | Bankruptcy |  | http://www.kywb.uscourts.gov | https://ecf.kywb.uscourts.gov |
 | Kentucky Western District Court | District | https://ecf.kywd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.kywd.uscourts.gov | https://ecf.kywd.uscourts.gov |
 | Louisiana Eastern Bankruptcy Court | Bankruptcy | https://ecf.laeb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.laeb.uscourts.gov/ | https://ecf.laeb.uscourts.gov |
 | Louisiana Eastern District Court | District | https://ecf.laed.uscourts.gov/cgi-bin/rss_outside.pl | http://www.laed.uscourts.gov/case-information/electronic-filing | https://ecf.laed.uscourts.gov |
@@ -195,7 +195,7 @@ Includes:
 | South Carolina District Court | District | https://ecf.scd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.scd.uscourts.gov/index.asp | https://ecf.scd.uscourts.gov |
 | Supreme Court of the United States | National |  | https://www.supremecourt.gov/ |  |
 | South Dakota Bankruptcy Court | Bankruptcy | https://ecf.sdb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.sdb.uscourts.gov | https://ecf.sdb.uscourts.gov |
-| South Dakota District Court | District |  | http://www.sdd.uscourts.gov | https://ecf.sdd.uscourts.gov |
+| South Dakota District Court | District | https://ecf.sdd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.sdd.uscourts.gov | https://ecf.sdd.uscourts.gov |
 | Tennessee Eastern Bankruptcy Court | Bankruptcy | https://ecf.tneb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tneb.uscourts.gov | https://ecf.tneb.uscourts.gov |
 | Tennessee Eastern District Court | District | https://ecf.tned.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tned.uscourts.gov | https://ecf.tned.uscourts.gov |
 | Tennessee Middle Bankruptcy Court | Bankruptcy | https://ecf.tnmb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.tnmb.uscourts.gov | https://ecf.tnmb.uscourts.gov |
