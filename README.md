@@ -45,7 +45,7 @@ Includes:
 | Alaska District Court | District | https://ecf.akd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.akd.uscourts.gov/cmecf-info | https://ecf.akd.uscourts.gov |
 | Alabama Middle Bankruptcy Court | Bankruptcy | https://ecf.almb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almb.uscourts.gov | https://ecf.almb.uscourts.gov |
 | Alabama Middle District Court | District | https://ecf.almd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.almd.uscourts.gov/electronic-filing | https://ecf.almd.uscourts.gov |
-| Alabama Northern Bankruptcy Court | Bankruptcy |  | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
+| Alabama Northern Bankruptcy Court | Bankruptcy | https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alnb.uscourts.gov | https://ecf.alnb.uscourts.gov |
 | Alabama Northern District Court | District |  | https://www.alnd.uscourts.gov/ | https://ecf.alnd.uscourts.gov |
 | Alabama Southern Bankruptcy Court | Bankruptcy | https://ecf.alsb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.alsb.uscourts.gov | https://ecf.alsb.uscourts.gov |
 | Alabama Southern District Court | District | https://ecf.alsd.uscourts.gov/cgi-bin/rss_outside.pl | https://www.alsd.uscourts.gov/case-info/cm-ecf-case-info | https://ecf.alsd.uscourts.gov |
@@ -110,7 +110,7 @@ Includes:
 | Kansas District Court | District | https://ecf.ksd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.ksd.uscourts.gov | https://ecf.ksd.uscourts.gov |
 | Kentucky Eastern Bankruptcy Court | Bankruptcy | https://ecf.kyeb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.kyeb.uscourts.gov | https://ecf.kyeb.uscourts.gov |
 | Kentucky Eastern District Court | District |  | http://www.kyed.uscourts.gov | https://ecf.kyed.uscourts.gov |
-| Kentucky Western Bankruptcy Court | Bankruptcy |  | http://www.kywb.uscourts.gov | https://ecf.kywb.uscourts.gov |
+| Kentucky Western Bankruptcy Court | Bankruptcy | https://ecf.kywb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.kywb.uscourts.gov | https://ecf.kywb.uscourts.gov |
 | Kentucky Western District Court | District | https://ecf.kywd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.kywd.uscourts.gov | https://ecf.kywd.uscourts.gov |
 | Louisiana Eastern Bankruptcy Court | Bankruptcy | https://ecf.laeb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.laeb.uscourts.gov/ | https://ecf.laeb.uscourts.gov |
 | Louisiana Eastern District Court | District | https://ecf.laed.uscourts.gov/cgi-bin/rss_outside.pl | http://www.laed.uscourts.gov/case-information/electronic-filing | https://ecf.laed.uscourts.gov |
