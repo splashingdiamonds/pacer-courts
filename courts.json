@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Fri, 30 Dec 2022 06:10:04 -0500"
+    "last_updated": "Sat, 31 Dec 2022 06:10:04 -0500"
   },
   "data": [
     {
@@ -23384,20 +23384,6 @@
       ],
       "locations": [
         {
-          "name": "United States District Court, Central District of California - Southern Division (ronald Reagan Federal Building And U.S. Courthouse)",
-          "address": "411 West Fourth Street, Room 1053, Santa Ana, CA  92701",
-          "email": "ecf-helpdesk&#064;cacd.uscourts.gov",
-          "hours": "9:00 AM - 4:00 PM on Court Business Days",
-          "phone": "ECF Help Line: 213-894-0242"
-        },
-        {
-          "name": "United States District Court, Central District of California - Eastern Division (george E. Brown, Jr. U.S. Courthouse)",
-          "address": "3470 Twelfth Street, Room 134, Riverside, CA 92501",
-          "email": "ecf-helpdesk&#064;cacd.uscourts.gov",
-          "hours": "9:00 AM - 4:00 PM on Court Business Days",
-          "phone": "ECF Help Line:  213-894-0242"
-        },
-        {
           "name": "Central District of California",
           "address": "<b>WESTERN DIVISION (U.S. Courthouse)</b>, 350 W. 1st Street, Los Angeles, CA 90012",
           "email": "ecf-helpdesk&#064;cacd.uscourts.gov",
@@ -23407,6 +23393,20 @@
         {
           "name": "United States District Court, Central District of California - Western Division (edward R. Roybal Federal Building And Courthouse)",
           "address": "255 E. Temple Street, Los Angeles, CA 90012"
+        },
+        {
+          "name": "United States District Court, Central District of California - Eastern Division (george E. Brown, Jr. U.S. Courthouse)",
+          "address": "3470 Twelfth Street, Room 134, Riverside, CA 92501",
+          "email": "ecf-helpdesk&#064;cacd.uscourts.gov",
+          "hours": "9:00 AM - 4:00 PM on Court Business Days",
+          "phone": "ECF Help Line:  213-894-0242"
+        },
+        {
+          "name": "United States District Court, Central District of California - Southern Division (ronald Reagan Federal Building And U.S. Courthouse)",
+          "address": "411 West Fourth Street, Room 1053, Santa Ana, CA  92701",
+          "email": "ecf-helpdesk&#064;cacd.uscourts.gov",
+          "hours": "9:00 AM - 4:00 PM on Court Business Days",
+          "phone": "ECF Help Line: 213-894-0242"
         }
       ],
       "flags": [
@@ -24076,29 +24076,29 @@
       ],
       "locations": {
         "0": {
-          "name": "Fresno Division",
-          "address": "2500 Tulare Street, Suite 2501, Fresno, CA  93721",
-          "hours": "9:00 a.m. - 4:00 p.m., Monday - Friday",
-          "phone": "(559) 499-5800"
-        },
-        "2": {
-          "name": "Modesto Division Mailing Address:",
-          "address": "501 I Street, Suite 3-200, Sacramento, CA  95814"
-        },
-        "3": {
           "name": "Eastern District of California"
         },
-        "4": {
+        "1": {
           "name": "Sacramento Division",
           "address": "501 I Street, Suite 3-200, Sacramento, CA  95814",
           "hours": "9:00 a.m. - 4:00 p.m., Monday - Friday",
           "phone": "(916) 930-4400"
         },
-        "5": {
+        "2": {
+          "name": "Fresno Division",
+          "address": "2500 Tulare Street, Suite 2501, Fresno, CA  93721",
+          "hours": "9:00 a.m. - 4:00 p.m., Monday - Friday",
+          "phone": "(559) 499-5800"
+        },
+        "3": {
           "name": "Modesto Division",
           "address": "1200 I Street, Suite 4, Modesto, CA 95354",
           "hours": "9:00 a.m. - 4:00 p.m., Monday - Friday",
           "phone": "(209) 521-5160"
+        },
+        "5": {
+          "name": "Modesto Division Mailing Address:",
+          "address": "501 I Street, Suite 3-200, Sacramento, CA  95814"
         }
       },
       "flags": [
@@ -24692,17 +24692,17 @@
       "locations": [
         {
           "name": "Eastern District of California - Live System",
+          "address": "2500 Tulare Street, Fresno, CA 93721",
+          "email": "caed_cmecf_helpdesk&#064;caed.uscourts.gov",
+          "hours": "9AM - 4PM, M-F",
+          "phone": "559-499-5600"
+        },
+        {
+          "name": "Eastern District of California - Live System",
           "address": "2986 Bechelli Lane, Redding, CA 96002",
           "email": "caed_cmecf_helpdesk&#064;caed.uscourts.gov",
           "hours": "9AM - 4PM, M-F",
           "phone": "530-246-5416"
-        },
-        {
-          "name": "Eastern District of California - Live System",
-          "address": "501 I Street, Sacramento, CA 95814",
-          "email": "caed_cmecf_helpdesk&#064;caed.uscourts.gov",
-          "hours": "9AM - 4PM, M-F",
-          "phone": "916-930-4000"
         },
         {
           "name": "Eastern District of California - Live System",
@@ -24713,17 +24713,17 @@
         },
         {
           "name": "Eastern District of California - Live System",
-          "address": "2500 Tulare Street, Fresno, CA 93721",
-          "email": "caed_cmecf_helpdesk&#064;caed.uscourts.gov",
-          "hours": "9AM - 4PM, M-F",
-          "phone": "559-499-5600"
-        },
-        {
-          "name": "Eastern District of California - Live System",
           "address": "510 19th Street, Bakersfield, CA 93301",
           "email": "caed_cmecf_helpdesk&#064;caed.uscourts.gov",
           "hours": "9AM - 4PM, M-F",
           "phone": "661-326-6620"
+        },
+        {
+          "name": "Eastern District of California - Live System",
+          "address": "501 I Street, Sacramento, CA 95814",
+          "email": "caed_cmecf_helpdesk&#064;caed.uscourts.gov",
+          "hours": "9AM - 4PM, M-F",
+          "phone": "916-930-4000"
         }
       ],
       "flags": [
@@ -25530,16 +25530,16 @@
       ],
       "locations": [
         {
-          "name": "California Northern District, San Jose Division",
-          "address": "280 So. First Street, Room 2112, San Jose, CA 95113",
-          "phone": "(408) 535-5364"
-        },
-        {
           "name": "California Northern District",
           "address": "450 Golden Gate Avenue, Box 36060, San Francisco, CA 94102",
           "email": "ecfhelpdesk&#064;cand.uscourts.gov",
           "hours": "9AM-4PM, M-F",
           "phone": "(415) 522-2000"
+        },
+        {
+          "name": "California Northern District, San Jose Division",
+          "address": "280 So. First Street, Room 2112, San Jose, CA 95113",
+          "phone": "(408) 535-5364"
         },
         {
           "name": "California Northern District, Oakland Division",
@@ -26181,11 +26181,11 @@
           "translation": "Referred for Post Judgement/Collection Matters - PVT"
         },
         {
-          "code": "REFPOSTJGMT- RMI",
+          "code": "REFPOSTJGMT-RMI",
           "translation": "Referred for Post Judgement/Collection Matters - RMI"
         },
         {
-          "code": "REFPOSTJGMT-RMI",
+          "code": "REFPOSTJGMT- RMI",
           "translation": "Referred for Post Judgement/Collection Matters - RMI"
         },
         {
@@ -26987,17 +26987,17 @@
       ],
       "locations": [
         {
-          "name": "Southern District of California, El Centro Courthouse",
-          "address": "2003 W. Adams Ave, Suite 220, El Centro, CA 92243",
-          "hours": "8:30AM - 4:30PM, M-F",
-          "phone": "(760) 353-1271"
-        },
-        {
           "name": "Southern District of California",
           "address": "333 West Broadway, Suite 420, San Diego, CA 92101",
           "email": "efile_information&#064;casd.uscourts.gov",
           "hours": "8:30AM - 4:30PM, M-F",
           "phone": "(619) 557-5600"
+        },
+        {
+          "name": "Southern District of California, El Centro Courthouse",
+          "address": "2003 W. Adams Ave, Suite 220, El Centro, CA 92243",
+          "hours": "8:30AM - 4:30PM, M-F",
+          "phone": "(760) 353-1271"
         }
       ],
       "flags": [
@@ -30605,6 +30605,11 @@
       ],
       "locations": [
         {
+          "name": "Middle District of Florida",
+          "address": "See the divisional offices below.",
+          "hours": "Mon-Fri 8:30am-4:00pm"
+        },
+        {
           "name": "Middle District of Florida - Jacksonville Division",
           "address": "United States Courthouse, 300 North Hogan Street,Suite 3-150, Jacksonville, FL 32202",
           "email": "ecfhelp@flmb.uscourts.gov",
@@ -30624,11 +30629,6 @@
           "email": "ecfhelp@flmb.uscourts.gov",
           "hours": "Monday - Friday 8:30 AM - 4:00 PM",
           "phone": "407-237-8000"
-        },
-        {
-          "name": "Middle District of Florida",
-          "address": "See the divisional offices below.",
-          "hours": "Mon-Fri 8:30am-4:00pm"
         }
       ],
       "flags": [
@@ -30944,12 +30944,12 @@
           "translation": "Case Transferred Out (Division)"
         },
         {
-          "code": "Transin",
-          "translation": "Case Transferred In"
-        },
-        {
           "code": "TRANSIN",
           "translation": "Case Transferred into the District"
+        },
+        {
+          "code": "Transin",
+          "translation": "Case Transferred In"
         },
         {
           "code": "TRANSOUT",
@@ -39510,6 +39510,12 @@
       ],
       "locations": [
         {
+          "name": "Western Division",
+          "address": "6th &amp; Broadway, Room 313, P. O. Box 307, Council Bluffs, IA 51502",
+          "hours": "8:00 AM - 5:00 PM Monday thru Friday",
+          "phone": "Main Number: 712-328-0283  Fax Number: 712-328-1241"
+        },
+        {
           "name": "Davenport Division",
           "address": "131 E. 4th Street, Davenport, IA 52801-1516",
           "hours": "8:00 AM to 5:00 PM  Monday thru Friday",
@@ -39520,12 +39526,6 @@
           "address": "123 East Walnut Street, Room 300, P. O. Box 9344, Des Moines, IA 50306",
           "hours": "8:00 AM to 5:00 PM Monday thru Friday",
           "phone": "Toll Free Number: 800-743-9115  Main Number: 515-284-6248  Fax Number: 515-284-6418"
-        },
-        {
-          "name": "Western Division",
-          "address": "6th &amp; Broadway, Room 313, P. O. Box 307, Council Bluffs, IA 51502",
-          "hours": "8:00 AM - 5:00 PM Monday thru Friday",
-          "phone": "Main Number: 712-328-0283  Fax Number: 712-328-1241"
         }
       ],
       "flags": [
@@ -41342,11 +41342,11 @@
       ],
       "locations": [
         {
-          "name": "Central District of Illinois",
-          "address": "US Bankruptcy Court,600 E Monroe St #226,Springfield, IL 62701",
+          "name": "Central District of Illinois - Peoria",
+          "address": "U.S. Bankruptcy Court, 100 N.E. Monroe Street Room 216, Peoria, IL 61602",
           "email": "helpdesk_ilcb@ilcb.uscourts.gov",
-          "hours": "Springfield Division 8:00 a.m. - 5:00 p.m.",
-          "phone": "Springfield Division: 217-492-4551"
+          "hours": "Peoria Division 8:00 a.m. - 5:00 p.m.",
+          "phone": "Peoria Division: 309-671-7035"
         },
         {
           "name": "Central District of Illinois - Urbana",
@@ -41356,11 +41356,11 @@
           "phone": "Urbana Division: 217-974-7330"
         },
         {
-          "name": "Central District of Illinois - Peoria",
-          "address": "U.S. Bankruptcy Court, 100 N.E. Monroe Street Room 216, Peoria, IL 61602",
+          "name": "Central District of Illinois",
+          "address": "US Bankruptcy Court,600 E Monroe St #226,Springfield, IL 62701",
           "email": "helpdesk_ilcb@ilcb.uscourts.gov",
-          "hours": "Peoria Division 8:00 a.m. - 5:00 p.m.",
-          "phone": "Peoria Division: 309-671-7035"
+          "hours": "Springfield Division 8:00 a.m. - 5:00 p.m.",
+          "phone": "Springfield Division: 217-492-4551"
         }
       ],
       "flags": [
@@ -41901,10 +41901,10 @@
       ],
       "locations": [
         {
-          "name": "Urbana Division",
-          "address": "218 U.S. Courthouse, 201 S. Vine Street, Urbana, IL 61802",
+          "name": "Rock Island Division",
+          "address": "Temporarily relocated to 131 E. 4th Street, Room 250 Davenport, IA 52801",
           "hours": "8:00AM - 5:00PM, Monday - Friday",
-          "phone": "217-373-5830"
+          "phone": "309-793-5778"
         },
         {
           "name": "Springfield Division",
@@ -41913,20 +41913,20 @@
           "phone": "217-492-4020"
         },
         {
+          "name": "Central District of Illinois",
+          "email": "Please contact the Clerk&#039;s Office in writing or via telephone."
+        },
+        {
           "name": "Peoria Division",
           "address": "309 U.S. Courthouse, 100 N.E. Monroe Street, Peoria, IL 61602",
           "hours": "8:00AM - 5:00PM, Monday - Friday",
           "phone": "309-671-7117"
         },
         {
-          "name": "Rock Island Division",
-          "address": "Temporarily relocated to 131 E. 4th Street, Room 250 Davenport, IA 52801",
+          "name": "Urbana Division",
+          "address": "218 U.S. Courthouse, 201 S. Vine Street, Urbana, IL 61802",
           "hours": "8:00AM - 5:00PM, Monday - Friday",
-          "phone": "309-793-5778"
-        },
-        {
-          "name": "Central District of Illinois",
-          "email": "Please contact the Clerk&#039;s Office in writing or via telephone."
+          "phone": "217-373-5830"
         }
       ],
       "flags": [
@@ -48467,11 +48467,11 @@
       ],
       "locations": [
         {
-          "name": "District of Kansas (topeka Division)",
-          "address": "Skyler B. O&#039;Hara, Clerk<br>U.S Courthouse<br>444 Southeast Quincy, Room 490<br>Topeka, Kansas 66683",
-          "email": "ksd_clerks_topeka&#064;ksd.uscourts.gov",
+          "name": "District of Kansas",
+          "address": "Skyler B. O&#039;Hara, Clerk<br>Robert J. Dole United States Courthouse<br>500 State Avenue, Room 259<br>Kansas City, Kansas 66101",
+          "email": "ksd_clerks_kansascity&#064;ksd.uscourts.gov",
           "hours": "9:00 - 4:30 Monday-Friday, except for holidays",
-          "phone": "(785) 338-5400"
+          "phone": "(913) 735-2200"
         },
         {
           "name": "District of Kansas (wichita Division)",
@@ -48481,11 +48481,11 @@
           "phone": "(316) 315-4200"
         },
         {
-          "name": "District of Kansas",
-          "address": "Skyler B. O&#039;Hara, Clerk<br>Robert J. Dole United States Courthouse<br>500 State Avenue, Room 259<br>Kansas City, Kansas 66101",
-          "email": "ksd_clerks_kansascity&#064;ksd.uscourts.gov",
+          "name": "District of Kansas (topeka Division)",
+          "address": "Skyler B. O&#039;Hara, Clerk<br>U.S Courthouse<br>444 Southeast Quincy, Room 490<br>Topeka, Kansas 66683",
+          "email": "ksd_clerks_topeka&#064;ksd.uscourts.gov",
           "hours": "9:00 - 4:30 Monday-Friday, except for holidays",
-          "phone": "(913) 735-2200"
+          "phone": "(785) 338-5400"
         }
       ],
       "flags": [
@@ -54466,28 +54466,17 @@
       ],
       "locations": [
         {
-          "name": "Lafayette",
-          "address": "800 Lafayette, Suite 2100, Lafayette, LA 70501",
-          "hours": "8:00AM-12:00PM, 1:00PM-4:30PM M-F",
-          "phone": "(337)593-5000"
-        },
-        {
-          "name": "Monroe",
-          "address": "201 Jackson St., Suite 215, Monroe, LA 71201",
-          "hours": "8:00AM-12:00PM, 1:00PM-4:30PM M-F",
-          "phone": "(318)322-6740"
-        },
-        {
           "name": "Lake Charles",
           "address": "611 Broad St., Suite 188, Lake Charles, LA 70601",
           "hours": "8:00AM-12:00PM, 1:00PM-4:30PM M-F",
           "phone": "(337)437-3870"
         },
         {
-          "name": "Alexandria",
-          "address": "515 Murray St., Room 105, Alexandria, LA 71301",
+          "name": "Western District of Louisiana",
+          "address": "800 Lafayette, Suite 2100 Lafayette, LA 70501",
+          "email": "&nbsp;",
           "hours": "8:00AM-12:00PM, 1:00PM-4:30PM M-F",
-          "phone": "(318)473-7415"
+          "phone": "Electronic Filing HelpDesk: 1-866-323-1101"
         },
         {
           "name": "Shreveport",
@@ -54496,11 +54485,22 @@
           "phone": "(318)676-4273"
         },
         {
-          "name": "Western District of Louisiana",
-          "address": "800 Lafayette, Suite 2100 Lafayette, LA 70501",
-          "email": "&nbsp;",
+          "name": "Monroe",
+          "address": "201 Jackson St., Suite 215, Monroe, LA 71201",
           "hours": "8:00AM-12:00PM, 1:00PM-4:30PM M-F",
-          "phone": "Electronic Filing HelpDesk: 1-866-323-1101"
+          "phone": "(318)322-6740"
+        },
+        {
+          "name": "Lafayette",
+          "address": "800 Lafayette, Suite 2100, Lafayette, LA 70501",
+          "hours": "8:00AM-12:00PM, 1:00PM-4:30PM M-F",
+          "phone": "(337)593-5000"
+        },
+        {
+          "name": "Alexandria",
+          "address": "515 Murray St., Room 105, Alexandria, LA 71301",
+          "hours": "8:00AM-12:00PM, 1:00PM-4:30PM M-F",
+          "phone": "(318)473-7415"
         }
       ],
       "flags": [
@@ -55142,16 +55142,16 @@
       ],
       "locations": [
         {
-          "name": "Us District Court For the District of Massachusetts, Worcester Divisional Office",
-          "address": "Donohue Federal Builing &amp; U.S. Courthouse, 595 Main Street, Worcester, MA 01608",
-          "phone": "508-929-9900"
-        },
-        {
           "name": "District of Massachusetts",
           "address": "John Joseph Moakley U.S. Courthouse, 1  Courthouse Way, Suite 2300, Boston, MA 02210",
           "email": "ECFhelp&#064;mad.uscourts.gov",
           "hours": "8:30AM-5:00PM, Monday - Friday",
           "phone": "617-748-9152"
+        },
+        {
+          "name": "Us District Court For the District of Massachusetts, Worcester Divisional Office",
+          "address": "Donohue Federal Builing &amp; U.S. Courthouse, 595 Main Street, Worcester, MA 01608",
+          "phone": "508-929-9900"
         },
         {
           "name": "Us District Court For the District of Massachusetts, Springfield Divisional Office",
@@ -55325,12 +55325,12 @@
           "translation": "MDL2878"
         },
         {
-          "code": "MDL2938",
-          "translation": "MDL2938"
-        },
-        {
           "code": "MDL 2938",
           "translation": "MDL 2938"
+        },
+        {
+          "code": "MDL2938",
+          "translation": "MDL2938"
         },
         {
           "code": "MDL3029",
@@ -60170,16 +60170,16 @@
           "phone": "1-866-260-7337"
         },
         {
+          "name": "District of Minnesota - Fergus Falls Office",
+          "address": "204 U.S. Courthouse 118 South Mill Street Fergus Falls, Minnesota 56537",
+          "hours": "8:00am - 4:30pm Mon-Fri",
+          "phone": "1-866-260-7337"
+        },
+        {
           "name": "District of Minnesota",
           "address": "301 U.S. Courthouse 300 South Fourth Street Minneapolis, Minnesota 55415",
           "email": "[email address]",
           "hours": "8:00am-4:30pm Mon-Fri",
-          "phone": "1-866-260-7337"
-        },
-        {
-          "name": "District of Minnesota - Fergus Falls Office",
-          "address": "204 U.S. Courthouse 118 South Mill Street Fergus Falls, Minnesota 56537",
-          "hours": "8:00am - 4:30pm Mon-Fri",
           "phone": "1-866-260-7337"
         }
       ],
@@ -60910,13 +60910,6 @@
       ],
       "locations": [
         {
-          "name": "Minneapolis Division",
-          "address": "Diana E. Murphy United States Courthouse, 300 S 4th Street, Suite 202, Minneapolis, MN 55415",
-          "email": "ecfhelpdesk&#064;mnd.uscourts.gov",
-          "hours": "8:00am - 5:00pm, Monday - Friday",
-          "phone": "612-664-5000"
-        },
-        {
           "name": "Duluth Division",
           "address": "Gerald W. Heaney Federal Building, 515 W 1st Street, Suite 417, Duluth, MN 55802",
           "hours": "8:00am - 5:00pm, Monday - Friday",
@@ -60931,6 +60924,13 @@
         },
         {
           "name": "U.S. District of Minnesota"
+        },
+        {
+          "name": "Minneapolis Division",
+          "address": "Diana E. Murphy United States Courthouse, 300 S 4th Street, Suite 202, Minneapolis, MN 55415",
+          "email": "ecfhelpdesk&#064;mnd.uscourts.gov",
+          "hours": "8:00am - 5:00pm, Monday - Friday",
+          "phone": "612-664-5000"
         },
         {
           "name": "Fergus Falls Division",
@@ -64260,11 +64260,10 @@
       ],
       "locations": [
         {
-          "name": "Northern District of Mississippi",
-          "address": "911 Jackson Ave., Suite 369, Oxford, MS 38655",
-          "email": "ecf_information&#064;msnd.uscourts.gov",
-          "hours": "9am - 5pm, M-F",
-          "phone": "(662) 234-1351"
+          "name": "Northern District of Mississippi - Aberdeen Office",
+          "address": "203 Gilmore Dr, Amory, MS 38821",
+          "hours": "No public clerks office in the Aberdeen Division.",
+          "phone": "(662) 369-4952"
         },
         {
           "name": "Northern District of Mississippi - Greenville Office",
@@ -64273,10 +64272,11 @@
           "phone": "(662) 234-1351"
         },
         {
-          "name": "Northern District of Mississippi - Aberdeen Office",
-          "address": "203 Gilmore Dr, Amory, MS 38821",
-          "hours": "No public clerks office in the Aberdeen Division.",
-          "phone": "(662) 369-4952"
+          "name": "Northern District of Mississippi",
+          "address": "911 Jackson Ave., Suite 369, Oxford, MS 38655",
+          "email": "ecf_information&#064;msnd.uscourts.gov",
+          "hours": "9am - 5pm, M-F",
+          "phone": "(662) 234-1351"
         }
       ],
       "flags": [
@@ -66834,15 +66834,15 @@
       ],
       "locations": [
         {
-          "name": "Eastern District of North Carolina - Divisional Office",
-          "address": "150 Reade Circle Greenville, NC  27858",
+          "name": "Eastern District of North Carolina",
+          "address": "300 Fayetteville Street, PO Box 791, Raleigh, NC 27602",
           "email": "<I>see www.nceb.uscourts.gov</I>",
           "hours": "8:30 a.m. - 4:30 p.m.",
           "phone": "(919) 856-4752"
         },
         {
-          "name": "Eastern District of North Carolina",
-          "address": "300 Fayetteville Street, PO Box 791, Raleigh, NC 27602",
+          "name": "Eastern District of North Carolina - Divisional Office",
+          "address": "150 Reade Circle Greenville, NC  27858",
           "email": "<I>see www.nceb.uscourts.gov</I>",
           "hours": "8:30 a.m. - 4:30 p.m.",
           "phone": "(919) 856-4752"
@@ -66962,14 +66962,6 @@
           "translation": "Case Dismissed"
         },
         {
-          "code": "DONNAH",
-          "translation": "Donna H&#039;s Cases"
-        },
-        {
-          "code": "DONNAS",
-          "translation": "Donna S&#039;s Cases"
-        },
-        {
           "code": "ERIN",
           "translation": "Erin&#039;s Cases"
         },
@@ -67031,10 +67023,6 @@
         {
           "code": "JURY",
           "translation": "Jury Demand"
-        },
-        {
-          "code": "KATHY",
-          "translation": "Kathy&#039;s Cases"
         },
         {
           "code": "KELLY",
@@ -67169,10 +67157,6 @@
           "translation": "Sharon&#039;s Cases"
         },
         {
-          "code": "SHELIA",
-          "translation": "Shelia&#039;s Cases"
-        },
-        {
           "code": "SkipPriorRelCase",
           "translation": "Skip AJT assignment because the case has a prior or related case"
         },
@@ -67215,10 +67199,6 @@
         {
           "code": "TRANSOUT",
           "translation": "Case Transferred Out of District"
-        },
-        {
-          "code": "WENDY",
-          "translation": "Wendy&#039;s Cases"
         },
         {
           "code": "WithXMLData",
@@ -67434,16 +67414,8 @@
       ],
       "locations": [
         {
-          "name": "New Bern Office, Eastern Division",
-          "address": "413 Middle St., New Bern, NC",
-          "hours": "8:30 AM - 4:30 PM, Mon. - Fri.",
-          "phone": "252-638-8534"
-        },
-        {
-          "name": "Wilmington Office, Southern Division",
-          "address": "Alton Lennon Federal Building, 2 Princess St., Wilmington, NC",
-          "hours": "8:30 AM - 4:30 PM, Mon. - Fri.",
-          "phone": "910-815-4663"
+          "name": "Eastern District of North Carolina",
+          "email": "NCED-ECF&#064;nced.uscourts.gov"
         },
         {
           "name": "Raleigh Office, Western Division",
@@ -67452,13 +67424,15 @@
           "phone": "919-645-1700"
         },
         {
-          "name": "Elizabeth City Office, Northern Division",
-          "address": "Federal Building, 306 East Main St., Elizabeth City, NC",
-          "hours": "This is not a staffed office."
+          "name": "New Bern Office, Eastern Division",
+          "address": "413 Middle St., New Bern, NC",
+          "hours": "8:30 AM - 4:30 PM, Mon. - Fri.",
+          "phone": "252-638-8534"
         },
         {
-          "name": "Eastern District of North Carolina",
-          "email": "NCED-ECF&#064;nced.uscourts.gov"
+          "name": "Fayetteville Office, Western Division",
+          "address": "301 Green St., Fayetteville, NC",
+          "hours": "This is a not a staffed office."
         },
         {
           "name": "Greenville Office, Eastern Division",
@@ -67467,9 +67441,15 @@
           "phone": "252-830-6009"
         },
         {
-          "name": "Fayetteville Office, Western Division",
-          "address": "301 Green St., Fayetteville, NC",
-          "hours": "This is a not a staffed office."
+          "name": "Elizabeth City Office, Northern Division",
+          "address": "Federal Building, 306 East Main St., Elizabeth City, NC",
+          "hours": "This is not a staffed office."
+        },
+        {
+          "name": "Wilmington Office, Southern Division",
+          "address": "Alton Lennon Federal Building, 2 Princess St., Wilmington, NC",
+          "hours": "8:30 AM - 4:30 PM, Mon. - Fri.",
+          "phone": "910-815-4663"
         }
       ],
       "flags": [
@@ -68223,6 +68203,13 @@
       "locations": [
         {
           "name": "North Carolina Middle District",
+          "address": "251 N.Main Street, Winston-Salem, N.C. 27101",
+          "email": "ecf&#064;ncmd.uscourts.gov",
+          "hours": "8am-5pm, M-F UNMANNED CLERK&#039;S OFFICE",
+          "phone": "336-734-2516"
+        },
+        {
+          "name": "North Carolina Middle District",
           "address": "323 E. Chapel Hill Street, Durham, N.C. 27702",
           "email": "ecf&#064;ncmd.uscourts.gov",
           "hours": "8am-5pm, M-F UNMANNED CLERK&#039;S OFFICE",
@@ -68234,13 +68221,6 @@
           "email": "ecf&#064;ncmd.uscourts.gov",
           "hours": "8am - 5pm, M-F",
           "phone": "336-332-6000"
-        },
-        {
-          "name": "North Carolina Middle District",
-          "address": "251 N.Main Street, Winston-Salem, N.C. 27101",
-          "email": "ecf&#064;ncmd.uscourts.gov",
-          "hours": "8am-5pm, M-F UNMANNED CLERK&#039;S OFFICE",
-          "phone": "336-734-2516"
         }
       ],
       "flags": [
@@ -68574,16 +68554,16 @@
       ],
       "locations": [
         {
-          "name": "Western District of North Carolina - Asheville Division",
-          "address": "100 Otis Street, Room 112, Asheville, NC 28801-2611",
-          "hours": "8:30 am - 4:00 pm",
-          "phone": "(828)771-7300"
-        },
-        {
           "name": "Western District of North Carolina",
           "address": "401 West Trade Street, Room 111,  Charlotte, NC 28202",
           "hours": "8:30 am - 4:00 pm",
           "phone": "(704)350-7500"
+        },
+        {
+          "name": "Western District of North Carolina - Asheville Division",
+          "address": "100 Otis Street, Room 112, Asheville, NC 28801-2611",
+          "hours": "8:30 am - 4:00 pm",
+          "phone": "(828)771-7300"
         }
       ],
       "flags": [
@@ -69292,6 +69272,13 @@
       "locations": [
         {
           "name": "Western District of North Carolina",
+          "address": "<B>Asheville Division:</b> 309 US Courthouse Bldg., 100 Otis St., Asheville, NC  28801",
+          "email": "ecfhelp&#064;ncwd.uscourts.gov",
+          "hours": "8:30 am - 12:30 pm and 1:30 pm - 4:00 pm",
+          "phone": "1-866-851-1605"
+        },
+        {
+          "name": "Western District of North Carolina",
           "address": "<B>Statesville Division:</b> 200 W. Broad St., Rm 304, Statesville, NC 28677",
           "email": "ecfhelp&#064;ncwd.uscourts.gov",
           "hours": "8:30 am - 12:30 pm and 1:30 pm - 4:00 pm",
@@ -69300,13 +69287,6 @@
         {
           "name": "Western District of North Carolina",
           "address": "<B>Charlotte Division: </b>401 W. Trade St., Rm 1301, Charlotte, NC 28202",
-          "email": "ecfhelp&#064;ncwd.uscourts.gov",
-          "hours": "8:30 am - 12:30 pm and 1:30 pm - 4:00 pm",
-          "phone": "1-866-851-1605"
-        },
-        {
-          "name": "Western District of North Carolina",
-          "address": "<B>Asheville Division:</b> 309 US Courthouse Bldg., 100 Otis St., Asheville, NC  28801",
           "email": "ecfhelp&#064;ncwd.uscourts.gov",
           "hours": "8:30 am - 12:30 pm and 1:30 pm - 4:00 pm",
           "phone": "1-866-851-1605"
@@ -72884,13 +72864,6 @@
       ],
       "locations": [
         {
-          "name": "District of New Jersey",
-          "address": "Martin Luther King, Jr. Fed Blg,50 Walnut Street, Newark, NJ 07102",
-          "email": "cmecf_help_desk@njb.uscourts.gov",
-          "hours": "Monday thru Friday 8:30am - 4:00pm CLOSED ON WEEKENDS AND FEDERAL HOLIDAYS",
-          "phone": "973-645-4764<br>Help Desk Phone Number: 866-653-4439"
-        },
-        {
           "name": "District of New Jersey, Camden Office",
           "address": "401 Market Street, Camden, NJ 08101-2067",
           "email": "cmecf_help_desk@njb.uscourts.gov",
@@ -72903,6 +72876,13 @@
           "email": "cmecf_help_desk@njb.uscourts.gov",
           "hours": "Monday thru Friday 8:30am - 4:00pm CLOSED ON WEEKENDS AND FEDERAL HOLIDAYS",
           "phone": "609-989-2200<br>Help Desk Phone Number: 866-653-4449"
+        },
+        {
+          "name": "District of New Jersey",
+          "address": "Martin Luther King, Jr. Fed Blg,50 Walnut Street, Newark, NJ 07102",
+          "email": "cmecf_help_desk@njb.uscourts.gov",
+          "hours": "Monday thru Friday 8:30am - 4:00pm CLOSED ON WEEKENDS AND FEDERAL HOLIDAYS",
+          "phone": "973-645-4764<br>Help Desk Phone Number: 866-653-4439"
         }
       ],
       "flags": [
@@ -73027,12 +73007,12 @@
           "translation": "Disclosure Statement Due"
         },
         {
-          "code": "eSR",
-          "translation": "Opened from an eSR package"
-        },
-        {
           "code": "ESR",
           "translation": "Opened from a Pro Se Package"
+        },
+        {
+          "code": "eSR",
+          "translation": "Opened from an eSR package"
         },
         {
           "code": "Exhibit",
@@ -73635,6 +73615,13 @@
       ],
       "locations": [
         {
+          "name": "District of New Jersey [live]",
+          "address": "Martin Luther King &amp; US Courthouse   50 Market Street RM 4015   Newark, NJ 07101",
+          "email": "ecfhelp&#064;njd.uscourts.gov",
+          "hours": "9:00am - 4:00pm",
+          "phone": "1-866-208-1405"
+        },
+        {
           "name": "Trenton",
           "address": "Clarkson S. Fisher Bldg. &amp; US Courthouse   402 East State Street Rm 2020   Trenton, NJ 08608",
           "hours": "9:00am-4:00pm",
@@ -73645,13 +73632,6 @@
           "address": "Mitchell H. Cohen Bldg &amp; US Courthose   4th &amp; Cooper Streets RM 1050   Camden, NJ 08101",
           "hours": "9:00am-4:00pm",
           "phone": "1-866-726-0726"
-        },
-        {
-          "name": "District of New Jersey [live]",
-          "address": "Martin Luther King &amp; US Courthouse   50 Market Street RM 4015   Newark, NJ 07101",
-          "email": "ecfhelp&#064;njd.uscourts.gov",
-          "hours": "9:00am - 4:00pm",
-          "phone": "1-866-208-1405"
         }
       ],
       "flags": [
@@ -76356,18 +76336,18 @@
       ],
       "locations": [
         {
-          "name": "Eastern District of New York (divisional Office)",
-          "address": "Long Island Federal Courthouse, 290 Federal Plaza, Central Islip, NY 11722-9013",
-          "email": "BKECF_LiveDB@nyeb.uscourts.gov",
-          "hours": "9:00 am - 4:30 pm Monday-Friday",
-          "phone": "Court--631-712-6200"
-        },
-        {
           "name": "Eastern District of New York",
           "address": "271-C Cadman Plaza East, Suite 1595, Brooklyn, NY 11201-1800",
           "email": "BKECF_LiveDB@nyeb.uscourts.gov",
           "hours": "9:00 am - 4:30 pm Monday-Friday",
           "phone": "Court--347-394-1700,Help Desk--347-394-1700-6,VCIS--347-394-1799"
+        },
+        {
+          "name": "Eastern District of New York (divisional Office)",
+          "address": "Long Island Federal Courthouse, 290 Federal Plaza, Central Islip, NY 11722-9013",
+          "email": "BKECF_LiveDB@nyeb.uscourts.gov",
+          "hours": "9:00 am - 4:30 pm Monday-Friday",
+          "phone": "Court--631-712-6200"
         }
       ],
       "flags": [
@@ -77325,12 +77305,6 @@
       ],
       "locations": [
         {
-          "name": "Northern District of New York, Syracuse Office",
-          "address": "100 South Clinton Street Suite 315, Syracuse, NY 13261",
-          "hours": "9:00 A.M. to 4:00 P.M.",
-          "phone": "315-295-1600<br>Help Desk Phone Number 315-295-1618"
-        },
-        {
           "name": "Northern District of New York",
           "address": "445 Broadway Suite 330,Albany, NY 12207",
           "email": "webmaster@nynb.uscourts.gov",
@@ -77342,6 +77316,12 @@
           "address": "10 Broad Street, Room 230,Utica, NY 13501",
           "hours": "9:00 A.M. to 4:00 P.M.",
           "phone": "315-793-8101<br>Help Desk Phone Number 315-266-1118"
+        },
+        {
+          "name": "Northern District of New York, Syracuse Office",
+          "address": "100 South Clinton Street Suite 315, Syracuse, NY 13261",
+          "hours": "9:00 A.M. to 4:00 P.M.",
+          "phone": "315-295-1600<br>Help Desk Phone Number 315-295-1618"
         }
       ],
       "flags": [
@@ -77946,11 +77926,10 @@
       ],
       "locations": [
         {
-          "name": "Northern District of New York - Main Office (syracuse)  [nextgen Cm/ecf Release 1.7 (revision 1.7.1.1)]",
-          "address": "James M. Hanley Federal Building, 100 South Clinton Street, PO Box 7367, Syracuse, NY  13261-7367",
-          "email": "Only CM/ECF questions may be emailed to the Court by accessing the <font color=\"red\">Ask the Help Desk</font> link on the main CM/ECF page on the Court website.",
+          "name": "Northern District of New York - Binghamton Division",
+          "address": "U.S. Courthouse, 15 Henry Street, Binghamton, NY 13901",
           "hours": "8:30 AM - 5 PM, M-F (Public Counter 9 AM - 4 PM, M-F)",
-          "phone": "315-234-8500 or Help Desk 315-234-8687"
+          "phone": "607-773-2893 or Help Desk 607-779-2671"
         },
         {
           "name": "Northern District of New York - Utica Division",
@@ -77959,16 +77938,17 @@
           "phone": "315-793-8151 or Help Desk 315-266-1195"
         },
         {
+          "name": "Northern District of New York - Main Office (syracuse)  [nextgen Cm/ecf Release 1.7 (revision 1.7.1.1)]",
+          "address": "James M. Hanley Federal Building, 100 South Clinton Street, PO Box 7367, Syracuse, NY  13261-7367",
+          "email": "Only CM/ECF questions may be emailed to the Court by accessing the <font color=\"red\">Ask the Help Desk</font> link on the main CM/ECF page on the Court website.",
+          "hours": "8:30 AM - 5 PM, M-F (Public Counter 9 AM - 4 PM, M-F)",
+          "phone": "315-234-8500 or Help Desk 315-234-8687"
+        },
+        {
           "name": "Northern District of New York - Albany Division",
           "address": "James T. Foley U.S. Courthouse, 445 Broadway, Room 509, Albany, NY  12207-2936",
           "hours": "8:30 AM - 5 PM, M-F (Public Counter 9 AM - 4 PM, M-F)",
           "phone": "518-257-1800 or Help Desk 518-257-1815"
-        },
-        {
-          "name": "Northern District of New York - Binghamton Division",
-          "address": "U.S. Courthouse, 15 Henry Street, Binghamton, NY 13901",
-          "hours": "8:30 AM - 5 PM, M-F (Public Counter 9 AM - 4 PM, M-F)",
-          "phone": "607-773-2893 or Help Desk 607-779-2671"
         }
       ],
       "flags": [
@@ -79726,17 +79706,17 @@
       ],
       "locations": [
         {
+          "name": "U.S. District Court, Western District of New York, Rochester Division",
+          "address": "100 State Street, Rochester NY 14614",
+          "hours": "9 AM - 5 PM, M-F",
+          "phone": "585-613-4000"
+        },
+        {
           "name": "U.S. District Court, Western District of New York",
           "address": "2 Niagara Square, Buffalo, NY  14202-3350",
           "email": "webmaster&#064;nywd.uscourts.gov",
           "hours": "9 AM - 5 PM, M-F",
           "phone": "716-551-1700"
-        },
-        {
-          "name": "U.S. District Court, Western District of New York, Rochester Division",
-          "address": "100 State Street, Rochester NY 14614",
-          "hours": "9 AM - 5 PM, M-F",
-          "phone": "585-613-4000"
         }
       ],
       "flags": [
@@ -80807,20 +80787,6 @@
       "login_url": "https://ecf.ohndad.ohnd.uscourts.gov",
       "locations": [
         {
-          "name": "Northern District of Ohio Toledo  (asbestos)",
-          "address": "114 United States Courthouse, 1716 Spielbusch Avenue, Toledo, Ohio 43604-1363",
-          "email": "OHNDdb_ToLECF@ohnd.uscourts.gov",
-          "hours": "9 AM - 4 PM",
-          "phone": "(419) 213-5500"
-        },
-        {
-          "name": "Northern District of Ohio  (asbestos)",
-          "address": "Carl B. Stokes United States Court House, 801 West Superior Avenue, Cleveland, Ohio 44113-1830",
-          "email": "OHNDdb_CleECF@ohnd.uscourts.gov",
-          "hours": "9 AM - 4 PM",
-          "phone": "(216) 357-7000"
-        },
-        {
           "name": "Northern District of Ohio Akron  (asbestos)",
           "address": "568 United States Courthouse, Federal Building, South Main Stree, Akron, Ohio 44308-1813",
           "email": "OHNDdb_AkrECF@ohnd.uscourts.gov",
@@ -80828,11 +80794,25 @@
           "phone": "(330) 252-6000"
         },
         {
+          "name": "Northern District of Ohio Toledo  (asbestos)",
+          "address": "114 United States Courthouse, 1716 Spielbusch Avenue, Toledo, Ohio 43604-1363",
+          "email": "OHNDdb_ToLECF@ohnd.uscourts.gov",
+          "hours": "9 AM - 4 PM",
+          "phone": "(419) 213-5500"
+        },
+        {
           "name": "Northern District of Ohio Youngstown  (asbestos)",
           "address": "337 U.S. Federal Building &amp; Courthouse, 125 Market Street, Youngstown, Ohio 44503-1780",
           "email": "OHNDdb_YngECF@ohnd.uscourts.gov",
           "hours": "9 AM - 4 PM",
           "phone": "(330) 884-7400"
+        },
+        {
+          "name": "Northern District of Ohio  (asbestos)",
+          "address": "Carl B. Stokes United States Court House, 801 West Superior Avenue, Cleveland, Ohio 44113-1830",
+          "email": "OHNDdb_CleECF@ohnd.uscourts.gov",
+          "hours": "9 AM - 4 PM",
+          "phone": "(216) 357-7000"
         }
       ],
       "flags": [
@@ -82196,14 +82176,14 @@
           "hours": "9:00 am - 4:00 pm Monday through Friday"
         },
         {
-          "name": "Southern District of Ohio, Cincinnati",
-          "address": "221 E. Fourth Street, Atrium 2, Suite 800, Cincinnati, OH  45202",
-          "phone": "513-684-2572"
-        },
-        {
           "name": "Southern District of Ohio, Columbus",
           "address": "170 North High Street, Columbus, OH  43215",
           "phone": "614-469-6638"
+        },
+        {
+          "name": "Southern District of Ohio, Cincinnati",
+          "address": "221 E. Fourth Street, Atrium 2, Suite 800, Cincinnati, OH  45202",
+          "phone": "513-684-2572"
         },
         {
           "name": "Southern District of Ohio, Dayton",
@@ -82769,6 +82749,13 @@
       ],
       "locations": [
         {
+          "name": "Southern District of Ohio",
+          "address": "see below",
+          "email": "---",
+          "hours": "9AM - 4PM, M-F",
+          "phone": "see below"
+        },
+        {
           "name": "Western Division At Dayton",
           "address": "Federal Building, Room 712, 200 West Second Street, Dayton, Ohio 45402",
           "phone": "937-512-1400"
@@ -82777,13 +82764,6 @@
           "name": "Eastern Division At Columbus",
           "address": "Joseph P. Kinneary U.S. Courthouse, Room 121, 85 Marconi Boulevard, Columbus, Ohio 43215",
           "phone": "614-719-3000"
-        },
-        {
-          "name": "Southern District of Ohio",
-          "address": "see below",
-          "email": "---",
-          "hours": "9AM - 4PM, M-F",
-          "phone": "see below"
         },
         {
           "name": "Western Division At Cincinnati",
@@ -86995,11 +86975,11 @@
       ],
       "locations": [
         {
-          "name": "Eugene Divisional Office",
-          "address": "Wayne L. Morse US Courthouse, 405 East Eight Avenue, Suite 2100, Eugene, OR  97401",
+          "name": "Medford Divisional Office",
+          "address": "James A. Redden US Courthouse, 310 West Sixth Street, Room 201, Medford, OR  97501-2710",
           "email": "info&#064;ord.uscourts.gov",
           "hours": "8:30 am to 4:30 pm, Monday thru Thursday, 9:30 am to 4:30 pm on Friday",
-          "phone": "(541) 431-4100"
+          "phone": "(541) 608-8777"
         },
         {
           "name": "District of Oregon",
@@ -87009,11 +86989,11 @@
           "phone": "(503) 326-8050"
         },
         {
-          "name": "Medford Divisional Office",
-          "address": "James A. Redden US Courthouse, 310 West Sixth Street, Room 201, Medford, OR  97501-2710",
+          "name": "Eugene Divisional Office",
+          "address": "Wayne L. Morse US Courthouse, 405 East Eight Avenue, Suite 2100, Eugene, OR  97401",
           "email": "info&#064;ord.uscourts.gov",
           "hours": "8:30 am to 4:30 pm, Monday thru Thursday, 9:30 am to 4:30 pm on Friday",
-          "phone": "(541) 608-8777"
+          "phone": "(541) 431-4100"
         }
       ],
       "flags": [
@@ -91087,11 +91067,11 @@
       ],
       "locations": [
         {
-          "name": "Middle District of Pennsylvania",
-          "address": "William J. Nealon Federal Building &amp; U.S. Courthouse, 235 N. Washington Avenue, P.O. Box 1148, Scranton, PA 18501-1148",
+          "name": "United States District Court For the Middle District of Pennsylvania",
+          "address": "Herman T. Schneebeli Federal Building &amp; U.S. Courthouse, 240 West Third Street, Suite 218, Williamsport, PA 17701",
           "email": "mdpacourt&#064;pamd.uscourts.gov",
           "hours": "Monday through Friday - 8:30 a.m. to 5:00 p.m.",
-          "phone": "570-207-5600"
+          "phone": "570-323-6380"
         },
         {
           "name": "United States District Court For the Middle District of Pennsylvania",
@@ -91102,14 +91082,14 @@
         },
         {
           "name": "United States District Court For the Middle District of Pennsylvania",
-          "address": "Herman T. Schneebeli Federal Building &amp; U.S. Courthouse, 240 West Third Street, Suite 218, Williamsport, PA 17701",
+          "address": "Max Rosenn U.S. Courthouse, 197 South Main Street, Wilkes-Barre, PA 18701",
           "email": "mdpacourt&#064;pamd.uscourts.gov",
           "hours": "Monday through Friday - 8:30 a.m. to 5:00 p.m.",
-          "phone": "570-323-6380"
+          "phone": "570-207-5600"
         },
         {
-          "name": "United States District Court For the Middle District of Pennsylvania",
-          "address": "Max Rosenn U.S. Courthouse, 197 South Main Street, Wilkes-Barre, PA 18701",
+          "name": "Middle District of Pennsylvania",
+          "address": "William J. Nealon Federal Building &amp; U.S. Courthouse, 235 N. Washington Avenue, P.O. Box 1148, Scranton, PA 18501-1148",
           "email": "mdpacourt&#064;pamd.uscourts.gov",
           "hours": "Monday through Friday - 8:30 a.m. to 5:00 p.m.",
           "phone": "570-207-5600"
@@ -102659,24 +102639,14 @@
       ],
       "locations": [
         {
-          "name": "Victoria Division",
-          "address": "Martin Luther King, Jr. Federal Building, 312 S. Main - Room 406, Victoria, TX  77901",
-          "phone": "361-788-5000"
-        },
-        {
-          "name": "Southern District of Texas",
-          "email": "district_ecf_helpdesk&#064;txs.uscourts.gov",
-          "hours": "8:00 am to 5:00 pm Monday through Friday"
+          "name": "Galveston Division",
+          "address": "United States Post Office and Courthouse, 601 Rosenberg, Room 411, Galveston, TX  77550",
+          "phone": "409-766-3530"
         },
         {
           "name": "Laredo Division",
           "address": "United States Courthouse, 1300 Victoria St., Laredo, TX  78040",
           "phone": "956-723-3542"
-        },
-        {
-          "name": "Galveston Division",
-          "address": "United States Post Office and Courthouse, 601 Rosenberg, Room 411, Galveston, TX  77550",
-          "phone": "409-766-3530"
         },
         {
           "name": "Corpus Christi Division",
@@ -102692,6 +102662,16 @@
           "name": "Brownsville Division",
           "address": "Reynaldo G.Garza-Filemon B.Vela United States Courthouse, 600 E. Harrison St., Brownsville, TX  78520",
           "phone": "956-548-2500"
+        },
+        {
+          "name": "Victoria Division",
+          "address": "Martin Luther King, Jr. Federal Building, 312 S. Main - Room 406, Victoria, TX  77901",
+          "phone": "361-788-5000"
+        },
+        {
+          "name": "Southern District of Texas",
+          "email": "district_ecf_helpdesk&#064;txs.uscourts.gov",
+          "hours": "8:00 am to 5:00 pm Monday through Friday"
         },
         {
           "name": "Houston Division",
@@ -103246,11 +103226,9 @@
       ],
       "locations": [
         {
-          "name": "Western District of Texas",
-          "address": "615 E. Houston St, Rm 597<BR />San Antonio, TX  78205",
-          "email": "TXWB_ECF-REGISTRAR@txwb.uscourts.gov",
-          "hours": "Monday - Friday 8:00 AM - 4:00 PM",
-          "phone": "210-278-5723"
+          "name": "Western District of Texas - Austin",
+          "address": "903 San Jacinto, Ste 322<BR />Austin, TX  78701",
+          "phone": "512-916-5237"
         },
         {
           "name": "Western District of Texas - Waco",
@@ -103258,9 +103236,9 @@
           "phone": "254-750-1513"
         },
         {
-          "name": "Western District of Texas - Austin",
-          "address": "903 San Jacinto, Ste 322<BR />Austin, TX  78701",
-          "phone": "512-916-5237"
+          "name": "Western District of Texas - El Paso",
+          "address": "511 E. San Antonio Ave., Suite 444<BR />El Paso, TX  79901",
+          "phone": "915-779-7362"
         },
         {
           "name": "Western District of Texas - Midland (unstaffed Office)",
@@ -103268,9 +103246,11 @@
           "phone": "210-472-6720"
         },
         {
-          "name": "Western District of Texas - El Paso",
-          "address": "511 E. San Antonio Ave., Suite 444<BR />El Paso, TX  79901",
-          "phone": "915-779-7362"
+          "name": "Western District of Texas",
+          "address": "615 E. Houston St, Rm 597<BR />San Antonio, TX  78205",
+          "email": "TXWB_ECF-REGISTRAR@txwb.uscourts.gov",
+          "hours": "Monday - Friday 8:00 AM - 4:00 PM",
+          "phone": "210-278-5723"
         }
       ],
       "flags": [
