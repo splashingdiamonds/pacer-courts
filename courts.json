@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Wed, 04 Jan 2023 06:10:05 -0500"
+    "last_updated": "Thu, 05 Jan 2023 06:10:04 -0500"
   },
   "data": [
     {
@@ -11616,7 +11616,8 @@
       ],
       "help_desk": [
         {
-          "courtId": "09CA"
+          "courtId": "09CA",
+          "division": "You may submit your question using this form: https://www.ca9.uscourts.gov/efiling/submit-question/"
         }
       ],
       "circuit": "09",
@@ -28273,12 +28274,18 @@
       ],
       "help_desk": [
         {
-          "courtId": "CODC"
+          "courtId": "CODC",
+          "phone": "303-335-2466",
+          "division": "Admissions/biennial fee inquiries: Email cod_attorneyservices@cod.uscourts.gov"
         },
         {
           "courtId": "CODC",
-          "phone": "303-335-2466",
-          "division": "Attorney Services Division Cod_attorneyservices@cod.uscourts.gov, cod_cmecf@cod.uscourts.gov"
+          "phone": "newcases@cod.uscourts.gov",
+          "division": "Case initiation questions: Email"
+        },
+        {
+          "courtId": "CODC",
+          "division": "Reset CM/ECF credentials: Email cod_cmecf@cod.uscourts.gov"
         }
       ],
       "circuit": "10",
@@ -52314,8 +52321,8 @@
       "court_name": "Eastern District of Louisiana",
       "software_version": "NextGen CM/ECF Release 1.7.1 (Revision 1.7.1)",
       "go_live_date": "3/1/2005",
-      "pdf_size": "200 MB",
-      "merge_doc_size": "500 MB",
+      "pdf_size": "35 MB",
+      "merge_doc_size": "50 MB",
       "web_url": "http://www.laed.uscourts.gov/case-information/electronic-filing",
       "login_url": "https://ecf.laed.uscourts.gov",
       "counties": [
@@ -55082,6 +55089,7 @@
       "pdf_size": "50.0 MB",
       "merge_doc_size": "100 MB",
       "web_url": "http://www.mad.uscourts.gov",
+      "rss_url": "https://ecf.mad.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.mad.uscourts.gov",
       "counties": [
         {
