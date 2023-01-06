@@ -2,7 +2,7 @@
 
 # set -e -o xtrace
 
-DEBUG="${1:=1}"
+DEBUG="1"
 
 function echo_debug () {
   [[ -n "$DEBUG" ]] && \
@@ -87,7 +87,7 @@ function transform_rss {
       sed -E "s/<channel(.*)>/<channel\1>\n\n    <atom:link href=\"$rss_url_escaped\" rel=\"self\" type=\"application\/rss+xml\" \/>\n/g" | \
       sed -E 's/[[:blank:]]*$//g' > "temp/$input_path";
 
-    ./scripts/xml_format.sh "temp/$input_path";
+    bash ./scripts/xml_format.sh "temp/$input_path";
 
     cat "temp/$input_path";
   fi
@@ -185,8 +185,7 @@ function fetch_rss {
 
   # Commit newly created files. Examples:
   # - artifacts/pages/www.html
-  # Check for changes in artifacts/ latest/ courts.json courts.meta.json
-  for file in `git ls-files --exclude-standard --modified --deleted --others | sort -u`; do
+  for file in `git ls-files --modified --deleted --others | grep -q -v '^temp/'`; do
     diff_lines_changed=`git_diff_modified_lines_count "$latest_rss_fn"`
     echo_debug '$file' $'\t' 'Lines changed count:'$diff_lines_changed
 
@@ -196,9 +195,6 @@ function fetch_rss {
     fi
   done
 
-  # If this script (and xml_format.sh) changes, force a commit to re-generate `artifacts`, `latest`, etc.
-  git ls-files --exclude-standard --modified --deleted --others scripts/ | sort -u | grep -q scripts/ && force_commit="true"
-  
   # The number of lines changed in the RSS feed. Examples:
   #  0: The remote file is up to date with (identical to) the saved file tracked in this repository.
   #  1: The `lastBuildDate` timestamp in the RSS feed changed, but no new items were added/changed.
@@ -255,9 +251,9 @@ commit_msg_suffix=`printf $'\n\t\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n'
 
 # For each court's hostname:
 # Fetch, check, commit changes from every RSS feed (on either of the two URL permutations).
-for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d "," | tr -d '"' | sort -u | sed -e 's/www\.//g' | sort -u | cut -d '.' -f 1- | sort -u | grep -v "pcl\.uscourts\.gov"`; do
+for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d "," | tr -d '"' | sort -u | sed -e 's/www\.//g' | sort -u | cut -d '.' -f 1- | sort -u | grep -v "pcl\.uscourts\.gov"| grep "njb\.uscourts\.gov"`; do
   court_html_origin="$(echo $court_id | tr -d '"')"
-  echo_debug $'\n\nCOURT HOMEPAGE BASE ORIGIN:\t'$court_html_origin$'\n'
+  echo_debug $'\n\nCOURT HTML ORIGIN:\t'$court_html_origin$'\n'
   fetch_rss "$court_html_origin" || true
   if [[ -n "$CI" ]]; then
     git push || true;
