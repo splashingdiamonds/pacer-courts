@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Sat, 07 Jan 2023 06:10:05 -0500"
+    "last_updated": "Sun, 08 Jan 2023 06:10:04 -0500"
   },
   "data": [
     {
@@ -25468,6 +25468,7 @@
       "pdf_size": "50 MB",
       "merge_doc_size": "51 MB",
       "web_url": "https://ecf.cand.uscourts.gov/",
+      "rss_url": "https://ecf.cand.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.cand.uscourts.gov",
       "counties": [
         {
