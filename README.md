@@ -61,7 +61,7 @@ Includes:
 | California Eastern District Court | District | https://ecf.caed.uscourts.gov/cgi-bin/rss_outside.pl | http://www.caed.uscourts.gov/caednew/index.cfm/cmecf-e-filing/ | https://ecf.caed.uscourts.gov |
 | U.S. Court of Appeals, Federal Circuit | Appeals | https://ecf.cafc.uscourts.gov/n/beam/servlet/TransportRoom?servlet=RSSGenerator | http://www.cafc.uscourts.gov/cm/ecf/case-management/electronic-case-files | https://ecf.cafc.uscourts.gov |
 | California Northern Bankruptcy Court | Bankruptcy | https://ecf.canb.uscourts.gov/cgi-bin/rss_outside.pl | http://www.canb.uscourts.gov/ | https://ecf.canb.uscourts.gov |
-| California Northern District Court | District |  | https://ecf.cand.uscourts.gov/ | https://ecf.cand.uscourts.gov |
+| California Northern District Court | District | https://ecf.cand.uscourts.gov/cgi-bin/rss_outside.pl | https://ecf.cand.uscourts.gov/ | https://ecf.cand.uscourts.gov |
 | California Southern Bankruptcy Court | Bankruptcy | https://ecf.casb.uscourts.gov/cgi-bin/rss_outside.pl | https://www.casb.uscourts.gov/about-cm-ecf | https://ecf.casb.uscourts.gov |
 | California Southern District Court | District | https://ecf.casd.uscourts.gov/cgi-bin/rss_outside.pl | http://www.casd.uscourts.gov/cmecf | https://ecf.casd.uscourts.gov |
 | U.S. Court of International Trade | National | https://ecf.cit.uscourts.gov/cgi-bin/rss_outside.pl | https://www.cit.uscourts.gov/cmecf-links | https://ecf.cit.uscourts.gov |
