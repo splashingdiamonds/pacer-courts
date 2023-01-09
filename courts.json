@@ -2,7 +2,7 @@
   "meta": {
     "credit": "PACER: Federal Court Records",
     "url": "https://pacer.uscourts.gov/file-case/court-cmecf-lookup/data.json",
-    "last_updated": "Sun, 08 Jan 2023 06:10:04 -0500"
+    "last_updated": "Mon, 09 Jan 2023 06:10:05 -0500"
   },
   "data": [
     {
@@ -18062,7 +18062,6 @@
       "pdf_size": "35.0",
       "merge_doc_size": "50",
       "web_url": "http://www.alnb.uscourts.gov",
-      "rss_url": "https://ecf.alnb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.alnb.uscourts.gov",
       "counties": [
         {
@@ -78176,6 +78175,7 @@
       "pdf_size": "50",
       "merge_doc_size": "100",
       "web_url": "http://www.nysb.uscourts.gov",
+      "rss_url": "https://ecf.nysb.uscourts.gov/cgi-bin/rss_outside.pl",
       "login_url": "https://ecf.nysb.uscourts.gov",
       "counties": [
         {
