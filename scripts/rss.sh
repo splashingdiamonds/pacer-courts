@@ -127,18 +127,21 @@ echo '*******'
   echo_debug $'login url:\t' $login_hostname;
   echo_debug $'web url:\t' $web_url;
   if [[ -z "$web_url" ]]; then
-    touch "artifacts/pages/${dest_slug}/www.html.missing"
+    touch "artifacts/pages/${dest_slug}/www.html.missing";
   else
     fetch "$web_url" "artifacts/pages/${dest_slug}/www.html" && \
-      rm "artifacts/pages/${dest_slug}/www.html.missing";
+      ( [[ -f "artifacts/pages/${dest_slug}/www.html.missing" ]] && \
+      rm "artifacts/pages/${dest_slug}/www.html.missing" );
   fi
 
   echo_debug $'\n----------\n\n'
 
+
+  # fetch the document on the root origin, may be different from 'web_url' and 'login_url'
   fetch "https://$login_hostname" "artifacts/pages/${dest_slug}/ecf.html";
 
   # TODO: Use the correct version.
-  # Choose RSS file over 404 HTML/no response.
+  # Choose RSS fie over 404 HTML/no response.
   fetch "$rss_feed_format_1" "artifacts/rss/${dest_slug}/rss-format-1.xml";
   fetch "$rss_feed_format_2" "artifacts/rss/${dest_slug}/rss-format-2.xml";
 
@@ -146,17 +149,11 @@ echo '*******'
 
   # Whichever
   mkdir -p "artifacts/rss/$dest_slug";
-  response_status="$(grep -ri '200' "artifacts/rss/$dest_slug/" --files-with-matches | grep -q '\.headers')"
+  response_headers_fn="$(grep -ri '200' "artifacts/rss/$dest_slug/" --files-with-matches | grep '\.headers')"
+  response_status=`tail -1 $response_headers_fn | cut -d ' ' -f 2`
   latest_rss_fn=""
 
-echo $'\n\n\n'
-echo $'\n\n\n'
-  echo "about to transform ..."
-  echo "${dest_slug}" "${latest_rss_fn}" "${response_status}"
-echo $'\n\n\n'
-echo $'\n\n\n'
-
-  if [[ ! "$response_status" = "" ]]; then
+  if [[ "$response_status" = "200" ]]; then
     latest_rss_fn="${response_status%.*}";
 
     `transform_rss "$dest_slug" "$latest_rss_fn" "$response_status"` > "temp/rss/${dest_slug}.rss.transformed.xml" ;
@@ -196,7 +193,7 @@ echo $'\n\n\n'
 
   # Commit '.missing' files. Examples:
   # - latest/ecf.wvsd.rss.xml.missing
-  git ls-files --modified --deleted --others | grep -q '\.missing$' && force_commit="true"
+  ( git ls-files --modified --deleted --others | grep -q '\.missing$' ) && force_commit="true"
 
   # Commit any additions or modifications to the downloaded HTML documents
   # of the court login & root web pages. Examples:
@@ -223,21 +220,21 @@ echo $'\n\n\n'
   #  1: The `lastBuildDate` timestamp in the RSS feed changed, but no new items were added/changed.
   # 2+: The `lastBuildDate` timestamp changed, and new <item>s were found in the <channel>'s RSS feed.
 
-  rss_diff_lines_changed=`git_diff_modified_lines_count "$latest_rss_fn"`
-  echo 'Lines modified:'$rss_diff_lines_changed
+  # rss_diff_lines_changed=`git_diff_modified_lines_count "$latest_rss_fn"`
+  # echo 'Lines modified:'$rss_diff_lines_changed
 
-  echo_debug "$latest_rss_fn" $'\t' 'Lines modified:'$diff_lines_changed
+  # echo_debug "$latest_rss_fn" $'\t' 'Lines modified:'$diff_lines_changed
 
-  rss_diff_other_lines_changed="$(git_modified_lines_strings $latest_rss_fn && grep -i -q "lastBuildDate" | wc -l | bc)"
-  if [[ $rss_diff_lines_changed -eq 1 && $rss_diff_other_lines_changed -gt 0 ]]; then
-    echo_notice 'RSS <lastBuildDate> changed but <channel> <item>s remain unchanged. (Skipping git commit and push.)';
-  fi
+  # rss_diff_other_lines_changed="$(git_modified_lines_strings $latest_rss_fn && grep -i -q "lastBuildDate" | wc -l | bc)"
+  # if [[ $rss_diff_lines_changed -eq 1 && $rss_diff_other_lines_changed -gt 0 ]]; then
+  #   echo_notice 'RSS <lastBuildDate> changed but <channel> <item>s remain unchanged. (Skipping git commit and push.)';
+  # fi
 
-  linecount_besides_timestamp=$(git_modified_lines_strings $latest_rss_fn | grep -v -i -q "lastBuildDate" | wc -l | bc)
-  if [[ $linecount_besides_timestamp -gt 1 ]]; then
-    force_commit="true"
-    echo_debug 'RSS <lastBuildDate> changed but <channel> <item>s remain unchanged. (Skipping git commit and push.)';
-  fi
+  # linecount_besides_timestamp=$(git_modified_lines_strings $latest_rss_fn | grep -v -i -q "lastBuildDate" | wc -l | bc)
+  # if [[ $linecount_besides_timestamp -gt 1 ]]; then
+  #   force_commit="true"
+  #   echo_debug 'RSS <lastBuildDate> changed but <channel> <item>s remain unchanged. (Skipping git commit and push.)';
+  # fi
 
   if [[ "$force_commit" == "false" ]]; then
     graceful git checkout "artifacts/pages/${dest_slug}/ecf.html";
@@ -253,16 +250,23 @@ echo $'\n\n\n'
   else
     git add -A
 
-    commit_msg="Update ${dest_slug} court feeds and pages.${commit_msg_suffix}"
+    dest_slug_abbr_upper="$(echo "${dest_slug}" | tr '[[:lower::]]' '[[::upper::]]' | cut -d '.' -f 2)"
+    commit_msg="Update ${dest_slug_abbr_upper} court feeds / pages.${commit_msg_suffix}"
 
     git commit -m "$commit_msg";
 
     if [[ ! -f "$latest_rss_fn" ]]; then
-      touch $latest_rss_fn "latest/rss/$dest_slug.rss.xml.missing"
-      git add "latest/rss/$dest_slug.rss.xml.missing";
-      commit_msg="Missing ${dest_slug} court feed.${commit_msg_suffix}"
+      touch $latest_rss_fn "latest/rss/$dest_slug.rss.xml.missing";
+      git add -A;
+      commit_msg="Missing ${dest_slug} court feed.${commit_msg_suffix}";
+      git commit -m "$commit_msg";
+    else
+      rm $latest_rss_fn "latest/rss/$dest_slug.rss.xml.missing";
+      git add -A
+      commit_msg="Remove '${dest_slug}.rss.xml.missing' placeholder file for ${dest_slug} court feed.${commit_msg_suffix}"
       git commit -m "$commit_msg";
     fi
+      
 
     if [[ -n "$CI" ]]; then
       git push || true;
@@ -274,8 +278,14 @@ commit_msg_suffix=`printf $'\n\t\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n'
 
 # For each court's hostname:
 # Fetch, check, commit changes from every RSS feed (on either of the two URL permutations).
-for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d "," | tr -d '"' | sort -u | sed -e 's/www\.//g' | sort -u | cut -d '.' -f 1- | sort -u | grep -v "pcl\.uscourts\.gov" | \
-grep "njb\.uscourts\.gov"`; do
+for court_id in `cat courts.json | \
+    grep '"login_url":' | \
+    cut -d '/' -f3 | \
+    tr -d "," | tr -d '"' | sort -u | \
+    sed -e 's/www\.//g' | \
+    sort -u | \
+    cut -d '.' -f 1- | sort -u | \
+    grep -v "pcl\.uscourts\.gov" | grep ".njb."`; do
   court_html_origin="$(echo $court_id | tr -d '"')"
   echo_debug $'\n\nCOURT HTML ORIGIN:\t'$court_html_origin$'\n'
   fetch_rss "$court_html_origin" || true
