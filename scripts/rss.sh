@@ -29,12 +29,10 @@ echo_debug $'\n\n=== ENVIRONMENT ==='
 echo_debug $'===================\n\n'
 
 echo_debug $'Date started:\t'$date_fetched
-echo_debug $'Environment:\tCI='$CI
+echo_debug $'Environment:\tCI="'"${CI:(missing)}"'"'
 
 mkdir -p {temp,latest,artifacts}/{rss,pages}/
-mkdir -p temp/{artifacts,latest}/{rss,pages}/
-mkdir -p temp/{rss,pages}/
-mkdir -p latest/{rss,pages}/
+mkdir -p temp/{latest,artifacts}/{rss,pages}/
 
 function fetch {
   local src_url="$1";
@@ -50,6 +48,8 @@ function fetch {
     --dump-header "$dest_fn.headers" \
     --connect-timeout 10 \
     --output "$dest_fn";
+  status_code="$(head -1 "$dest_fn.headers" | cut -d ' ' -f 2)"
+  [[ "$status_code" -eq "200" ]] && printf "ok"
 }
 
 function transform_rss {
@@ -93,34 +93,49 @@ function transform_rss {
   fi
 }
 
-function git_diff_modified_lines_raw {
+function git_modified_lines_strings {
   git diff --unified=0 -- "$1" | tail +5 | grep -v '@@' | grep '^\+'
 }
 
 function git_diff_modified_lines_count {
-  git diff --unified=0 -- "$1" || grep '@@' | wc -l | bc
+  echo "====>" "${1}" "$1"
+  git diff --unified=0 -- "$1" | grep '@@' | wc -l | bc
 }
 
 function fetch_rss {
   local login_hostname="$1"
   local dest_slug="$(echo "$login_hostname" | sed -e 's/\.uscourts\.gov//g')" 
 
-  graceful git checkout artifacts/
-  graceful git checkout latest/
+echo '*******'
+echo $login_hostname
+echo $dest_slug
+echo '*******'
+  # graceful git checkout artifacts/
+  # graceful git checkout latest/
   # git clean -fd -X -i
 
+  court_id="$(grep "$login_hostname" courts.json -B 2 -A 2 | grep '"court_id":' | cut -d '"' -f 4 | tr '[[:upper:]]' '[[:lower:]]')"
+  rss_url="$(grep "$login_hostname" courts.json -B 2 -A 2 | grep '"rss_url":' | cut -d '"' -f 4)";
   web_url="$(grep "$login_hostname" courts.json -B 2 -A 2 | grep '"web_url":' | cut -d '"' -f 4)";
-  echo_debug $'\n\n----------\n'
-  echo_debug $'login url:\t' $login_hostname;
-  echo_debug $'web url:\t' $web_url;
-  [[ ! "$web_url" = "" ]] && fetch "$web_url" "artifacts/pages/${dest_slug}/www.html";
-  [[ "$web_url" = "" ]] && touch "artifacts/pages/${dest_slug}/www.html.missing";
-  echo_debug $'\n----------\n\n'
-
-  fetch "https://$login_hostname" "artifacts/pages/${dest_slug}/ecf.html";
 
   rss_feed_format_1="https://$login_hostname/cgi-bin/rss_outside.pl";
   rss_feed_format_2="https://$login_hostname/n/beam/servlet/TransportRoom?servlet=RSSGenerator";
+
+
+  # web_url="$(grep "$login_hostname" courts.json -B 2 -A 2 | grep '"web_url":' | cut -d '"' -f 4)";
+  echo_debug $'\n\n----------\n'
+  echo_debug $'login url:\t' $login_hostname;
+  echo_debug $'web url:\t' $web_url;
+  if [[ -z "$web_url" ]]; then
+    touch "artifacts/pages/${dest_slug}/www.html.missing"
+  else
+    fetch "$web_url" "artifacts/pages/${dest_slug}/www.html" && \
+      rm "artifacts/pages/${dest_slug}/www.html.missing";
+  fi
+
+  echo_debug $'\n----------\n\n'
+
+  fetch "https://$login_hostname" "artifacts/pages/${dest_slug}/ecf.html";
 
   # TODO: Use the correct version.
   # Choose RSS file over 404 HTML/no response.
@@ -131,8 +146,16 @@ function fetch_rss {
 
   # Whichever
   mkdir -p "artifacts/rss/$dest_slug";
-  response_status="$(grep -ri '200 OK' "artifacts/rss/$dest_slug/" --files-with-matches | grep -q '\.headers')"
+  response_status="$(grep -ri '200' "artifacts/rss/$dest_slug/" --files-with-matches | grep -q '\.headers')"
   latest_rss_fn=""
+
+echo $'\n\n\n'
+echo $'\n\n\n'
+  echo "about to transform ..."
+  echo "${dest_slug}" "${latest_rss_fn}" "${response_status}"
+echo $'\n\n\n'
+echo $'\n\n\n'
+
   if [[ ! "$response_status" = "" ]]; then
     latest_rss_fn="${response_status%.*}";
 
@@ -205,12 +228,12 @@ function fetch_rss {
 
   echo_debug "$latest_rss_fn" $'\t' 'Lines modified:'$diff_lines_changed
 
-  rss_diff_other_lines_changed="$(git_diff_modified_lines_raw $latest_rss_fn && grep -i -q "lastBuildDate" | wc -l | bc)"
+  rss_diff_other_lines_changed="$(git_modified_lines_strings $latest_rss_fn && grep -i -q "lastBuildDate" | wc -l | bc)"
   if [[ $rss_diff_lines_changed -eq 1 && $rss_diff_other_lines_changed -gt 0 ]]; then
     echo_notice 'RSS <lastBuildDate> changed but <channel> <item>s remain unchanged. (Skipping git commit and push.)';
   fi
 
-  linecount_besides_timestamp=$(git_diff_modified_lines_raw $latest_rss_fn | grep -v -q "lastBuildDate" | wc -l | bc)
+  linecount_besides_timestamp=$(git_modified_lines_strings $latest_rss_fn | grep -v -i -q "lastBuildDate" | wc -l | bc)
   if [[ $linecount_besides_timestamp -gt 1 ]]; then
     force_commit="true"
     echo_debug 'RSS <lastBuildDate> changed but <channel> <item>s remain unchanged. (Skipping git commit and push.)';
@@ -251,7 +274,8 @@ commit_msg_suffix=`printf $'\n\t\nLast Updated:\t%s\nFetched:\t%s\nSaved:\t%s\n'
 
 # For each court's hostname:
 # Fetch, check, commit changes from every RSS feed (on either of the two URL permutations).
-for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d "," | tr -d '"' | sort -u | sed -e 's/www\.//g' | sort -u | cut -d '.' -f 1- | sort -u | grep -v "pcl\.uscourts\.gov"| grep "njb\.uscourts\.gov"`; do
+for court_id in `cat courts.json | grep '"login_url":' | cut -d '/' -f3 | tr -d "," | tr -d '"' | sort -u | sed -e 's/www\.//g' | sort -u | cut -d '.' -f 1- | sort -u | grep -v "pcl\.uscourts\.gov" | \
+grep "njb\.uscourts\.gov"`; do
   court_html_origin="$(echo $court_id | tr -d '"')"
   echo_debug $'\n\nCOURT HTML ORIGIN:\t'$court_html_origin$'\n'
   fetch_rss "$court_html_origin" || true
