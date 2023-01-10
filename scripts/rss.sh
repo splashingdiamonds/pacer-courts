@@ -94,11 +94,11 @@ function transform_rss {
 }
 
 function git_diff_modified_lines_raw {
-  git diff --unified=0 "$1" | tail +5 | grep -v '@@' | grep '^\+'
+  git diff --unified=0 -- "$1" | tail +5 | grep -v '@@' | grep '^\+'
 }
 
 function git_diff_modified_lines_count {
-  git diff --unified=0 "$1" | grep '@@' | wc -l | bc
+  git diff --unified=0 -- "$1" || grep '@@' | wc -l | bc
 }
 
 function fetch_rss {
@@ -186,7 +186,7 @@ function fetch_rss {
   # Commit newly created files. Examples:
   # - artifacts/pages/www.html
   for file in `git ls-files --modified --deleted --others | grep -q -v '^temp/'`; do
-    diff_lines_changed=`git_diff_modified_lines_count "$latest_rss_fn"`
+    diff_lines_changed=`git_diff_modified_lines_count "$file"`
     echo_debug '$file' $'\t' 'Lines changed count:'$diff_lines_changed
 
     # If three or more lines changed, then consider the changes worth committing.
